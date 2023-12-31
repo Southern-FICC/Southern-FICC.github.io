@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/12/31/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title>本币交易梳理</title>
+    <url>/2023/12/31/%E6%9C%AC%E5%B8%81%E4%BA%A4%E6%98%93%E6%A2%B3%E7%90%86/</url>
+    <content><![CDATA[<h1 id="本币市场业务与规则"><a href="#本币市场业务与规则" class="headerlink" title="本币市场业务与规则"></a>本币市场业务与规则</h1><h2 id="一、银行间本币市场概述"><a href="#一、银行间本币市场概述" class="headerlink" title="一、银行间本币市场概述"></a>一、银行间本币市场概述</h2><h3 id="交易品种："><a href="#交易品种：" class="headerlink" title="交易品种："></a>交易品种：</h3><ul>
+<li><table>
+<thead>
+<tr>
+<th align="left">货币市场</th>
+<th align="left">债券市场</th>
+<th align="left">衍生品市场</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">信用拆借（同业拆借）</td>
+<td align="left">现券买卖</td>
+<td align="left">债券远期</td>
+</tr>
+<tr>
+<td align="left">回购</td>
+<td align="left">债券借贷</td>
+<td align="left">利率互换</td>
+</tr>
+<tr>
+<td align="left"><font color=red>同业存单（交易同债券）</font></td>
+<td align="left">预发行（路演）</td>
+<td align="left">标准利率互换</td>
+</tr>
+<tr>
+<td align="left"><font color=red>标准化票据</font></td>
+<td align="left"><font size=4>广义包括回购和债券远期</font></td>
+<td align="left">标准债券远期</td>
+</tr>
+<tr>
+<td align="left">证券公司短期融资券</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+<p>货币市场：信用拆借（同业拆借）、回购、同业存单、标准化票据、证券公司短期融资券</p>
+</li>
+<li><p>债券市场：现券买卖（含ABS）、债券借贷、预发行（路演），广义还包括回购和债券远期</p>
+</li>
+<li><p>衍生品市场：</p>
+<ul>
+<li>利率衍生品：债券远期、利率互换、标准债券远期、标准利率互换、远期利率<font color=red>协议</font>、利率期权；</li>
+<li>信用衍生品：<ul>
+<li>信用风险缓释工具：信用风险缓释合约、</li>
+<li>信用风险互换</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>中国的利率体系与利率市场化改革</p>
+<p>中国人民银行行长易纲在《金融研究》2021年第9期刊发文章<br><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》–易纲</a></p>
+]]></content>
+      <categories>
+        <category>本币交易</category>
+      </categories>
+      <tags>
+        <tag>本币交易</tag>
+        <tag>业务知识与规则</tag>
+        <tag>政策与规范</tag>
+        <tag>流动性风险管理</tag>
+      </tags>
+  </entry>
+</search>
