@@ -1,22 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/12/31/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+    <title>易纲《利率市场化改革》</title>
+    <url>/2024/01/01/%E6%98%93%E7%BA%B2%E3%80%8A%E5%88%A9%E7%8E%87%E5%B8%82%E5%9C%BA%E5%8C%96%E6%94%B9%E9%9D%A9%E3%80%8B/</url>
+    <content><![CDATA[<p>中国的利率体系与利率市场化改革</p>
+<p>中国人民银行行长易纲在《金融研究》2021年第9期刊发文章<br><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》–易纲</a></p>
 ]]></content>
+      <categories>
+        <category>利率市场化改革</category>
+      </categories>
+      <tags>
+        <tag>利率市场化改革</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资金周报</title>
+    <url>/2023/12/31/%E8%B5%84%E9%87%91%E5%91%A8%E6%8A%A5/</url>
+    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
+<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
+<p><img src="C:\Users\10939\AppData\Roaming\Typora\typora-user-images\image-20240101175202593.png" alt="image-20240101175202593"></p>
+<p><img src="C:\Users\10939\AppData\Roaming\Typora\typora-user-images\image-20240101181225755.png" alt="image-20240101181225755"></p>
+<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
+<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告&#x2F;CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度&#x2F;日度）正逆回购净额。</p>
+<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
+<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
+<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
+]]></content>
+      <categories>
+        <category>资金周报</category>
+      </categories>
+      <tags>
+        <tag>本币交易</tag>
+      </tags>
   </entry>
   <entry>
     <title>本币交易梳理</title>
@@ -86,10 +101,7 @@
 </li>
 <li><p>银行间交易商协会（<a href="https://www.nafmii.org.cn/">NAFMII</a>）：银行间市场自律组织</p>
 </li>
-<li><p><font color=red>中国外汇交易中心&#x2F;全国银行间同业拆借中心&#x2F;中国货币网（<a href="https://www.chinamoney.com.cn/chinese/bkshibor/">CFETS</a>）：</font></p>
-<ul>
-<li><font color=red>提供交易平台及交易后处理、信息、基准、监测等</font></li>
-</ul>
+<li><p><font color=red>中国外汇交易中心&#x2F;全国银行间同业拆借中心&#x2F;中国货币网（<a href="https://www.chinamoney.com.cn/chinese/bkshibor/">CFETS</a>）：</font><font color=red>提供交易平台及交易后处理、信息、基准、监测等</font></p>
 </li>
 <li><p>中央国债登记结算公司&#x2F;国债公司（<a href="https://www.chinabond.com.cn/zzsj/">中债登-CCDC</a>）：债券托管结算</p>
 </li>
@@ -110,19 +122,29 @@
 </li>
 <li>境外机构：境外央行、境外法人（非法人）机构投资者</li>
 </ul>
-<h3 id="交易方式："><a href="#交易方式：" class="headerlink" title="交易方式："></a>交易方式：</h3><img src="C:\Users\10939\Desktop\123123.png" alt="交易方式" style="zoom:50%;" />
+<h3 id="交易方式："><a href="#交易方式：" class="headerlink" title="交易方式："></a>交易方式：</h3><img src="https://s2.loli.net/2024/01/01/VjBaE4ZmvwoczJX.jpg" alt="交易方式" style="zoom:50%;" />
 
 <ul>
 <li>询价、做市报价、指示性报价、请求报价、匿名点击<ul>
-<li>匿名点击不具名、要求高、助流通；信用拆借无抵押-仅询价</li>
 <li>请求报价<font color=red>仅</font>：质押回购、现券买卖、利率互换</li>
 <li><font color=red>仅</font>现券买卖（含同业存单、资产支持证券）：无限制 #<span id="现券买卖包含内容">交易品种 </span> </li>
 <li>标准化衍生品<font color=red>仅</font>使用匿名点击（X-Swap）</li>
+<li>匿名点击不具名、要求高、助流通；信用拆借无抵押-仅询价</li>
 </ul>
 </li>
+<li>询价交易：1、对话报价（本方报价$\rightarrow$对手方确认成交）；2、资金意向转对话（发送&#x2F;查看资金意向$\rightarrow$将意向报价转为对话报价$\rightarrow$双方确认成交）</li>
+<li></li>
 </ul>
-<h2 id="二、银行间货币市场"><a href="#二、银行间货币市场" class="headerlink" title="二、银行间货币市场"></a>二、银行间货币市场</h2><p>中国的利率体系与利率市场化改革</p>
-<p>中国人民银行行长易纲在《金融研究》2021年第9期刊发文章<br><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》–易纲</a></p>
+<h2 id="二、银行间货币市场"><a href="#二、银行间货币市场" class="headerlink" title="二、银行间货币市场"></a>二、银行间货币市场</h2><h3 id="同业拆借市场"><a href="#同业拆借市场" class="headerlink" title="同业拆借市场"></a>同业拆借市场</h3><ul>
+<li><p>参与主体：《<a href="http://www.pbc.gov.cn/jinrongshichangsi/147160/147171/147355/147383/2894391/index.html">同业拆借管理办法</a>》（*央行07年三号令）中的16类金融机构（所有银行类金融机构和绝大部分非银金融机构）、央行认定的境外人民币清算行</p>
+</li>
+<li><p>主要功能：各类金融机构融通短期资金，进行主动资产负债管理</p>
+</li>
+<li><p>交易平台：同业拆借中心本币交易系统</p>
+</li>
+<li><p>交易要素：</p>
+</li>
+</ul>
 ]]></content>
       <categories>
         <category>本币交易</category>
