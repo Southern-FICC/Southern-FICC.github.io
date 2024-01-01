@@ -32,7 +32,7 @@
 </thead>
 <tbody><tr>
 <td align="left">信用拆借（同业拆借）</td>
-<td align="left">现券买卖</td>
+<td align="left">现券买卖（含ABS）</td>
 <td align="left">债券远期</td>
 </tr>
 <tr>
@@ -41,17 +41,17 @@
 <td align="left">利率互换</td>
 </tr>
 <tr>
-<td align="left"><font color=red>同业存单（交易同债券）</font></td>
+<td align="left"><font color=red>同业存单（及以下交易同债券）</font></td>
 <td align="left">预发行（路演）</td>
 <td align="left">标准利率互换</td>
 </tr>
 <tr>
-<td align="left">标准化票据</td>
+<td align="left"><font color=red>标准化票据</font></td>
 <td align="left">广义包括回购和债券远期</td>
 <td align="left">标准债券远期</td>
 </tr>
 <tr>
-<td align="left">证券公司短期融资券</td>
+<td align="left"><font color=red>证券公司短期融资券</font></td>
 <td align="left"></td>
 <td align="left">信用风险缓释工具</td>
 </tr>
@@ -64,7 +64,7 @@
 </li>
 <li><p>货币市场：信用拆借（同业拆借）、回购、同业存单、标准化票据、证券公司短期融资券</p>
 </li>
-<li><p>债券市场：现券买卖（含ABS）、债券借贷、预发行（路演），广义还包括回购和债券远期</p>
+<li><p>债券市场：<a href="#%E7%8E%B0%E5%88%B8%E4%B9%B0%E5%8D%96%E5%8C%85%E5%90%AB%E5%86%85%E5%AE%B9">现券买卖（含ABS）</a>、债券借贷、预发行（路演），广义还包括回购和债券远期</p>
 </li>
 <li><p>衍生品市场：</p>
 <ul>
@@ -81,7 +81,7 @@
 </ul>
 </li>
 </ul>
-<h3 id="市场组织结构："><a href="#市场组织结构：" class="headerlink" title="市场组织结构："></a>市场组织结构：</h3><ul>
+<h3 id="市场组织："><a href="#市场组织：" class="headerlink" title="市场组织："></a>市场组织：</h3><ul>
 <li><p>中国人民银行（<a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/index.html">人行-PBOC</a>）:银行间市场监管机构</p>
 </li>
 <li><p>银行间交易商协会（<a href="https://www.nafmii.org.cn/">NAFMII</a>）：银行间市场自律组织</p>
@@ -91,7 +91,7 @@
 <li><font color=red>提供交易平台及交易后处理、信息、基准、监测等</font></li>
 </ul>
 </li>
-<li><p>中央国债登记结算公司（<a href="https://www.chinabond.com.cn/zzsj/">中债登-CCDC</a>）：债券托管结算</p>
+<li><p>中央国债登记结算公司&#x2F;国债公司（<a href="https://www.chinabond.com.cn/zzsj/">中债登-CCDC</a>）：债券托管结算</p>
 </li>
 <li><p>银行间市场清算所股份有限公司（<a href="https://www.shclearing.com.cn/cpgz/zqjqysp/jj/">上清所-SHCH</a>）：债券托管结算及中央对手方结算（CCP）</p>
 </li>
@@ -100,7 +100,28 @@
 <li><p><font color=grey>交易成员：金融机构、部分非金及</font><font color=red>法人产品</font></p>
 </li>
 </ul>
-<p>中国的利率体系与利率市场化改革</p>
+<h3 id="交易成员结构："><a href="#交易成员结构：" class="headerlink" title="交易成员结构："></a>交易成员结构：</h3><ul>
+<li>存款类机构：政策行、境内商业银行、农商行、农信社</li>
+<li>非存款类机构：证券、基金、保险、资管、期货、信托、金租类、财务</li>
+<li>非法人机构：<ul>
+<li>机构：中资商行一级分行、外资行境内分行</li>
+<li>产品：基金、企业年金、保险及信托产品、证券资管、基金专户、银行理财、期货资管</li>
+</ul>
+</li>
+<li>境外机构：境外央行、境外法人（非法人）机构投资者</li>
+</ul>
+<h3 id="交易方式："><a href="#交易方式：" class="headerlink" title="交易方式："></a>交易方式：</h3><img src="C:\Users\10939\Desktop\123123.png" alt="交易方式" style="zoom:50%;" />
+
+<ul>
+<li>询价、做市报价、指示性报价、请求报价、匿名点击<ul>
+<li>匿名点击不具名、要求高、助流通；信用拆借无抵押-仅询价</li>
+<li>请求报价<font color=red>仅</font>：质押回购、现券买卖、利率互换</li>
+<li><font color=red>仅</font>现券买卖（含同业存单、资产支持证券）：无限制 #<span id="现券买卖包含内容">交易品种 </span> </li>
+<li>标准化衍生品<font color=red>仅</font>使用匿名点击（X-Swap）</li>
+</ul>
+</li>
+</ul>
+<h2 id="二、银行间货币市场"><a href="#二、银行间货币市场" class="headerlink" title="二、银行间货币市场"></a>二、银行间货币市场</h2><p>中国的利率体系与利率市场化改革</p>
 <p>中国人民银行行长易纲在《金融研究》2021年第9期刊发文章<br><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》–易纲</a></p>
 ]]></content>
       <categories>
