@@ -83,7 +83,7 @@
 <h3 id="市场组织："><a href="#市场组织：" class="headerlink" title="市场组织："></a>市场组织：</h3><ul>
 <li>中国人民银行（<a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125475/index.html">人行-PBOC</a>）:银行间市场监管机构</li>
 <li>银行间交易商协会（<a href="https://www.nafmii.org.cn/">NAFMII</a>）：银行间市场自律组织</li>
-<li><font color=red>中国外汇交易中心/全国银行间同业拆借中心/中国货币网（[CFETS](https://www.chinamoney.com.cn/chinese/bkshibor/)）：</font><font color=red>提供交易平台及交易后处理、信息、基准、监测等</font>
+<li><p><span style="color: red;">中国外汇交易中心/全国银行间同业拆借中心/中国货币网</span> （<a href="https://www.chinamoney.com.cn/chinese/bkshibor/">CFETS</a>）：<span style="color: red;">提供交易平台及交易后处理、信息、基准、监测等</span></p>
 </li>
 <li><p>中央国债登记结算公司/国债公司（<a href="https://www.chinabond.com.cn/zzsj/">中债登-CCDC</a>）：债券托管结算</p>
 </li>
@@ -113,9 +113,8 @@
 </ul>
 </li>
 <li>询价交易：1、对话报价（本方报价$\rightarrow$对手方确认成交）；2、资金意向转对话（发送/查看资金意向$\rightarrow$将意向报价转为对话报价$\rightarrow$双方确认成交）</li>
-<li><h2 id="二、银行间货币市场"><a href="#二、银行间货币市场" class="headerlink" title="二、银行间货币市场"></a>二、银行间货币市场</h2></li>
 </ul>
-<h3 id="同业拆借市场"><a href="#同业拆借市场" class="headerlink" title="同业拆借市场"></a>同业拆借市场</h3><ul>
+<h2 id="二、银行间货币市场"><a href="#二、银行间货币市场" class="headerlink" title="二、银行间货币市场"></a>二、银行间货币市场</h2><h3 id="同业拆借市场"><a href="#同业拆借市场" class="headerlink" title="同业拆借市场"></a>同业拆借市场</h3><ul>
 <li><p>参与主体：《<a href="http://www.pbc.gov.cn/jinrongshichangsi/147160/147171/147355/147383/2894391/index.html">同业拆借管理办法</a>》（*央行07年三号令）中的16类金融机构（所有银行类金融机构和绝大部分非银金融机构）、央行认定的境外人民币清算行</p>
 </li>
 <li><p>主要功能：各类金融机构融通短期资金，进行主动资产负债管理</p>
