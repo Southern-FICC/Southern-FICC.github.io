@@ -61,18 +61,18 @@
 </table>
 </div>
 <ul>
-<li><p>货币市场：信用拆借（同业拆借）、回购、同业存单、标准化票据、证券公司短期融资券</p>
+<li><p><strong>货币市场：</strong>信用拆借（同业拆借）、回购、同业存单、标准化票据、证券公司短期融资券</p>
 </li>
-<li><p>债券市场：<a href="#现券买卖包含内容">现券买卖（含ABS）</a>、债券借贷、预发行（路演），广义还包括回购和债券远期</p>
+<li><p><strong>债券市场：</strong><a href="#现券买卖包含内容">现券买卖（含ABS）</a>、债券借贷、预发行（路演），广义还包括回购和债券远期</p>
 </li>
-<li><p>衍生品市场：</p>
+<li><p><strong>衍生品市场：</strong></p>
 <ul>
-<li>利率衍生品：<ul>
+<li><strong>利率衍生品：</strong><ul>
 <li>债券远期、利率互换</li>
 <li>标准债券远期、标准利率互换、远期利率<font color=red>协议</font>、利率期权；</li>
 </ul>
 </li>
-<li>信用衍生品：<ul>
+<li><strong>信用衍生品：</strong><ul>
 <li>信用风险缓释工具：信用风险缓释合约、</li>
 <li>信用风险互换</li>
 </ul>
@@ -94,34 +94,254 @@
 </li>
 </ul>
 <h3 id="交易成员结构："><a href="#交易成员结构：" class="headerlink" title="交易成员结构："></a>交易成员结构：</h3><ul>
-<li>存款类机构：政策行、境内商业银行、农商行、农信社</li>
+<li><strong>存款类机构：</strong>政策行、境内商业银行、农商行、农信社</li>
 <li>非存款类机构：证券、基金、保险、资管、期货、信托、金租类、财务</li>
-<li>非法人机构：<ul>
+<li><strong>非法人机构：</strong><ul>
 <li>机构：中资商行一级分行、外资行境内分行</li>
 <li>产品：基金、企业年金、保险及信托产品、证券资管、基金专户、银行理财、期货资管</li>
 </ul>
 </li>
-<li>境外机构：境外央行、境外法人（非法人）机构投资者</li>
+<li><strong>境外机构：</strong>境外央行、境外法人（非法人）机构投资者</li>
 </ul>
 <h3 id="交易方式："><a href="#交易方式：" class="headerlink" title="交易方式："></a>交易方式：</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E6%96%B9%E5%BC%8F.png?q-sign-algorithm=sha1&q-ak=AKIDGhHgkImw9FTQ9yRxsWAYC3BVPjs92Xhf&q-sign-time=1704720365;1704727565&q-key-time=1704720365;1704727565&q-header-list=&q-url-param-list=&q-signature=c30c1b5683b859e4e133bda72da7951ccaf5c350&x-cos-security-token=da17421e3a96b5bc9f338c88a598d98e73f3783e20001" alt="交易方式" style="zoom:50%;" /></p>
 <ul>
-<li>询价、做市报价、指示性报价、请求报价、匿名点击<ul>
+<li><strong>询价、做市报价、指示性报价、请求报价、匿名点击</strong><ul>
 <li>请求报价<font color=red>仅</font>：质押回购、现券买卖、利率互换</li>
 <li><font color=red>仅</font>现券买卖（含同业存单、资产支持证券）：无限制 #<span id="现券买卖包含内容">交易品种 </span> </li>
 <li>标准化衍生品<font color=red>仅</font>使用匿名点击（X-Swap）</li>
 <li>匿名点击不具名、要求高、助流通；信用拆借无抵押-仅询价</li>
 </ul>
 </li>
-<li>询价交易：1、对话报价（本方报价$\rightarrow$对手方确认成交）；2、资金意向转对话（发送/查看资金意向$\rightarrow$将意向报价转为对话报价$\rightarrow$双方确认成交）</li>
+<li><strong>询价交易：</strong>1、对话报价（本方报价$\rightarrow$对手方确认成交）；2、资金意向转对话（发送/查看资金意向$\rightarrow$将意向报价转为对话报价$\rightarrow$双方确认成交）</li>
 </ul>
 <h2 id="二、银行间货币市场"><a href="#二、银行间货币市场" class="headerlink" title="二、银行间货币市场"></a>二、银行间货币市场</h2><h3 id="同业拆借市场"><a href="#同业拆借市场" class="headerlink" title="同业拆借市场"></a>同业拆借市场</h3><ul>
-<li><p>参与主体：《<a href="http://www.pbc.gov.cn/jinrongshichangsi/147160/147171/147355/147383/2894391/index.html">同业拆借管理办法</a>》（*央行07年三号令）中的16类金融机构（所有银行类金融机构和绝大部分非银金融机构）、央行认定的境外人民币清算行</p>
+<li><strong>参与主体：</strong>《<a href="http://www.pbc.gov.cn/jinrongshichangsi/147160/147171/147355/147383/2894391/index.html">同业拆借管理办法</a>》（*央行07年三号令）中的16类金融机构（所有银行类金融机构和绝大部分非银金融机构）、央行认定的境外人民币清算行</li>
+<li><strong>主要功能：</strong>各类金融机构融通短期资金，进行主动资产负债管理</li>
+<li><strong>交易平台：</strong>同业拆借中心本币交易系统</li>
+<li><strong>交易要素：</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E8%A6%81%E7%B4%A0" alt="同业拆借要素"></p>
+<h3 id="回购市场"><a href="#回购市场" class="headerlink" title="回购市场"></a>回购市场</h3><ul>
+<li><strong>参与主体：</strong>各类金融机构和非法人投资者；境外央行、国际金融组织、主权财富组织、境外清算行、境外参加行</li>
+<li><p><strong>回购券种：</strong>银行间债券市场的各类券种（包括外币债、SDR计价债券）；*-非公开定向发行债务融资工具（PPN）和资产支持证券仅支持质押式回购；（质押券必须为银行间市场发行，且可流通）</p>
+<ul>
+<li>2015年5月9日起，投资者可以自己发行的债券为标的资产进行债券回购交易（需进行信息披露，<br>并符合比例要求）</li>
+</ul>
 </li>
-<li><p>主要功能：各类金融机构融通短期资金，进行主动资产负债管理</p>
+<li><p><strong>交易平台：</strong>同业拆借中心本币交易系统</p>
 </li>
-<li><p>交易平台：同业拆借中心本币交易系统</p>
+<li><p><strong>交易要素：</strong></p>
 </li>
-<li><p>交易要素：</p>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E8%A6%81%E7%B4%A0" alt="质押式回购要素"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B9%B0%E6%96%AD%E5%BC%8F%E5%8D%95%E5%88%B8-%E5%A4%9A%E5%88%B8" alt="买断式单券-多券"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B9%B0%E6%96%AD%E5%BC%8F%E5%9B%9E%E8%B4%AD-%E5%8D%95%E5%88%B8" alt="买断式回购-单券"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B9%B0%E6%96%AD%E5%BC%8F%E5%9B%9E%E8%B4%AD-%E5%A4%9A%E5%88%B8" alt="买断式回购-多券"></p>
+<h2 id="三、银行间债券市场"><a href="#三、银行间债券市场" class="headerlink" title="三、银行间债券市场"></a>三、银行间债券市场</h2><h3 id="现券市场"><a href="#现券市场" class="headerlink" title="现券市场"></a>现券市场</h3><font color = red>我国债券市场现状：银行间市场为主，交易所市场为辅，商业银行柜台市场为补充  </font>
+
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E9%93%B6%E8%A1%8C%E9%97%B4%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BAvs%E4%BA%A4%E6%98%93%E6%89%80%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA" alt="银行间债券市场vs交易所债券市场"></p>
+<ul>
+<li><strong>银行间债券市场结构：</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E9%93%B6%E8%A1%8C%E9%97%B4%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA%E7%BB%93%E6%9E%84" alt="银行间债券市场结构" style="zoom: 67%;" /></p>
+<p>做市商制度是<font color = red>场外债券市场</font>有效运行的重要基础性制度：（截止2023年底：<a href="https://www.chinamoney.com.cn/chinese/mtmemrmb/">92家做市商</a>）</p>
+<p>​    * 提高流动性、促进价格发行、稳定市场、规范市场、降低发行人筹资成本</p>
+<ul>
+<li><p><strong>参与主体：</strong>合格机构投资者（<a href="http://www.pbc.gov.cn/tiaofasi/144941/144959/3058889/index.html">中国人民银行公告【2016】 第8号</a>）  </p>
+</li>
+<li><font color = red>主体范围：债券市场>回购市场＞同业拆借市场</font></li>
+<li><strong>交易平台：</strong>同业拆借中心本币交易系统</li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%80%BA%E5%88%B8%E5%93%81%E7%A7%8D" alt="债券品种"></p>
+<ul>
+<li><strong>现券买卖交易要素：</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E4%B9%B0%E5%8D%96%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0" alt="现券买卖交易要素"></p>
+<h3 id="债券借贷市场"><a href="#债券借贷市场" class="headerlink" title="债券借贷市场"></a>债券借贷市场</h3><ul>
+<li><strong>市场功能：</strong><ul>
+<li>以信用债融利率债，提高抵押品质量；出售融入债券，提供有效的做空手段；</li>
+<li>提升市场流动性，满足临时结算需求；融出方盘活债券存量，提高投资收益  </li>
+</ul>
+</li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%80%BA%E5%88%B8%E5%80%9F%E8%B4%B7%E5%B8%82%E5%9C%BA%E8%A6%81%E7%B4%A0" alt="债券借贷要素"></p>
+<h3 id="债券预发行"><a href="#债券预发行" class="headerlink" title="债券预发行"></a>债券预发行</h3><ul>
+<li><strong>定义：</strong>全国银行间债券市场投资者以即将发行的债券为标的进行的债券买卖行为，通过全国银行间同业拆借中心交易系统进行。  </li>
+<li><strong>参与主体：</strong>全国银行间债券市场成员</li>
+<li><strong>交易要素：</strong></li>
+</ul>
+<p><img src="C:\Users\10939\AppData\Roaming\Typora\typora-user-images\image-20240109161621491.png" alt="交易要素"></p>
+<ul>
+<li><strong>市场功能：</strong><ul>
+<li>发行人：提高发行定价的透明度和竞争性，降低发行成本</li>
+<li>承销商：发行价格发现，部分分销及一级半需求，交易获利</li>
+<li>普通投资者：交易获利，间接参与一级市场  </li>
+</ul>
+</li>
+</ul>
+<h3 id="国债做市支持操作"><a href="#国债做市支持操作" class="headerlink" title="国债做市支持操作"></a>国债做市支持操作</h3><ul>
+<li><strong>定义</strong>：财政部在全国银行间债券市场运用<font color = red><strong>随买、随卖</strong></font>等工具，支持银行间债券市场做市商对新近发行的关键期限国债做市的市场行为。（二级市场竞价买卖国债）</li>
+<li><strong>做市支持对象：</strong> 银行间债券市场做市商中的<font color =red><strong>记账式国债</strong></font>甲类承销团成员</li>
+<li><strong>做市支持券种：</strong> <font color =red><strong>新发关键期限国债</strong></font></li>
+<li><strong>竞价机制：</strong> 单一价格形成机制  </li>
+</ul>
+<h3 id="政策性金融债做市支持操作"><a href="#政策性金融债做市支持操作" class="headerlink" title="政策性金融债做市支持操作"></a>政策性金融债做市支持操作</h3><ul>
+<li><p><strong>定义</strong>：<font color =red ><strong>国开行、进出口行、农发行</strong></font>等发起人在全国银行间债券市场运用<font color = red><strong>随买、随卖</strong></font>等工具，进行<font color = red><strong>本行</strong></font>人民币金融债券（国开债、口行债、农发债）做市支持操作服务做市业务开展。（二级市场竞价赎回卖出）</p>
+</li>
+<li><p><strong>做市支持对象：</strong> 银行间债券市场做市商中的相应政策性金融债承销团成员</p>
+</li>
+<li><strong>做市支持券种：</strong> 已在银行间债券市场上市流通的相应政策性金融债</li>
+<li><strong>竞价机制：</strong> 单一价格形成机制</li>
+<li><strong>结算方式：</strong> 券款对付；见券付款/见款付券  </li>
+</ul>
+<h3 id="债券一级发行及承分销"><a href="#债券一级发行及承分销" class="headerlink" title="债券一级发行及承分销"></a>债券一级发行及承分销</h3><ul>
+<li><strong>债券一级发行业务：</strong> 支持<font color = red><strong>通过本币交易系统</strong></font>发行证券公司短期融资券、金融债券、标准化票据等银行间各类债券，提供簿记建档、报价发行、招标发行等发行方式，并提供统一的缴款凭据。  </li>
+<li><strong>债券承分销服务：</strong> 支持承销商<font color =red><strong>通过iDeal工作台</strong></font>为各类债券提供承分销服务，包含路演、投标、协商、分销等环节，并提供标准化的分销凭证。  </li>
+</ul>
+<h2 id="银行间衍生品市场"><a href="#银行间衍生品市场" class="headerlink" title="银行间衍生品市场"></a>银行间衍生品市场</h2><ul>
+<li><strong>市场结构：</strong></li>
+</ul>
+<p>​    <strong>非做市商金融机构$\longleftrightarrow$【全国银行间同业拆借中心$\longleftrightarrow$做市商（包括结算代理机构）】$\longleftrightarrow$非金融机构客户</strong></p>
+<p>​    <strong><em>非做市商金融机构只能出于自身需求进行交易；非金融机构只能与做市商进行以套期保值为目的的交易</em></strong></p>
+<ul>
+<li><strong>交易品种:</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%A1%8D%E7%94%9F%E5%93%81%E4%BA%A4%E6%98%93%E5%93%81%E7%A7%8D" alt="衍生品交易品种"></p>
+<h3 id="利率互换"><a href="#利率互换" class="headerlink" title="利率互换"></a>利率互换</h3><ul>
+<li><strong>交易要素：</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0" alt="利率互换交易要素"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0%E5%9B%BE%E7%A4%BA" alt="利率互换交易要素图示" style="zoom:80%;" /></p>
+<h3 id="债券远期"><a href="#债券远期" class="headerlink" title="债券远期"></a>债券远期</h3><ul>
+<li><strong>交易要素：</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%80%BA%E5%88%B8%E8%BF%9C%E6%9C%9F%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0" alt="债券远期交易要素"></p>
+<h3 id="远期利率协议："><a href="#远期利率协议：" class="headerlink" title="远期利率协议："></a>远期利率协议：</h3><ul>
+<li><strong>交易要素：</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%BF%9C%E6%9C%9F%E5%88%A9%E7%8E%87%E5%8D%8F%E8%AE%AE%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0" alt="远期利率协议交易要素"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%BF%9C%E6%9C%9F%E5%88%A9%E7%8E%87%E5%8D%8F%E8%AE%AE%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0-%E5%9B%BE%E7%A4%BA" alt="远期利率协议交易要素-图示" style="zoom:80%;" /></p>
+<h3 id="标准利率互换和标准债券远期"><a href="#标准利率互换和标准债券远期" class="headerlink" title="标准利率互换和标准债券远期"></a>标准利率互换和标准债券远期</h3><p><strong>标准利率互换</strong>是到期日、期限等要素标准化的IRS合约<br><strong>标准债券远期</strong>是在银行间市场交易的，标的债券、交割日等产品要素标准化的债券远期合约  </p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%A0%87%E5%87%86%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E5%92%8C%E6%A0%87%E5%87%86%E5%80%BA%E5%88%B8%E8%BF%9C%E6%9C%9F" alt="标准利率互换和标准债券远期"></p>
+<h3 id="利率期权："><a href="#利率期权：" class="headerlink" title="利率期权："></a>利率期权：</h3><h4 id="利率互换期权"><a href="#利率互换期权" class="headerlink" title="利率互换期权"></a>利率互换期权</h4><ul>
+<li><p><strong>定义：</strong>期权标的为利率互换合约；行权后生成一笔利率互换交易。  </p>
+</li>
+<li><p><strong>交易要素：</strong></p>
+</li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E6%9C%9F%E6%9D%83%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0" alt="利率互换期权交易要素"></p>
+<h4 id="利率上下限期权"><a href="#利率上下限期权" class="headerlink" title="利率上下限期权"></a>利率上下限期权</h4><ul>
+<li><strong>定义：</strong>期权期限内，期权卖方按照支付频率向期权买方支付超出上限/下限部分利息。  </li>
+<li><strong>交易要素：</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%B8%8A%E4%B8%8B%E9%99%90%E6%9C%9F%E6%9D%83" alt="利率上下限期权"></p>
+<h3 id="信用风险缓释工具"><a href="#信用风险缓释工具" class="headerlink" title="信用风险缓释工具"></a>信用风险缓释工具</h3><ul>
+<li><strong>信用违约互换(CDS)：</strong>合约类产品； 盯住单一/多个参考实体； </li>
+<li><strong>CDS指数</strong>以一篮子参考实体为交易标的</li>
+<li><strong>信用风险缓释合约(CRMA)：</strong>合约类产品；盯住参考债务  </li>
+<li><strong>信用联结票据(CLN)/信用风险缓释凭证(CRMW)：</strong> 均为凭证类产品， 交易中心提供二级交易服务。 CLN发行人为信用保护买方， 盯住参考实体；CRMW发行人为信用保护卖方， 盯住参考债务。</li>
+</ul>
+<h2 id="银行间本币市场交易策略"><a href="#银行间本币市场交易策略" class="headerlink" title="银行间本币市场交易策略"></a>银行间本币市场交易策略</h2><h3 id="利率定价影响因素和参考价格"><a href="#利率定价影响因素和参考价格" class="headerlink" title="利率定价影响因素和参考价格"></a>利率定价影响因素和参考价格</h3><ul>
+<li><strong>利率定价影响因素：</strong></li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E5%AE%9A%E4%BB%B7%E5%BD%B1%E5%93%8D%E5%9B%A0%E7%B4%A0" alt="利率定价影响因素"></p>
+<ul>
+<li><p><strong>定价参考：</strong></p>
+<ul>
+<li><p><strong>回购定盘利率：</strong></p>
+<ul>
+<li><p><strong>定义：</strong>以银行间市场每天上午9:00-11:30间的回购交易利率为基础同时借鉴国际经验编制而成的利率基准参考指标</p>
+</li>
+<li><p><strong>发布时间：</strong>11：30</p>
+</li>
+<li><p><strong><font color =red>编制方法：</font></strong></p>
+<p>:one: 以隔夜回购（R001）、七天回购（R007）、 14天回购（R014）交易在<font color =red><strong>每个交易日上午9:00-</strong><br><strong>11:30之间</strong></font>（包括9:00和11:30）的全部成交利率为计算基础。特别地，交易对手相同(交易方<br>向相同或相反)且交易利率相同的交易只作为一笔交易纳入样本。<br>:two: 分别对隔夜回购、七天回购、 14天回购利率进行排序，记从小到大排序之后的最大序号为N,则<br>[N/2]（取整） +1位置上的那个利率即为当日的定盘利率。<font color = red><strong>即中位数</strong></font><br>:three: <font color =red><strong>隔夜、七天、 14天回购定盘利率分别以FR001、 FR007、 FR014进行标识。</strong></font>  </p>
+</li>
+</ul>
+</li>
+<li><p><strong>债券收益率曲线：</strong></p>
+<ul>
+<li><p><strong>实时收益率曲线：</strong></p>
+<p>➢ 数据来源：实时报价 &gt; 当日报价 &gt; 货币经纪报价 &gt; 历史报价<br>➢ 发布时间： 9:30 发布首条曲线，实时逐笔更新至收盘<br>➢ 曲线类型：到期收益率曲线</p>
+</li>
+<li><p><strong>收盘收益率曲线：</strong><br>➢ 数据来源：<font color=red>双边报价和成交数据</font><br>➢ 发布时间：17:15<br>➢ 曲线类型：到期收益率、即期利率和远期利率曲线</p>
+</li>
+<li><strong>主要应用：</strong> 异常交易监测、交易参考、债券估值  </li>
+</ul>
+</li>
+<li><p><strong>利率互换定盘/收盘曲线：</strong>  </p>
+<ul>
+<li><p>报价机构：利率互换曲线报价机构</p>
+</li>
+<li><p>数据样本：<font color =red>X-Swap报价</font>（报价量不小于2000万人民币）</p>
+</li>
+<li><p>报价时间窗口：<font color =red >定盘曲线11:45-12:00；收盘曲线16:15-16:30</font></p>
+</li>
+<li><p>发布时间：<font color =red>定盘曲线12:10， 收盘曲线16:40</font></p>
+</li>
+<li><p>发布途径：<br>➢ <strong>Shibor、FR、FDR曲线：</strong>中国货币网<br>➢ <strong>LPR曲线：</strong>中国货币网、市场数据发布系统（CMDS）、市场数据报表系统（CMDR）</p>
+</li>
+<li><p>曲线应用：<br>➢ 用于机构内部对未到期合约进行盯市<br>➢ 在利率互换冲销中用于对冲销合约进行估值<br>➢ 在本币交易系统中作为利率互换定价参考依据 </p>
+</li>
+<li><p>曲线种类：</p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E5%AE%9A%E7%9B%98%2F%E6%94%B6%E7%9B%98%E6%9B%B2%E7%BA%BF-%E7%A7%8D%E7%B1%BB" alt="利率互换定盘/收盘曲线-种类"></p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="固定收益交易策略分析框架"><a href="#固定收益交易策略分析框架" class="headerlink" title="固定收益交易策略分析框架"></a>固定收益交易策略分析框架</h3><ul>
+<li><p><strong>策略方向：</strong></p>
+<ul>
+<li><strong>战略性方向：</strong>利率总体走势；基本面分析（宏观经济形势、货币政策、宏观流动性）；未来半年到一年；趋势性交易  </li>
+<li><strong>战术性方向：</strong>不同资产走势；策略分析（收益率曲线变动、资产类型配置、资金面季节性变动）；一季度到半年的阶段性方向；波段性交易</li>
+<li><strong>投机性方向：</strong>个券标的选择；日间或短期分析（突发性事件对短期市场的临时性冲击）；短期套利交易  </li>
+</ul>
+</li>
+<li><p><strong>利差套利交易（Carry Trade)</strong>   </p>
+<ul>
+<li><p><strong>分类：</strong><br>➢融资杠杆策略：<br>➢跨市场策略（锁定收益）：</p>
+</li>
+<li><p><strong>原理：</strong><br>➢借入低利率资金，投资于高利率/高报酬的资产，以赚取利差<br>➢债券投资：赚取票面利率与资金成本的差额</p>
+</li>
+<li><p><strong>风险：</strong><br>➢短期利率大幅上升<br>➢可通过利率衍生品对冲风险，锁定收益</p>
+</li>
+<li><p><strong>其他考虑因素</strong><br>➢Carry VS Capital Gain（资本利得）</p>
+</li>
+</ul>
+</li>
+<li><p><strong>Carry &amp; Capital Gain：骑乘策略  </strong></p>
+<ul>
+<li><strong>前提：</strong> 收益率曲线向上倾斜且预期持有期内形态稳定</li>
+<li><strong>基本操作：</strong> 购入长期限债券，在债券到期前平仓退出</li>
+<li><strong>风险：</strong> 持有期内收益率曲线大幅上移  </li>
+</ul>
+</li>
+</ul>
+<ul>
+<li><strong>期差交易（Spread Trade)</strong>   <ul>
+<li><strong>原理：</strong><br>➢ 利用收益率曲线形态的预期变化进行交易<br>➢ 本质是交易不同期限利率之间的利差<br>➢ 总的PV01通常维持在零  </li>
+<li><strong>具体操作：</strong><br>➢陡峭策略：预期收益率曲线变陡，卖长买短<br>➢平缓策略：预期收益率曲线变平坦，卖短买长<br>➢正蝶式策略：预期收益率曲线变下凸，买中间卖两边<br>➢反蝶式策略：预期收益率曲线变上凸，买两边卖中间  </li>
+</ul>
+</li>
+<li><strong>现券期差交易</strong>  <ul>
+<li><strong>定义：</strong></li>
+</ul>
+</li>
+<li><strong>利率互换期差交易</strong>  <ul>
+<li><strong>定义：</strong></li>
+<li><strong>优势：</strong>较现券易于做空；可直接交易Spread  </li>
+</ul>
+</li>
+<li><strong>基差交易（Basis Trade)</strong>  <ul>
+<li><strong>原理：</strong><br>➢ 利用不同市场之间的利差进行交易</li>
+<li><strong>具体操作：</strong><br>➢期现基差策略：交易国债期货与现货价格的利差<br>➢信用基差策略：交易不同信用等级的债券之间的利差<br>➢利率互换基差策略：交易不同参考基准的利率互换之间的利差，如Shibor*FR007<br>➢现券+利率互换基差策略：交易现券收益率与互换利率之间的利差  </li>
+</ul>
+</li>
+<li><strong>现券+利率互换基差交易</strong>  <ul>
+<li><strong>定义：</strong></li>
+</ul>
 </li>
 </ul>
 ]]></content>
