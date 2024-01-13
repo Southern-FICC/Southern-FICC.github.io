@@ -15,26 +15,6 @@
       </tags>
   </entry>
   <entry>
-    <title>资金周报</title>
-    <url>/post/44421/</url>
-    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
-<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png?q-sign-algorithm=sha1&amp;q-ak=AKIDMzhYjM135MYK0Wdg3BgDhB5DI2qycFAh&amp;q-sign-time=1704720406;1704727606&amp;q-key-time=1704720406;1704727606&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=d0509e44f85863367660757ee395cb6db2e5a5a3&amp;x-cos-security-token=c955b22bb4688aa4a952d5224819bb0790e51e6e20001" alt="A001"></p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png?q-sign-algorithm=sha1&amp;q-ak=AKIDMzhYjM135MYK0Wdg3BgDhB5DI2qycFAh&amp;q-sign-time=1704720420;1704727620&amp;q-key-time=1704720420;1704727620&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=ed28ed2fb6c21c1643f14484cccb33268ff633f2&amp;x-cos-security-token=c955b22bb4688aa4a952d5224819bb0790e51e6e20001" alt="A002"></p>
-<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
-<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
-<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
-<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
-<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
-]]></content>
-      <categories>
-        <category>资金周报</category>
-      </categories>
-      <tags>
-        <tag>本币交易</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>本币交易梳理--本币市场业务与规则</title>
     <url>/post/35581/</url>
     <content><![CDATA[<h2 id="一、银行间本币市场概述"><a href="#一、银行间本币市场概述" class="headerlink" title="一、银行间本币市场概述"></a>一、银行间本币市场概述</h2><h3 id="交易品种："><a href="#交易品种：" class="headerlink" title="交易品种："></a>交易品种：</h3><div class="table-container">
@@ -267,17 +247,19 @@
 <p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E5%AE%9A%E4%BB%B7%E5%BD%B1%E5%93%8D%E5%9B%A0%E7%B4%A0" alt="利率定价影响因素"></p>
 <ul>
 <li><h4 id="定价参考："><a href="#定价参考：" class="headerlink" title="定价参考："></a><strong>定价参考：</strong></h4><ul>
-<li><h5 id="回购定盘利率："><a href="#回购定盘利率：" class="headerlink" title="回购定盘利率："></a><strong>回购定盘利率：</strong></h5><ul>
+<li><p><strong>回购定盘利率：</strong></p>
+<ul>
 <li><p><strong>定义：</strong>以银行间市场每天上午9:00-11:30间的回购交易利率为基础同时借鉴国际经验编制而成的利率基准参考指标</p>
 </li>
 <li><p><strong>发布时间：</strong>11：30</p>
 </li>
 <li><p><strong><font color =red>编制方法：</font></strong></p>
-<p>:one: 以隔夜回购（R001）、七天回购（R007）、 14天回购（R014）交易在<font color =red><strong>每个交易日上午9:00-</strong><br><strong>11:30之间</strong></font>（包括9:00和11:30）的全部成交利率为计算基础。特别地，交易对手相同(交易方<br>向相同或相反)且交易利率相同的交易只作为一笔交易纳入样本。<br>:two: 分别对隔夜回购、七天回购、 14天回购利率进行排序，记从小到大排序之后的最大序号为N,则<br>[N/2]（取整） +1位置上的那个利率即为当日的定盘利率。<font color = red><strong>即中位数</strong></font><br>:three: <font color =red><strong>隔夜、七天、 14天回购定盘利率分别以FR001、 FR007、 FR014进行标识。</strong></font>  </p>
+<p>➢ 以隔夜回购（R001）、七天回购（R007）、 14天回购（R014）交易在<font color =red><strong>每个交易日上午9:00-</strong><br><strong>11:30之间</strong></font>（包括9:00和11:30）的全部成交利率为计算基础。特别地，交易对手相同(交易方<br>向相同或相反)且交易利率相同的交易只作为一笔交易纳入样本。<br>➢ 分别对隔夜回购、七天回购、 14天回购利率进行排序，记从小到大排序之后的最大序号为N,则<br>[N/2]（取整） +1位置上的那个利率即为当日的定盘利率。<font color = red><strong>即中位数</strong></font><br>➢ <font color =red><strong>隔夜、七天、 14天回购定盘利率分别以FR001、 FR007、 FR014进行标识。</strong></font>  </p>
 </li>
 </ul>
 </li>
-<li><h5 id="债券收益率曲线："><a href="#债券收益率曲线：" class="headerlink" title="债券收益率曲线："></a><strong>债券收益率曲线：</strong></h5><ul>
+<li><p><strong>债券收益率曲线：</strong></p>
+<ul>
 <li><p><strong>实时收益率曲线：</strong></p>
 <p>➢ 数据来源：实时报价 &gt; 当日报价 &gt; 货币经纪报价 &gt; 历史报价<br>➢ 发布时间： 9:30 发布首条曲线，实时逐笔更新至收盘<br>➢ 曲线类型：到期收益率曲线</p>
 </li>
@@ -286,7 +268,8 @@
 <li><strong>主要应用：</strong> 异常交易监测、交易参考、债券估值  </li>
 </ul>
 </li>
-<li><h5 id="利率互换定盘-收盘曲线："><a href="#利率互换定盘-收盘曲线：" class="headerlink" title="利率互换定盘/收盘曲线："></a><strong>利率互换定盘/收盘曲线：</strong></h5><ul>
+<li><p><strong>利率互换定盘/收盘曲线：</strong>  </p>
+<ul>
 <li><p>报价机构：利率互换曲线报价机构</p>
 </li>
 <li><p>数据样本：<font color =red>X-Swap报价</font>（报价量不小于2000万人民币）</p>
@@ -295,7 +278,7 @@
 </li>
 <li><p>发布时间：<font color =red>定盘曲线12:10， 收盘曲线16:40</font></p>
 </li>
-<li><p>发布途径：<br>➢ <strong>Shibor、FR、FDR曲线：</strong>中国货币网<br>➢ <strong>LPR曲线：</strong>中国货币网、市场数据发布系统（CMDS）、市场数据报表系统（CMDR）</p>
+<li><p>发布途径：<br>➢ <strong>Shibor、<a href="https://www.chinamoney.com.cn/chinese/bkfrr/">FR、FDR</a>曲线：</strong>中国货币网<br>➢ <strong>LPR曲线：</strong>中国货币网、市场数据发布系统（CMDS）、市场数据报表系统（CMDR）</p>
 </li>
 <li><p>曲线应用：<br>➢ 用于机构内部对未到期合约进行盯市<br>➢ 在利率互换冲销中用于对冲销合约进行估值<br>➢ 在本币交易系统中作为利率互换定价参考依据 </p>
 </li>
@@ -367,6 +350,26 @@
         <tag>业务知识与规则</tag>
         <tag>政策与规范</tag>
         <tag>流动性风险管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资金周报</title>
+    <url>/post/44421/</url>
+    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
+<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png?q-sign-algorithm=sha1&amp;q-ak=AKIDMzhYjM135MYK0Wdg3BgDhB5DI2qycFAh&amp;q-sign-time=1704720406;1704727606&amp;q-key-time=1704720406;1704727606&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=d0509e44f85863367660757ee395cb6db2e5a5a3&amp;x-cos-security-token=c955b22bb4688aa4a952d5224819bb0790e51e6e20001" alt="A001"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png?q-sign-algorithm=sha1&amp;q-ak=AKIDMzhYjM135MYK0Wdg3BgDhB5DI2qycFAh&amp;q-sign-time=1704720420;1704727620&amp;q-key-time=1704720420;1704727620&amp;q-header-list=&amp;q-url-param-list=&amp;q-signature=ed28ed2fb6c21c1643f14484cccb33268ff633f2&amp;x-cos-security-token=c955b22bb4688aa4a952d5224819bb0790e51e6e20001" alt="A002"></p>
+<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
+<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
+<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
+<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
+<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
+]]></content>
+      <categories>
+        <category>资金周报</category>
+      </categories>
+      <tags>
+        <tag>本币交易</tag>
       </tags>
   </entry>
 </search>
