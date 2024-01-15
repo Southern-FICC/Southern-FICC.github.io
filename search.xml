@@ -25,37 +25,6 @@
       </tags>
   </entry>
   <entry>
-    <title>理论杂货</title>
-    <url>/post/1/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>经济学杂货</category>
-      </categories>
-      <tags>
-        <tag>经济学理论</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资金周报</title>
-    <url>/post/44421/</url>
-    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
-<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png" alt="A001"></p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png" alt="A002"></p>
-<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
-<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
-<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
-<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
-<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
-]]></content>
-      <categories>
-        <category>资金周报</category>
-      </categories>
-      <tags>
-        <tag>本币交易</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>本币交易梳理--本币市场业务与规则</title>
     <url>/post/35581/</url>
     <content><![CDATA[<h2 id="一、银行间本币市场概述"><a href="#一、银行间本币市场概述" class="headerlink" title="一、银行间本币市场概述"></a>一、银行间本币市场概述</h2><h3 id="交易品种："><a href="#交易品种：" class="headerlink" title="交易品种："></a>交易品种：</h3><div class="table-container">
@@ -391,6 +360,85 @@
         <tag>业务知识与规则</tag>
         <tag>政策与规范</tag>
         <tag>流动性风险管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资金周报</title>
+    <url>/post/44421/</url>
+    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
+<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png" alt="A001"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png" alt="A002"></p>
+<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
+<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
+<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
+<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
+<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
+]]></content>
+      <categories>
+        <category>资金周报</category>
+      </categories>
+      <tags>
+        <tag>本币交易</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>理论杂货</title>
+    <url>/post/1/</url>
+    <content><![CDATA[<h1 id="债券的久期和凸性"><a href="#债券的久期和凸性" class="headerlink" title="债券的久期和凸性"></a>债券的久期和凸性</h1><h2 id="麦考利久期-Macaulay-duration-："><a href="#麦考利久期-Macaulay-duration-：" class="headerlink" title="麦考利久期(Macaulay duration)："></a><strong>麦考利久期(Macaulay duration)：</strong></h2><p>每次支付金额的现值占当前债券价格的比率作为权重，计算平均到期时间。<br>对于零息债券，其久期等于到期期限</p>
+<script type="math/tex; mode=display">\begin{align}D_{mac}&=\dfrac{\sum_{t=1}^{T}\dfrac{C_{t}}{(1+y)^t}\times{t}}{P}\\{D_{mac}}&=\sum_{t=1}^{T}t\times{W_t}\end{align}</script><h2 id="修正久期-Modified-Duration-："><a href="#修正久期-Modified-Duration-：" class="headerlink" title="修正久期(Modified Duration)："></a><strong>修正久期(Modified Duration)：</strong></h2><ul>
+<li><p>单位利率变动，债券价格变动的<font color =red>百分比</font>，度量价格对于利率变动的敏感性。</p>
+</li>
+<li><p>久期和修正久期是一个近似值，收益率变化幅度小时，久期和修正久期近似效果较好；当收益率变化幅度越大时，久期和修正久期的近似效果差。<br>${MD/D<em>m}=\dfrac{\Delta{P}/{P}}{\Delta{y}}=\dfrac{D</em>{mac}}{1+y/m}$</p>
+</li>
+<li><p>修正久期越大，利率变动对债券价格的影响程度就越大。</p>
+</li>
+</ul>
+<div class="note info flat"><p>$\begin{align}&amp;\text{原式：}P=\sum\limits<em>{i=1}^{n}\dfrac{C}{(1+{YTM})^{i}}+\dfrac{F}{(1+YTM)^n}\&amp;\text{求导：}\textcolor{red}{\dfrac{\dfrac{dP}{dYTM}}{P}}=-\dfrac{1}{1+YTM}\times\textcolor{blue}{\dfrac{\dfrac{nF}{(1+YTM)^n}+\sum</em>{i=1}^{n}\dfrac{iC}{(1+YTM)^i}}{P}}\&amp;\text{或零息债券：}P=\frac{Ct}{(1+y)^t}\&amp;\text{求导：}dP=-\dfrac{C<em>t\cdot{t}}{(1+y)^{t+1}}d(y)=-\dfrac{P\cdot{t}}{1+y}d(y)\&amp;\text{变形：}\dfrac{\Delta{P}}{P}=-\dfrac{t}{1+y}d(y)=-\dfrac{D</em>{mac}}{1+y}\times{\Delta{y}}=-D_m\times{\Delta{y}}\quad{(5)}\end{align}$</p>
+</div>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B8%8D%E5%90%8CYTM%E5%80%BA%E5%88%B8%E7%9A%84%E4%B9%85%E6%9C%9F.jpg" alt="不同YTM债券的久期" style="zoom:50%;" /><sup><a href ="https://finance.eastmoney.com/a/202208292493323044.html">[1]</a></sup></p>
+<h2 id="美元久期-Dollar-Duration-："><a href="#美元久期-Dollar-Duration-：" class="headerlink" title="美元久期(Dollar Duration)："></a><strong>美元久期(Dollar Duration)：</strong></h2><ul>
+<li>美元久期是指利率变动（或者说单位利率变动）导致的债券价值变动的金额，($-P\times{D<em>m}=D</em>{dollar}$)即$D_m$价格变动百分比乘以价格-得到变动金额，即价格-收益率曲线-切线斜率。</li>
+<li><p>Price value of basis point（PVBP-基点价值）：利率变动一个基点时，债券价格变动金额。</p>
+<ul>
+<li>记为：PV01(present value of 1bp) or DV01(dollar value of 1bp)</li>
+</ul>
+</li>
+<li><p><a href="https://zhuanlan.zhihu.com/p/487786099">公式推导</a></p>
+</li>
+</ul>
+<p>根据式(5)可得：$\begin{align}&amp;\text{原式：}\dfrac{dP}{P\times{dy}}=-\dfrac{1}{1+y}D<em>{mac}=-D_m\&amp;\text{变形：}\dfrac{dP}{dy}=-\dfrac{P}{1+y}D</em>{mac}=-P\times{D<em>m}=D</em>{dollar}\&amp;\text{另：}\quad{}dP=-D<em>{dollar}\times{dr}\&amp;\text{DV01=}D</em>{dollar}\times{0.01\%}=D_m\times{P}\times{0.01\%}\end{align}$</p>
+<ul>
+<li>DV01对冲：$\text{对冲比率}=\dfrac{DV01^B}$</li>
+</ul>
+<h2 id="凸性-convexity-："><a href="#凸性-convexity-：" class="headerlink" title="凸性(convexity)："></a>凸性(convexity)：</h2><p>凸性是对债券价格利率敏感性的二阶估计，是对债券久期利率敏感性的测量。凸性（ Convexity ）是收益率变化 1 %所引起的久期的变化。凸性越大,债券价格曲线弯曲程度越大,用修正久期度量债券的利率风险所产生的误差越大。</p>
+<p>在价格(y)-收益率(x)曲线中，债券价格随利率的变化关系是非线性的，凸向原点的。</p>
+<p>$\begin{align}{Con}&amp;=\sum<em>{t=1}^{T}(W_t\times{t(t+1))}\{MCon}&amp;=\sum</em>{t=1}^{T}\dfrac{W<em>t\times{t(t+1)}}{(1+y)^2}=\sum</em>{t=1}^{T}t(1+t)\times{\dfrac{\dfrac{C<em>t}{(1+y)^t}}{P}}\times{\dfrac{1}{(1+y)^2}}\\text{经过对债券}&amp;\text{价格公式进行泰勒展开，变形得到由修正久期与凸性构成的}{\Delta{P}/{P}}\text{公式}\\dfrac{\Delta{P}}{P}&amp;=-D</em>{m}\Delta{y}+\frac{1}{2}Con(\Delta{y})^2\end{align}$</p>
+<div class="note info flat"><p><a href="https://zhuanlan.zhihu.com/p/47022333?utm_id=0">公式推导及结论</a></p>
+<ul>
+<li><p>张亦春、郑振龙的《金融市场学》认为，现在的久期概念是利率敏感性资产价值变动的百分比对利率变动的一阶敏感性，即$D_{m}=-\frac{dP/P}{dy}$ 。Macaulay久期不是久期，只是久期计算公式中的一部分。<strong>修正久期才真正考察了债券价值的利率风险</strong>。</p>
+</li>
+<li><p>蒋崇辉、马永开指出，修正久期不能简单理解为对Macaulay久期的“修正”，<strong>修正久期的本质是债券价格相对于市场基准利率变化的敏感性。</strong></p>
+</li>
+<li><p>张宗新的《投资学》同样提到<strong>久期最初表示平均还款期限，但实际运用中久期表示的是债券价格的波动性</strong>。</p>
+</li>
+<li><p><strong>Change in price=Duration effect+Convexity effect</strong></p>
+</li>
+</ul>
+</div>
+<h2 id="有效久期"><a href="#有效久期" class="headerlink" title="有效久期"></a><strong>有效久期</strong></h2><p>有效久期不需要考虑各期现金流的变化情况，不包含利率变化导致现金流发生变化的具体时间，而只考虑利率一定变化下的价格总体情况。因此，有效久期能够较准确地衡量具有隐含期权性质的金融工具的利率风险。对于没有隐含期权的金融工具，有效久期与修正久期是相等的。</p>
+<p>$D<em>{eff}=-\dfrac{\Delta{P}/P}{\Delta{y}}=\dfrac{P</em>—P<em>+}{P_0\times{2\Delta{y}}}=\dfrac{P</em>—P_+}{P_0\times(y_A-y_B)}$</p>
+<h2 id="有效凸性："><a href="#有效凸性：" class="headerlink" title="有效凸性："></a>有效凸性：</h2><p>$C<em>{eff}=\dfrac{D</em>—D<em>+}{\Delta{y}}=\dfrac{P</em>-+P_+-2P_0}{P_0\Delta{y^2}}$</p>
+<h2 id="基于有效久期和凸性的对冲："><a href="#基于有效久期和凸性的对冲：" class="headerlink" title="基于有效久期和凸性的对冲："></a>基于有效久期和凸性的对冲：</h2><p>$P=\dfrac{VD_v}{D_p}$</p>
+<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
+<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
+]]></content>
+      <categories>
+        <category>经济学杂货</category>
+      </categories>
+      <tags>
+        <tag>经济学理论</tag>
+        <tag>久期-凸性</tag>
       </tags>
   </entry>
 </search>
