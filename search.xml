@@ -25,83 +25,23 @@
       </tags>
   </entry>
   <entry>
-    <title>理论杂货</title>
-    <url>/post/1/</url>
-    <content><![CDATA[<h1 id="债券的久期和凸性"><a href="#债券的久期和凸性" class="headerlink" title="债券的久期和凸性"></a>债券的久期和凸性</h1><h2 id="麦考利久期-Macaulay-duration-："><a href="#麦考利久期-Macaulay-duration-：" class="headerlink" title="麦考利久期(Macaulay duration)："></a><strong>麦考利久期(Macaulay duration)：</strong></h2><p>每次支付金额的现值占当前债券价格的比率作为权重，计算平均到期时间。<br>对于零息债券，其久期等于到期期限</p>
-<script type="math/tex; mode=display">\begin{align}D_{mac}&=\dfrac{\sum_{t=1}^{T}\dfrac{C_{t}}{(1+y)^t}\times{t}}{P}\\{D_{mac}}&=\sum_{t=1}^{T}t\times{W_t}\end{align}</script><h2 id="修正久期-Modified-Duration-："><a href="#修正久期-Modified-Duration-：" class="headerlink" title="修正久期(Modified Duration)："></a><strong>修正久期(Modified Duration)：</strong></h2><ul>
-<li><p>单位利率变动，债券价格变动的<font color =red>百分比</font>，度量价格对于利率变动的敏感性。</p>
-</li>
-<li><p>久期和修正久期是一个近似值，收益率变化幅度小时，久期和修正久期近似效果较好；当收益率变化幅度越大时，久期和修正久期的近似效果差。</p>
-<script type="math/tex; mode=display">{MD/D_m}=\dfrac{\Delta{P}/{P}}{\Delta{y}}=\dfrac{D_{mac}}{1+y/m}</script></li>
-<li><p>修正久期越大，利率变动对债券价格的影响程度就越大。</p>
-</li>
-</ul>
-<div class="note info flat"><script type="math/tex; mode=display">\begin{align}&\text{原式：}P=\sum\limits_{i=1}^{n}\dfrac{C}{(1+{YTM})^{i}}+\dfrac{F}{(1+YTM)^n}\\&\text{求导：}\textcolor{red}{\dfrac{\dfrac{dP}{dYTM}}{P}}=-\dfrac{1}{1+YTM}\times\textcolor{blue}{\dfrac{\dfrac{nF}{(1+YTM)^n}+\sum_{i=1}^{n}\dfrac{iC}{(1+YTM)^i}}{P}}\\&\text{或零息债券：}P=\frac{Ct}{(1+y)^t}\\&\text{求导：}dP=-\dfrac{C_t\cdot{t}}{(1+y)^{t+1}}d(y)=-\dfrac{P\cdot{t}}{1+y}d(y)\\&\text{变形：}\dfrac{\Delta{P}}{P}=-\dfrac{t}{1+y}d(y)=-\dfrac{D_{mac}}{1+y}\times{\Delta{y}}=-D_m\times{\Delta{y}}\quad{(5)}\end{align}</script></div>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B8%8D%E5%90%8CYTM%E5%80%BA%E5%88%B8%E7%9A%84%E4%B9%85%E6%9C%9F.jpg" alt="不同YTM债券的久期" style="zoom:50%;" /><sup><a href ="https://finance.eastmoney.com/a/202208292493323044.html">[1]</a></sup></p>
-<h2 id="美元久期-Dollar-Duration-："><a href="#美元久期-Dollar-Duration-：" class="headerlink" title="美元久期(Dollar Duration)："></a><strong>美元久期(Dollar Duration)：</strong></h2><ul>
-<li>美元久期是指利率变动（或者说单位利率变动）导致的债券价值变动的金额，(<script type="math/tex">-P\times{D_m}=D_{dollar}</script>)即$D_m$价格变动百分比乘以价格-得到变动金额，即价格-收益率曲线-切线斜率。</li>
-<li><p>Price value of basis point（PVBP-基点价值）：利率变动一个基点时，债券价格变动金额。</p>
-<ul>
-<li>记为：PV01(present value of 1bp) or DV01(dollar value of 1bp)</li>
-</ul>
-</li>
-<li><p><a href="https://zhuanlan.zhihu.com/p/487786099">公式推导</a></p>
-</li>
-</ul>
-<p>根据式(5)可得：<script type="math/tex">\begin{align}&\text{原式：}\dfrac{dP}{P\times{dy}}=-\dfrac{1}{1+y}D_{mac}=-D_m\\&\text{变形：}\dfrac{dP}{dy}=-\dfrac{P}{1+y}D_{mac}=-P\times{D_m}=D_{dollar}\\&\text{另：}\quad{}dP=-D_{dollar}\times{dr}\\&\text{DV01=}D_{dollar}\times{0.01\%}=D_m\times{P}\times{0.01\%}\end{align}</script></p>
-<ul>
-<li>DV01对冲：<script type="math/tex">\text{对冲比率}=\dfrac{DV01^A}{DV01^B}</script></li>
-</ul>
-<h2 id="凸性-convexity-："><a href="#凸性-convexity-：" class="headerlink" title="凸性(convexity)："></a>凸性(convexity)：</h2><p>凸性是对债券价格利率敏感性的二阶估计，是对债券久期利率敏感性的测量。凸性（ Convexity ）是收益率变化 1 %所引起的久期的变化。凸性越大,债券价格曲线弯曲程度越大,用修正久期度量债券的利率风险所产生的误差越大。</p>
-<p>在价格(y)-收益率(x)曲线中，债券价格随利率的变化关系是非线性的，凸向原点的。</p>
-<script type="math/tex; mode=display">\begin{align}{Con}&=\sum_{t=1}^{T}(W_t\times{t(t+1))}\\{MCon}&=\sum_{t=1}^{T}\dfrac{W_t\times{t(t+1)}}{(1+y)^2}=\sum_{t=1}^{T}t(1+t)\times{\dfrac{\dfrac{C_t}{(1+y)^t}}{P}}\times{\dfrac{1}{(1+y)^2}}\\\text{经过对债券}&\text{价格公式进行泰勒展开，变形得到由修正久期与凸性构成的}{\Delta{P}/{P}}\text{公式}\\\dfrac{\Delta{P}}{P}&=-D_{m}\Delta{y}+\frac{1}{2}Con(\Delta{y})^2\end{align}</script><div class="note info flat"><p><a href="https://zhuanlan.zhihu.com/p/47022333?utm_id=0">公式推导及结论</a></p>
-<ul>
-<li><p>张亦春、郑振龙的《金融市场学》认为，现在的久期概念是利率敏感性资产价值变动的百分比对利率变动的一阶敏感性，即$D_{m}=-\frac{dP/P}{dy}$ 。Macaulay久期不是久期，只是久期计算公式中的一部分。<strong>修正久期才真正考察了债券价值的利率风险</strong>。</p>
-</li>
-<li><p>蒋崇辉、马永开指出，修正久期不能简单理解为对Macaulay久期的“修正”，<strong>修正久期的本质是债券价格相对于市场基准利率变化的敏感性。</strong></p>
-</li>
-<li><p>张宗新的《投资学》同样提到<strong>久期最初表示平均还款期限，但实际运用中久期表示的是债券价格的波动性</strong>。</p>
-</li>
-<li><p><strong>Change in price=Duration effect+Convexity effect</strong></p>
-</li>
-</ul>
-</div>
-<h2 id="有效久期"><a href="#有效久期" class="headerlink" title="有效久期"></a><strong>有效久期</strong></h2><p>有效久期不需要考虑各期现金流的变化情况，不包含利率变化导致现金流发生变化的具体时间，而只考虑利率一定变化下的价格总体情况。因此，有效久期能够较准确地衡量具有隐含期权性质的金融工具的利率风险。对于没有隐含期权的金融工具，有效久期与修正久期是相等的。</p>
-<script type="math/tex; mode=display">D_{eff}=-\dfrac{\Delta{P}/P}{\Delta{y}}=\dfrac{P_--P_+}{P_0\times{2\Delta{y}}}=\dfrac{P_--P_+}{P_0\times(y_A-y_B)}</script><h2 id="有效凸性："><a href="#有效凸性：" class="headerlink" title="有效凸性："></a>有效凸性：</h2><script type="math/tex; mode=display">C_{eff}=\dfrac{D_--D_+}{\Delta{y}}=\dfrac{P_-+P_+-2P_0}{P_0\Delta{y^2}}</script><h2 id="基于有效久期和凸性的对冲："><a href="#基于有效久期和凸性的对冲：" class="headerlink" title="基于有效久期和凸性的对冲："></a>基于有效久期和凸性的对冲：</h2><p>$P=\dfrac{VD_v}{D_p}$</p>
-<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
-<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
-<h1 id="到-即-期收益率"><a href="#到-即-期收益率" class="headerlink" title="到(即)期收益率"></a>到(即)期收益率</h1><h2 id="中债估值中心-收益率曲线"><a href="#中债估值中心-收益率曲线" class="headerlink" title="中债估值中心-收益率曲线"></a><a href="https://yield.chinabond.com.cn/cbweb-mn/yield_main?locale=zh_CN">中债估值中心-收益率曲线</a></h2><ul>
-<li><strong>即期收益率（Spot rate）：</strong>无息债到期收益率</li>
-</ul>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8D%B3%E6%9C%9F%E6%94%B6%E7%9B%8A%E7%8E%87.png" alt="即期收益率"></p>
-<ul>
-<li><strong>到期收益率：</strong>持有至到期收益率</li>
-</ul>
-<h1 id="经济周期四阶段及经济指标"><a href="#经济周期四阶段及经济指标" class="headerlink" title="经济周期四阶段及经济指标"></a>经济周期四阶段及经济指标</h1><ul>
-<li><strong>考虑因素：</strong>GDP、利率、就业率、CPI、工业企业-产成品存货、工业企业-营业收入、PPI、PMI</li>
-<li><strong>产成品存货：</strong>指企业报告期末已经加工生产并完成全部生产过程，可以对外销售的制成产品。<font color=red>每月27号公布上月数据。</font></li>
-<li><strong>PMI：</strong>制造业采购经理调查指标体系包括生产、新订单、新出口订单、在手订单、产成品库存、采购量、进口、主要原材料购进价格、出厂价格、原材料库存、从业人员、供应商配送时间、生产经营活动预期等13个分类指数。制造业PMI是由5个扩散指数（分类指数）加权计算而成。5个分类指数及其权数是依据其对经济的先行影响程度确定的。具体包括：新订单指数，权数为30%；生产指数，权数为25%；从业人员指数，权数为20%；供应商配送时间指数，权数为15%；原材料库存指数，权数为10%。<font color =red>更新规律为月频。每月月末发布该指标当月数据。</font></li>
-<li><strong>PPI：</strong>反映工业企业产品第一次出售时的出厂价格的变化趋势和变动幅度；工业生产者出厂价格统计调查涵盖1638个基本分类的20000多种工业产品的价格。工业生产者出厂价格（PPI）采集不含增值税的价格，而购进价格（PPIRM）采集含税的价格。<font color =red>国家统计局口径，每月9-16日上午9:30发布新闻</font>，会在月底根据和国家统计局合作的内部资料进行精度上的调整。</li>
-<li><strong>CPI：</strong>价格指数是反映一定时期内居民家庭所购买的生活消费品价格和服务项目价格变动趋势和程度的相对数。通过该指数可以观察和分析消费品的零售价格和服务项目价格变动对居民收入和消费支出的影响。<font color =red>国家统计局口径，每月9-16日上午9:30发布新闻</font>，会在月底根据和国家统计局合作的内部资料进行精度上的调整。</li>
-<li><strong>营业收入：</strong>营业收入指企业经营主要业务和其他业务所确认的收入总额。<font colore =red>每月27号公布上月值。</font></li>
-<li><strong>城镇调查失业率：</strong>根据国家劳动力调查推算的城镇失业人口占城镇就业人口与失业人口之和的百分比。</li>
-<li><strong>周期四阶段：</strong>繁荣、衰退、萧条、复苏</li>
-<li><strong>阶段与库存表现：</strong>繁荣期-主动补库存、衰退-被动补库存、萧条-主动去库存、复苏-被动去库存。<font color =red>即库存变动滞后于需求变动。</font></li>
-<li><strong>阶段与信贷周期：</strong>繁荣-利率低-就业高-消费者信心强-通膨；到达顶点后衰退，反之。</li>
-<li>Consumer price index (CPI) measures the changes in the price of goods and services paid by consumers.</li>
-<li>The Producer Price Index (PPI) measures the average change over time in the prices domestic producers receive for their output. It is a measure of <a href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> at the wholesale level that is compiled from thousands of indexes measuring producer prices by industry and product category. <ul>
-<li>工业品出厂价格由生产成本、利润和税金三部分组成，它是工业产品进入流通领域的最初价格。</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E6%B5%8E%E5%91%A8%E6%9C%9F%E5%9B%9B%E9%98%B6%E6%AE%B5.jpg" alt="经济周期四阶段" style="zoom: 67%;" /></p>
+    <title>资金周报</title>
+    <url>/post/44421/</url>
+    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
+<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png" alt="A001"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png" alt="A002"></p>
+<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
+<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
+<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
+<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
+<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
 ]]></content>
       <categories>
-        <category>经济学杂货</category>
+        <category>资金周报</category>
       </categories>
       <tags>
-        <tag>经济学理论</tag>
-        <tag>久期-凸性</tag>
+        <tag>本币交易</tag>
       </tags>
   </entry>
   <entry>
@@ -443,23 +383,88 @@
       </tags>
   </entry>
   <entry>
-    <title>资金周报</title>
-    <url>/post/44421/</url>
-    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
-<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png" alt="A001"></p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png" alt="A002"></p>
-<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
-<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
-<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
-<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
-<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
+    <title>理论杂货</title>
+    <url>/post/1/</url>
+    <content><![CDATA[<h1 id="债券的久期和凸性"><a href="#债券的久期和凸性" class="headerlink" title="债券的久期和凸性"></a>债券的久期和凸性</h1><h2 id="麦考利久期-Macaulay-duration-："><a href="#麦考利久期-Macaulay-duration-：" class="headerlink" title="麦考利久期(Macaulay duration)："></a><strong>麦考利久期(Macaulay duration)：</strong></h2><p>每次支付金额的现值占当前债券价格的比率作为权重，计算平均到期时间。<br>对于零息债券，其久期等于到期期限</p>
+<script type="math/tex; mode=display">\begin{align}D_{mac}&=\dfrac{\sum_{t=1}^{T}\dfrac{C_{t}}{(1+y)^t}\times{t}}{P}\\{D_{mac}}&=\sum_{t=1}^{T}t\times{W_t}\end{align}</script><h2 id="修正久期-Modified-Duration-："><a href="#修正久期-Modified-Duration-：" class="headerlink" title="修正久期(Modified Duration)："></a><strong>修正久期(Modified Duration)：</strong></h2><ul>
+<li><p>单位利率变动，债券价格变动的<font color =red>百分比</font>，度量价格对于利率变动的敏感性。</p>
+</li>
+<li><p>久期和修正久期是一个近似值，收益率变化幅度小时，久期和修正久期近似效果较好；当收益率变化幅度越大时，久期和修正久期的近似效果差。</p>
+<script type="math/tex; mode=display">{MD/D_m}=\dfrac{\Delta{P}/{P}}{\Delta{y}}=\dfrac{D_{mac}}{1+y/m}</script></li>
+<li><p>修正久期越大，利率变动对债券价格的影响程度就越大。</p>
+</li>
+</ul>
+<div class="note info flat"><script type="math/tex; mode=display">\begin{align}&\text{原式：}P=\sum\limits_{i=1}^{n}\dfrac{C}{(1+{YTM})^{i}}+\dfrac{F}{(1+YTM)^n}\\&\text{求导：}\textcolor{red}{\dfrac{\dfrac{dP}{dYTM}}{P}}=-\dfrac{1}{1+YTM}\times\textcolor{blue}{\dfrac{\dfrac{nF}{(1+YTM)^n}+\sum_{i=1}^{n}\dfrac{iC}{(1+YTM)^i}}{P}}\\&\text{或零息债券：}P=\frac{Ct}{(1+y)^t}\\&\text{求导：}dP=-\dfrac{C_t\cdot{t}}{(1+y)^{t+1}}d(y)=-\dfrac{P\cdot{t}}{1+y}d(y)\\&\text{变形：}\dfrac{\Delta{P}}{P}=-\dfrac{t}{1+y}d(y)=-\dfrac{D_{mac}}{1+y}\times{\Delta{y}}=-D_m\times{\Delta{y}}\quad{(5)}\end{align}</script></div>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B8%8D%E5%90%8CYTM%E5%80%BA%E5%88%B8%E7%9A%84%E4%B9%85%E6%9C%9F.jpg" alt="不同YTM债券的久期" style="zoom:50%;" /><sup><a href ="https://finance.eastmoney.com/a/202208292493323044.html">[1]</a></sup></p>
+<h2 id="美元久期-Dollar-Duration-："><a href="#美元久期-Dollar-Duration-：" class="headerlink" title="美元久期(Dollar Duration)："></a><strong>美元久期(Dollar Duration)：</strong></h2><ul>
+<li>美元久期是指利率变动（或者说单位利率变动）导致的债券价值变动的金额，(<script type="math/tex">-P\times{D_m}=D_{dollar}</script>)即$D_m$价格变动百分比乘以价格-得到变动金额，即价格-收益率曲线-切线斜率。</li>
+<li><p>Price value of basis point（PVBP-基点价值）：利率变动一个基点时，债券价格变动金额。</p>
+<ul>
+<li>记为：PV01(present value of 1bp) or DV01(dollar value of 1bp)</li>
+</ul>
+</li>
+<li><p><a href="https://zhuanlan.zhihu.com/p/487786099">公式推导</a></p>
+</li>
+</ul>
+<p>根据式(5)可得：<script type="math/tex">\begin{align}&\text{原式：}\dfrac{dP}{P\times{dy}}=-\dfrac{1}{1+y}D_{mac}=-D_m\\&\text{变形：}\dfrac{dP}{dy}=-\dfrac{P}{1+y}D_{mac}=-P\times{D_m}=D_{dollar}\\&\text{另：}\quad{}dP=-D_{dollar}\times{dr}\\&\text{DV01=}D_{dollar}\times{0.01\%}=D_m\times{P}\times{0.01\%}\end{align}</script></p>
+<ul>
+<li>DV01对冲：<script type="math/tex">\text{对冲比率}=\dfrac{DV01^A}{DV01^B}</script></li>
+</ul>
+<h2 id="凸性-convexity-："><a href="#凸性-convexity-：" class="headerlink" title="凸性(convexity)："></a>凸性(convexity)：</h2><p>凸性是对债券价格利率敏感性的二阶估计，是对债券久期利率敏感性的测量。凸性（ Convexity ）是收益率变化 1 %所引起的久期的变化。凸性越大,债券价格曲线弯曲程度越大,用修正久期度量债券的利率风险所产生的误差越大。</p>
+<p>在价格(y)-收益率(x)曲线中，债券价格随利率的变化关系是非线性的，凸向原点的。</p>
+<script type="math/tex; mode=display">\begin{align}{Con}&=\sum_{t=1}^{T}(W_t\times{t(t+1))}\\{MCon}&=\sum_{t=1}^{T}\dfrac{W_t\times{t(t+1)}}{(1+y)^2}=\sum_{t=1}^{T}t(1+t)\times{\dfrac{\dfrac{C_t}{(1+y)^t}}{P}}\times{\dfrac{1}{(1+y)^2}}\\\text{经过对债券}&\text{价格公式进行泰勒展开，变形得到由修正久期与凸性构成的}{\Delta{P}/{P}}\text{公式}\\\dfrac{\Delta{P}}{P}&=-D_{m}\Delta{y}+\frac{1}{2}Con(\Delta{y})^2\end{align}</script><div class="note info flat"><p><a href="https://zhuanlan.zhihu.com/p/47022333?utm_id=0">公式推导及结论</a></p>
+<ul>
+<li><p>张亦春、郑振龙的《金融市场学》认为，现在的久期概念是利率敏感性资产价值变动的百分比对利率变动的一阶敏感性，即$D_{m}=-\frac{dP/P}{dy}$ 。Macaulay久期不是久期，只是久期计算公式中的一部分。<strong>修正久期才真正考察了债券价值的利率风险</strong>。</p>
+</li>
+<li><p>蒋崇辉、马永开指出，修正久期不能简单理解为对Macaulay久期的“修正”，<strong>修正久期的本质是债券价格相对于市场基准利率变化的敏感性。</strong></p>
+</li>
+<li><p>张宗新的《投资学》同样提到<strong>久期最初表示平均还款期限，但实际运用中久期表示的是债券价格的波动性</strong>。</p>
+</li>
+<li><p><strong>Change in price=Duration effect+Convexity effect</strong></p>
+</li>
+</ul>
+</div>
+<h2 id="有效久期"><a href="#有效久期" class="headerlink" title="有效久期"></a><strong>有效久期</strong></h2><p>有效久期不需要考虑各期现金流的变化情况，不包含利率变化导致现金流发生变化的具体时间，而只考虑利率一定变化下的价格总体情况。因此，有效久期能够较准确地衡量具有隐含期权性质的金融工具的利率风险。对于没有隐含期权的金融工具，有效久期与修正久期是相等的。</p>
+<script type="math/tex; mode=display">D_{eff}=-\dfrac{\Delta{P}/P}{\Delta{y}}=\dfrac{P_--P_+}{P_0\times{2\Delta{y}}}=\dfrac{P_--P_+}{P_0\times(y_A-y_B)}</script><h2 id="有效凸性："><a href="#有效凸性：" class="headerlink" title="有效凸性："></a>有效凸性：</h2><script type="math/tex; mode=display">C_{eff}=\dfrac{D_--D_+}{\Delta{y}}=\dfrac{P_-+P_+-2P_0}{P_0\Delta{y^2}}</script><h2 id="基于有效久期和凸性的对冲："><a href="#基于有效久期和凸性的对冲：" class="headerlink" title="基于有效久期和凸性的对冲："></a>基于有效久期和凸性的对冲：</h2><p>$P=\dfrac{VD_v}{D_p}$</p>
+<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
+<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
+<h1 id="到-即-期收益率"><a href="#到-即-期收益率" class="headerlink" title="到(即)期收益率"></a>到(即)期收益率</h1><h2 id="中债估值中心-收益率曲线"><a href="#中债估值中心-收益率曲线" class="headerlink" title="中债估值中心-收益率曲线"></a><a href="https://yield.chinabond.com.cn/cbweb-mn/yield_main?locale=zh_CN">中债估值中心-收益率曲线</a></h2><ul>
+<li><strong>即期收益率（Spot rate）：</strong>无息债到期收益率</li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8D%B3%E6%9C%9F%E6%94%B6%E7%9B%8A%E7%8E%87.png" alt="即期收益率"></p>
+<ul>
+<li><strong>到期收益率：</strong>持有至到期收益率</li>
+</ul>
+<h1 id="经济周期四阶段及经济指标"><a href="#经济周期四阶段及经济指标" class="headerlink" title="经济周期四阶段及经济指标"></a>经济周期四阶段及经济指标</h1><ul>
+<li><strong>考虑因素：</strong>GDP、利率、就业率、CPI、工业企业-产成品存货、工业企业-营业收入、PPI、PMI</li>
+<li><strong>产成品存货：</strong>指企业报告期末已经加工生产并完成全部生产过程，可以对外销售的制成产品。<font color=red>每月27号公布上月数据。</font></li>
+<li><strong>PMI：</strong>制造业采购经理调查指标体系包括生产、新订单、新出口订单、在手订单、产成品库存、采购量、进口、主要原材料购进价格、出厂价格、原材料库存、从业人员、供应商配送时间、生产经营活动预期等13个分类指数。制造业PMI是由5个扩散指数（分类指数）加权计算而成。5个分类指数及其权数是依据其对经济的先行影响程度确定的。具体包括：新订单指数，权数为30%；生产指数，权数为25%；从业人员指数，权数为20%；供应商配送时间指数，权数为15%；原材料库存指数，权数为10%。<font color =red>更新规律为月频。每月月末发布该指标当月数据。</font></li>
+<li><strong>PPI：</strong>反映工业企业产品第一次出售时的出厂价格的变化趋势和变动幅度；工业生产者出厂价格统计调查涵盖1638个基本分类的20000多种工业产品的价格。工业生产者出厂价格（PPI）采集不含增值税的价格，而购进价格（PPIRM）采集含税的价格。<font color =red>国家统计局口径，每月9-16日上午9:30发布新闻</font>，会在月底根据和国家统计局合作的内部资料进行精度上的调整。</li>
+<li><strong>CPI：</strong>价格指数是反映一定时期内居民家庭所购买的生活消费品价格和服务项目价格变动趋势和程度的相对数。通过该指数可以观察和分析消费品的零售价格和服务项目价格变动对居民收入和消费支出的影响。<font color =red>国家统计局口径，每月9-16日上午9:30发布新闻</font>，会在月底根据和国家统计局合作的内部资料进行精度上的调整。</li>
+<li><strong>营业收入：</strong>营业收入指企业经营主要业务和其他业务所确认的收入总额。<font colore =red>每月27号公布上月值。</font></li>
+<li><strong>城镇调查失业率：</strong>根据国家劳动力调查推算的城镇失业人口占城镇就业人口与失业人口之和的百分比。</li>
+<li><strong>周期四阶段：</strong>繁荣、衰退、萧条、复苏</li>
+<li><strong>阶段与库存表现：</strong>繁荣期-主动补库存、衰退-被动补库存、萧条-主动去库存、复苏-被动去库存。<font color =red>即库存变动滞后于需求变动。</font></li>
+<li><strong>阶段与信贷周期：</strong>繁荣-利率低-就业高-消费者信心强-通膨；到达顶点后衰退，反之。</li>
+<li>Consumer price index (CPI) measures the changes in the price of goods and services paid by consumers.</li>
+<li>The Producer Price Index (PPI) measures the average change over time in the prices domestic producers receive for their output. It is a measure of <a href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> at the wholesale level that is compiled from thousands of indexes measuring producer prices by industry and product category. <ul>
+<li>工业品出厂价格由生产成本、利润和税金三部分组成，它是工业产品进入流通领域的最初价格。</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E6%B5%8E%E5%91%A8%E6%9C%9F%E5%9B%9B%E9%98%B6%E6%AE%B5.jpg" alt="经济周期四阶段" style="zoom: 67%;" /></p>
+<h1 id="货币中性"><a href="#货币中性" class="headerlink" title="货币中性"></a>货币中性</h1><ul>
+<li>定义：货币中性是货币数量论一个基本命题的简述，是指货币供给的增长将导致价格水平的相同比例增长，对于实际产出水平（比如实际产出Y，实际利率）没有产生影响。</li>
+<li>货币中性，只成立于长期，在短期中是不成立的。因为在短期中，货币供给的变化是会影响到经济，故此时货币是非中性的。</li>
+</ul>
+<h1 id="博弈论-斯塔克博格（Stackelberg）双寡头模型"><a href="#博弈论-斯塔克博格（Stackelberg）双寡头模型" class="headerlink" title="博弈论-斯塔克博格（Stackelberg）双寡头模型"></a>博弈论-斯塔克博格（Stackelberg）双寡头模型</h1><p>斯塔克博格模型是一个双寡头动态模型。该模型假设有两个企业，与古诺模型类似，这两个企业的决策的选择也是产量。在这两个企业中，其中一个企业处于支配地位，先行动进行产量选择，另一个企业处于从属地位，在支配企业选择产量之后再进行选择，因此，这是一个动态博弈问题。我们再假设博弈结构的其他方面，比如策略空间、收益函数和信息结构等与古诺模型一样。因此，这个斯塔克博格博弈模型是一个完全且完美信息的动态博弈。与古诺模型的唯一区别只是两博弈方的选择现在是先后进行的，而不是同时进行的。</p>
 ]]></content>
       <categories>
-        <category>资金周报</category>
+        <category>经济学杂货</category>
       </categories>
       <tags>
-        <tag>本币交易</tag>
+        <tag>经济学理论</tag>
+        <tag>久期-凸性</tag>
       </tags>
   </entry>
 </search>
