@@ -337,6 +337,192 @@
       </tags>
   </entry>
   <entry>
+    <title>本币交易梳理02--系统功能介绍</title>
+    <url>/post/31077/</url>
+    <content><![CDATA[<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/CIBMTS%E7%95%8C%E9%9D%A2.png" alt="CIBMTS界面"></p>
+<h3 id="界面布局："><a href="#界面布局：" class="headerlink" title="界面布局："></a><strong>界面布局：</strong></h3><ul>
+<li><p><strong>一级目录：</strong><font color =red>内部管理</font>（资金账户及交易账户组设置、权限设置）、<font color =red>个人设置</font>（我的关注券）、<font color =red>交易设置</font>（首选交易账户设置、机构群组维护、限额管理、对手方管理、信息披露、报备）、<font color =red>用户统一认证</font>（修改密码、机构用户管理）</p>
+</li>
+<li><p><strong>侧边栏：</strong>我要报价<img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%88%91%E8%A6%81%E6%8A%A5%E4%BB%B7.png" style="zoom:10%;" />、单券-合约查看记录、计算工具、消息盒子<img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B6%88%E6%81%AF%E7%9B%92%E5%AD%90.png" style="zoom:10%;" />iDeal</p>
+</li>
+<li><p><strong>快捷键：</strong>iDeal-F11，我要报价-F8</p>
+</li>
+<li><strong>界面：</strong><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E9%A6%96%E9%A1%B5.png" style="zoom:10%;" /></li>
+</ul>
+<h1 id="一、用户管理"><a href="#一、用户管理" class="headerlink" title="一、用户管理"></a>一、用户管理</h1><h2 id="登录"><a href="#登录" class="headerlink" title="登录"></a>登录</h2><ul>
+<li>银行间市场开户系统</li>
+<li>中国银行间市场交易平台：CIBMTS<ul>
+<li>证书、二维码、人脸识别</li>
+<li>专线网、互联网</li>
+</ul>
+</li>
+<li>iDeal：即时通讯报价<h2 id="用户统一认证"><a href="#用户统一认证" class="headerlink" title="用户统一认证"></a><font color =red>用户统一认证</font></h2></li>
+</ul>
+<h3 id="机构用户管理"><a href="#机构用户管理" class="headerlink" title="机构用户管理"></a>机构用户管理</h3><ul>
+<li>新增、锁定/解锁、重置密码、禁用/启用、取消实名认证/取消身份确认等<ul>
+<li>系统管理员用户解锁和密码重置由交易中心场务完成</li>
+</ul>
+</li>
+</ul>
+<h3 id="实名认证-身份确认"><a href="#实名认证-身份确认" class="headerlink" title="实名认证/身份确认"></a>实名认证/身份确认</h3><ul>
+<li>系统管理员无需实名认证/身份确认</li>
+<li>用户开展交易进行实名认证，无交易员资格证书的用户必须进行身份确认，否则无法登录iDeal</li>
+<li>实名认证必须填写交易员证书信息</li>
+</ul>
+<h2 id="内部管理"><a href="#内部管理" class="headerlink" title="内部管理"></a><font color =red>内部管理</font></h2><h3 id="用户权限设置"><a href="#用户权限设置" class="headerlink" title="用户权限设置"></a>用户权限设置</h3><ul>
+<li>交易员身份设置：自营账户、资产管理、代理交易、账户管理、FT账户</li>
+<li>设置机构权限：略</li>
+</ul>
+<h3 id="多账户管理：概览"><a href="#多账户管理：概览" class="headerlink" title="多账户管理：概览"></a>多账户管理：概览</h3><ul>
+<li>交易账户即产品</li>
+<li>交易账户组是对交易员及交易账户进行归类</li>
+<li>交易账户组只能包含同类交易员或者交易账户</li>
+<li><p>交易账户只能对应一个同类交易账户组，交易员可对应多个同类交易账户组</p>
+</li>
+<li><font color =red>**交易账户组类型：资产管理、代理交易、账户管理、FT账户**</font>
+
+</li>
+</ul>
+<h3 id="账户设置"><a href="#账户设置" class="headerlink" title="账户设置"></a>账户设置</h3><ul>
+<li><p>托管账户设置：<font color =red>开户系统</font>设置托管账户—中债登及上清所账户各一个</p>
+<ul>
+<li>新建和修改托管账户由交易中心审核通过后生效</li>
+</ul>
+</li>
+<li><p>资金账户设置：一家机构可设置多个资金账户；<font color =red>需设置业务类型首选：如拆借默认、衍生品首选、X-SWAP、期权费首选、预发行首选</font></p>
+</li>
+<li>关联账户：<font color =red>两个托管账户需设置DVP首选资金账户</font></li>
+</ul>
+<h3 id="互联网交易设置"><a href="#互联网交易设置" class="headerlink" title="互联网交易设置"></a>互联网交易设置</h3><ul>
+<li>系统管理员设置是否使用互联网接入</li>
+</ul>
+<h2 id="交易设置"><a href="#交易设置" class="headerlink" title="交易设置"></a><font color =red>交易设置</font></h2><h3 id="限额管理"><a href="#限额管理" class="headerlink" title="限额管理"></a>限额管理</h3><ul>
+<li>人民银行限额由交易中心场务设置</li>
+<li>基金净值提交</li>
+<li>交易员限额</li>
+<li>单笔交易限额</li>
+</ul>
+<p><strong>交易员限额：</strong>累计限额、每日限额</p>
+<p><strong>对手方管理：</strong>对手方限额、现券黑名单、质押RFQ白名单</p>
+<h4 id="对手方限额："><a href="#对手方限额：" class="headerlink" title="对手方限额："></a><strong>对手方限额：</strong></h4><ul>
+<li>信用拆借：<font color =red>累计限额</font>、拆入拆出限额（亿）、净限额区间</li>
+<li><p>质押式回购：本方方向（正逆回购）、黑白名单设置</p>
+<ul>
+<li>正回购：设置黑/白名单<img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E6%AD%A3%E5%9B%9E%E8%B4%AD%E9%99%90%E9%A2%9D.png" alt="1705564814782" style="zoom:15%;" /></li>
+<li>逆回购：设置对手方及其产品是否共享额度、关系授信（打勾即融出额度无限大）、额度授信（总额度大于X-Repo额度）<img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E9%80%86%E5%9B%9E%E8%B4%AD%E5%AF%B9%E6%89%8B%E6%96%B9%E9%99%90%E9%A2%9D%E7%95%8C%E9%9D%A2.png" style="zoom:7%;" /><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E9%80%86%E5%9B%9E%E8%B4%AD%E5%AF%B9%E6%89%8B%E6%96%B9%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png" style="zoom:20%;" />[1]</li>
+</ul>
+</li>
+<li><p>利率互换：关系授信、额度授信<font color =red>二选一</font>，<img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png" style="zoom:15%;" /></p>
+</li>
+</ul>
+<h4 id="现券黑名单："><a href="#现券黑名单：" class="headerlink" title="现券黑名单："></a>现券黑名单：</h4><ul>
+<li>拉黑对手方后收不到对手方的报价</li>
+</ul>
+<h4 id="质押RFQ白名单："><a href="#质押RFQ白名单：" class="headerlink" title="质押RFQ白名单："></a><strong>质押RFQ白名单：</strong></h4><ul>
+<li><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8FRFQ%E9%99%90%E9%A2%9D.png" style="zoom:15%;" />；申请加入白名单：我要报价-请求-交易对手列表-可申请对手方</li>
+</ul>
+<h1 id="二、报价行情"><a href="#二、报价行情" class="headerlink" title="二、报价行情"></a>二、报价行情</h1><h4 id="债券市场："><a href="#债券市场：" class="headerlink" title="债券市场："></a><strong>债券市场：</strong></h4><ul>
+<li><p>报价行情：综合报价、活跃券报价、优选报价、热点关注券、 X-bond报价、债券借贷报价、债券路演、 X-Auction报价行情</p>
+</li>
+<li><p>成交行情：综合成交、活跃券成交、 X-Bond成交、债券借贷成交行情、预发行成交行情</p>
+</li>
+</ul>
+<h4 id="货币市场："><a href="#货币市场：" class="headerlink" title="货币市场："></a><strong>货币市场：</strong></h4><ul>
+<li>报价行情：报价行情、存单路演</li>
+<li>成交行情：实时、历史行情包括质押式回购、X-Repo、买断式回购、信用拆借  </li>
+</ul>
+<h4 id="衍生品市场-X-Swap："><a href="#衍生品市场-X-Swap：" class="headerlink" title="衍生品市场 X-Swap："></a><strong>衍生品市场 X-Swap：</strong></h4><ul>
+<li>报价行情：利率互换聚合行情、利率互换实时承接、普通利率互换、标准利率互换、标准债券远期、CDS双向报价</li>
+<li>成交行情：利率互换成交、标准利率互换成交、标准债券远期成交、债券远期成交、信用风险缓释凭证成交、信用违约互换成交、利率期权成交行情  </li>
+</ul>
+<h4 id="单券-合约行情"><a href="#单券-合约行情" class="headerlink" title="单券/合约行情"></a>单券/合约行情</h4><h2 id="现券"><a href="#现券" class="headerlink" title="现券"></a>现券</h2><h3 id="综合报价行情"><a href="#综合报价行情" class="headerlink" title="综合报价行情"></a>综合报价行情<img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%BC%E5%90%88%E6%8A%A5%E4%BB%B7%E8%A1%8C%E6%83%85.png" style="zoom:10%;" /></h3><ul>
+<li>各种报价方式整合后的<font color =red>最优报价（含做市、 X-Bond和指示性报价）</font>，意向报价和经纪报价</li>
+<li>不可直接点击成交，可点击代码或者名称进入单券/合约页面 或通过侧边栏【单券-合约查看记录】打开<ul>
+<li>【单券页面】展现做市点击、X-Bond、指示性报价、意向报价、经纪报价的报价信息</li>
+</ul>
+</li>
+</ul>
+<h3 id="活跃券报价行情"><a href="#活跃券报价行情" class="headerlink" title="活跃券报价行情"></a>活跃券报价行情</h3><ul>
+<li>活跃券由系统根据近期最活跃（交易量大）的债券计算得出  </li>
+<li>点击深度可打开点击成交窗口，展示<font color =red>活跃券的最优报价（做市报价、X-Bond）</font>，深度报价5档（做市机构10档），可选中多笔可进行扫单<img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B4%BB%E8%B7%83%E5%88%B8%E6%8A%A5%E4%BB%B7%E6%88%90%E4%BA%A4.png" style="zoom:8%;" />。</li>
+<li>在【我要报价】提交报价后，点击活跃券报价的【深度】，从而进行扫单操作。</li>
+<li>不可直接点击成交，可点击代码或者名称进入单券/合约页面</li>
+</ul>
+<h3 id="热点关注券报价行情"><a href="#热点关注券报价行情" class="headerlink" title="热点关注券报价行情"></a>热点关注券报价行情</h3><ul>
+<li>仅展示收藏后的债券行情，行情页面不可直接点击成交，点击债券名称/代码可打开单券/合约行情页面</li>
+<li>展示买、卖两个方向的最优报价、最优价格间的价差及最新成交价<img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%83%AD%E7%82%B9%E5%85%B3%E6%B3%A8%E5%88%B8%E8%A1%8C%E6%83%85.png" style="zoom:10%;" /></li>
+</ul>
+<h3 id="X-Bond报价行情"><a href="#X-Bond报价行情" class="headerlink" title="X-Bond报价行情"></a>X-Bond报价行情</h3><ul>
+<li>点击成交、一键冻结。分连续报价和集中报价两部分展示，连续报价页面可直接点击成交，每只债券展示的行情深度为5档（做市机构为10档）  </li>
+</ul>
+<h3 id="X-Lending报价行情"><a href="#X-Lending报价行情" class="headerlink" title="X-Lending报价行情"></a>X-Lending报价行情</h3><ul>
+<li>点击成交、意向报价（具名）—可转对话报价、意向报价（匿名）—通过iDeal进行商谈</li>
+</ul>
+<h2 id="货币市场"><a href="#货币市场" class="headerlink" title="货币市场"></a>货币市场</h2><h3 id="货币交易极速通"><a href="#货币交易极速通" class="headerlink" title="货币交易极速通"></a>货币交易极速通</h3><ul>
+<li>报价行情：X-Repo双边、资金意向版</li>
+<li>实时行情：当日成交行情：质押式回购、买断式回购、X-Repo、信用拆借；<font color =red>按照DR、R进行分类</font></li>
+</ul>
+<h2 id="衍生品市场"><a href="#衍生品市场" class="headerlink" title="衍生品市场"></a>衍生品市场</h2><ul>
+<li>成交行情：逐笔成交、成交汇总  </li>
+</ul>
+<h3 id="利率互换X-Swap"><a href="#利率互换X-Swap" class="headerlink" title="利率互换X-Swap"></a>利率互换X-Swap</h3><ul>
+<li>聚合行情：自营账户支持实时承接+非实时承接行情聚合；若无实时承接权限，仅能查看非实时承接行情  </li>
+<li>实施承接：上清所作为对手方实时接单，同时纳入利率互换的集中清算。<font color =red>需与上清所签订相关协议。</font></li>
+</ul>
+<h2 id="单券-合约行情-1"><a href="#单券-合约行情-1" class="headerlink" title="单券/合约行情"></a>单券/合约行情</h2><ul>
+<li>单券行情：提供当日行情、债券信息/估值、历史成交行情、相关券推荐<ul>
+<li>报价行情：支持做市、 X-Bond、指示性、意向报价、经纪报价。非做市机构深度为5档，做市机构10档  </li>
+</ul>
+</li>
+<li>单合约行情：提供当日行情、合约债券信息、历史成交行情  <ul>
+<li>报价行情：实时承接、非实时承接报价，档位为5档。 <img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8D%95%E5%88%B8%2F%E5%90%88%E7%BA%A6%E8%A1%8C%E6%83%85.png" style="zoom:10%;" /> </li>
+</ul>
+</li>
+</ul>
+<h1 id="三、交易机制"><a href="#三、交易机制" class="headerlink" title="三、交易机制"></a>三、交易机制</h1><h2 id="报价方式"><a href="#报价方式" class="headerlink" title="报价方式"></a>报价方式</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%8A%A5%E4%BB%B7%E6%96%B9%E5%BC%8F%E6%B1%87%E6%80%BB.png" alt="报价方式汇总"></p>
+<h2 id="协商驱动（询价-‘格式化报价’）"><a href="#协商驱动（询价-‘格式化报价’）" class="headerlink" title="协商驱动（询价|‘格式化报价’）"></a>协商驱动（询价|‘格式化报价’）</h2><ul>
+<li>意向报价、对话报价。<font color =red>债券市场的对话报价不是格式化交谈，货币市场的对话报价是格式化交谈</font></li>
+<li>目前iDeal支持【现券买卖】、【质押式回购】、【利率互换】</li>
+<li>方式一：发起iDeal聊天（商定要素：期限、资金量、利率|‘非必填’）$\longrightarrow$ 聊天窗口发对话报价意向$\longrightarrow$转对话报价$\longrightarrow$ 格式化交谈$\longrightarrow$成交确认（需补充完其他要素，如：本方交易账户、对手方、利率、质押券及其券面总额、折算总额（折算比例可取CFETS标准折算率，也可自行商谈）、期限）</li>
+<li>方式二：直接发起对话报价$\longrightarrow$格式化交谈$\longrightarrow$成交确认</li>
+<li>对手方通过消息盒子处理收到的对话报价请求。对话交谈轮次不超过5轮。通过功能列表—我的交易查看</li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/iDeal%E5%8F%91%E8%B5%B7%E8%81%8A%E5%A4%A9.png" alt="iDeal发起聊天" style="zoom:50%; float: left"/><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/iDeal%E8%A6%81%E7%B4%A0%E5%A1%AB%E5%86%99.png" alt="iDeal要素填写" style = "float: center"  /><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AF%B9%E8%AF%9D%E6%8A%A5%E4%BB%B7%E5%8F%91%E8%B5%B7%E7%95%8C%E9%9D%A2.png" alt="对话报价发起界面" style="zoom: 33%;" /><img src="D:\WeChat Files\kingdoms2010\FileStorage\Temp\1705627898017.png" alt="对手方处理报价申请" style="zoom: 33%; style=right" /></p>
+<h2 id="报价驱动（由做市-资金商报价）"><a href="#报价驱动（由做市-资金商报价）" class="headerlink" title="报价驱动（由做市/资金商报价）"></a>报价驱动（由做市/资金商报价）</h2><ul>
+<li><p>债券市场—做市商；货币市场—资金商</p>
+</li>
+<li><p>做市报价：略</p>
+</li>
+<li>指示性报价：解决做市报价中点击即成交带来的压力。不能直接报价，通过转请求报价进行成交</li>
+<li>请求报价：需求方请求做市方报价。</li>
+</ul>
+<h2 id="订单驱动（即匿名点击）"><a href="#订单驱动（即匿名点击）" class="headerlink" title="订单驱动（即匿名点击）"></a>订单驱动（即匿名点击）</h2><ul>
+<li>连续报价</li>
+<li>集中报价</li>
+</ul>
+<p>练习：</p>
+<ol>
+<li><p>CIBMTS的两级用户：系统管理员、普通用户</p>
+</li>
+<li><p>本币新平台提供的限额管理功能在哪里设置？哪些市场必须要设置对手方限额才能交易？</p>
+<p>限额管理在新本币的管理设置-交易设置下；信用拆借、利率互换、利率互换期权、利率上限/下限期权、信用违约互换、远期利率协议  </p>
+</li>
+<li><p>做信用拆借交易前必须做哪些设置？做现券买卖交易前必须做哪些设置？</p>
+<p>做信用拆借前必须要进行对手方限额和交易员限额设置以及资金账户设置；做现券买卖交易前必须要进行资金和托管账户设置</p>
+</li>
+<li></li>
+</ol>
+]]></content>
+      <categories>
+        <category>本币交易</category>
+        <category>系统功能</category>
+      </categories>
+      <tags>
+        <tag>本币交易</tag>
+        <tag>系统功能</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>本币交易梳理03--利率市场化改革</title>
     <url>/post/62746/</url>
     <content><![CDATA[<h1 id="1-概述"><a href="#1-概述" class="headerlink" title="1 概述"></a>1 概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
@@ -392,26 +578,6 @@
       <tags>
         <tag>本币交易</tag>
         <tag>利率市场化改革</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资金周报</title>
-    <url>/post/44421/</url>
-    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
-<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png" alt="A001"></p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png" alt="A002"></p>
-<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
-<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
-<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
-<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
-<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
-]]></content>
-      <categories>
-        <category>资金周报</category>
-      </categories>
-      <tags>
-        <tag>本币交易</tag>
       </tags>
   </entry>
   <entry>
@@ -497,6 +663,26 @@
       <tags>
         <tag>经济学理论</tag>
         <tag>久期-凸性</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资金周报</title>
+    <url>/post/44421/</url>
+    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
+<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png" alt="A001"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png" alt="A002"></p>
+<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
+<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
+<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
+<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
+<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
+]]></content>
+      <categories>
+        <category>资金周报</category>
+      </categories>
+      <tags>
+        <tag>本币交易</tag>
       </tags>
   </entry>
 </search>
