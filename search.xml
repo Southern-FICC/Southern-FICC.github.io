@@ -370,72 +370,6 @@
       </tags>
   </entry>
   <entry>
-    <title>本币交易梳理03--利率市场化改革</title>
-    <url>/post/62746/</url>
-    <content><![CDATA[<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
-<li>法律-行政规定-团体规则-职业操守</li>
-<li><strong>法律（全国人大常委会）：</strong> 中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
-<li><strong>行政法规（国务院）：</strong> 企业债券管理条例、取消行政许可的国务院令</li>
-<li><strong>部门规章、规范性文件（国务院部委）：</strong> 人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
-<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong> 交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
-</ul>
-<h2 id="1-2-市场管理框架"><a href="#1-2-市场管理框架" class="headerlink" title="1.2 市场管理框架"></a>1.2 市场管理框架</h2><ul>
-<li><strong>中介机构及自律组织：</strong> 拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
-<li><strong>证监会、银保监会：</strong> 监管机构、主体，即<font color="#d99694">交易主体</font></li>
-<li><strong>人行：</strong> 指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
-<li><strong>人行、财政部、发改委、NAFMII：</strong> 监督<font color="#d99694">发债主体</font></li>
-<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
-
-</li>
-</ul>
-<h1 id="二、货币市场基本规则"><a href="#二、货币市场基本规则" class="headerlink" title="二、货币市场基本规则"></a>二、货币市场基本规则</h1><h2 id="2-1-同业拆借市场准入管理"><a href="#2-1-同业拆借市场准入管理" class="headerlink" title="2.1 同业拆借市场准入管理"></a>2.1 同业拆借市场准入管理</h2><ul>
-<li>金融机构通过开户系统（一站式平台）向拆借中心申请入市、退市<ul>
-<li>均在三日内完成，其中退市后两年内不再受理入市申请</li>
-</ul>
-</li>
-<li>三放松：放松准入、期限、限额管理</li>
-<li>两加强：加强<font color="#d99694">透明度管理</font>和<font color="#d99694">监督检查</font></li>
-<li>一促进：促进同业拆借市场健康发展</li>
-</ul>
-<h2 id="2-2-同业拆借市场期限管理"><a href="#2-2-同业拆借市场期限管理" class="headerlink" title="2.2 同业拆借市场期限管理"></a>2.2 同业拆借市场期限管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E6%9C%9F%E9%99%90%E7%AE%A1%E7%90%86.png" alt="同业拆借市场期限管理"><br>➢ 最长拆出期限不得超过对手方的最长拆入期限（第23条）<br>➢ 到期后不得展期（第24条）</p>
-<h2 id="2-3-同业拆借市场限额管理"><a href="#2-3-同业拆借市场限额管理" class="headerlink" title="2.3 同业拆借市场限额管理"></a>2.3 同业拆借市场限额管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E9%99%90%E9%A2%9D%E7%AE%A1%E7%90%86.png" alt="同业拆借市场限额管理"></p>
-<h2 id="2-4-同业拆借市场信息披露与监督检查"><a href="#2-4-同业拆借市场信息披露与监督检查" class="headerlink" title="2.4 同业拆借市场信息披露与监督检查"></a>2.4 同业拆借市场信息披露与监督检查</h2><ul>
-<li>信息披露管理<ul>
-<li>每年1月中旬：上年财务报表（未审计）</li>
-<li>每年四月底：经审计的年度财务报告及其他要求公布的报表、报告</li>
-<li>每年7月中旬：半年财务报表（未审计）</li>
-<li>获准进入拆借市场60日：公告基本情况、最近一次经审计的年度财务报告</li>
-<li>股权变更完成后30个工作日内：公告股权变更情况</li>
-<li>已经成为上市公司的成员可以豁免在同业拆借市场进行信息披露</li>
-</ul>
-</li>
-<li>监督检查<ul>
-<li>人行依法对同业拆借交易实施非现场监管和现场检查</li>
-</ul>
-</li>
-</ul>
-<h1 id="三、债券市场（含回购）基本规则"><a href="#三、债券市场（含回购）基本规则" class="headerlink" title="三、债券市场（含回购）基本规则"></a>三、债券市场（含回购）基本规则</h1><h2 id="3-1-准入管理"><a href="#3-1-准入管理" class="headerlink" title="3.1 准入管理"></a>3.1 准入管理</h2><ul>
-<li>境内主体：<ul>
-<li>02年备案制$\longrightarrow$ 13年人行上海总部上收分支行准入备案权限 </li>
-</ul>
-</li>
-<li>境外主体：<ul>
-<li>11年RQFII—13年QFII—15年境外央行、国际金融组织和主权财富基金可参与所有交易—16年CIBM</li>
-<li>直接入市（CIBM）、债券通（BC）</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>本币交易</category>
-        <category>利率市场化改革</category>
-      </categories>
-      <tags>
-        <tag>本币交易</tag>
-        <tag>利率市场化改革</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>本币交易梳理02--系统功能介绍</title>
     <url>/post/31077/</url>
     <content><![CDATA[<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/CIBMTS%E7%95%8C%E9%9D%A2.png" alt="CIBMTS界面"></p>
@@ -767,6 +701,72 @@
       <tags>
         <tag>本币交易</tag>
         <tag>系统功能</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本币交易梳理03--利率市场化改革</title>
+    <url>/post/62746/</url>
+    <content><![CDATA[<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
+<li>法律-行政规定-团体规则-职业操守</li>
+<li><strong>法律（全国人大常委会）：</strong> 中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
+<li><strong>行政法规（国务院）：</strong> 企业债券管理条例、取消行政许可的国务院令</li>
+<li><strong>部门规章、规范性文件（国务院部委）：</strong> 人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
+<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong> 交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
+</ul>
+<h2 id="1-2-市场管理框架"><a href="#1-2-市场管理框架" class="headerlink" title="1.2 市场管理框架"></a>1.2 市场管理框架</h2><ul>
+<li><strong>中介机构及自律组织：</strong> 拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
+<li><strong>证监会、银保监会：</strong> 监管机构、主体，即<font color="#d99694">交易主体</font></li>
+<li><strong>人行：</strong> 指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
+<li><strong>人行、财政部、发改委、NAFMII：</strong> 监督<font color="#d99694">发债主体</font></li>
+<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
+
+</li>
+</ul>
+<h1 id="二、货币市场基本规则"><a href="#二、货币市场基本规则" class="headerlink" title="二、货币市场基本规则"></a>二、货币市场基本规则</h1><h2 id="2-1-同业拆借市场准入管理"><a href="#2-1-同业拆借市场准入管理" class="headerlink" title="2.1 同业拆借市场准入管理"></a>2.1 同业拆借市场准入管理</h2><ul>
+<li>金融机构通过开户系统（一站式平台）向拆借中心申请入市、退市<ul>
+<li>均在三日内完成，其中退市后两年内不再受理入市申请</li>
+</ul>
+</li>
+<li>三放松：放松准入、期限、限额管理</li>
+<li>两加强：加强<font color="#d99694">透明度管理</font>和<font color="#d99694">监督检查</font></li>
+<li>一促进：促进同业拆借市场健康发展</li>
+</ul>
+<h2 id="2-2-同业拆借市场期限管理"><a href="#2-2-同业拆借市场期限管理" class="headerlink" title="2.2 同业拆借市场期限管理"></a>2.2 同业拆借市场期限管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E6%9C%9F%E9%99%90%E7%AE%A1%E7%90%86.png" alt="同业拆借市场期限管理"><br>➢ 最长拆出期限不得超过对手方的最长拆入期限（第23条）<br>➢ 到期后不得展期（第24条）</p>
+<h2 id="2-3-同业拆借市场限额管理"><a href="#2-3-同业拆借市场限额管理" class="headerlink" title="2.3 同业拆借市场限额管理"></a>2.3 同业拆借市场限额管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E9%99%90%E9%A2%9D%E7%AE%A1%E7%90%86.png" alt="同业拆借市场限额管理"></p>
+<h2 id="2-4-同业拆借市场信息披露与监督检查"><a href="#2-4-同业拆借市场信息披露与监督检查" class="headerlink" title="2.4 同业拆借市场信息披露与监督检查"></a>2.4 同业拆借市场信息披露与监督检查</h2><ul>
+<li>信息披露管理<ul>
+<li>每年1月中旬：上年财务报表（未审计）</li>
+<li>每年四月底：经审计的年度财务报告及其他要求公布的报表、报告</li>
+<li>每年7月中旬：半年财务报表（未审计）</li>
+<li>获准进入拆借市场60日：公告基本情况、最近一次经审计的年度财务报告</li>
+<li>股权变更完成后30个工作日内：公告股权变更情况</li>
+<li>已经成为上市公司的成员可以豁免在同业拆借市场进行信息披露</li>
+</ul>
+</li>
+<li>监督检查<ul>
+<li>人行依法对同业拆借交易实施非现场监管和现场检查</li>
+</ul>
+</li>
+</ul>
+<h1 id="三、债券市场（含回购）基本规则"><a href="#三、债券市场（含回购）基本规则" class="headerlink" title="三、债券市场（含回购）基本规则"></a>三、债券市场（含回购）基本规则</h1><h2 id="3-1-准入管理"><a href="#3-1-准入管理" class="headerlink" title="3.1 准入管理"></a>3.1 准入管理</h2><ul>
+<li>境内主体：<ul>
+<li>02年备案制$\longrightarrow$ 13年人行上海总部上收分支行准入备案权限 </li>
+</ul>
+</li>
+<li>境外主体：<ul>
+<li>11年RQFII—13年QFII—15年境外央行、国际金融组织和主权财富基金可参与所有交易—16年CIBM</li>
+<li>直接入市（CIBM）、债券通（BC）</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>本币交易</category>
+        <category>利率市场化改革</category>
+      </categories>
+      <tags>
+        <tag>本币交易</tag>
+        <tag>利率市场化改革</tag>
       </tags>
   </entry>
   <entry>
