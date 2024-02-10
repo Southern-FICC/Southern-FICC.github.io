@@ -29,8 +29,9 @@ post:
     author: 文章作者
     link: 文章链接
     copyright_notice: 版权声明
-    copyright_content: '本博客所有文章除特别声明外，均采用
-      <a href="%s" target="_blank">%s</a> 许可协议。转载请注明来自 <a href="%s" target="_blank">%s</a>！'
+    copyright_content: '转载请联系作者，并注明文章来源: <a href="https://southern-ficc.github.io" target="_blank">https://southern-ficc.github.io</a>'
+    #'本博客所有文章除特别声明外，均采用
+    # <a href="%s" target="_blank">%s</a> 许可协议。转载请注明来自 <a href="%s" target="_blank">%s</a>！'
   recommend: 相关推荐
   edit: 编辑
 

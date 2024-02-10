@@ -29,7 +29,8 @@ post:
     author: Author
     link: Link
     copyright_notice: Copyright Notice
-    copyright_content: 'All articles in this blog are licensed under <a href="%s">%s</a> unless stating additionally.'
+    copyright_content: '转载请联系作者，并注明文章来源: <a href="https://southern-ficc.github.io" target="_blank">https://southern-ficc.github.io</a>'
+    #copyright_content: 'All articles in this blog are licensed under <a href="%s">%s</a> unless stating additionally.'
   recommend: Related Articles
   edit: Edited on
 
