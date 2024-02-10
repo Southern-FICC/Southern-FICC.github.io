@@ -100,18 +100,19 @@ cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/p
   font-weight: 900;
   text-align: center;
 }
-#article-container.post-content h1>a{
+#article-container h1 {
   position: relative;
-  display: inline-block;
+  display: table;
+  margin: 0 auto 20px;
 }
 #article-container.post-content h1:after{
   content: '';
   display: block;
-  position: relative;
+  position: absolute;
   border-top: 7px double var(--h1-text-color);
   height: 3px;
-  width: 14rem;
-  max-width: 80%;
+  width: 100%;
+  /* max-width: 100%; */
   left: 50%;
   transform: translateX(-50%);
   margin-bottom: 1rem;
