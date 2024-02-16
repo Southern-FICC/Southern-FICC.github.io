@@ -1,32 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Wind指标及投资业绩评价</title>
-    <url>/post/26382/</url>
-    <content><![CDATA[<h2 id="一、Wind指标"><a href="#一、Wind指标" class="headerlink" title="一、Wind指标"></a>一、Wind指标</h2><ul>
-<li><p>地域利差：取筛选条件下每个债在X时点与国开债的利差，以余额为权进行求和。</p>
-</li>
-<li><p>地域久期：将某地区发行在时点X存续的全部债看成投资组合，取修正久期，以余额为权进行求和。</p>
-</li>
-<li>样本券选取方式：在X时点存续的城投债，剔永续债、剔abs。</li>
-<li><a href="https://www.msci.com/www/blog-posts/factors-in-focus-are-your/02933279202">[MSCI Model]</a></li>
-</ul>
-<p>历年偏离度变化 | 剩余期限分布 | 年化收益率 | 年化波动率 | 最大回撤 | 恢复天数 | 年化夏普利率 | 卡玛比率 | 月度正收益率 | 年度ALPHA | 年度择时能力 | </p>
-<ul>
-<li>风险收益分析：区间收益、最大回撤、Alpha、Beta、Sharpe、Treynor、年化波动率、信息比率、Jensen、Sortino、Calmar、Sterling</li>
-<li>拟合业绩表现</li>
-<li>业绩表现：Alpha、Beta、Sharpe、信息比率、收益标准差、跟踪误差、超额回报、年化回报、回报</li>
-</ul>
-]]></content>
-      <categories>
-        <category>投资策略</category>
-        <category>Wind指标及投资业绩评价</category>
-      </categories>
-      <tags>
-        <tag>投资策略</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CPA-会计</title>
     <url>/post/11620/</url>
     <content><![CDATA[<h3 id="02第二章-存货"><a href="#02第二章-存货" class="headerlink" title=" 02第二章 存货"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/02第二章 存货.pdf" target="_blank"><strong>02第二章 存货</strong></a></h3><h3 id="03第三章-固定资产"><a href="#03第三章-固定资产" class="headerlink" title=" 03第三章 固定资产"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/03第三章 固定资产.pdf" target="_blank"><strong>03第三章 固定资产</strong></a></h3><h3 id="04第四章-无形资产"><a href="#04第四章-无形资产" class="headerlink" title=" 04第四章 无形资产"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/04第四章 无形资产.pdf" target="_blank"><strong>04第四章 无形资产</strong></a></h3>]]></content>
@@ -36,6 +10,21 @@
       <tags>
         <tag>CPA</tag>
         <tag>会计</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python CheatSheet</title>
+    <url>/post/27831/</url>
+    <content><![CDATA[<h3 id="例1："><a href="#例1：" class="headerlink" title="例1："></a>例1：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">&#x27;β&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">&#x27;E(R)&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>, <span class="string">&#x27;基金P&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<h3 id="matplotlib、matplotlib-pyplot"><a href="#matplotlib、matplotlib-pyplot" class="headerlink" title="matplotlib、matplotlib.pyplot"></a><a href="https://matplotlib.org/">matplotlib、matplotlib.pyplot</a></h3><p><a href="https://matplotlib.org/cheatsheets/cheatsheets.pdf"><strong>CheatSheet</strong></a></p>
+<h3 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a><a href="https://pandas.pydata.org/">Pandas</a></h3><p><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
+<h3 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a><a href="https://numpy.org/"><strong>Numpy</strong></a></h3><p><a href="https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
+]]></content>
+      <categories>
+        <category>数据清理与建模</category>
+      </categories>
+      <tags>
+        <tag>Python CheatSheet</tag>
       </tags>
   </entry>
   <entry>
@@ -49,6 +38,19 @@
 <li>小企业会计准则主要适用于符合《中小企业划型标准规定》所规定的小型企业标准的企业，但以下小企业除外：a.股票或债券在市场公开交易的小企业，b.金融机构或其他具有金融性质的小企业，c.企业集体内的母公司和子公司</li>
 <li>企业会计准则主要用于上市公司，金融机构，国有企业等大中型企业</li>
 <li>我国的政府会计准则制度体系主要有：基本准则、具体准则及应用指南、会计制度、会计准则制度</li>
+<li>在持续经营（而非会计分期）的前提下，会计确认、计量和报告应该以企业持续、正常的生产经营活动为前提。</li>
+<li>会计主体确定了空间范围；会计分期确定了时间范围。</li>
+<li><strong>会计核算基础</strong>包括权责发生制和收付实现制，政府会计由预算会计和财务会计购成。预算会计实行收付实现制，财务会计实行权责发生制。</li>
+<li><strong>谨慎性：</strong>要求企业对交易或者事项进行会计确认、计量和报告应当保持应有的谨慎。<strong>不应高估资产或者收益、低估负债或者费用。</strong></li>
+<li><strong>重要性：</strong>要求企业提供的会计信息应当反映与企业财务状况、经营成果和现金流量有关的所有重要交易或者事项。在符合重要性和成本效益原则的前提下，保证会计信息的完整性。<strong>重要性不能仅根据金额判断，还要结合其性质，如：小金额导致盈转亏，则需要作为前期差错追溯调整，而不能根据重要性直接计入当年报表。</strong></li>
+<li><strong>相关性：</strong>各项资产或负债按照流动性列示能够提供可靠且更加相关的信息的，可以按照其流动性顺序列示。体现了相关性的会计信息质量要求。<strong>反馈价值、预测价值</strong></li>
+<li><strong>可比性：</strong>同一企业不同时期相似或相同，会计政策一致；不同企业同一时期相似或者相同，采用规定的会计政策，确保会计信息口径一致，相互可比。<strong>纵向可比 及 横向可比；不得随意变更</strong></li>
+<li><strong><font color =red>实质重于形式：</font></strong>对于投资企业，无法参与财务和经营决策，不能对公司施加重大影响。基于此原则，不能采用权益法核算所投企业；购买少数股权，在合并报表层面，属于一项权益性交易，本质上是少数股东收回投资，属于筹资活动。根据此原则，产生的现金流量归属筹资活动。例2：附有追索权的票据出售给银行、合并报表的编制。<font color =red>按照经济实质进行会计确认、计量和报告，不仅仅以交易或事项的法律形式为依据。</font></li>
+<li><strong>可理解性：</strong>清晰明了。</li>
+<li><strong>可靠性：强调真实、诚信为本、操守为重、坚持准则、不做假账；以实际发生的交易或事项</strong></li>
+<li><strong>及时性:</strong>（对相关性和可靠性起着制约作用）</li>
+<li>注册会计师职业道德：诚信、客观公正、独立性、专业胜任能力和勤勉尽责、保密、良好职业行为</li>
+<li>会计人员职业道德：坚持诚信，守法奉公；坚持准则，守则敬业；坚持学习，守正创新。</li>
 </ol>
 <h1 id="第二章-会计基础："><a href="#第二章-会计基础：" class="headerlink" title="第二章 会计基础："></a>第二章 会计基础：</h1><p><em>(4)所建造的固定资产已达到预定可使用状态，但尚未办理竣工结算的，应当自达到预定可使用状态之日起，根据工程预算、造价或者工程实际成本等，按暂估价值转入固定资产，并按有关计提固定资产折旧的规定，计提固定资产折旧。待办理竣工决算手续后再调整原来的暂估价值(追溯调整但不需要调整原已计提的折旧额。<strong>(会计估计变更:未来适用法)</strong></em></p>
 <h3 id="2-1-会计要素与会计等式"><a href="#2-1-会计要素与会计等式" class="headerlink" title="2.1 会计要素与会计等式"></a>2.1 会计要素与会计等式</h3><ol>
@@ -241,6 +243,32 @@
       </tags>
   </entry>
   <entry>
+    <title>Wind指标及投资业绩评价</title>
+    <url>/post/26382/</url>
+    <content><![CDATA[<h2 id="一、Wind指标-Link-to-投资业绩评级及风险管理"><a href="#一、Wind指标-Link-to-投资业绩评级及风险管理" class="headerlink" title="一、Wind指标-Link-to-投资业绩评级及风险管理"></a>一、<a href="">Wind指标-Link-to-投资业绩评级及风险管理</a></h2><ul>
+<li><p>地域利差：取筛选条件下每个债在X时点与国开债的利差，以余额为权进行求和。</p>
+</li>
+<li><p>地域久期：将某地区发行在时点X存续的全部债看成投资组合，取修正久期，以余额为权进行求和。</p>
+</li>
+<li>样本券选取方式：在X时点存续的城投债，剔永续债、剔abs。</li>
+<li><a href="https://www.msci.com/www/blog-posts/factors-in-focus-are-your/02933279202">[MSCI Model]</a></li>
+</ul>
+<p>历年偏离度变化 | 剩余期限分布 | 年化收益率 | 年化波动率 | 最大回撤 | 恢复天数 | 年化夏普利率 | 卡玛比率 | 月度正收益率 | 年度ALPHA | 年度择时能力 | </p>
+<ul>
+<li>风险收益分析：区间收益、最大回撤、Alpha、Beta、Sharpe、Treynor、年化波动率、信息比率、Jensen、Sortino、Calmar、Sterling</li>
+<li>拟合业绩表现</li>
+<li>业绩表现：Alpha、Beta、Sharpe、信息比率、收益标准差、跟踪误差、超额回报、年化回报、回报</li>
+</ul>
+]]></content>
+      <categories>
+        <category>投资策略</category>
+        <category>Wind指标及投资业绩评价</category>
+      </categories>
+      <tags>
+        <tag>投资策略</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>利率体系与指标分析</title>
     <url>/post/28330/</url>
     <content><![CDATA[<p><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》—易纲，202109</a></p>
@@ -262,6 +290,126 @@
         <tag>利率体系</tag>
         <tag>资金面指标</tag>
         <tag>风险指标</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>投资业绩评价</title>
+    <url>/post/62142/</url>
+    <content><![CDATA[<h1 id="投资组合管理"><a href="#投资组合管理" class="headerlink" title="投资组合管理"></a>投资组合管理</h1><p>略。均值-方差模型、CAPM、有效市场假说、现代投资组合理论、协方差、相关系数 <script type="math/tex">\rho_{i,j} = \dfrac{\text{cov}(i,j)}{\sigma_i\sigma_j}</script>、资产收益的可行集、最小方差前沿、有效前沿、无差异曲线、资本配置线CAL、最优CAL、资本市场线CML、系统性风险、非系统性风险、证券市场线SML</p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/SML%E5%92%8CCML.png" alt="SML和CML" style="zoom:50%;" /></p>
+<h1 id="投资风险管理"><a href="#投资风险管理" class="headerlink" title="投资风险管理"></a>投资风险管理</h1><h3 id="风险类型"><a href="#风险类型" class="headerlink" title="风险类型"></a>风险类型</h3><h4 id="市场风险"><a href="#市场风险" class="headerlink" title="市场风险"></a>市场风险</h4><table>
+   <tr>
+      <td>1.政策风险</td>
+      <td>①宏观政策，包括财政政策、产业政策、货币政策等，都会对金融市场造成影响，进而影响基金的收益水平。<br>②管理：主要在于对国家宏观政策的把握与预测。</td>
+   </tr>
+   <tr>
+      <td>2.经济周期性<br>波动风险 </td>
+      <td>经济发展有一定周期性，基金便会追随经济总体趋向而发生变动。</td>
+   </tr>
+   <tr>
+      <td>3.利率风险</td>
+      <td>①因利率变化而产生的基金价值的不确定性。<br>②主要受通货膨胀预期、中央银行的货币政策、经济周期和国际利率水平等的影响。</td>
+   </tr>
+   <tr>
+      <td>4.购买力风险</td>
+      <td>由于通货膨胀等因素的影响而导致购买力下降，降低基金实际收益，使投资者收益率降低的风险，又称为通货膨胀风险。</td>
+   </tr>
+   <tr>
+      <td>5.汇率风险</td>
+      <td>①因汇率变动而产生的基金价值的不确定性。<br>②影响汇率的因素有国际收支及外汇储备、利率、通货膨胀和政治局势等。 </td>
+   </tr>
+</table>
+
+<h4 id="信用风险"><a href="#信用风险" class="headerlink" title="信用风险"></a>信用风险</h4><p><strong>管理措施：</strong><br>1.建立针对债券发行人的内部信用评级制度，结合外部信用评级，进行发行人信用风险管理。<br>2.建立交易对手信用评级制度，根据交易对手的资质、交易记录、信用记录和交收违约记录等因素对交易对手进行信用评级，并定期更新。</p>
+<h4 id="流动性风险"><a href="#流动性风险" class="headerlink" title="流动性风险"></a>流动性风险</h4><p>定义：流动性是资产在短期内以低成本完成市场交易的能力。<br>管理措施：<br>1.制定流动性风险管理制度，平衡资产的流动性与盈利性，以适应投资组合日常运作需要。<br>2.及时对投资组合资产进行流动性分析和跟踪，包括计算各类证券的历史平均交易量、换手率和相应的变现周期。<br>3.关注投资者申赎意愿。4.建立流动性预警机制。5.进行流动性压力测试。6.制定流动性风险处置预案</p>
+<h3 id="风险指标"><a href="#风险指标" class="headerlink" title="风险指标"></a>风险指标</h3><p><strong>风险分类：</strong><br>1.事前风险测度：衡量投资组合在将来的表现和风险情况；<br>2.事后风险测度：研究投资组合在历史上的表现和风险情况<br><strong>指标分类：</strong><br>1.描述收益的不确定性：反映投资组合市场风险的指标有基于收益率及方差的风险指标，如波动率、回撤、下行风险标准差等。<br>2.风险敏感性度量指标：如β系数、久期、凸性等<br><strong>波动率：</strong><br>1.投资组合波动率是单位时间收益率的标准差。<br>2.单位时间根据数据来源和应用场景可以取每日、每周、每月、每年等。<br>3.公募基金一般都会公布每日净值增长率。</p>
+<p><font color =red><strong>跟踪误差：</strong></font><br>1.跟踪误差是证券组合相对基准组合的<font color= red>跟踪偏离度的标准差：</font><font color =red>$跟踪偏离度=证券组合的真实收益率-基准组合的收益率$</font><br>2.跟踪误差产生的原因：1.复制误差：某些成分股因流动性不足而难以以公允的价格买入。2.现金留存：投资组合不能全部投资于指数标的。3.各项费用。4.其他影响<br><strong>主动比重（AS）：</strong><br>1.主动比重是指投资组合持仓与基准不同的部分。衡量投资组合相对于基准的偏离程度。<br>2.基于投资组合持仓（波动率和跟踪误差基于收益率）<br>3.主动比重为0的投资组合，实质上是一个指数基金<br>4.常用于分析追求相对收益的股票型基金。<br><strong>最大回撤：</strong><br>1.最大回撤测量投资组合在指定区间内从最高点到最低点的回撤。<br><strong>下行标准差：</strong><br>1.波动率计算中，既包括了收益率高于平均值的波动，也考虑了低于平均值的单位区间的波动。有时需要关注收益率不达目标时的风险，这就需要用到下行标准差。</p>
+<h3 id="风险价值-VaR-5548"><a href="#风险价值-VaR-5548" class="headerlink" title="风险价值(VaR)-5548"></a>风险价值(VaR)-5548</h3><ol>
+<li><p>又称在险价值、风险收益、风险报酬，是指在给定的时间区间内和给定的置信水平下，利率、汇率等市场风险要素发生变化时，投资组合所面临的潜在最大损失。<br>例：某投资组合在持有期为1 周、置信水平为95%的情况下，若所计算的风险价值为-0.82%，则表明该资产组合在1周中的损失有95%的可能大性不会超过-0.82%。</p>
+</li>
+<li><p>VaR的估算方法</p>
+<table>
+<tr>
+<td>参数法</td>
+<td>又称为方差一协方差法，依据历史数据计算出风险因子收益率分布的参数值，如方差、均值和风险因子间的相关系数等。</td>
+</tr>
+<tr>
+<td>历史模拟法（历史模拟未来）</td>
+<td>假设市场未来的变化方向与历史发展状况大致相同，依据风险因子收益的近期历史数据的估算，模拟出未来的风险因子收益变化。</td>
+</tr>
+<tr>
+<td>蒙特卡洛模拟法（银行常用， 复杂但精确）</td>
+<td>在估算之前，需要有风险因子的概率分布模型，继而重复模拟风险因子变动的过程。在进行足够数量的模拟后，组合价值的模拟分布将会收敛于组合的真实分布， 求出最后的组合VaR 值。计算量较大，但被认为是最精准贴近的计算VaR 值方法。</td>
+<tr>
+</table>
+
+</li>
+</ol>
+<h3 id="预期损失-ES"><a href="#预期损失-ES" class="headerlink" title="预期损失(ES)"></a>预期损失(ES)</h3><p><strong>定义：</strong>在给定时间区间和置信区间内，投资组合损失的期望值。又称为条件风险价值或条件尾部期望或尾部损失。<br>例：在置信水平X下，VaR值在-0.82%的位置，这意味着有的把握保证时间区间T内投资的损失不会大于0.82%。但VaR是一个分位值，不能衡量最左侧区域的风险情况；而ES是最左侧区域所有损失的期望值，也就是在1-X的极端情况发生时损失的平均值。<br><em>注：分位数就是所选数值及小于该数值的所有数值的数量在总数量中的占比</em></p>
+<h3 id="压力测试"><a href="#压力测试" class="headerlink" title="压力测试"></a>压力测试</h3><p>1.用以应对可能发生的巨大损失事件。关键是选择压力情景。<br>2.投资管理人可以根据压力测试的结果采取措施，包括调整产品持仓结构、变更投资标的、暂停申赎等，必要时应实施应急预案。监管机构要求基金公司自身要持有一定的风险准备金以应对压力情景。</p>
+<h3 id="股票基金的风险管理"><a href="#股票基金的风险管理" class="headerlink" title="股票基金的风险管理"></a>股票基金的风险管理</h3><p><strong>持股集中度：</strong>前十大重仓股投资市值/基金股票投资总市值×100%<br><strong>行业集中度：</strong>前三大行业或前五大行业的行业投资集中度。<br><strong>持股数量</strong><br><strong>风格暴露分析：</strong><br><strong>平均市值：</strong>基金对大盘股、中盘股和小盘股的投资风险暴露情况。<br><strong>判断投资价值型股票还是成长型股票：</strong>① 如果股票基金的平均市盈率、平均市净率小于市场指数的市盈率和市净率，可以认为该股票基金属于价值型基金；② 如果股票基金的平均市盈率、平均市净率大于市场指数的市盈率和市净率，可以认为该股票基金属于成长型基金。<br><strong>基金股票换手率：</strong>(期间股票交易量/2)/期间基金平均资产净值</p>
+<h3 id="债券基金的风险管理"><a href="#债券基金的风险管理" class="headerlink" title="债券基金的风险管理"></a>债券基金的风险管理</h3><p><strong>利率风险：</strong>1.债券的价格与市场利率呈反向变动；2.债券基金久期越长，净值随利率的波动幅度就越大，所承担的利率风险就越高。通常用久期乘以利率变化来衡量利率变动对债券基金净值的影响。<br><strong>信用风险(债券、交易对手)、流动性风险、提前赎回风险、再投资风险、可转债的特定风险、债券回购风险。</strong></p>
+<h1 id="投资业绩评价"><a href="#投资业绩评价" class="headerlink" title="投资业绩评价"></a>投资业绩评价</h1><h3 id="一、绝对收益"><a href="#一、绝对收益" class="headerlink" title="一、绝对收益"></a>一、绝对收益</h3><p>定义：是指证券或投资组合在一定时间区间内所获得的回报。</p>
+<ol>
+<li>持有区间收益率<br>资产回报：股票、债券、房地产等资产价格的增加/减少<script type="math/tex; mode=display">\begin{align}资产回报率=\dfrac{期末资产价格-期初资产价格}{起初资产价格}\times{100\%}\end{align}</script>收入回报：分红、利息、租金等。<br><script type="math/tex">收入回报率=\dfrac{期间收入}{起初资产价格}\times{100\%}</script>​</li>
+<li>现金流和时间加权收益率<br>用以因应：基金种包含多个不同的证券，且红利或利息时间不一；基金各时间区间内申赎带来的资金流动。<br>现金流加权：<script type="math/tex">\text{现金流加权平均收益率} = \dfrac{\sum_{i=1}^{n} CF_i \times r_i}{\sum_{i=1}^{n} CF_i}</script><br>时间加权：<script type="math/tex">\text{时间加权平均收益率} = \dfrac{\sum_{i=1}^{n} CF_i \times (1 + r_i)^{\frac{t_i}{T}}}{\sum_{i=1}^{n} CF_i}</script></li>
+<li>平均收益率：算术平均收益率和几何平均收益率<br>几何平均收益率：<script type="math/tex">(\sqrt[n]{\prod_{\omega}^{\alpha}(1+R_{t})}-1)\times100\%</script>​</li>
+<li>基金收益率的计算：<script type="math/tex; mode=display">期末基金单位资产净值(\text{NAV})=\dfrac{期末基金资产净值}{期末基金单位总份额}</script>假定红利发放后立即对本基金进行再投资，且红利以除息前一日的单位净值为计算基准立即进行再投资，<br><script type="math/tex">\begin{align}R_{0}^{t}&=(1+R_1)(1+R_2)...(1+R_{t})-1\\&=(\frac{\text{NAV}_{1}}{\text{NAV}_{0}}\times\frac{\text{NAV}_{2}}{\text{NAV}_{1}-D_1}...\frac{\text{NAV}_{n}}{\text{NAV}_{n-1}-D_{n-1}})\end{align}</script>​</li>
+</ol>
+<h3 id="二、相对收益"><a href="#二、相对收益" class="headerlink" title="二、相对收益"></a>二、相对收益</h3><p>定义：相对收益又叫超额收益，代表一定时间区间内，基金收益超出业绩比较基准的部分。</p>
+<ol>
+<li>算术法：<script type="math/tex">R_{超额}=R_{组合}-R_{基准}</script></li>
+<li>几何法：<script type="math/tex">R_{超额}=\dfrac{1+R_{组合}}{1+R_{基准}}-1</script></li>
+</ol>
+<h3 id="三、风险调整后收益"><a href="#三、风险调整后收益" class="headerlink" title="三、风险调整后收益"></a>三、风险调整后收益</h3><h4 id="夏普利率"><a href="#夏普利率" class="headerlink" title="夏普利率"></a>夏普利率</h4><ol>
+<li>威廉<script type="math/tex">\cdot</script>夏普根据CAPM提出的经风险调整的业绩测度指标<br><script type="math/tex">夏普利率=\dfracNaN</script>​<br>即：组合的单位风险下的超额收益率</li>
+</ol>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%A4%8F%E6%99%AE%E5%88%A9%E7%8E%87-%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA%E7%BA%BF.png" alt="资本市场线" style="zoom:50%;" /></p>
+<h4 id="特雷诺比率"><a href="#特雷诺比率" class="headerlink" title="特雷诺比率"></a>特雷诺比率</h4><ol>
+<li>来源于CAPM，表示的是单位系统风险下的超额收益率</li>
+<li>公式：<script type="math/tex">特雷诺比率=\dfrac{组合平均收益率 - 平均无风险收益率}{\beta_{p}}</script>​</li>
+</ol>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%89%B9%E9%9B%B7%E8%AF%BA%E6%AF%94%E7%8E%87-%E8%AF%81%E5%88%B8%E5%B8%82%E5%9C%BA%E7%BA%BF.png" alt="证券市场线" style="zoom: 50%;" /></p>
+<h4 id="詹森比率"><a href="#詹森比率" class="headerlink" title="詹森比率"></a>詹森比率</h4><p>定义：衡量的是基金组合收益中超过CAPM模型预测值的那一部分超额收益</p>
+<p>公式：$詹森\alpha = (\overline{R_p}-\overline{R_f})-\beta_p \times (\overline{R_m} -\overline{R_f})$</p>
+<h4 id="信息比率与跟踪误差"><a href="#信息比率与跟踪误差" class="headerlink" title="信息比率与跟踪误差"></a>信息比率与跟踪误差</h4><ol>
+<li>信息比率是单位跟踪误差所对应的超额收益。 </li>
+<li>信息比率越大，说明该基金在同样的跟踪误差水平上能获得更大的超额收益，或者在同样的超额收益水平下跟 踪误差更小。</li>
+<li><script type="math/tex">信息比率=\dfrac{投资组合收益-业绩比较基准收益}{跟踪误差}=\dfrac{超额收益}{跟踪误差}</script>​</li>
+<li>实际操作中一般根据投资范围和投资目标选取基准指数，可以是全市场指数、风格指数，也可以是由不同指数复合而成的复合指数。</li>
+<li>跟踪误差是证券组合相对基准组合的跟踪偏离度的标准差：<script type="math/tex">跟踪偏离度=证券组合的真实收益率-基准组合的收益率</script></li>
+<li>跟踪误差产生的原因：1.复制误差：某些成分股因流动性不足而难以以公允的价格买入。2.现金留存：投资组合不能全部投资于指数标的。3.各项费用。4.其他影响</li>
+</ol>
+<h4 id="绝对收益归因"><a href="#绝对收益归因" class="headerlink" title="绝对收益归因"></a>绝对收益归因</h4><ol>
+<li>考察各个因素对基金总收益的贡献，其本质是对基金总收益的分解。</li>
+<li>在特定区间内，每个证券和每个行业如何贡献到组合的整体收益。</li>
+</ol>
+<h4 id="相对收益归因"><a href="#相对收益归因" class="headerlink" title="相对收益归因"></a>相对收益归因</h4><p><strong>Brinson模型</strong><br>例：<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9B%B8%E5%AF%B9%E6%94%B6%E7%9B%8A%E5%BD%92%E5%9B%A01.png" style="zoom:50%;" /><br><strong>【结论】</strong><br><strong>配置效应：</strong>基金中股票、债券和现金权重为70:7:23，它的收益率仅反映了从60:30:10的基准权重转变到70:7:23所引起的收益变化，<br>而不包括基金经理在各个市场中积极选择证券所带来的收益变化。即：资产配置带来的贡献为：<script type="math/tex">(70\%-60\%)\times5.81\%+(7\%-30\%)\times1.45\%+(23\%-10\%)\times0.48\%=0.31\%</script><br><strong>选择效应：</strong><br>如果业绩中有0.31%应归功于各资产类别间的成功配置，那么1.37%-0.31%=1.06%就应该源于在每一个大类资<br>产中的行业及具体证券的选择。选择效应带来的贡献<script type="math/tex">70\%\times(7.28-5.81)+7\%\times(1.89-1.45)=1.06\%</script>​<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9B%B8%E5%AF%B9%E6%94%B6%E7%9B%8A%E5%BD%92%E5%9B%A02.png" style="zoom:50%;" /></p>
+<h4 id="债券投资组合的构建"><a href="#债券投资组合的构建" class="headerlink" title="债券投资组合的构建"></a>债券投资组合的构建</h4><ol>
+<li><p>考虑因素：<br>a.同股票相同因素：投资目标和理念、投资策略、投资范围、业绩基准、风险收益；<br>b.个性化因素：信用结构、期限结构、组合久期、流动性和杠杆率</p>
+</li>
+<li><p>基准选择：以债券指数为主，在投资范围允许的前提下，加入一定比例股票指数形成复合基准。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>经济学杂货</category>
+      </categories>
+      <tags>
+        <tag>投资业绩评价</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据存储与执行</title>
+    <url>/post/32586/</url>
+    <content><![CDATA[<h4 id="数据结构创建及特点"><a href="#数据结构创建及特点" class="headerlink" title="数据结构创建及特点:"></a>数据结构创建及特点:</h4><p><img src="C:/Users/10939/AppData/Roaming/Typora/typora-user-images/image-20240214124213722.png" alt="image-20240214124213722"></p>
+<h4 id="if-name-‘-main-‘"><a href="#if-name-‘-main-‘" class="headerlink" title="if __name__ == ‘__main__‘:"></a>if <code>__name__</code> == ‘<code>__main__</code>‘:</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line">    function()</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;&#x27;</span>)</span><br><span class="line"><span class="comment">#__name__和__main__都是内置变量，当文件被直接执行时，__name__的值就是__main__，文件中代码均被执行。</span></span><br><span class="line"><span class="comment">#当文件作为模块被导入时，__name__的值就是文件名()，`if`下的内容均不会被执行。</span></span><br><span class="line"><span class="comment">#该结构常用于测试文件中的代码，即`if`下为测试代码。如此，可以将测试代码一同保留在文件中，且被导入时不会执行测试代码。</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>数据清理与建模</category>
+      </categories>
+      <tags>
+        <tag>存储与执行</tag>
       </tags>
   </entry>
   <entry>
@@ -584,79 +732,69 @@
       </tags>
   </entry>
   <entry>
-    <title>法考—刑法—柏浪涛</title>
-    <url>/post/63791/</url>
-    <content><![CDATA[<p><table>
-    <tr>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%951.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%952.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%953.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%954.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%955.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%956.png" width=120/></td>
-</table><br><strong>通过典型的案例建构行为模型；前苏联：旧理论；德日：新理论(官方立场|代表人物：清华大学张明楷)</strong></p>
-<h1 id="1-刑法总论"><a href="#1-刑法总论" class="headerlink" title="1 刑法总论"></a>1 刑法总论</h1><h2 id="1-1-刑法论"><a href="#1-1-刑法论" class="headerlink" title="1.1 刑法论"></a>1.1 刑法论</h2><h3 id="第一节-刑法的解释"><a href="#第一节-刑法的解释" class="headerlink" title="第一节 刑法的解释"></a>第一节 刑法的解释</h3><h4 id="刑法解释："><a href="#刑法解释：" class="headerlink" title="刑法解释："></a><strong>刑法解释：</strong></h4><p><strong>解释法律、适用法律，而不是如何批判法律、完善法律</strong></p>
-<ul>
-<li>解释的对象是法律文本，是现行刑法规范。包括：一、1997 年10 月1 日生效的刑法典；刑法修正案是对刑法典作的小修小补，至今巳有11 个刑法修正案。二、一部单行刑法。</li>
-<li>解释方法包括解释技巧和解释理由。解释技巧负责生产结论，解释理由负责为结论提供论证理由。</li>
+    <title>本币交易梳理03--利率市场化改革</title>
+    <url>/post/62746/</url>
+    <content><![CDATA[<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
+<li>法律-行政规定-团体规则-职业操守</li>
+<li><strong>法律（全国人大常委会）：</strong> 中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
+<li><strong>行政法规（国务院）：</strong> 企业债券管理条例、取消行政许可的国务院令</li>
+<li><strong>部门规章、规范性文件（国务院部委）：</strong> 人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
+<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong> 交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
 </ul>
-<h4 id="解释技巧："><a href="#解释技巧：" class="headerlink" title="解释技巧："></a><strong>解释技巧：</strong></h4><ol>
-<li>平义解释</li>
-<li>扩大解释（扩张解释）</li>
-<li>缩小解释（限制解释）</li>
-<li>类推解释：<font color =red>允许扩大解释，禁止类推解释，但有例外</font>；(另解：<sup><font color =blue>Adobe</font></sup>即不符合刑法文字的可能含义)</li>
-<li>反义解释：A和非A</li>
-</ol>
-<h4 id="解释理由："><a href="#解释理由：" class="headerlink" title="解释理由："></a><strong>解释理由：</strong></h4><ol>
-<li>文理解释</li>
-<li>体系解释：一词多义、多词一义、同类解释</li>
-<li>当然解释：举重以明轻 | 举轻以明重；两个事项必须是性质相同、程度不同的关系；法益比较、轻重比较</li>
-<li>目的解释：就是用<a href="#法益">法益</a>来解释罪名的构成要件。刑法的保护目的就是法益<br> <strong>注：解释技巧之间是排斥关系，即解释技巧只能选择一种；而解释理由之间是并存关系，且越多越好</strong><br>前者负责生产结论，后者负责论证结论的合理性，要求二者正反推均成立。如：解释技巧生产结论，但论证理由不充分，则不采纳；解释理由论证解释技巧合理，但技巧为类推解释，则不采纳。</li>
-</ol>
-<h3 id="第二节-刑法的功能"><a href="#第二节-刑法的功能" class="headerlink" title="第二节 刑法的功能"></a>第二节 刑法的功能</h3><ol>
-<li><p><span id="法益">保护法益</span>：法益，是指刑法保护的利益。一个罪名的保护法益也称为保护客体或犯罪客体。犯罪是指侵害法益的行为。</p>
-</li>
-<li><p>保障人权：严格依据刑法来定罪处罚。即刑法在打击犯罪、保护法益的同时，也应保障人权。</p>
-<font color =red>若一味侧重保护法益，则容易认定为有罪。若一味侧重保障人权，则容易认定为无罪。二者冲突时，优先保障人权。</font>
+<h2 id="1-2-市场管理框架"><a href="#1-2-市场管理框架" class="headerlink" title="1.2 市场管理框架"></a>1.2 市场管理框架</h2><ul>
+<li><strong>中介机构及自律组织：</strong> 拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
+<li><strong>证监会、银保监会：</strong> 监管机构、主体，即<font color="#d99694">交易主体</font></li>
+<li><strong>人行：</strong> 指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
+<li><strong>人行、财政部、发改委、NAFMII：</strong> 监督<font color="#d99694">发债主体</font></li>
+<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
 
 </li>
-</ol>
-<h3 id="第三节-刑法的原则"><a href="#第三节-刑法的原则" class="headerlink" title="第三节 刑法的原则"></a>第三节 刑法的原则</h3><h4 id="罪刑法定原则"><a href="#罪刑法定原则" class="headerlink" title="罪刑法定原则"></a>罪刑法定原则</h4><ul>
-<li>法无明文规定不为罪，法无明文规定不处；目的是保障人权。<ol>
-<li><strong>思想基础：</strong><br>a. 民主主义：意指只有民主产生的立法机关才有权规定犯罪与刑罚。<br>b. 自由主义（最重要的）：也称为尊重人权主义，意指<font color =red>法律应当具有预测可能性</font>，使国民知晓什么是犯罪，什么不是犯罪，以保障个人的行动自由。这种思想也称为国民预测可能性原理。<br>例：新中国1979年第一部刑法典出台前使用反革命条例，以致出现“反革命梦奸罪”、“反革命不讲卫生罪”。79年刑法典出台后，由于部分罪名未明确，如：流氓罪，投机倒把罪（皆与97年废除），因此未列入罪刑法定原则（97年列入）。</li>
-<li><strong>基本内容：</strong><br>a. 成文的罪刑法定：1. 法律主义：如全国人大制定的基本法律、国务院制定的行政法规。只有全国人大及其常委会有资格规定犯罪和刑法，而国务院及两高的司法解释均没有立法权，只有解释权。2. 禁止习惯法：即不能像民法一样适用习惯法，民法是意思自治原则（即双方可以商量解决），而刑法是罪刑法定原则。<br>b. 事前的罪刑法定：禁止溯及既往、刑法的时间效力<br>c. 严格的罪刑法定：禁止类推解释，但允许扩大解释<br>d. 确定的罪刑法定：指罪刑规范应当明确、适当。(1) 明确性要求；(2) 禁止绝对不定刑及绝对不定期刑：即不明确刑罚的种类和期刑的刑期；(3) 禁止处罚不当罚的行为：体现刑法的谦抑性/补充性要求：即民法、行政法无济于事、无法规制后才适用刑法，因为刑罚是最严厉的制裁措施；(4) 禁止不均衡、残虐的刑罚：即刑罚应与罪行相适应， 重罪重判， 轻罪轻判，广义上可以包含罪刑相适应原则。<br><strong>注*：民法和刑法不是对立排斥关系，而是位阶关系（适用顺序而言），如：刑事附带民事诉讼制度，即如果罪行既符合民法又符合刑法，以刑法为主，附带民事诉讼。民法和刑法基本法律，地位平等。</strong></li>
-</ol>
+</ul>
+<h1 id="二、货币市场基本规则"><a href="#二、货币市场基本规则" class="headerlink" title="二、货币市场基本规则"></a>二、货币市场基本规则</h1><h2 id="2-1-同业拆借市场准入管理"><a href="#2-1-同业拆借市场准入管理" class="headerlink" title="2.1 同业拆借市场准入管理"></a>2.1 同业拆借市场准入管理</h2><ul>
+<li>金融机构通过开户系统（一站式平台）向拆借中心申请入市、退市<ul>
+<li>均在三日内完成，其中退市后两年内不再受理入市申请</li>
+</ul>
+</li>
+<li>三放松：放松准入、期限、限额管理</li>
+<li>两加强：加强<font color="#d99694">透明度管理</font>和<font color="#d99694">监督检查</font></li>
+<li>一促进：促进同业拆借市场健康发展</li>
+</ul>
+<h2 id="2-2-同业拆借市场期限管理"><a href="#2-2-同业拆借市场期限管理" class="headerlink" title="2.2 同业拆借市场期限管理"></a>2.2 同业拆借市场期限管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E6%9C%9F%E9%99%90%E7%AE%A1%E7%90%86.png" alt="同业拆借市场期限管理"><br>➢ 最长拆出期限不得超过对手方的最长拆入期限（第23条）<br>➢ 到期后不得展期（第24条）</p>
+<h2 id="2-3-同业拆借市场限额管理"><a href="#2-3-同业拆借市场限额管理" class="headerlink" title="2.3 同业拆借市场限额管理"></a>2.3 同业拆借市场限额管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E9%99%90%E9%A2%9D%E7%AE%A1%E7%90%86.png" alt="同业拆借市场限额管理"></p>
+<h2 id="2-4-同业拆借市场信息披露与监督检查"><a href="#2-4-同业拆借市场信息披露与监督检查" class="headerlink" title="2.4 同业拆借市场信息披露与监督检查"></a>2.4 同业拆借市场信息披露与监督检查</h2><ul>
+<li>信息披露管理<ul>
+<li>每年1月中旬：上年财务报表（未审计）</li>
+<li>每年四月底：经审计的年度财务报告及其他要求公布的报表、报告</li>
+<li>每年7月中旬：半年财务报表（未审计）</li>
+<li>获准进入拆借市场60日：公告基本情况、最近一次经审计的年度财务报告</li>
+<li>股权变更完成后30个工作日内：公告股权变更情况</li>
+<li>已经成为上市公司的成员可以豁免在同业拆借市场进行信息披露</li>
+</ul>
+</li>
+<li>监督检查<ul>
+<li>人行依法对同业拆借交易实施非现场监管和现场检查</li>
+</ul>
 </li>
 </ul>
-<h4 id="罪刑相适应原则"><a href="#罪刑相适应原则" class="headerlink" title="罪刑相适应原则"></a>罪刑相适应原则</h4><ul>
-<li>又罪刑均衡原则，即刑罚应与罪行相适应， 重罪重判， 轻罪轻判</li>
-<li><strong>量刑标准包含法益侵害性和人身危险性（再犯可能性）</strong></li>
-<li><strong>法益侵害性</strong>是针对已然发生的犯罪事实，又报应刑或责任刑。<strong>人身危害性</strong>是针对未然的犯罪事实，预防未来再犯的犯罪事实，又预防刑或目的刑。<br>如：1. 入室抢劫与普通抢劫重，因为多了法益侵害性（侵入住宅）；2. 累犯从重处罚，因为多了人身危险性（再犯可能性）；3. 投案自首从宽处罚是由于再犯可能性降低。<br><strong>刑罚个别化理念：</strong>即再犯可能性因人而异，如：为了吸毒偷钱与为了治病偷钱。</li>
+<h1 id="三、债券市场（含回购）基本规则"><a href="#三、债券市场（含回购）基本规则" class="headerlink" title="三、债券市场（含回购）基本规则"></a>三、债券市场（含回购）基本规则</h1><h2 id="3-1-准入管理"><a href="#3-1-准入管理" class="headerlink" title="3.1 准入管理"></a>3.1 准入管理</h2><ul>
+<li>境内主体：<ul>
+<li>02年备案制$\longrightarrow$ 13年人行上海总部上收分支行准入备案权限 </li>
 </ul>
-<h3 id="第四节-刑法的效力"><a href="#第四节-刑法的效力" class="headerlink" title="第四节 刑法的效力"></a>第四节 刑法的效力</h3><h4 id="一、刑法的空间效力"><a href="#一、刑法的空间效力" class="headerlink" title="一、刑法的空间效力"></a>一、刑法的空间效力</h4><p><strong>（一）在中国境内犯罪：属地管辖原则</strong></p>
-<ol>
-<li>“我国领域”包括领土、领水、领空<br><strong>a. 旗国主义。</strong>仅航空器（飞机）与船舶属于，国际列车、国际长途汽车不属于。</li>
-<li>属地管辖原则之“地”，既包括犯罪行为地，也包括犯罪结果地。<br><strong>a. 犯罪行为。</strong>从共同犯罪上分，包括<strong>实行</strong>行为地、<strong>教唆</strong>行为地、和<strong>帮助</strong>行为地；从犯罪形态上分，包括<strong>预备</strong>行为地和<strong>实行</strong>行为地。上述行为中，只要有一项行为发生在国内，其他相关行为即使发生在国外，也认为是在我国领域内犯罪。（如：从缅甸打电话到国内进行诈骗，犯罪结果在国内，因此也能依据属地管辖原则进行管辖）<br><strong>b. 犯罪结果。</strong>从共同犯罪上分，包括整体结果和部分共犯人的结果；从犯罪形态上分，包括实害结果和危险结果。</li>
-</ol>
-<p><strong>（二）在中国境外犯罪：属人管辖原则、保护管辖原则、普遍管辖原则</strong></p>
-<ol>
-<li>属人管辖原则：我国公民在境外犯罪（但是最高刑为三年以下有期徒刑的（即轻罪），可以不予追究；国家工作人员和军人一律追究）</li>
-<li>保护管辖原则：外国人在境外对中国人或中国政府犯罪，且为重罪（最低刑3年以上），且遵循双重犯罪原则（即犯罪地的法律也认为是犯罪）</li>
-<li>普遍管辖：国际犯罪<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%91%E6%B3%95%E7%9A%84%E7%A9%BA%E9%97%B4%E6%95%88%E5%8A%9B.png" alt="刑法的空间效力" style="zoom:50%;" /></li>
-</ol>
-<p>朝鲜领导的哥哥金正男在马来西亚被越南人杀死。朝鲜-保护管辖；马来西亚-属地管辖；越南-属人管辖。</p>
-<h4 id="二、刑法的时间效力（即溯及力）"><a href="#二、刑法的时间效力（即溯及力）" class="headerlink" title="二、刑法的时间效力（即溯及力）"></a>二、刑法的时间效力（即溯及力）</h4><ol>
-<li>从旧兼从轻原则：原则上适用旧法（行为时的法律），但适用新法有利于被告人时，适用新法。也即，原则上禁止法律溯及既往，例外是不禁止有利于被告人的溯及既往。（如：适用新法，被告人能够被判得更轻）</li>
-<li><font color =red>该原则的使用对象是未决犯，即案件发生在旧法，审判发生在新法。</font>对于已决犯（已判决的案件）则不存在是否溯及既往的问题。<br>另，再审案件也是适用旧法。</li>
-<li>司法解释的时间效力：<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%91%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E6%95%88%E5%8A%9B.png" alt="司法解释的时间效力" style="zoom:50%;" />即第一种是“从旧”，第二种是“从旧兼从轻”<br><em>随笔：专业无贵贱，知识有阶梯；叔本华：人的痛苦都来自价值观</em></li>
-</ol>
+</li>
+<li>境外主体：<ul>
+<li>11年RQFII—13年QFII—15年境外央行、国际金融组织和主权财富基金可参与所有交易—16年CIBM</li>
+<li>直接入市（CIBM）、债券通（BC）</li>
+</ul>
+</li>
+</ul>
 ]]></content>
       <categories>
-        <category>司法考试</category>
+        <category>本币交易</category>
+        <category>利率市场化改革</category>
       </categories>
       <tags>
-        <tag>刑法</tag>
-        <tag>柏浪涛</tag>
+        <tag>本币交易</tag>
+        <tag>利率市场化改革</tag>
       </tags>
   </entry>
   <entry>
@@ -994,92 +1132,6 @@
       </tags>
   </entry>
   <entry>
-    <title>本币交易梳理03--利率市场化改革</title>
-    <url>/post/62746/</url>
-    <content><![CDATA[<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
-<li>法律-行政规定-团体规则-职业操守</li>
-<li><strong>法律（全国人大常委会）：</strong> 中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
-<li><strong>行政法规（国务院）：</strong> 企业债券管理条例、取消行政许可的国务院令</li>
-<li><strong>部门规章、规范性文件（国务院部委）：</strong> 人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
-<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong> 交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
-</ul>
-<h2 id="1-2-市场管理框架"><a href="#1-2-市场管理框架" class="headerlink" title="1.2 市场管理框架"></a>1.2 市场管理框架</h2><ul>
-<li><strong>中介机构及自律组织：</strong> 拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
-<li><strong>证监会、银保监会：</strong> 监管机构、主体，即<font color="#d99694">交易主体</font></li>
-<li><strong>人行：</strong> 指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
-<li><strong>人行、财政部、发改委、NAFMII：</strong> 监督<font color="#d99694">发债主体</font></li>
-<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
-
-</li>
-</ul>
-<h1 id="二、货币市场基本规则"><a href="#二、货币市场基本规则" class="headerlink" title="二、货币市场基本规则"></a>二、货币市场基本规则</h1><h2 id="2-1-同业拆借市场准入管理"><a href="#2-1-同业拆借市场准入管理" class="headerlink" title="2.1 同业拆借市场准入管理"></a>2.1 同业拆借市场准入管理</h2><ul>
-<li>金融机构通过开户系统（一站式平台）向拆借中心申请入市、退市<ul>
-<li>均在三日内完成，其中退市后两年内不再受理入市申请</li>
-</ul>
-</li>
-<li>三放松：放松准入、期限、限额管理</li>
-<li>两加强：加强<font color="#d99694">透明度管理</font>和<font color="#d99694">监督检查</font></li>
-<li>一促进：促进同业拆借市场健康发展</li>
-</ul>
-<h2 id="2-2-同业拆借市场期限管理"><a href="#2-2-同业拆借市场期限管理" class="headerlink" title="2.2 同业拆借市场期限管理"></a>2.2 同业拆借市场期限管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E6%9C%9F%E9%99%90%E7%AE%A1%E7%90%86.png" alt="同业拆借市场期限管理"><br>➢ 最长拆出期限不得超过对手方的最长拆入期限（第23条）<br>➢ 到期后不得展期（第24条）</p>
-<h2 id="2-3-同业拆借市场限额管理"><a href="#2-3-同业拆借市场限额管理" class="headerlink" title="2.3 同业拆借市场限额管理"></a>2.3 同业拆借市场限额管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E9%99%90%E9%A2%9D%E7%AE%A1%E7%90%86.png" alt="同业拆借市场限额管理"></p>
-<h2 id="2-4-同业拆借市场信息披露与监督检查"><a href="#2-4-同业拆借市场信息披露与监督检查" class="headerlink" title="2.4 同业拆借市场信息披露与监督检查"></a>2.4 同业拆借市场信息披露与监督检查</h2><ul>
-<li>信息披露管理<ul>
-<li>每年1月中旬：上年财务报表（未审计）</li>
-<li>每年四月底：经审计的年度财务报告及其他要求公布的报表、报告</li>
-<li>每年7月中旬：半年财务报表（未审计）</li>
-<li>获准进入拆借市场60日：公告基本情况、最近一次经审计的年度财务报告</li>
-<li>股权变更完成后30个工作日内：公告股权变更情况</li>
-<li>已经成为上市公司的成员可以豁免在同业拆借市场进行信息披露</li>
-</ul>
-</li>
-<li>监督检查<ul>
-<li>人行依法对同业拆借交易实施非现场监管和现场检查</li>
-</ul>
-</li>
-</ul>
-<h1 id="三、债券市场（含回购）基本规则"><a href="#三、债券市场（含回购）基本规则" class="headerlink" title="三、债券市场（含回购）基本规则"></a>三、债券市场（含回购）基本规则</h1><h2 id="3-1-准入管理"><a href="#3-1-准入管理" class="headerlink" title="3.1 准入管理"></a>3.1 准入管理</h2><ul>
-<li>境内主体：<ul>
-<li>02年备案制$\longrightarrow$ 13年人行上海总部上收分支行准入备案权限 </li>
-</ul>
-</li>
-<li>境外主体：<ul>
-<li>11年RQFII—13年QFII—15年境外央行、国际金融组织和主权财富基金可参与所有交易—16年CIBM</li>
-<li>直接入市（CIBM）、债券通（BC）</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>本币交易</category>
-        <category>利率市场化改革</category>
-      </categories>
-      <tags>
-        <tag>本币交易</tag>
-        <tag>利率市场化改革</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资金周报</title>
-    <url>/post/44421/</url>
-    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
-<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png" alt="A001"></p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png" alt="A002"></p>
-<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
-<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
-<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
-<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
-<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
-]]></content>
-      <categories>
-        <category>资金周报</category>
-      </categories>
-      <tags>
-        <tag>本币交易</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>理论杂货</title>
     <url>/post/55094/</url>
     <content><![CDATA[<h1 id="债券的久期和凸性"><a href="#债券的久期和凸性" class="headerlink" title="债券的久期和凸性"></a>债券的久期和凸性</h1><h2 id="麦考利久期-Macaulay-duration-："><a href="#麦考利久期-Macaulay-duration-：" class="headerlink" title="麦考利久期(Macaulay duration)："></a><strong>麦考利久期(Macaulay duration)：</strong></h2><p>每次支付金额的现值占当前债券价格的比率作为权重，计算平均到期时间。<br>对于零息债券，其久期等于到期期限</p>
@@ -1163,6 +1215,102 @@
       <tags>
         <tag>经济学理论</tag>
         <tag>久期-凸性</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>法考—刑法—柏浪涛</title>
+    <url>/post/63791/</url>
+    <content><![CDATA[<p><table>
+    <tr>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%951.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%952.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%953.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%954.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%955.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%956.png" width=120/></td>
+</table><br><strong>通过典型的案例建构行为模型；前苏联：旧理论；德日：新理论(官方立场|代表人物：清华大学张明楷)</strong></p>
+<h1 id="1-刑法总论"><a href="#1-刑法总论" class="headerlink" title="1 刑法总论"></a>1 刑法总论</h1><h2 id="1-1-刑法论"><a href="#1-1-刑法论" class="headerlink" title="1.1 刑法论"></a>1.1 刑法论</h2><h3 id="第一节-刑法的解释"><a href="#第一节-刑法的解释" class="headerlink" title="第一节 刑法的解释"></a>第一节 刑法的解释</h3><h4 id="刑法解释："><a href="#刑法解释：" class="headerlink" title="刑法解释："></a><strong>刑法解释：</strong></h4><p><strong>解释法律、适用法律，而不是如何批判法律、完善法律</strong></p>
+<ul>
+<li>解释的对象是法律文本，是现行刑法规范。包括：一、1997 年10 月1 日生效的刑法典；刑法修正案是对刑法典作的小修小补，至今巳有11 个刑法修正案。二、一部单行刑法。</li>
+<li>解释方法包括解释技巧和解释理由。解释技巧负责生产结论，解释理由负责为结论提供论证理由。</li>
+</ul>
+<h4 id="解释技巧："><a href="#解释技巧：" class="headerlink" title="解释技巧："></a><strong>解释技巧：</strong></h4><ol>
+<li>平义解释</li>
+<li>扩大解释（扩张解释）</li>
+<li>缩小解释（限制解释）</li>
+<li>类推解释：<font color =red>允许扩大解释，禁止类推解释，但有例外</font>；(另解：<sup><font color =blue>Adobe</font></sup>即不符合刑法文字的可能含义)</li>
+<li>反义解释：A和非A</li>
+</ol>
+<h4 id="解释理由："><a href="#解释理由：" class="headerlink" title="解释理由："></a><strong>解释理由：</strong></h4><ol>
+<li>文理解释</li>
+<li>体系解释：一词多义、多词一义、同类解释</li>
+<li>当然解释：举重以明轻 | 举轻以明重；两个事项必须是性质相同、程度不同的关系；法益比较、轻重比较</li>
+<li>目的解释：就是用<a href="#法益">法益</a>来解释罪名的构成要件。刑法的保护目的就是法益<br> <strong>注：解释技巧之间是排斥关系，即解释技巧只能选择一种；而解释理由之间是并存关系，且越多越好</strong><br>前者负责生产结论，后者负责论证结论的合理性，要求二者正反推均成立。如：解释技巧生产结论，但论证理由不充分，则不采纳；解释理由论证解释技巧合理，但技巧为类推解释，则不采纳。</li>
+</ol>
+<h3 id="第二节-刑法的功能"><a href="#第二节-刑法的功能" class="headerlink" title="第二节 刑法的功能"></a>第二节 刑法的功能</h3><ol>
+<li><p><span id="法益">保护法益</span>：法益，是指刑法保护的利益。一个罪名的保护法益也称为保护客体或犯罪客体。犯罪是指侵害法益的行为。</p>
+</li>
+<li><p>保障人权：严格依据刑法来定罪处罚。即刑法在打击犯罪、保护法益的同时，也应保障人权。</p>
+<font color =red>若一味侧重保护法益，则容易认定为有罪。若一味侧重保障人权，则容易认定为无罪。二者冲突时，优先保障人权。</font>
+
+</li>
+</ol>
+<h3 id="第三节-刑法的原则"><a href="#第三节-刑法的原则" class="headerlink" title="第三节 刑法的原则"></a>第三节 刑法的原则</h3><h4 id="罪刑法定原则"><a href="#罪刑法定原则" class="headerlink" title="罪刑法定原则"></a>罪刑法定原则</h4><ul>
+<li>法无明文规定不为罪，法无明文规定不处；目的是保障人权。<ol>
+<li><strong>思想基础：</strong><br>a. 民主主义：意指只有民主产生的立法机关才有权规定犯罪与刑罚。<br>b. 自由主义（最重要的）：也称为尊重人权主义，意指<font color =red>法律应当具有预测可能性</font>，使国民知晓什么是犯罪，什么不是犯罪，以保障个人的行动自由。这种思想也称为国民预测可能性原理。<br>例：新中国1979年第一部刑法典出台前使用反革命条例，以致出现“反革命梦奸罪”、“反革命不讲卫生罪”。79年刑法典出台后，由于部分罪名未明确，如：流氓罪，投机倒把罪（皆与97年废除），因此未列入罪刑法定原则（97年列入）。</li>
+<li><strong>基本内容：</strong><br>a. 成文的罪刑法定：1. 法律主义：如全国人大制定的基本法律、国务院制定的行政法规。只有全国人大及其常委会有资格规定犯罪和刑法，而国务院及两高的司法解释均没有立法权，只有解释权。2. 禁止习惯法：即不能像民法一样适用习惯法，民法是意思自治原则（即双方可以商量解决），而刑法是罪刑法定原则。<br>b. 事前的罪刑法定：禁止溯及既往、刑法的时间效力<br>c. 严格的罪刑法定：禁止类推解释，但允许扩大解释<br>d. 确定的罪刑法定：指罪刑规范应当明确、适当。(1) 明确性要求；(2) 禁止绝对不定刑及绝对不定期刑：即不明确刑罚的种类和期刑的刑期；(3) 禁止处罚不当罚的行为：体现刑法的谦抑性/补充性要求：即民法、行政法无济于事、无法规制后才适用刑法，因为刑罚是最严厉的制裁措施；(4) 禁止不均衡、残虐的刑罚：即刑罚应与罪行相适应， 重罪重判， 轻罪轻判，广义上可以包含罪刑相适应原则。<br><strong>注*：民法和刑法不是对立排斥关系，而是位阶关系（适用顺序而言），如：刑事附带民事诉讼制度，即如果罪行既符合民法又符合刑法，以刑法为主，附带民事诉讼。民法和刑法基本法律，地位平等。</strong></li>
+</ol>
+</li>
+</ul>
+<h4 id="罪刑相适应原则"><a href="#罪刑相适应原则" class="headerlink" title="罪刑相适应原则"></a>罪刑相适应原则</h4><ul>
+<li>又罪刑均衡原则，即刑罚应与罪行相适应， 重罪重判， 轻罪轻判</li>
+<li><strong>量刑标准包含法益侵害性和人身危险性（再犯可能性）</strong></li>
+<li><strong>法益侵害性</strong>是针对已然发生的犯罪事实，又报应刑或责任刑。<strong>人身危害性</strong>是针对未然的犯罪事实，预防未来再犯的犯罪事实，又预防刑或目的刑。<br>如：1. 入室抢劫与普通抢劫重，因为多了法益侵害性（侵入住宅）；2. 累犯从重处罚，因为多了人身危险性（再犯可能性）；3. 投案自首从宽处罚是由于再犯可能性降低。<br><strong>刑罚个别化理念：</strong>即再犯可能性因人而异，如：为了吸毒偷钱与为了治病偷钱。</li>
+</ul>
+<h3 id="第四节-刑法的效力"><a href="#第四节-刑法的效力" class="headerlink" title="第四节 刑法的效力"></a>第四节 刑法的效力</h3><h4 id="一、刑法的空间效力"><a href="#一、刑法的空间效力" class="headerlink" title="一、刑法的空间效力"></a>一、刑法的空间效力</h4><p><strong>（一）在中国境内犯罪：属地管辖原则</strong></p>
+<ol>
+<li>“我国领域”包括领土、领水、领空<br><strong>a. 旗国主义。</strong>仅航空器（飞机）与船舶属于，国际列车、国际长途汽车不属于。</li>
+<li>属地管辖原则之“地”，既包括犯罪行为地，也包括犯罪结果地。<br><strong>a. 犯罪行为。</strong>从共同犯罪上分，包括<strong>实行</strong>行为地、<strong>教唆</strong>行为地、和<strong>帮助</strong>行为地；从犯罪形态上分，包括<strong>预备</strong>行为地和<strong>实行</strong>行为地。上述行为中，只要有一项行为发生在国内，其他相关行为即使发生在国外，也认为是在我国领域内犯罪。（如：从缅甸打电话到国内进行诈骗，犯罪结果在国内，因此也能依据属地管辖原则进行管辖）<br><strong>b. 犯罪结果。</strong>从共同犯罪上分，包括整体结果和部分共犯人的结果；从犯罪形态上分，包括实害结果和危险结果。</li>
+</ol>
+<p><strong>（二）在中国境外犯罪：属人管辖原则、保护管辖原则、普遍管辖原则</strong></p>
+<ol>
+<li>属人管辖原则：我国公民在境外犯罪（但是最高刑为三年以下有期徒刑的（即轻罪），可以不予追究；国家工作人员和军人一律追究）</li>
+<li>保护管辖原则：外国人在境外对中国人或中国政府犯罪，且为重罪（最低刑3年以上），且遵循双重犯罪原则（即犯罪地的法律也认为是犯罪）</li>
+<li>普遍管辖：国际犯罪<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%91%E6%B3%95%E7%9A%84%E7%A9%BA%E9%97%B4%E6%95%88%E5%8A%9B.png" alt="刑法的空间效力" style="zoom:50%;" /></li>
+</ol>
+<p>朝鲜领导的哥哥金正男在马来西亚被越南人杀死。朝鲜-保护管辖；马来西亚-属地管辖；越南-属人管辖。</p>
+<h4 id="二、刑法的时间效力（即溯及力）"><a href="#二、刑法的时间效力（即溯及力）" class="headerlink" title="二、刑法的时间效力（即溯及力）"></a>二、刑法的时间效力（即溯及力）</h4><ol>
+<li>从旧兼从轻原则：原则上适用旧法（行为时的法律），但适用新法有利于被告人时，适用新法。也即，原则上禁止法律溯及既往，例外是不禁止有利于被告人的溯及既往。（如：适用新法，被告人能够被判得更轻）</li>
+<li><font color =red>该原则的使用对象是未决犯，即案件发生在旧法，审判发生在新法。</font>对于已决犯（已判决的案件）则不存在是否溯及既往的问题。<br>另，再审案件也是适用旧法。</li>
+<li>司法解释的时间效力：<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%91%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E6%95%88%E5%8A%9B.png" alt="司法解释的时间效力" style="zoom:50%;" />即第一种是“从旧”，第二种是“从旧兼从轻”<br><em>随笔：专业无贵贱，知识有阶梯；叔本华：人的痛苦都来自价值观</em></li>
+</ol>
+]]></content>
+      <categories>
+        <category>司法考试</category>
+      </categories>
+      <tags>
+        <tag>刑法</tag>
+        <tag>柏浪涛</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资金周报</title>
+    <url>/post/44421/</url>
+    <content><![CDATA[<p>Southern-FICC|资金周报（2023.12.25-2023.12.29）</p>
+<p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A001.png" alt="A001"></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png" alt="A002"></p>
+<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。观察分机构净融出情况，政策性银行与大型</p>
+<p>要素：本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
+<p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
+<p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计</p>
+<p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比</p>
+]]></content>
+      <categories>
+        <category>资金周报</category>
+      </categories>
+      <tags>
+        <tag>本币交易</tag>
       </tags>
   </entry>
 </search>
