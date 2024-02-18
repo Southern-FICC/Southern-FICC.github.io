@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Python CheatSheet</title>
-    <url>/post/27831/</url>
-    <content><![CDATA[<h3 id="例1："><a href="#例1：" class="headerlink" title="例1："></a>例1：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">&#x27;β&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">&#x27;E(R)&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>, <span class="string">&#x27;基金P&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<h3 id="matplotlib、matplotlib-pyplot"><a href="#matplotlib、matplotlib-pyplot" class="headerlink" title="matplotlib、matplotlib.pyplot"></a><a href="https://matplotlib.org/">matplotlib、matplotlib.pyplot</a></h3><p><a href="https://matplotlib.org/cheatsheets/cheatsheets.pdf"><strong>CheatSheet</strong></a></p>
-<h3 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a><a href="https://pandas.pydata.org/">Pandas</a></h3><p><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
-<h3 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a><a href="https://numpy.org/">Numpy</a></h3><p><a href="https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
-]]></content>
-      <categories>
-        <category>数据建模</category>
-        <category>数据清理</category>
-      </categories>
-      <tags>
-        <tag>Python CheatSheet</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CPA-会计</title>
     <url>/post/11620/</url>
     <content><![CDATA[<h3 id="02第二章-存货"><a href="#02第二章-存货" class="headerlink" title=" 02第二章 存货"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/02第二章 存货.pdf" target="_blank"><strong>02第二章 存货</strong></a></h3><h3 id="03第三章-固定资产"><a href="#03第三章-固定资产" class="headerlink" title=" 03第三章 固定资产"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/03第三章 固定资产.pdf" target="_blank"><strong>03第三章 固定资产</strong></a></h3><h3 id="04第四章-无形资产"><a href="#04第四章-无形资产" class="headerlink" title=" 04第四章 无形资产"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/04第四章 无形资产.pdf" target="_blank"><strong>04第四章 无形资产</strong></a></h3><h3 id="05第五章-投资性房地产"><a href="#05第五章-投资性房地产" class="headerlink" title=" 05第五章 投资性房地产"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/05第五章 投资性房地产.pdf" target="_blank"><strong>05第五章 投资性房地产</strong></a></h3>]]></content>
@@ -51,6 +35,22 @@
       </categories>
       <tags>
         <tag>Wind指标</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python CheatSheet</title>
+    <url>/post/27831/</url>
+    <content><![CDATA[<h3 id="例1："><a href="#例1：" class="headerlink" title="例1："></a>例1：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">&#x27;β&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">&#x27;E(R)&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>, <span class="string">&#x27;基金P&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<h3 id="matplotlib、matplotlib-pyplot"><a href="#matplotlib、matplotlib-pyplot" class="headerlink" title="matplotlib、matplotlib.pyplot"></a><a href="https://matplotlib.org/">matplotlib、matplotlib.pyplot</a></h3><p><a href="https://matplotlib.org/cheatsheets/cheatsheets.pdf"><strong>CheatSheet</strong></a></p>
+<h3 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a><a href="https://pandas.pydata.org/">Pandas</a></h3><p><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
+<h3 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a><a href="https://numpy.org/">Numpy</a></h3><p><a href="https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
+]]></content>
+      <categories>
+        <category>数据建模</category>
+        <category>数据清理</category>
+      </categories>
+      <tags>
+        <tag>Python CheatSheet</tag>
       </tags>
   </entry>
   <entry>
@@ -378,20 +378,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数据存储与执行</title>
-    <url>/post/32586/</url>
-    <content><![CDATA[<h4 id="数据结构创建及特点"><a href="#数据结构创建及特点" class="headerlink" title="数据结构创建及特点:"></a>数据结构创建及特点:</h4><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9B%E5%BB%BA%E5%8F%8A%E7%89%B9%E7%82%B9.png" alt="数据结构创建及特点"></p>
-<h4 id="if-name-‘-main-‘"><a href="#if-name-‘-main-‘" class="headerlink" title="if __name__ == ‘__main__‘:"></a>if <code>__name__</code> == ‘<code>__main__</code>‘:</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line">    function()</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;&#x27;</span>)</span><br><span class="line"><span class="comment">#__name__和__main__都是内置变量，当文件被直接执行时，__name__的值就是__main__，文件中代码均被执行。</span></span><br><span class="line"><span class="comment">#当文件作为模块被导入时，__name__的值就是文件名()，`if`下的内容均不会被执行。</span></span><br><span class="line"><span class="comment">#该结构常用于测试文件中的代码，即`if`下为测试代码。如此，可以将测试代码一同保留在文件中，且被导入时不会执行测试代码。</span></span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>数据建模</category>
-        <category>数据清理</category>
-      </categories>
-      <tags>
-        <tag>存储与执行</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>投资业绩评价及风险管理</title>
     <url>/post/62142/</url>
     <content><![CDATA[<h1 id="投资组合管理"><a href="#投资组合管理" class="headerlink" title="投资组合管理"></a>投资组合管理</h1><p>略。均值-方差模型、CAPM、有效市场假说、现代投资组合理论、协方差、相关系数 <script type="math/tex">\rho_{i,j} = \dfrac{\text{cov}(i,j)}{\sigma_i\sigma_j}</script>、资产收益的可行集、最小方差前沿、有效前沿、无差异曲线、资本配置线CAL、最优CAL、资本市场线CML、系统性风险、非系统性风险、证券市场线SML</p>
@@ -497,6 +483,20 @@
       </categories>
       <tags>
         <tag>投资业绩评价及风险管理</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据存储与执行</title>
+    <url>/post/32586/</url>
+    <content><![CDATA[<h4 id="数据结构创建及特点"><a href="#数据结构创建及特点" class="headerlink" title="数据结构创建及特点:"></a>数据结构创建及特点:</h4><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9B%E5%BB%BA%E5%8F%8A%E7%89%B9%E7%82%B9.png" alt="数据结构创建及特点"></p>
+<h4 id="if-name-‘-main-‘"><a href="#if-name-‘-main-‘" class="headerlink" title="if __name__ == ‘__main__‘:"></a>if <code>__name__</code> == ‘<code>__main__</code>‘:</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line">    function()</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;&#x27;</span>)</span><br><span class="line"><span class="comment">#__name__和__main__都是内置变量，当文件被直接执行时，__name__的值就是__main__，文件中代码均被执行。</span></span><br><span class="line"><span class="comment">#当文件作为模块被导入时，__name__的值就是文件名()，`if`下的内容均不会被执行。</span></span><br><span class="line"><span class="comment">#该结构常用于测试文件中的代码，即`if`下为测试代码。如此，可以将测试代码一同保留在文件中，且被导入时不会执行测试代码。</span></span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>数据建模</category>
+        <category>数据清理</category>
+      </categories>
+      <tags>
+        <tag>存储与执行</tag>
       </tags>
   </entry>
   <entry>
@@ -828,72 +828,6 @@
       </categories>
       <tags>
         <tag>利率市场化改革</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>本币交易梳理04--政策与规范</title>
-    <url>/post/62746/</url>
-    <content><![CDATA[<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
-<li>法律-行政规定-团体规则-职业操守</li>
-<li><strong>法律（全国人大常委会）：</strong> 中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
-<li><strong>行政法规（国务院）：</strong> 企业债券管理条例、取消行政许可的国务院令</li>
-<li><strong>部门规章、规范性文件（国务院部委）：</strong> 人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
-<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong> 交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
-</ul>
-<h2 id="1-2-市场管理框架"><a href="#1-2-市场管理框架" class="headerlink" title="1.2 市场管理框架"></a>1.2 市场管理框架</h2><ul>
-<li><strong>中介机构及自律组织：</strong> 拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
-<li><strong>证监会、银保监会：</strong> 监管机构、主体，即<font color="#d99694">交易主体</font></li>
-<li><strong>人行：</strong> 指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
-<li><strong>人行、财政部、发改委、NAFMII：</strong> 监督<font color="#d99694">发债主体</font></li>
-<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
-
-</li>
-</ul>
-<h1 id="二、货币市场基本规则"><a href="#二、货币市场基本规则" class="headerlink" title="二、货币市场基本规则"></a>二、货币市场基本规则</h1><h2 id="2-1-同业拆借市场准入管理"><a href="#2-1-同业拆借市场准入管理" class="headerlink" title="2.1 同业拆借市场准入管理"></a>2.1 同业拆借市场准入管理</h2><ul>
-<li>金融机构通过开户系统（一站式平台）向拆借中心申请入市、退市<ul>
-<li>均在三日内完成，其中退市后两年内不再受理入市申请</li>
-</ul>
-</li>
-<li>三放松：放松准入、期限、限额管理</li>
-<li>两加强：加强<font color="#d99694">透明度管理</font>和<font color="#d99694">监督检查</font></li>
-<li>一促进：促进同业拆借市场健康发展</li>
-</ul>
-<h2 id="2-2-同业拆借市场期限管理"><a href="#2-2-同业拆借市场期限管理" class="headerlink" title="2.2 同业拆借市场期限管理"></a>2.2 同业拆借市场期限管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E6%9C%9F%E9%99%90%E7%AE%A1%E7%90%86.png" alt="同业拆借市场期限管理"><br>➢ 最长拆出期限不得超过对手方的最长拆入期限（第23条）<br>➢ 到期后不得展期（第24条）</p>
-<h2 id="2-3-同业拆借市场限额管理"><a href="#2-3-同业拆借市场限额管理" class="headerlink" title="2.3 同业拆借市场限额管理"></a>2.3 同业拆借市场限额管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E9%99%90%E9%A2%9D%E7%AE%A1%E7%90%86.png" alt="同业拆借市场限额管理"></p>
-<h2 id="2-4-同业拆借市场信息披露与监督检查"><a href="#2-4-同业拆借市场信息披露与监督检查" class="headerlink" title="2.4 同业拆借市场信息披露与监督检查"></a>2.4 同业拆借市场信息披露与监督检查</h2><ul>
-<li>信息披露管理<ul>
-<li>每年1月中旬：上年财务报表（未审计）</li>
-<li>每年四月底：经审计的年度财务报告及其他要求公布的报表、报告</li>
-<li>每年7月中旬：半年财务报表（未审计）</li>
-<li>获准进入拆借市场60日：公告基本情况、最近一次经审计的年度财务报告</li>
-<li>股权变更完成后30个工作日内：公告股权变更情况</li>
-<li>已经成为上市公司的成员可以豁免在同业拆借市场进行信息披露</li>
-</ul>
-</li>
-<li>监督检查<ul>
-<li>人行依法对同业拆借交易实施非现场监管和现场检查</li>
-</ul>
-</li>
-</ul>
-<h1 id="三、债券市场（含回购）基本规则"><a href="#三、债券市场（含回购）基本规则" class="headerlink" title="三、债券市场（含回购）基本规则"></a>三、债券市场（含回购）基本规则</h1><h2 id="3-1-准入管理"><a href="#3-1-准入管理" class="headerlink" title="3.1 准入管理"></a>3.1 准入管理</h2><ul>
-<li>境内主体：<ul>
-<li>02年备案制$\longrightarrow$ 13年人行上海总部上收分支行准入备案权限 </li>
-</ul>
-</li>
-<li>境外主体：<ul>
-<li>11年RQFII—13年QFII—15年境外央行、国际金融组织和主权财富基金可参与所有交易—16年CIBM</li>
-<li>直接入市（CIBM）、债券通（BC）</li>
-</ul>
-</li>
-</ul>
-<p>略</p>
-]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>本币交易</category>
-      </categories>
-      <tags>
-        <tag>政策与规范</tag>
       </tags>
   </entry>
   <entry>
@@ -1307,17 +1241,69 @@
       </tags>
   </entry>
   <entry>
-    <title>编写带有LaTex的坐标图.py</title>
-    <url>/post/21876/</url>
-    <content><![CDATA[<p>下一步：结构化参数</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.usetex&#x27;</span>] = <span class="literal">True</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.latex.preamble&#x27;</span>] = <span class="string">r&#x27;\usepackage&#123;CJK&#125;&#x27;</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">r&#x27;$\beta$&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">r&#x27;$E(R)$&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>,  <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;基金P\end&#123;CJK&#125;&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在坐标右侧添加一个文本框</span></span><br><span class="line">text_box_content = <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;斜率$=\frac&#123;\overline&#123;R_p&#125;-\overline&#123;R_f&#125;&#125;&#123;\beta_p&#125;$\end&#123;CJK&#125;&#x27;</span>+ <span class="string">r&#x27;$\\$&#x27;</span>+<span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;证券市场线上任一个组合的斜率即为特雷诺比率，\\即单位系统风险下的超额收益率\end&#123;CJK&#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">plt.text(<span class="number">3</span>, <span class="number">5</span>, text_box_content, fontsize=<span class="number">12</span>, bbox=<span class="built_in">dict</span>(facecolor=<span class="string">&#x27;white&#x27;</span>, alpha=<span class="number">0.5</span>), va=<span class="string">&#x27;top&#x27;</span>, ha=<span class="string">&#x27;left&#x27;</span>, usetex=<span class="literal">True</span>) </span><br><span class="line"><span class="comment">#verticle align\herizon align</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+    <title>本币交易梳理04--政策与规范</title>
+    <url>/post/62746/</url>
+    <content><![CDATA[<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
+<li>法律-行政规定-团体规则-职业操守</li>
+<li><strong>法律（全国人大常委会）：</strong> 中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
+<li><strong>行政法规（国务院）：</strong> 企业债券管理条例、取消行政许可的国务院令</li>
+<li><strong>部门规章、规范性文件（国务院部委）：</strong> 人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
+<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong> 交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
+</ul>
+<h2 id="1-2-市场管理框架"><a href="#1-2-市场管理框架" class="headerlink" title="1.2 市场管理框架"></a>1.2 市场管理框架</h2><ul>
+<li><strong>中介机构及自律组织：</strong> 拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
+<li><strong>证监会、银保监会：</strong> 监管机构、主体，即<font color="#d99694">交易主体</font></li>
+<li><strong>人行：</strong> 指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
+<li><strong>人行、财政部、发改委、NAFMII：</strong> 监督<font color="#d99694">发债主体</font></li>
+<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
+
+</li>
+</ul>
+<h1 id="二、货币市场基本规则"><a href="#二、货币市场基本规则" class="headerlink" title="二、货币市场基本规则"></a>二、货币市场基本规则</h1><h2 id="2-1-同业拆借市场准入管理"><a href="#2-1-同业拆借市场准入管理" class="headerlink" title="2.1 同业拆借市场准入管理"></a>2.1 同业拆借市场准入管理</h2><ul>
+<li>金融机构通过开户系统（一站式平台）向拆借中心申请入市、退市<ul>
+<li>均在三日内完成，其中退市后两年内不再受理入市申请</li>
+</ul>
+</li>
+<li>三放松：放松准入、期限、限额管理</li>
+<li>两加强：加强<font color="#d99694">透明度管理</font>和<font color="#d99694">监督检查</font></li>
+<li>一促进：促进同业拆借市场健康发展</li>
+</ul>
+<h2 id="2-2-同业拆借市场期限管理"><a href="#2-2-同业拆借市场期限管理" class="headerlink" title="2.2 同业拆借市场期限管理"></a>2.2 同业拆借市场期限管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E6%9C%9F%E9%99%90%E7%AE%A1%E7%90%86.png" alt="同业拆借市场期限管理"><br>➢ 最长拆出期限不得超过对手方的最长拆入期限（第23条）<br>➢ 到期后不得展期（第24条）</p>
+<h2 id="2-3-同业拆借市场限额管理"><a href="#2-3-同业拆借市场限额管理" class="headerlink" title="2.3 同业拆借市场限额管理"></a>2.3 同业拆借市场限额管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E9%99%90%E9%A2%9D%E7%AE%A1%E7%90%86.png" alt="同业拆借市场限额管理"></p>
+<h2 id="2-4-同业拆借市场信息披露与监督检查"><a href="#2-4-同业拆借市场信息披露与监督检查" class="headerlink" title="2.4 同业拆借市场信息披露与监督检查"></a>2.4 同业拆借市场信息披露与监督检查</h2><ul>
+<li>信息披露管理<ul>
+<li>每年1月中旬：上年财务报表（未审计）</li>
+<li>每年四月底：经审计的年度财务报告及其他要求公布的报表、报告</li>
+<li>每年7月中旬：半年财务报表（未审计）</li>
+<li>获准进入拆借市场60日：公告基本情况、最近一次经审计的年度财务报告</li>
+<li>股权变更完成后30个工作日内：公告股权变更情况</li>
+<li>已经成为上市公司的成员可以豁免在同业拆借市场进行信息披露</li>
+</ul>
+</li>
+<li>监督检查<ul>
+<li>人行依法对同业拆借交易实施非现场监管和现场检查</li>
+</ul>
+</li>
+</ul>
+<h1 id="三、债券市场（含回购）基本规则"><a href="#三、债券市场（含回购）基本规则" class="headerlink" title="三、债券市场（含回购）基本规则"></a>三、债券市场（含回购）基本规则</h1><h2 id="3-1-准入管理"><a href="#3-1-准入管理" class="headerlink" title="3.1 准入管理"></a>3.1 准入管理</h2><ul>
+<li>境内主体：<ul>
+<li>02年备案制$\longrightarrow$ 13年人行上海总部上收分支行准入备案权限 </li>
+</ul>
+</li>
+<li>境外主体：<ul>
+<li>11年RQFII—13年QFII—15年境外央行、国际金融组织和主权财富基金可参与所有交易—16年CIBM</li>
+<li>直接入市（CIBM）、债券通（BC）</li>
+</ul>
+</li>
+</ul>
+<p>略</p>
 ]]></content>
       <categories>
-        <category>数据建模</category>
-        <category>绘图</category>
+        <category>投研交易</category>
+        <category>本币交易</category>
       </categories>
       <tags>
-        <tag>Latex绘图</tag>
+        <tag>政策与规范</tag>
       </tags>
   </entry>
   <entry>
@@ -1339,6 +1325,20 @@
       </categories>
       <tags>
         <tag>资金周报</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编写带有LaTex的坐标图.py</title>
+    <url>/post/21876/</url>
+    <content><![CDATA[<p>下一步：结构化参数</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.usetex&#x27;</span>] = <span class="literal">True</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.latex.preamble&#x27;</span>] = <span class="string">r&#x27;\usepackage&#123;CJK&#125;&#x27;</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">r&#x27;$\beta$&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">r&#x27;$E(R)$&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>,  <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;基金P\end&#123;CJK&#125;&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在坐标右侧添加一个文本框</span></span><br><span class="line">text_box_content = <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;斜率$=\frac&#123;\overline&#123;R_p&#125;-\overline&#123;R_f&#125;&#125;&#123;\beta_p&#125;$\end&#123;CJK&#125;&#x27;</span>+ <span class="string">r&#x27;$\\$&#x27;</span>+<span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;证券市场线上任一个组合的斜率即为特雷诺比率，\\即单位系统风险下的超额收益率\end&#123;CJK&#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">plt.text(<span class="number">3</span>, <span class="number">5</span>, text_box_content, fontsize=<span class="number">12</span>, bbox=<span class="built_in">dict</span>(facecolor=<span class="string">&#x27;white&#x27;</span>, alpha=<span class="number">0.5</span>), va=<span class="string">&#x27;top&#x27;</span>, ha=<span class="string">&#x27;left&#x27;</span>, usetex=<span class="literal">True</span>) </span><br><span class="line"><span class="comment">#verticle align\herizon align</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>数据建模</category>
+        <category>绘图</category>
+      </categories>
+      <tags>
+        <tag>Latex绘图</tag>
       </tags>
   </entry>
 </search>
