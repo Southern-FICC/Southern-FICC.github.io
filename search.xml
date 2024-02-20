@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Python CheatSheet</title>
-    <url>/post/27831/</url>
-    <content><![CDATA[<h3 id="例1："><a href="#例1：" class="headerlink" title="例1："></a>例1：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">&#x27;β&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">&#x27;E(R)&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>, <span class="string">&#x27;基金P&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<h3 id="matplotlib、matplotlib-pyplot"><a href="#matplotlib、matplotlib-pyplot" class="headerlink" title="matplotlib、matplotlib.pyplot"></a><a href="https://matplotlib.org/">matplotlib、matplotlib.pyplot</a></h3><p><a href="https://matplotlib.org/cheatsheets/cheatsheets.pdf"><strong>CheatSheet</strong></a></p>
-<h3 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a><a href="https://pandas.pydata.org/">Pandas</a></h3><p><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
-<h3 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a><a href="https://numpy.org/">Numpy</a></h3><p><a href="https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
-]]></content>
-      <categories>
-        <category>数据建模</category>
-        <category>数据清理</category>
-      </categories>
-      <tags>
-        <tag>Python CheatSheet</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>CPA-会计</title>
     <url>/post/11620/</url>
     <content><![CDATA[<h3 id="02第二章-存货"><a href="#02第二章-存货" class="headerlink" title=" 02第二章 存货"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/02第二章 存货.pdf" target="_blank"><strong>02第二章 存货</strong></a></h3><h3 id="03第三章-固定资产"><a href="#03第三章-固定资产" class="headerlink" title=" 03第三章 固定资产"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/03第三章 固定资产.pdf" target="_blank"><strong>03第三章 固定资产</strong></a></h3><h3 id="04第四章-无形资产"><a href="#04第四章-无形资产" class="headerlink" title=" 04第四章 无形资产"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/04第四章 无形资产.pdf" target="_blank"><strong>04第四章 无形资产</strong></a></h3><h3 id="05第五章-投资性房地产"><a href="#05第五章-投资性房地产" class="headerlink" title=" 05第五章 投资性房地产"></a><i class="fa-solid fa-square-check"></i> <a href="https://Southern-FICC.github.io/cpa/05第五章 投资性房地产.pdf" target="_blank"><strong>05第五章 投资性房地产</strong></a></h3>]]></content>
@@ -51,6 +35,22 @@
       </categories>
       <tags>
         <tag>Wind指标</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Python CheatSheet</title>
+    <url>/post/27831/</url>
+    <content><![CDATA[<h3 id="例1："><a href="#例1：" class="headerlink" title="例1："></a>例1：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">&#x27;β&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">&#x27;E(R)&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>, <span class="string">&#x27;基金P&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<h3 id="matplotlib、matplotlib-pyplot"><a href="#matplotlib、matplotlib-pyplot" class="headerlink" title="matplotlib、matplotlib.pyplot"></a><a href="https://matplotlib.org/">matplotlib、matplotlib.pyplot</a></h3><p><a href="https://matplotlib.org/cheatsheets/cheatsheets.pdf"><strong>CheatSheet</strong></a></p>
+<h3 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a><a href="https://pandas.pydata.org/">Pandas</a></h3><p><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
+<h3 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a><a href="https://numpy.org/">Numpy</a></h3><p><a href="https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
+]]></content>
+      <categories>
+        <category>数据建模</category>
+        <category>数据清理</category>
+      </categories>
+      <tags>
+        <tag>Python CheatSheet</tag>
       </tags>
   </entry>
   <entry>
@@ -137,6 +137,30 @@
       </categories>
       <tags>
         <tag>久期-凸性</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>利率体系与指标分析</title>
+    <url>/post/28330/</url>
+    <content><![CDATA[<h1 id="中国利率体系"><a href="#中国利率体系" class="headerlink" title="中国利率体系"></a>中国利率体系</h1><p><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》—易纲，202109</a></p>
+<div class="note info flat"><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%88%91%E5%9B%BD%E5%88%A9%E7%8E%87%E4%BD%93%E7%B3%BB%E5%92%8C%E8%B0%83%E6%8E%A7%E6%A1%86%E6%9E%B6" alt="我国利率体系和调控框架" style="zoom:80%;" /></p>
+</div>
+<h2 id="货币政策工具"><a href="#货币政策工具" class="headerlink" title="货币政策工具"></a>货币政策工具</h2><p>货币市场、债券市场、信贷市场的指标性利率分别为存款类金融机构间的债券回购利率（DR）、国债收益率、贷款市场报价利率（LPR）</p>
+<p><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125463/2881199/index.html">公开市场操作(OMO)</a>：</strong>每日开展逆回购操作，主要包括回购交易（对象为<a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125469/4889129/index.html">51家一级交易商</a>）、现券交易和发行中央银行票据，不含MLF、SLO、PSL、国库现金定存。<br><em>短期流动性调节工具（Short-term Liquidity Operations, SLO）：调节市场短期资金供给，熨平突发性、临时性因素导致的市场资金供求大幅波动</em><br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125443/125854/2895400/index.html">常备借贷便利（StandingLendingFacility，SLF）</a>：</strong>金融机构主动发起。央行与金融机构“一对一”交易，针对性强。用于满足机构较长期限的大额流动性需求，期限为1-3个月，抵押式发放，对象为存款类金融机构，政策行和全国性商行为主。<br><div class="note info flat"><p>抵押不转移对抵押物的占管形态，仍由抵押人保管；质押改变了质押物的占管形态，由质权人保管。</p>
+</div><br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125446/125870/2809123/index.html">中期借贷便利利率（Medium-term Lending Facility，MLF）</a>：</strong><font color =red>每月月中</font>开展MLF操作。发放对象为符合宏观审慎要求的商业银行和政策行。采取质押式发放，质押券为国债、央票、政金债、高级信用债。<br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/3876493/index.html">贷款市场报价利率（LPR）</a>：</strong>2019年改革后<font color =red>代替贷款基准利率</font>，成为金融机构贷款利率定价的主要参考基准。各报价行在公开市场操作利率（主要为1年期MLF）的基础上加点报价，最终形成了“MLF利率→LPR→贷款利率”的利率传导机制，贷款利率和债券利率之间的相互参考作用也有所增强。<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/LPR%26MLF.png" alt="LPR&MLF" style="zoom: 50%;" /><br><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/4634692/4634697/5112065/index.html"><strong>结构性货币政策工具：</strong></a>如再贴现—对金融机构持有的已贴现票据进行贴现的业务，用于支持扩大涉农、小微和民营企业融资；抵押补充贷款(2014年)；租赁住房贷款支持计划—8个城市开展试点，支持市场化批量收购存量住房、扩大租赁住房供给；碳减排支持工具(2021年)。<br><strong>抵押补充贷款（Pledged Supplemental Lending，PSL）：</strong>为开发性金融支持棚改、支持国民经济重点领域、薄弱环节和社会事业发展提供长期稳定、成本适当的资金来源。<br><strong>存款准备金利率：</strong>2020年超额准备金利率由0.72%降至0.35%，与活期存款基准利率一致<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AD%98%E6%AC%BE%E5%87%86%E5%A4%87%E9%87%91%E5%88%A9%E7%8E%87.png" alt="存款准备金利率" style="zoom: 50%;" /><br><strong><a href="https://www.chinamoney.com.cn/chinese/bkshibor/">上海银行间同业拆放利率（Shibor）：</a></strong>2007年。报价行的算术平均利率，单利、无担保、批发性利率；包含8个品种：O/N、1W、2W、1M、3M、6M、9M、1Y<br><strong>常规货币政策（一般性货币政策工具）：</strong>通过控制短期利率进行调控，工具包括：法定存款准备金率、公开市场操作、再贴现率<br><strong>选择行货币政策工具及其他政策工具：</strong>消费者信用控制、证券市场信用控制、不动产信用控制、直接信用控制、间接信用控制<br><strong>创新型货币政策工具：</strong>SLO、SLF、PSL、MLF、TLF(临时流动性便利)、CRA(临时准备金动用安排)、TMLF(定向中期借贷便利)<br><strong>非传统货币政策：</strong><sup><a href="https://epaper.gmw.cn/gmrb/html/2010-08/27/nw.D110000gmrb_20100827_2-07.htm#:~:text=%E6%89%80%E8%B0%93%E9%9D%9E%E4%BC%A0%E7%BB%9F%E8%B4%A7%E5%B8%81%E6%94%BF,%E4%BF%A1%E8%B4%B7%E5%92%8C%E8%B5%84%E4%BA%A7%E5%B8%82%E5%9C%BA%E3%80%82">[1]</a></sup> <sup><a href="https://www.sohu.com/a/225901690_481741">[2]</a></sup>资产购买工具、量化宽松、负利率<br><div class="tabs" id="test1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="test1-1">OMO</button><button type="button" class="tab " data-href="test1-2">SLF</button><button type="button" class="tab " data-href="test1-3">超额准备金率</button><button type="button" class="tab " data-href="test1-4">DR007</button><button type="button" class="tab " data-href="test1-5">MLF</button></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>中国宏观-银行与货币-央行货币政策工具-逆回购利率：7天、14天、28天、63天</strong></p></div><div class="tab-item-content" id="test1-2"><p><strong>中国宏观-银行与货币-央行货币政策工具-常备借贷便利(SLF)利率: 隔夜、7天、1个月</strong></p></div><div class="tab-item-content" id="test1-3"><p><strong>中国宏观-利率汇率-存款利率-人民银行对金融机构存款利率</strong></p></div><div class="tab-item-content" id="test1-4"><p><strong>中国宏观-固收数据-回购利率-银行间质押式回购-DR001、007、014、021、1M、2M、3M、4M、6M、9M、1Y</strong></p></div><div class="tab-item-content" id="test1-5"><p><strong>中国宏观-银行与货币-央行货币政策工具-中期借贷便利操作-3个月、6个月、1年</strong></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div><br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9F%AD%E6%9C%9F%E6%94%BF%E7%AD%96%E5%88%A9%E7%8E%87%E5%92%8C%E5%88%A9%E7%8E%87%E8%B5%B0%E5%BB%8A" alt="短期政策利率和利率走廊" style="zoom: 25%;" /></p>
+<h1 id="资金分层及高频指标"><a href="#资金分层及高频指标" class="headerlink" title="资金分层及高频指标"></a>资金分层及高频指标</h1><h2 id="资金分层"><a href="#资金分层" class="headerlink" title="资金分层"></a><a href="https://southern-ficc.github.io/post/44421/">资金分层</a></h2><p>银行间市场：存款类机构与银行间机构分层：R007 - DR007；R001 - DR001</p>
+<p>上海交易所与银行间分层：GC007 - R007；GC001 - R001</p>
+<p>超额流动性：R007 - 7天逆回购利率；DR007 - 7天逆回购利率</p>
+<p>期限利差、机构间利差（国股行与中小行与非银机构、城投与国债）、产品间利差（非银机构基金证券及货币市场基金）、市场间利差（上海交易所与银行间）</p>
+<h2 id="基本面"><a href="#基本面" class="headerlink" title="基本面"></a>基本面</h2><h2 id="政策面"><a href="#政策面" class="headerlink" title="政策面"></a>政策面</h2><h2 id="资金面"><a href="#资金面" class="headerlink" title="资金面"></a>资金面</h2><h2 id="供需面"><a href="#供需面" class="headerlink" title="供需面"></a>供需面</h2><h2 id="情绪面"><a href="#情绪面" class="headerlink" title="情绪面"></a>情绪面</h2>]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>理论杂货</category>
+      </categories>
+      <tags>
+        <tag>利率与资金面</tag>
+        <tag>货币政策工具</tag>
+        <tag>风险指标</tag>
       </tags>
   </entry>
   <entry>
@@ -354,34 +378,20 @@
       </tags>
   </entry>
   <entry>
-    <title>利率体系与指标分析</title>
-    <url>/post/28330/</url>
-    <content><![CDATA[<p><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》—易纲，202109</a></p>
-<div class="note info flat"><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%88%91%E5%9B%BD%E5%88%A9%E7%8E%87%E4%BD%93%E7%B3%BB%E5%92%8C%E8%B0%83%E6%8E%A7%E6%A1%86%E6%9E%B6" alt="我国利率体系和调控框架" style="zoom:80%;" /></p>
-</div>
-<h2 id="货币政策工具"><a href="#货币政策工具" class="headerlink" title="货币政策工具"></a>货币政策工具</h2><p>货币市场、债券市场、信贷市场的指标性利率分别为存款类金融机构间的债券回购利率（DR）、国债收益率、贷款市场报价利率（LPR）</p>
-<p><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125463/2881199/index.html">公开市场操作(OMO)</a>：</strong>每日开展逆回购操作，主要包括回购交易（对象为<a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125469/4889129/index.html">51家一级交易商</a>）、现券交易和发行中央银行票据，不含MLF、SLO、PSL、国库现金定存。<br><em>短期流动性调节工具（Short-term Liquidity Operations, SLO）：调节市场短期资金供给，熨平突发性、临时性因素导致的市场资金供求大幅波动</em><br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125443/125854/2895400/index.html">常备借贷便利（StandingLendingFacility，SLF）</a>：</strong>金融机构主动发起。央行与金融机构“一对一”交易，针对性强。用于满足机构较长期限的大额流动性需求，期限为1-3个月，抵押式发放，对象为存款类金融机构，政策行和全国性商行为主。<br><div class="note info flat"><p>抵押不转移对抵押物的占管形态，仍由抵押人保管；质押改变了质押物的占管形态，由质权人保管。</p>
-</div><br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125446/125870/2809123/index.html">中期借贷便利利率（Medium-term Lending Facility，MLF）</a>：</strong><font color =red>每月月中</font>开展MLF操作。发放对象为符合宏观审慎要求的商业银行和政策行。采取质押式发放，质押券为国债、央票、政金债、高级信用债。<br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/3876493/index.html">贷款市场报价利率（LPR）</a>：</strong>2019年改革后<font color =red>代替贷款基准利率</font>，成为金融机构贷款利率定价的主要参考基准。各报价行在公开市场操作利率（主要为1年期MLF）的基础上加点报价，最终形成了“MLF利率→LPR→贷款利率”的利率传导机制，贷款利率和债券利率之间的相互参考作用也有所增强。<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/LPR%26MLF.png" alt="LPR&MLF" style="zoom: 50%;" /><br><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/4634692/4634697/5112065/index.html"><strong>结构性货币政策工具：</strong></a>如再贴现—对金融机构持有的已贴现票据进行贴现的业务，用于支持扩大涉农、小微和民营企业融资；抵押补充贷款(2014年)；租赁住房贷款支持计划—8个城市开展试点，支持市场化批量收购存量住房、扩大租赁住房供给；碳减排支持工具(2021年)。<br><strong>抵押补充贷款（Pledged Supplemental Lending，PSL）：</strong>为开发性金融支持棚改、支持国民经济重点领域、薄弱环节和社会事业发展提供长期稳定、成本适当的资金来源。<br><strong>存款准备金利率：</strong>2020年超额准备金利率由0.72%降至0.35%，与活期存款基准利率一致<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AD%98%E6%AC%BE%E5%87%86%E5%A4%87%E9%87%91%E5%88%A9%E7%8E%87.png" alt="存款准备金利率" style="zoom: 50%;" /><br><strong><a href="https://www.chinamoney.com.cn/chinese/bkshibor/">上海银行间同业拆放利率（Shibor）：</a></strong>2007年。报价行的算术平均利率，单利、无担保、批发性利率；包含8个品种：O/N、1W、2W、1M、3M、6M、9M、1Y<br><strong>常规货币政策（一般性货币政策工具）：</strong>通过控制短期利率进行调控，工具包括：法定存款准备金率、公开市场操作、再贴现率<br><strong>选择行货币政策工具及其他政策工具：</strong>消费者信用控制、证券市场信用控制、不动产信用控制、直接信用控制、间接信用控制<br><strong>创新型货币政策工具：</strong>SLO、SLF、PSL、MLF、TLF(临时流动性便利)、CRA(临时准备金动用安排)、TMLF(定向中期借贷便利)<br><strong>非传统货币政策：</strong><sup><a href="https://epaper.gmw.cn/gmrb/html/2010-08/27/nw.D110000gmrb_20100827_2-07.htm#:~:text=%E6%89%80%E8%B0%93%E9%9D%9E%E4%BC%A0%E7%BB%9F%E8%B4%A7%E5%B8%81%E6%94%BF,%E4%BF%A1%E8%B4%B7%E5%92%8C%E8%B5%84%E4%BA%A7%E5%B8%82%E5%9C%BA%E3%80%82">[1]</a></sup> <sup><a href="https://www.sohu.com/a/225901690_481741">[2]</a></sup>资产购买工具、量化宽松、负利率<br><div class="tabs" id="test1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="test1-1">OMO</button><button type="button" class="tab " data-href="test1-2">SLF</button><button type="button" class="tab " data-href="test1-3">超额准备金率</button><button type="button" class="tab " data-href="test1-4">DR007</button><button type="button" class="tab " data-href="test1-5">MLF</button></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>中国宏观-银行与货币-央行货币政策工具-逆回购利率：7天、14天、28天、63天</strong></p></div><div class="tab-item-content" id="test1-2"><p><strong>中国宏观-银行与货币-央行货币政策工具-常备借贷便利(SLF)利率: 隔夜、7天、1个月</strong></p></div><div class="tab-item-content" id="test1-3"><p><strong>中国宏观-利率汇率-存款利率-人民银行对金融机构存款利率</strong></p></div><div class="tab-item-content" id="test1-4"><p><strong>中国宏观-固收数据-回购利率-银行间质押式回购-DR001、007、014、021、1M、2M、3M、4M、6M、9M、1Y</strong></p></div><div class="tab-item-content" id="test1-5"><p><strong>中国宏观-银行与货币-央行货币政策工具-中期借贷便利操作-3个月、6个月、1年</strong></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div><br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9F%AD%E6%9C%9F%E6%94%BF%E7%AD%96%E5%88%A9%E7%8E%87%E5%92%8C%E5%88%A9%E7%8E%87%E8%B5%B0%E5%BB%8A" alt="短期政策利率和利率走廊" style="zoom: 25%;" /></p>
-<h2 id="资金分层"><a href="#资金分层" class="headerlink" title="资金分层"></a>资金分层</h2><p>银行间市场：存款类机构与银行间机构分层：R007 - DR007；R001 - DR001</p>
-<p>上海交易所与银行间分层：GC007 - R007；GC001 - R001</p>
-<p>超额流动性：R007 - 7天逆回购利率；DR007 - 7天逆回购利率</p>
-<p>期限利差、机构间利差（国股行与中小行与非银机构、城投与国债）、产品间利差（非银机构基金证券及货币市场基金）、市场间利差（上海交易所与银行间）</p>
-]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>理论杂货</category>
-      </categories>
-      <tags>
-        <tag>利率与资金面</tag>
-        <tag>货币政策工具</tag>
-        <tag>风险指标</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数据存储与执行</title>
     <url>/post/32586/</url>
     <content><![CDATA[<h4 id="数据结构创建及特点"><a href="#数据结构创建及特点" class="headerlink" title="数据结构创建及特点:"></a>数据结构创建及特点:</h4><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9B%E5%BB%BA%E5%8F%8A%E7%89%B9%E7%82%B9.png" alt="数据结构创建及特点"></p>
 <h4 id="if-name-‘-main-‘"><a href="#if-name-‘-main-‘" class="headerlink" title="if __name__ == ‘__main__‘:"></a>if <code>__name__</code> == ‘<code>__main__</code>‘:</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line">    function()</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;&#x27;</span>)</span><br><span class="line"><span class="comment">#__name__和__main__都是内置变量，当文件被直接执行时，__name__的值就是__main__，文件中代码均被执行。</span></span><br><span class="line"><span class="comment">#当文件作为模块被导入时，__name__的值就是文件名()，`if`下的内容均不会被执行。</span></span><br><span class="line"><span class="comment">#该结构常用于测试文件中的代码，即`if`下为测试代码。如此，可以将测试代码一同保留在文件中，且被导入时不会执行测试代码。</span></span><br></pre></td></tr></table></figure>
+<h4 id="库安装："><a href="#库安装：" class="headerlink" title="库安装："></a>库安装：</h4><ol>
+<li>IDE Python环境/CMD：pip install<br>IDE是一种软件应用程序，提供了编程人员编写软件时所需的工具，例如代码编辑器、编译器、调试器等。包括VSCode、PyCharm等。</li>
+<li>Jupyter Notebook：!pip install<br>加入!，以便.ipnb识别为shell代码，而不是python代码。</li>
+</ol>
+<h4 id="常用库介绍："><a href="#常用库介绍：" class="headerlink" title="常用库介绍："></a>常用库介绍：</h4><ol>
+<li>Excel读写：<br>pandas、(openpyxl、xlsxwriter支持新版.xlsx)、(xlrd、xlwt支持旧版.xls读写，不支持新版.xlsx)<br><code>to_excel</code>方法默认使用<code>openpyxl</code>作为写入引擎来处理.xlsx文件。通过engine=”xlsxwirter”切换引擎。r转义。</li>
+<li>with as用法：<br><code>with pd.excelwriter(&#39;PATH&#39;,engine=&#39;&#39;):</code><br>with表打开文件，语句结束时关闭文件。as输出with对象简称。通常用于打开或关闭文件的操作，如打开excel写入。</li>
+<li>os库：<br><code>os.listdir(os.getcwd)</code>#获取目录<code>os.rename</code>#改名<code>for root, dirs, files in os.walk(file_dir)</code>#获取路径</li>
+<li><strong>Pending：</strong>beautifulsoup、Numpy、Pandas、urllib、sklearn、matplotlib、sys、Pyqt5、selenium、tkinter、datetime、win32ui。</li>
+</ol>
 ]]></content>
       <categories>
         <category>数据建模</category>
@@ -389,6 +399,114 @@
       </categories>
       <tags>
         <tag>存储与执行</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>投资业绩评价及风险管理</title>
+    <url>/post/62142/</url>
+    <content><![CDATA[<h1 id="投资组合管理"><a href="#投资组合管理" class="headerlink" title="投资组合管理"></a>投资组合管理</h1><p>略。均值-方差模型、CAPM、有效市场假说、现代投资组合理论、协方差、相关系数 <script type="math/tex">\rho_{i,j} = \dfrac{\text{cov}(i,j)}{\sigma_i\sigma_j}</script>、资产收益的可行集、最小方差前沿、有效前沿、无差异曲线、资本配置线CAL、最优CAL、资本市场线CML、系统性风险、非系统性风险、证券市场线SML</p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/SML%E5%92%8CCML.png" alt="SML和CML" style="zoom:50%;" /></p>
+<h1 id="投资风险管理"><a href="#投资风险管理" class="headerlink" title="投资风险管理"></a>投资风险管理</h1><h3 id="风险类型"><a href="#风险类型" class="headerlink" title="风险类型"></a>风险类型</h3><h4 id="市场风险"><a href="#市场风险" class="headerlink" title="市场风险"></a>市场风险</h4><table>
+   <tr>
+      <td>1.政策风险</td>
+      <td>①宏观政策，包括财政政策、产业政策、货币政策等，都会对金融市场造成影响，进而影响基金的收益水平。<br>②管理：主要在于对国家宏观政策的把握与预测。</td>
+   </tr>
+   <tr>
+      <td>2.经济周期性<br>波动风险 </td>
+      <td>经济发展有一定周期性，基金便会追随经济总体趋向而发生变动。</td>
+   </tr>
+   <tr>
+      <td>3.利率风险</td>
+      <td>①因利率变化而产生的基金价值的不确定性。<br>②主要受通货膨胀预期、中央银行的货币政策、经济周期和国际利率水平等的影响。</td>
+   </tr>
+   <tr>
+      <td>4.购买力风险</td>
+      <td>由于通货膨胀等因素的影响而导致购买力下降，降低基金实际收益，使投资者收益率降低的风险，又称为通货膨胀风险。</td>
+   </tr>
+   <tr>
+      <td>5.汇率风险</td>
+      <td>①因汇率变动而产生的基金价值的不确定性。<br>②影响汇率的因素有国际收支及外汇储备、利率、通货膨胀和政治局势等。 </td>
+   </tr>
+</table>
+
+<h4 id="信用风险"><a href="#信用风险" class="headerlink" title="信用风险"></a>信用风险</h4><p><strong>管理措施：</strong><br>1.建立针对债券发行人的内部信用评级制度，结合外部信用评级，进行发行人信用风险管理。<br>2.建立交易对手信用评级制度，根据交易对手的资质、交易记录、信用记录和交收违约记录等因素对交易对手进行信用评级，并定期更新。</p>
+<h4 id="流动性风险"><a href="#流动性风险" class="headerlink" title="流动性风险"></a>流动性风险</h4><p>定义：流动性是资产在短期内以低成本完成市场交易的能力。<br>管理措施：<br>1.制定流动性风险管理制度，平衡资产的流动性与盈利性，以适应投资组合日常运作需要。<br>2.及时对投资组合资产进行流动性分析和跟踪，包括计算各类证券的历史平均交易量、换手率和相应的变现周期。<br>3.关注投资者申赎意愿。4.建立流动性预警机制。5.进行流动性压力测试。6.制定流动性风险处置预案</p>
+<h3 id="风险指标"><a href="#风险指标" class="headerlink" title="风险指标"></a>风险指标</h3><p><strong>风险分类：</strong><br>1.事前风险测度：衡量投资组合在将来的表现和风险情况；<br>2.事后风险测度：研究投资组合在历史上的表现和风险情况<br><strong>指标分类：</strong><br>1.描述收益的不确定性：反映投资组合市场风险的指标有基于收益率及方差的风险指标，如波动率、回撤、下行风险标准差等。<br>2.风险敏感性度量指标：如β系数、久期、凸性等<br><strong>波动率：</strong><br>1.投资组合波动率是单位时间收益率的标准差。<br>2.单位时间根据数据来源和应用场景可以取每日、每周、每月、每年等。<br>3.公募基金一般都会公布每日净值增长率。</p>
+<p><font color =red><strong>跟踪误差：</strong></font><br>1.跟踪误差是证券组合相对基准组合的<font color= red>跟踪偏离度的标准差：</font><font color =red>$跟踪偏离度=证券组合的真实收益率-基准组合的收益率$</font><br>2.跟踪误差产生的原因：1.复制误差：某些成分股因流动性不足而难以以公允的价格买入。2.现金留存：投资组合不能全部投资于指数标的。3.各项费用。4.其他影响<br><strong>主动比重（AS）：</strong><br>1.主动比重是指投资组合持仓与基准不同的部分。衡量投资组合相对于基准的偏离程度。<br>2.基于投资组合持仓（波动率和跟踪误差基于收益率）<br>3.主动比重为0的投资组合，实质上是一个指数基金<br>4.常用于分析追求相对收益的股票型基金。<br><strong>最大回撤：</strong><br>1.最大回撤测量投资组合在指定区间内从最高点到最低点的回撤。<br><strong>下行标准差：</strong><br>1.波动率计算中，既包括了收益率高于平均值的波动，也考虑了低于平均值的单位区间的波动。有时需要关注收益率不达目标时的风险，这就需要用到下行标准差。</p>
+<h3 id="风险价值-VaR-5548"><a href="#风险价值-VaR-5548" class="headerlink" title="风险价值(VaR)-5548"></a>风险价值(VaR)-5548</h3><ol>
+<li><p>又称在险价值、风险收益、风险报酬，是指在给定的时间区间内和给定的置信水平下，利率、汇率等市场风险要素发生变化时，投资组合所面临的潜在最大损失。<br>例：某投资组合在持有期为1 周、置信水平为95%的情况下，若所计算的风险价值为-0.82%，则表明该资产组合在1周中的损失有95%的可能大性不会超过-0.82%。</p>
+</li>
+<li><p>VaR的估算方法</p>
+<table>
+<tr>
+<td>参数法</td>
+<td>又称为方差一协方差法，依据历史数据计算出风险因子收益率分布的参数值，如方差、均值和风险因子间的相关系数等。</td>
+</tr>
+<tr>
+<td>历史模拟法（历史模拟未来）</td>
+<td>假设市场未来的变化方向与历史发展状况大致相同，依据风险因子收益的近期历史数据的估算，模拟出未来的风险因子收益变化。</td>
+</tr>
+<tr>
+<td>蒙特卡洛模拟法（银行常用， 复杂但精确）</td>
+<td>在估算之前，需要有风险因子的概率分布模型，继而重复模拟风险因子变动的过程。在进行足够数量的模拟后，组合价值的模拟分布将会收敛于组合的真实分布， 求出最后的组合VaR 值。计算量较大，但被认为是最精准贴近的计算VaR 值方法。</td>
+<tr>
+</table>
+
+</li>
+</ol>
+<h3 id="预期损失-ES"><a href="#预期损失-ES" class="headerlink" title="预期损失(ES)"></a>预期损失(ES)</h3><p><strong>定义：</strong>在给定时间区间和置信区间内，投资组合损失的期望值。又称为条件风险价值或条件尾部期望或尾部损失。<br>例：在置信水平X下，VaR值在-0.82%的位置，这意味着有的把握保证时间区间T内投资的损失不会大于0.82%。但VaR是一个分位值，不能衡量最左侧区域的风险情况；而ES是最左侧区域所有损失的期望值，也就是在1-X的极端情况发生时损失的平均值。<br><em>注：分位数就是所选数值及小于该数值的所有数值的数量在总数量中的占比</em></p>
+<h3 id="压力测试"><a href="#压力测试" class="headerlink" title="压力测试"></a>压力测试</h3><p>1.用以应对可能发生的巨大损失事件。关键是选择压力情景。<br>2.投资管理人可以根据压力测试的结果采取措施，包括调整产品持仓结构、变更投资标的、暂停申赎等，必要时应实施应急预案。监管机构要求基金公司自身要持有一定的风险准备金以应对压力情景。</p>
+<h3 id="股票基金的风险管理"><a href="#股票基金的风险管理" class="headerlink" title="股票基金的风险管理"></a>股票基金的风险管理</h3><p><strong>持股集中度：</strong>前十大重仓股投资市值/基金股票投资总市值×100%<br><strong>行业集中度：</strong>前三大行业或前五大行业的行业投资集中度。<br><strong>持股数量</strong><br><strong>风格暴露分析：</strong><br><strong>平均市值：</strong>基金对大盘股、中盘股和小盘股的投资风险暴露情况。<br><strong>判断投资价值型股票还是成长型股票：</strong>① 如果股票基金的平均市盈率、平均市净率小于市场指数的市盈率和市净率，可以认为该股票基金属于价值型基金；② 如果股票基金的平均市盈率、平均市净率大于市场指数的市盈率和市净率，可以认为该股票基金属于成长型基金。<br><strong>基金股票换手率：</strong>(期间股票交易量/2)/期间基金平均资产净值</p>
+<h3 id="债券基金的风险管理"><a href="#债券基金的风险管理" class="headerlink" title="债券基金的风险管理"></a>债券基金的风险管理</h3><p><strong>利率风险：</strong>1.债券的价格与市场利率呈反向变动；2.债券基金久期越长，净值随利率的波动幅度就越大，所承担的利率风险就越高。通常用久期乘以利率变化来衡量利率变动对债券基金净值的影响。<br><strong>信用风险(债券、交易对手)、流动性风险、提前赎回风险、再投资风险、可转债的特定风险、债券回购风险。</strong></p>
+<h1 id="投资业绩评价"><a href="#投资业绩评价" class="headerlink" title="投资业绩评价"></a>投资业绩评价</h1><h3 id="一、绝对收益"><a href="#一、绝对收益" class="headerlink" title="一、绝对收益"></a>一、绝对收益</h3><p>定义：是指证券或投资组合在一定时间区间内所获得的回报。</p>
+<ol>
+<li>持有区间收益率<br>资产回报：股票、债券、房地产等资产价格的增加/减少<script type="math/tex; mode=display">\begin{align}资产回报率=\dfrac{期末资产价格-期初资产价格}{起初资产价格}\times{100\%}\end{align}</script>收入回报：分红、利息、租金等。<br><script type="math/tex">收入回报率=\dfrac{期间收入}{起初资产价格}\times{100\%}</script>​</li>
+<li>现金流和时间加权收益率<br>用以因应：基金种包含多个不同的证券，且红利或利息时间不一；基金各时间区间内申赎带来的资金流动。<br>现金流加权：<script type="math/tex">\text{现金流加权平均收益率} = \dfrac{\sum_{i=1}^{n} CF_i \times r_i}{\sum_{i=1}^{n} CF_i}</script><br>时间加权：<script type="math/tex">\text{时间加权平均收益率} = \dfrac{\sum_{i=1}^{n} CF_i \times (1 + r_i)^{\frac{t_i}{T}}}{\sum_{i=1}^{n} CF_i}</script></li>
+<li>平均收益率：算术平均收益率和几何平均收益率<br>几何平均收益率：<script type="math/tex">(\sqrt[n]{\prod_{\omega}^{\alpha}(1+R_{t})}-1)\times100\%</script>​</li>
+<li>基金收益率的计算：<script type="math/tex; mode=display">期末基金单位资产净值(\text{NAV})=\dfrac{期末基金资产净值}{期末基金单位总份额}</script>假定红利发放后立即对本基金进行再投资，且红利以除息前一日的单位净值为计算基准立即进行再投资，<br><script type="math/tex">\begin{align}R_{0}^{t}&=(1+R_1)(1+R_2)...(1+R_{t})-1\\&=(\frac{\text{NAV}_{1}}{\text{NAV}_{0}}\times\frac{\text{NAV}_{2}}{\text{NAV}_{1}-D_1}...\frac{\text{NAV}_{n}}{\text{NAV}_{n-1}-D_{n-1}})\end{align}</script>​</li>
+</ol>
+<h3 id="二、相对收益"><a href="#二、相对收益" class="headerlink" title="二、相对收益"></a>二、相对收益</h3><p>定义：相对收益又叫超额收益，代表一定时间区间内，基金收益超出业绩比较基准的部分。</p>
+<ol>
+<li>算术法：<script type="math/tex">R_{超额}=R_{组合}-R_{基准}</script></li>
+<li>几何法：<script type="math/tex">R_{超额}=\dfrac{1+R_{组合}}{1+R_{基准}}-1</script></li>
+</ol>
+<h3 id="三、风险调整后收益"><a href="#三、风险调整后收益" class="headerlink" title="三、风险调整后收益"></a>三、风险调整后收益</h3><h4 id="夏普利率"><a href="#夏普利率" class="headerlink" title="夏普利率"></a>夏普利率</h4><ol>
+<li>威廉<script type="math/tex">\cdot</script>夏普根据CAPM提出的经风险调整的业绩测度指标<br><script type="math/tex">夏普利率=\dfracNaN</script>​<br>即：组合的单位风险下的超额收益率</li>
+</ol>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%A4%8F%E6%99%AE%E5%88%A9%E7%8E%87-%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA%E7%BA%BF.png" alt="资本市场线" style="zoom:50%;" /></p>
+<h4 id="特雷诺比率"><a href="#特雷诺比率" class="headerlink" title="特雷诺比率"></a>特雷诺比率</h4><ol>
+<li>来源于CAPM，表示的是单位系统风险下的超额收益率</li>
+<li>公式：<script type="math/tex">特雷诺比率=\dfrac{组合平均收益率 - 平均无风险收益率}{\beta_{p}}</script>​</li>
+</ol>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%89%B9%E9%9B%B7%E8%AF%BA%E6%AF%94%E7%8E%87-%E8%AF%81%E5%88%B8%E5%B8%82%E5%9C%BA%E7%BA%BF.png" alt="证券市场线" style="zoom: 50%;" /></p>
+<h4 id="詹森比率"><a href="#詹森比率" class="headerlink" title="詹森比率"></a>詹森比率</h4><p>定义：衡量的是基金组合收益中超过CAPM模型预测值的那一部分超额收益</p>
+<p>公式：$詹森\alpha = (\overline{R_p}-\overline{R_f})-\beta_p \times (\overline{R_m} -\overline{R_f})$</p>
+<h4 id="信息比率与跟踪误差"><a href="#信息比率与跟踪误差" class="headerlink" title="信息比率与跟踪误差"></a>信息比率与跟踪误差</h4><ol>
+<li>信息比率是单位跟踪误差所对应的超额收益。 </li>
+<li>信息比率越大，说明该基金在同样的跟踪误差水平上能获得更大的超额收益，或者在同样的超额收益水平下跟 踪误差更小。</li>
+<li><script type="math/tex">信息比率=\dfrac{投资组合收益-业绩比较基准收益}{跟踪误差}=\dfrac{超额收益}{跟踪误差}</script>​</li>
+<li>实际操作中一般根据投资范围和投资目标选取基准指数，可以是全市场指数、风格指数，也可以是由不同指数复合而成的复合指数。</li>
+<li>跟踪误差是证券组合相对基准组合的跟踪偏离度的标准差：<script type="math/tex">跟踪偏离度=证券组合的真实收益率-基准组合的收益率</script></li>
+<li>跟踪误差产生的原因：1.复制误差：某些成分股因流动性不足而难以以公允的价格买入。2.现金留存：投资组合不能全部投资于指数标的。3.各项费用。4.其他影响</li>
+</ol>
+<h4 id="绝对收益归因"><a href="#绝对收益归因" class="headerlink" title="绝对收益归因"></a>绝对收益归因</h4><ol>
+<li>考察各个因素对基金总收益的贡献，其本质是对基金总收益的分解。</li>
+<li>在特定区间内，每个证券和每个行业如何贡献到组合的整体收益。</li>
+</ol>
+<h4 id="相对收益归因"><a href="#相对收益归因" class="headerlink" title="相对收益归因"></a>相对收益归因</h4><p><strong>Brinson模型</strong><br>例：<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9B%B8%E5%AF%B9%E6%94%B6%E7%9B%8A%E5%BD%92%E5%9B%A01.png" style="zoom:50%;" /><br><strong>【结论】</strong><br><strong>配置效应：</strong>基金中股票、债券和现金权重为70:7:23，它的收益率仅反映了从60:30:10的基准权重转变到70:7:23所引起的收益变化，<br>而不包括基金经理在各个市场中积极选择证券所带来的收益变化。即：资产配置带来的贡献为：<script type="math/tex">(70\%-60\%)\times5.81\%+(7\%-30\%)\times1.45\%+(23\%-10\%)\times0.48\%=0.31\%</script><br><strong>选择效应：</strong><br>如果业绩中有0.31%应归功于各资产类别间的成功配置，那么1.37%-0.31%=1.06%就应该源于在每一个大类资<br>产中的行业及具体证券的选择。选择效应带来的贡献<script type="math/tex">70\%\times(7.28-5.81)+7\%\times(1.89-1.45)=1.06\%</script>​<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9B%B8%E5%AF%B9%E6%94%B6%E7%9B%8A%E5%BD%92%E5%9B%A02.png" style="zoom:50%;" /></p>
+<h4 id="债券投资组合的构建"><a href="#债券投资组合的构建" class="headerlink" title="债券投资组合的构建"></a>债券投资组合的构建</h4><ol>
+<li><p>考虑因素：<br>a.同股票相同因素：投资目标和理念、投资策略、投资范围、业绩基准、风险收益；<br>b.个性化因素：信用结构、期限结构、组合久期、流动性和杠杆率</p>
+</li>
+<li><p>基准选择：以债券指数为主，在投资范围允许的前提下，加入一定比例股票指数形成复合基准。</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>理论杂货</category>
+      </categories>
+      <tags>
+        <tag>投资业绩评价及风险管理</tag>
       </tags>
   </entry>
   <entry>
@@ -707,114 +825,6 @@
         <tag>业务知识与规则</tag>
         <tag>政策与规范</tag>
         <tag>流动性风险管理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>投资业绩评价及风险管理</title>
-    <url>/post/62142/</url>
-    <content><![CDATA[<h1 id="投资组合管理"><a href="#投资组合管理" class="headerlink" title="投资组合管理"></a>投资组合管理</h1><p>略。均值-方差模型、CAPM、有效市场假说、现代投资组合理论、协方差、相关系数 <script type="math/tex">\rho_{i,j} = \dfrac{\text{cov}(i,j)}{\sigma_i\sigma_j}</script>、资产收益的可行集、最小方差前沿、有效前沿、无差异曲线、资本配置线CAL、最优CAL、资本市场线CML、系统性风险、非系统性风险、证券市场线SML</p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/SML%E5%92%8CCML.png" alt="SML和CML" style="zoom:50%;" /></p>
-<h1 id="投资风险管理"><a href="#投资风险管理" class="headerlink" title="投资风险管理"></a>投资风险管理</h1><h3 id="风险类型"><a href="#风险类型" class="headerlink" title="风险类型"></a>风险类型</h3><h4 id="市场风险"><a href="#市场风险" class="headerlink" title="市场风险"></a>市场风险</h4><table>
-   <tr>
-      <td>1.政策风险</td>
-      <td>①宏观政策，包括财政政策、产业政策、货币政策等，都会对金融市场造成影响，进而影响基金的收益水平。<br>②管理：主要在于对国家宏观政策的把握与预测。</td>
-   </tr>
-   <tr>
-      <td>2.经济周期性<br>波动风险 </td>
-      <td>经济发展有一定周期性，基金便会追随经济总体趋向而发生变动。</td>
-   </tr>
-   <tr>
-      <td>3.利率风险</td>
-      <td>①因利率变化而产生的基金价值的不确定性。<br>②主要受通货膨胀预期、中央银行的货币政策、经济周期和国际利率水平等的影响。</td>
-   </tr>
-   <tr>
-      <td>4.购买力风险</td>
-      <td>由于通货膨胀等因素的影响而导致购买力下降，降低基金实际收益，使投资者收益率降低的风险，又称为通货膨胀风险。</td>
-   </tr>
-   <tr>
-      <td>5.汇率风险</td>
-      <td>①因汇率变动而产生的基金价值的不确定性。<br>②影响汇率的因素有国际收支及外汇储备、利率、通货膨胀和政治局势等。 </td>
-   </tr>
-</table>
-
-<h4 id="信用风险"><a href="#信用风险" class="headerlink" title="信用风险"></a>信用风险</h4><p><strong>管理措施：</strong><br>1.建立针对债券发行人的内部信用评级制度，结合外部信用评级，进行发行人信用风险管理。<br>2.建立交易对手信用评级制度，根据交易对手的资质、交易记录、信用记录和交收违约记录等因素对交易对手进行信用评级，并定期更新。</p>
-<h4 id="流动性风险"><a href="#流动性风险" class="headerlink" title="流动性风险"></a>流动性风险</h4><p>定义：流动性是资产在短期内以低成本完成市场交易的能力。<br>管理措施：<br>1.制定流动性风险管理制度，平衡资产的流动性与盈利性，以适应投资组合日常运作需要。<br>2.及时对投资组合资产进行流动性分析和跟踪，包括计算各类证券的历史平均交易量、换手率和相应的变现周期。<br>3.关注投资者申赎意愿。4.建立流动性预警机制。5.进行流动性压力测试。6.制定流动性风险处置预案</p>
-<h3 id="风险指标"><a href="#风险指标" class="headerlink" title="风险指标"></a>风险指标</h3><p><strong>风险分类：</strong><br>1.事前风险测度：衡量投资组合在将来的表现和风险情况；<br>2.事后风险测度：研究投资组合在历史上的表现和风险情况<br><strong>指标分类：</strong><br>1.描述收益的不确定性：反映投资组合市场风险的指标有基于收益率及方差的风险指标，如波动率、回撤、下行风险标准差等。<br>2.风险敏感性度量指标：如β系数、久期、凸性等<br><strong>波动率：</strong><br>1.投资组合波动率是单位时间收益率的标准差。<br>2.单位时间根据数据来源和应用场景可以取每日、每周、每月、每年等。<br>3.公募基金一般都会公布每日净值增长率。</p>
-<p><font color =red><strong>跟踪误差：</strong></font><br>1.跟踪误差是证券组合相对基准组合的<font color= red>跟踪偏离度的标准差：</font><font color =red>$跟踪偏离度=证券组合的真实收益率-基准组合的收益率$</font><br>2.跟踪误差产生的原因：1.复制误差：某些成分股因流动性不足而难以以公允的价格买入。2.现金留存：投资组合不能全部投资于指数标的。3.各项费用。4.其他影响<br><strong>主动比重（AS）：</strong><br>1.主动比重是指投资组合持仓与基准不同的部分。衡量投资组合相对于基准的偏离程度。<br>2.基于投资组合持仓（波动率和跟踪误差基于收益率）<br>3.主动比重为0的投资组合，实质上是一个指数基金<br>4.常用于分析追求相对收益的股票型基金。<br><strong>最大回撤：</strong><br>1.最大回撤测量投资组合在指定区间内从最高点到最低点的回撤。<br><strong>下行标准差：</strong><br>1.波动率计算中，既包括了收益率高于平均值的波动，也考虑了低于平均值的单位区间的波动。有时需要关注收益率不达目标时的风险，这就需要用到下行标准差。</p>
-<h3 id="风险价值-VaR-5548"><a href="#风险价值-VaR-5548" class="headerlink" title="风险价值(VaR)-5548"></a>风险价值(VaR)-5548</h3><ol>
-<li><p>又称在险价值、风险收益、风险报酬，是指在给定的时间区间内和给定的置信水平下，利率、汇率等市场风险要素发生变化时，投资组合所面临的潜在最大损失。<br>例：某投资组合在持有期为1 周、置信水平为95%的情况下，若所计算的风险价值为-0.82%，则表明该资产组合在1周中的损失有95%的可能大性不会超过-0.82%。</p>
-</li>
-<li><p>VaR的估算方法</p>
-<table>
-<tr>
-<td>参数法</td>
-<td>又称为方差一协方差法，依据历史数据计算出风险因子收益率分布的参数值，如方差、均值和风险因子间的相关系数等。</td>
-</tr>
-<tr>
-<td>历史模拟法（历史模拟未来）</td>
-<td>假设市场未来的变化方向与历史发展状况大致相同，依据风险因子收益的近期历史数据的估算，模拟出未来的风险因子收益变化。</td>
-</tr>
-<tr>
-<td>蒙特卡洛模拟法（银行常用， 复杂但精确）</td>
-<td>在估算之前，需要有风险因子的概率分布模型，继而重复模拟风险因子变动的过程。在进行足够数量的模拟后，组合价值的模拟分布将会收敛于组合的真实分布， 求出最后的组合VaR 值。计算量较大，但被认为是最精准贴近的计算VaR 值方法。</td>
-<tr>
-</table>
-
-</li>
-</ol>
-<h3 id="预期损失-ES"><a href="#预期损失-ES" class="headerlink" title="预期损失(ES)"></a>预期损失(ES)</h3><p><strong>定义：</strong>在给定时间区间和置信区间内，投资组合损失的期望值。又称为条件风险价值或条件尾部期望或尾部损失。<br>例：在置信水平X下，VaR值在-0.82%的位置，这意味着有的把握保证时间区间T内投资的损失不会大于0.82%。但VaR是一个分位值，不能衡量最左侧区域的风险情况；而ES是最左侧区域所有损失的期望值，也就是在1-X的极端情况发生时损失的平均值。<br><em>注：分位数就是所选数值及小于该数值的所有数值的数量在总数量中的占比</em></p>
-<h3 id="压力测试"><a href="#压力测试" class="headerlink" title="压力测试"></a>压力测试</h3><p>1.用以应对可能发生的巨大损失事件。关键是选择压力情景。<br>2.投资管理人可以根据压力测试的结果采取措施，包括调整产品持仓结构、变更投资标的、暂停申赎等，必要时应实施应急预案。监管机构要求基金公司自身要持有一定的风险准备金以应对压力情景。</p>
-<h3 id="股票基金的风险管理"><a href="#股票基金的风险管理" class="headerlink" title="股票基金的风险管理"></a>股票基金的风险管理</h3><p><strong>持股集中度：</strong>前十大重仓股投资市值/基金股票投资总市值×100%<br><strong>行业集中度：</strong>前三大行业或前五大行业的行业投资集中度。<br><strong>持股数量</strong><br><strong>风格暴露分析：</strong><br><strong>平均市值：</strong>基金对大盘股、中盘股和小盘股的投资风险暴露情况。<br><strong>判断投资价值型股票还是成长型股票：</strong>① 如果股票基金的平均市盈率、平均市净率小于市场指数的市盈率和市净率，可以认为该股票基金属于价值型基金；② 如果股票基金的平均市盈率、平均市净率大于市场指数的市盈率和市净率，可以认为该股票基金属于成长型基金。<br><strong>基金股票换手率：</strong>(期间股票交易量/2)/期间基金平均资产净值</p>
-<h3 id="债券基金的风险管理"><a href="#债券基金的风险管理" class="headerlink" title="债券基金的风险管理"></a>债券基金的风险管理</h3><p><strong>利率风险：</strong>1.债券的价格与市场利率呈反向变动；2.债券基金久期越长，净值随利率的波动幅度就越大，所承担的利率风险就越高。通常用久期乘以利率变化来衡量利率变动对债券基金净值的影响。<br><strong>信用风险(债券、交易对手)、流动性风险、提前赎回风险、再投资风险、可转债的特定风险、债券回购风险。</strong></p>
-<h1 id="投资业绩评价"><a href="#投资业绩评价" class="headerlink" title="投资业绩评价"></a>投资业绩评价</h1><h3 id="一、绝对收益"><a href="#一、绝对收益" class="headerlink" title="一、绝对收益"></a>一、绝对收益</h3><p>定义：是指证券或投资组合在一定时间区间内所获得的回报。</p>
-<ol>
-<li>持有区间收益率<br>资产回报：股票、债券、房地产等资产价格的增加/减少<script type="math/tex; mode=display">\begin{align}资产回报率=\dfrac{期末资产价格-期初资产价格}{起初资产价格}\times{100\%}\end{align}</script>收入回报：分红、利息、租金等。<br><script type="math/tex">收入回报率=\dfrac{期间收入}{起初资产价格}\times{100\%}</script>​</li>
-<li>现金流和时间加权收益率<br>用以因应：基金种包含多个不同的证券，且红利或利息时间不一；基金各时间区间内申赎带来的资金流动。<br>现金流加权：<script type="math/tex">\text{现金流加权平均收益率} = \dfrac{\sum_{i=1}^{n} CF_i \times r_i}{\sum_{i=1}^{n} CF_i}</script><br>时间加权：<script type="math/tex">\text{时间加权平均收益率} = \dfrac{\sum_{i=1}^{n} CF_i \times (1 + r_i)^{\frac{t_i}{T}}}{\sum_{i=1}^{n} CF_i}</script></li>
-<li>平均收益率：算术平均收益率和几何平均收益率<br>几何平均收益率：<script type="math/tex">(\sqrt[n]{\prod_{\omega}^{\alpha}(1+R_{t})}-1)\times100\%</script>​</li>
-<li>基金收益率的计算：<script type="math/tex; mode=display">期末基金单位资产净值(\text{NAV})=\dfrac{期末基金资产净值}{期末基金单位总份额}</script>假定红利发放后立即对本基金进行再投资，且红利以除息前一日的单位净值为计算基准立即进行再投资，<br><script type="math/tex">\begin{align}R_{0}^{t}&=(1+R_1)(1+R_2)...(1+R_{t})-1\\&=(\frac{\text{NAV}_{1}}{\text{NAV}_{0}}\times\frac{\text{NAV}_{2}}{\text{NAV}_{1}-D_1}...\frac{\text{NAV}_{n}}{\text{NAV}_{n-1}-D_{n-1}})\end{align}</script>​</li>
-</ol>
-<h3 id="二、相对收益"><a href="#二、相对收益" class="headerlink" title="二、相对收益"></a>二、相对收益</h3><p>定义：相对收益又叫超额收益，代表一定时间区间内，基金收益超出业绩比较基准的部分。</p>
-<ol>
-<li>算术法：<script type="math/tex">R_{超额}=R_{组合}-R_{基准}</script></li>
-<li>几何法：<script type="math/tex">R_{超额}=\dfrac{1+R_{组合}}{1+R_{基准}}-1</script></li>
-</ol>
-<h3 id="三、风险调整后收益"><a href="#三、风险调整后收益" class="headerlink" title="三、风险调整后收益"></a>三、风险调整后收益</h3><h4 id="夏普利率"><a href="#夏普利率" class="headerlink" title="夏普利率"></a>夏普利率</h4><ol>
-<li>威廉<script type="math/tex">\cdot</script>夏普根据CAPM提出的经风险调整的业绩测度指标<br><script type="math/tex">夏普利率=\dfracNaN</script>​<br>即：组合的单位风险下的超额收益率</li>
-</ol>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%A4%8F%E6%99%AE%E5%88%A9%E7%8E%87-%E8%B5%84%E6%9C%AC%E5%B8%82%E5%9C%BA%E7%BA%BF.png" alt="资本市场线" style="zoom:50%;" /></p>
-<h4 id="特雷诺比率"><a href="#特雷诺比率" class="headerlink" title="特雷诺比率"></a>特雷诺比率</h4><ol>
-<li>来源于CAPM，表示的是单位系统风险下的超额收益率</li>
-<li>公式：<script type="math/tex">特雷诺比率=\dfrac{组合平均收益率 - 平均无风险收益率}{\beta_{p}}</script>​</li>
-</ol>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%89%B9%E9%9B%B7%E8%AF%BA%E6%AF%94%E7%8E%87-%E8%AF%81%E5%88%B8%E5%B8%82%E5%9C%BA%E7%BA%BF.png" alt="证券市场线" style="zoom: 50%;" /></p>
-<h4 id="詹森比率"><a href="#詹森比率" class="headerlink" title="詹森比率"></a>詹森比率</h4><p>定义：衡量的是基金组合收益中超过CAPM模型预测值的那一部分超额收益</p>
-<p>公式：$詹森\alpha = (\overline{R_p}-\overline{R_f})-\beta_p \times (\overline{R_m} -\overline{R_f})$</p>
-<h4 id="信息比率与跟踪误差"><a href="#信息比率与跟踪误差" class="headerlink" title="信息比率与跟踪误差"></a>信息比率与跟踪误差</h4><ol>
-<li>信息比率是单位跟踪误差所对应的超额收益。 </li>
-<li>信息比率越大，说明该基金在同样的跟踪误差水平上能获得更大的超额收益，或者在同样的超额收益水平下跟 踪误差更小。</li>
-<li><script type="math/tex">信息比率=\dfrac{投资组合收益-业绩比较基准收益}{跟踪误差}=\dfrac{超额收益}{跟踪误差}</script>​</li>
-<li>实际操作中一般根据投资范围和投资目标选取基准指数，可以是全市场指数、风格指数，也可以是由不同指数复合而成的复合指数。</li>
-<li>跟踪误差是证券组合相对基准组合的跟踪偏离度的标准差：<script type="math/tex">跟踪偏离度=证券组合的真实收益率-基准组合的收益率</script></li>
-<li>跟踪误差产生的原因：1.复制误差：某些成分股因流动性不足而难以以公允的价格买入。2.现金留存：投资组合不能全部投资于指数标的。3.各项费用。4.其他影响</li>
-</ol>
-<h4 id="绝对收益归因"><a href="#绝对收益归因" class="headerlink" title="绝对收益归因"></a>绝对收益归因</h4><ol>
-<li>考察各个因素对基金总收益的贡献，其本质是对基金总收益的分解。</li>
-<li>在特定区间内，每个证券和每个行业如何贡献到组合的整体收益。</li>
-</ol>
-<h4 id="相对收益归因"><a href="#相对收益归因" class="headerlink" title="相对收益归因"></a>相对收益归因</h4><p><strong>Brinson模型</strong><br>例：<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9B%B8%E5%AF%B9%E6%94%B6%E7%9B%8A%E5%BD%92%E5%9B%A01.png" style="zoom:50%;" /><br><strong>【结论】</strong><br><strong>配置效应：</strong>基金中股票、债券和现金权重为70:7:23，它的收益率仅反映了从60:30:10的基准权重转变到70:7:23所引起的收益变化，<br>而不包括基金经理在各个市场中积极选择证券所带来的收益变化。即：资产配置带来的贡献为：<script type="math/tex">(70\%-60\%)\times5.81\%+(7\%-30\%)\times1.45\%+(23\%-10\%)\times0.48\%=0.31\%</script><br><strong>选择效应：</strong><br>如果业绩中有0.31%应归功于各资产类别间的成功配置，那么1.37%-0.31%=1.06%就应该源于在每一个大类资<br>产中的行业及具体证券的选择。选择效应带来的贡献<script type="math/tex">70\%\times(7.28-5.81)+7\%\times(1.89-1.45)=1.06\%</script>​<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9B%B8%E5%AF%B9%E6%94%B6%E7%9B%8A%E5%BD%92%E5%9B%A02.png" style="zoom:50%;" /></p>
-<h4 id="债券投资组合的构建"><a href="#债券投资组合的构建" class="headerlink" title="债券投资组合的构建"></a>债券投资组合的构建</h4><ol>
-<li><p>考虑因素：<br>a.同股票相同因素：投资目标和理念、投资策略、投资范围、业绩基准、风险收益；<br>b.个性化因素：信用结构、期限结构、组合久期、流动性和杠杆率</p>
-</li>
-<li><p>基准选择：以债券指数为主，在投资范围允许的前提下，加入一定比例股票指数形成复合基准。</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>理论杂货</category>
-      </categories>
-      <tags>
-        <tag>投资业绩评价及风险管理</tag>
       </tags>
   </entry>
   <entry>
@@ -1231,20 +1241,6 @@
       </tags>
   </entry>
   <entry>
-    <title>编写带有LaTex的坐标图.py</title>
-    <url>/post/21876/</url>
-    <content><![CDATA[<p>下一步：结构化参数</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.usetex&#x27;</span>] = <span class="literal">True</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.latex.preamble&#x27;</span>] = <span class="string">r&#x27;\usepackage&#123;CJK&#125;&#x27;</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">r&#x27;$\beta$&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">r&#x27;$E(R)$&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>,  <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;基金P\end&#123;CJK&#125;&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在坐标右侧添加一个文本框</span></span><br><span class="line">text_box_content = <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;斜率$=\frac&#123;\overline&#123;R_p&#125;-\overline&#123;R_f&#125;&#125;&#123;\beta_p&#125;$\end&#123;CJK&#125;&#x27;</span>+ <span class="string">r&#x27;$\\$&#x27;</span>+<span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;证券市场线上任一个组合的斜率即为特雷诺比率，\\即单位系统风险下的超额收益率\end&#123;CJK&#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">plt.text(<span class="number">3</span>, <span class="number">5</span>, text_box_content, fontsize=<span class="number">12</span>, bbox=<span class="built_in">dict</span>(facecolor=<span class="string">&#x27;white&#x27;</span>, alpha=<span class="number">0.5</span>), va=<span class="string">&#x27;top&#x27;</span>, ha=<span class="string">&#x27;left&#x27;</span>, usetex=<span class="literal">True</span>) </span><br><span class="line"><span class="comment">#verticle align\herizon align</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>数据建模</category>
-        <category>绘图</category>
-      </categories>
-      <tags>
-        <tag>Latex绘图</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>法考—刑法—柏浪涛</title>
     <url>/post/63791/</url>
     <content><![CDATA[<p><table>
@@ -1318,6 +1314,20 @@
       <tags>
         <tag>刑法</tag>
         <tag>柏浪涛</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编写带有LaTex的坐标图.py</title>
+    <url>/post/21876/</url>
+    <content><![CDATA[<p>下一步：结构化参数</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.usetex&#x27;</span>] = <span class="literal">True</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.latex.preamble&#x27;</span>] = <span class="string">r&#x27;\usepackage&#123;CJK&#125;&#x27;</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">r&#x27;$\beta$&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">r&#x27;$E(R)$&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>,  <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;基金P\end&#123;CJK&#125;&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在坐标右侧添加一个文本框</span></span><br><span class="line">text_box_content = <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;斜率$=\frac&#123;\overline&#123;R_p&#125;-\overline&#123;R_f&#125;&#125;&#123;\beta_p&#125;$\end&#123;CJK&#125;&#x27;</span>+ <span class="string">r&#x27;$\\$&#x27;</span>+<span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;证券市场线上任一个组合的斜率即为特雷诺比率，\\即单位系统风险下的超额收益率\end&#123;CJK&#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">plt.text(<span class="number">3</span>, <span class="number">5</span>, text_box_content, fontsize=<span class="number">12</span>, bbox=<span class="built_in">dict</span>(facecolor=<span class="string">&#x27;white&#x27;</span>, alpha=<span class="number">0.5</span>), va=<span class="string">&#x27;top&#x27;</span>, ha=<span class="string">&#x27;left&#x27;</span>, usetex=<span class="literal">True</span>) </span><br><span class="line"><span class="comment">#verticle align\herizon align</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>数据建模</category>
+        <category>绘图</category>
+      </categories>
+      <tags>
+        <tag>Latex绘图</tag>
       </tags>
   </entry>
   <entry>
