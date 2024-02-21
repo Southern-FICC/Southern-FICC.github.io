@@ -52,48 +52,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Wind指标及投资业绩评价</title>
-    <url>/post/26382/</url>
-    <content><![CDATA[<h2 id="一、Wind指标-Link-to-投资业绩评级及风险管理"><a href="#一、Wind指标-Link-to-投资业绩评级及风险管理" class="headerlink" title="一、Wind指标-Link-to-投资业绩评级及风险管理"></a><a href="https://southern-ficc.github.io/post/62142/">一、Wind指标-Link-to-投资业绩评级及风险管理</a></h2><ul>
-<li><p>地域利差：取筛选条件下每个债在X时点与国开债的利差，以余额为权进行求和。</p>
-</li>
-<li><p>地域久期：将某地区发行在时点X存续的全部债看成投资组合，取修正久期，以余额为权进行求和。</p>
-</li>
-<li>样本券选取方式：在X时点存续的城投债，剔永续债、剔abs。</li>
-<li><a href="https://www.msci.com/www/blog-posts/factors-in-focus-are-your/02933279202">[MSCI Model]</a></li>
-</ul>
-<p>历年偏离度变化 | 剩余期限分布 | 年化收益率 | 年化波动率 | 最大回撤 | 恢复天数 | 年化夏普利率 | 卡玛比率 | 月度正收益率 | 年度ALPHA | 年度择时能力 | </p>
-<ul>
-<li>风险收益分析：区间收益、最大回撤、Alpha、Beta、Sharpe、Treynor、年化波动率、信息比率、Jensen、Sortino、Calmar、Sterling</li>
-<li>拟合业绩表现</li>
-<li>业绩表现：Alpha、Beta、Sharpe、信息比率、收益标准差、跟踪误差、超额回报、年化回报、回报</li>
-</ul>
-]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>理论杂货</category>
-      </categories>
-      <tags>
-        <tag>Wind指标</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Python CheatSheet</title>
-    <url>/post/27831/</url>
-    <content><![CDATA[<h3 id="例1："><a href="#例1：" class="headerlink" title="例1："></a>例1：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">&#x27;β&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">&#x27;E(R)&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>, <span class="string">&#x27;基金P&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<h3 id="matplotlib、matplotlib-pyplot"><a href="#matplotlib、matplotlib-pyplot" class="headerlink" title="matplotlib、matplotlib.pyplot"></a><a href="https://matplotlib.org/">matplotlib、matplotlib.pyplot</a></h3><p><a href="https://matplotlib.org/cheatsheets/cheatsheets.pdf"><strong>CheatSheet</strong></a></p>
-<h3 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a><a href="https://pandas.pydata.org/">Pandas</a></h3><p><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
-<h3 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a><a href="https://numpy.org/">Numpy</a></h3><p><a href="https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
-]]></content>
-      <categories>
-        <category>数据建模</category>
-        <category>数据清理</category>
-      </categories>
-      <tags>
-        <tag>Python CheatSheet</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>专硕431及财金</title>
     <url>/post/44816/</url>
     <content><![CDATA[<h3 id="（一）证券期货基础知识"><a href="#（一）证券期货基础知识" class="headerlink" title="（一）证券期货基础知识"></a><strong>（一）证券期货基础知识</strong></h3><p>1、单项选择40题</p>
@@ -119,89 +77,19 @@
       </tags>
   </entry>
   <entry>
-    <title>债券的久期-凸性</title>
-    <url>/post/55094/</url>
-    <content><![CDATA[<h1 id="债券的久期和凸性"><a href="#债券的久期和凸性" class="headerlink" title="债券的久期和凸性"></a>债券的久期和凸性</h1><h2 id="麦考利久期-Macaulay-duration-："><a href="#麦考利久期-Macaulay-duration-：" class="headerlink" title="麦考利久期(Macaulay duration)："></a><strong>麦考利久期(Macaulay duration)：</strong></h2><p>每次支付金额的现值占当前债券价格的比率作为权重，计算平均到期时间。<br>对于零息债券，其久期等于到期期限</p>
-<script type="math/tex; mode=display">\begin{align}D_{mac}&=\dfrac{\sum_{t=1}^{T}\dfrac{C_{t}}{(1+y)^t}\times{t}}{P}\\{D_{mac}}&=\sum_{t=1}^{T}t\times{W_t}\end{align}</script><h2 id="修正久期-Modified-Duration-："><a href="#修正久期-Modified-Duration-：" class="headerlink" title="修正久期(Modified Duration)："></a><strong>修正久期(Modified Duration)：</strong></h2><ul>
-<li><p>单位利率变动，债券价格变动的<font color =red>百分比</font>，度量价格对于利率变动的敏感性。</p>
-</li>
-<li><p>久期和修正久期是一个近似值，收益率变化幅度小时，久期和修正久期近似效果较好；当收益率变化幅度越大时，久期和修正久期的近似效果差。</p>
-<script type="math/tex; mode=display">{MD/D_m}=\dfrac{\Delta{P}/{P}}{\Delta{y}}=\dfrac{D_{mac}}{1+y/m}</script></li>
-<li><p>修正久期越大，利率变动对债券价格的影响程度就越大。</p>
-</li>
-</ul>
-<div class="note info flat"><script type="math/tex; mode=display">\begin{align}&\text{原式：}P=\sum\limits_{i=1}^{n}\dfrac{C}{(1+{YTM})^{i}}+\dfrac{F}{(1+YTM)^n}\\&\text{求导：}\textcolor{red}{\dfrac{\dfrac{dP}{dYTM}}{P}}=-\dfrac{1}{1+YTM}\times\textcolor{blue}{\dfrac{\dfrac{nF}{(1+YTM)^n}+\sum_{i=1}^{n}\dfrac{iC}{(1+YTM)^i}}{P}}\\&\text{或零息债券：}P=\frac{Ct}{(1+y)^t}\\&\text{求导：}dP=-\dfrac{C_t\cdot{t}}{(1+y)^{t+1}}d(y)=-\dfrac{P\cdot{t}}{1+y}d(y)\\&\text{变形：}\dfrac{\Delta{P}}{P}=-\dfrac{t}{1+y}d(y)=-\dfrac{D_{mac}}{1+y}\times{\Delta{y}}=-D_m\times{\Delta{y}}\quad{(5)}\end{align}</script></div>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B8%8D%E5%90%8CYTM%E5%80%BA%E5%88%B8%E7%9A%84%E4%B9%85%E6%9C%9F.jpg" alt="不同YTM债券的久期" style="zoom:50%;" /><sup><a href ="https://finance.eastmoney.com/a/202208292493323044.html">[1]</a></sup></p>
-<h2 id="美元久期-Dollar-Duration-："><a href="#美元久期-Dollar-Duration-：" class="headerlink" title="美元久期(Dollar Duration)："></a><strong>美元久期(Dollar Duration)：</strong></h2><ul>
-<li>美元久期是指利率变动（或者说单位利率变动）导致的债券价值变动的金额，(<script type="math/tex">-P\times{D_m}=D_{dollar}</script>)即$D_m$价格变动百分比乘以价格-得到变动金额，即价格-收益率曲线-切线斜率。</li>
-<li><p>Price value of basis point（PVBP-基点价值）：利率变动一个基点时，债券价格变动金额。</p>
-<ul>
-<li>记为：PV01(present value of 1bp) or DV01(dollar value of 1bp)</li>
-</ul>
-</li>
-<li><p><a href="https://zhuanlan.zhihu.com/p/487786099">公式推导</a></p>
-</li>
-</ul>
-<p>根据式(5)可得：<script type="math/tex">\begin{align}&\text{原式：}\dfrac{dP}{P\times{dy}}=-\dfrac{1}{1+y}D_{mac}=-D_m\\&\text{变形：}\dfrac{dP}{dy}=-\dfrac{P}{1+y}D_{mac}=-P\times{D_m}=D_{dollar}\\&\text{另：}\quad{}dP=-D_{dollar}\times{dr}\\&\text{DV01=}D_{dollar}\times{0.01\%}=D_m\times{P}\times{0.01\%}\end{align}</script></p>
-<ul>
-<li>DV01对冲：<script type="math/tex">\text{对冲比率}=\dfrac{DV01^A}{DV01^B}</script></li>
-</ul>
-<h2 id="凸性-convexity-："><a href="#凸性-convexity-：" class="headerlink" title="凸性(convexity)："></a>凸性(convexity)：</h2><p>凸性是对债券价格利率敏感性的二阶估计，是对债券久期利率敏感性的测量。凸性（ Convexity ）是收益率变化 1 %所引起的久期的变化。凸性越大,债券价格曲线弯曲程度越大,用修正久期度量债券的利率风险所产生的误差越大。</p>
-<p>在价格(y)-收益率(x)曲线中，债券价格随利率的变化关系是非线性的，凸向原点的。</p>
-<script type="math/tex; mode=display">\begin{align}{Con}&=\sum_{t=1}^{T}(W_t\times{t(t+1))}\\{MCon}&=\sum_{t=1}^{T}\dfrac{W_t\times{t(t+1)}}{(1+y)^2}=\sum_{t=1}^{T}t(1+t)\times{\dfrac{\dfrac{C_t}{(1+y)^t}}{P}}\times{\dfrac{1}{(1+y)^2}}\\\text{经过对债券}&\text{价格公式进行泰勒展开，变形得到由修正久期与凸性构成的}{\Delta{P}/{P}}\text{公式}\\\dfrac{\Delta{P}}{P}&=-D_{m}\Delta{y}+\frac{1}{2}Con(\Delta{y})^2\end{align}</script><div class="note info flat"><p><a href="https://zhuanlan.zhihu.com/p/47022333?utm_id=0">公式推导及结论</a></p>
-<ul>
-<li><p>张亦春、郑振龙的《金融市场学》认为，现在的久期概念是利率敏感性资产价值变动的百分比对利率变动的一阶敏感性，即$D_{m}=-\frac{dP/P}{dy}$ 。Macaulay久期不是久期，只是久期计算公式中的一部分。<strong>修正久期才真正考察了债券价值的利率风险</strong>。</p>
-</li>
-<li><p>蒋崇辉、马永开指出，修正久期不能简单理解为对Macaulay久期的“修正”，<strong>修正久期的本质是债券价格相对于市场基准利率变化的敏感性。</strong></p>
-</li>
-<li><p>张宗新的《投资学》同样提到<strong>久期最初表示平均还款期限，但实际运用中久期表示的是债券价格的波动性</strong>。</p>
-</li>
-<li><p><strong>Change in price=Duration effect+Convexity effect</strong></p>
-</li>
-</ul>
-</div>
-<h2 id="有效久期"><a href="#有效久期" class="headerlink" title="有效久期"></a><strong>有效久期</strong></h2><p>有效久期不需要考虑各期现金流的变化情况，不包含利率变化导致现金流发生变化的具体时间，而只考虑利率一定变化下的价格总体情况。因此，有效久期能够较准确地衡量具有隐含期权性质的金融工具的利率风险。对于没有隐含期权的金融工具，有效久期与修正久期是相等的。</p>
-<script type="math/tex; mode=display">D_{eff}=-\dfrac{\Delta{P}/P}{\Delta{y}}=\dfrac{P_--P_+}{P_0\times{2\Delta{y}}}=\dfrac{P_--P_+}{P_0\times(y_A-y_B)}</script><h2 id="有效凸性："><a href="#有效凸性：" class="headerlink" title="有效凸性："></a>有效凸性：</h2><script type="math/tex; mode=display">C_{eff}=\dfrac{D_--D_+}{\Delta{y}}=\dfrac{P_-+P_+-2P_0}{P_0\Delta{y^2}}</script><h2 id="基于有效久期和凸性的对冲："><a href="#基于有效久期和凸性的对冲：" class="headerlink" title="基于有效久期和凸性的对冲："></a>基于有效久期和凸性的对冲：</h2><p>$P=\dfrac{VD_v}{D_p}$</p>
-<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
-<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
-<h1 id="到-即-期收益率"><a href="#到-即-期收益率" class="headerlink" title="到(即)期收益率"></a>到(即)期收益率</h1><h2 id="中债估值中心-收益率曲线"><a href="#中债估值中心-收益率曲线" class="headerlink" title="中债估值中心-收益率曲线"></a><a href="https://yield.chinabond.com.cn/cbweb-mn/yield_main?locale=zh_CN">中债估值中心-收益率曲线</a></h2><ul>
-<li><strong>即期收益率（Spot rate）：</strong>无息债到期收益率</li>
-</ul>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8D%B3%E6%9C%9F%E6%94%B6%E7%9B%8A%E7%8E%87.png" alt="即期收益率"></p>
-<ul>
-<li><strong>到期收益率：</strong>持有至到期收益率</li>
-</ul>
-<h1 id="经济周期四阶段及经济指标"><a href="#经济周期四阶段及经济指标" class="headerlink" title="经济周期四阶段及经济指标"></a>经济周期四阶段及经济指标</h1><ul>
-<li><strong>考虑因素：</strong>GDP、利率、就业率、CPI、工业企业-产成品存货、工业企业-营业收入、PPI、PMI</li>
-<li><strong>产成品存货：</strong>指企业报告期末已经加工生产并完成全部生产过程，可以对外销售的制成产品。<font color=red>每月27号公布上月数据。</font></li>
-<li><strong>PMI：</strong>制造业采购经理调查指标体系包括生产、新订单、新出口订单、在手订单、产成品库存、采购量、进口、主要原材料购进价格、出厂价格、原材料库存、从业人员、供应商配送时间、生产经营活动预期等13个分类指数。制造业PMI是由5个扩散指数（分类指数）加权计算而成。5个分类指数及其权数是依据其对经济的先行影响程度确定的。具体包括：新订单指数，权数为30%；生产指数，权数为25%；从业人员指数，权数为20%；供应商配送时间指数，权数为15%；原材料库存指数，权数为10%。<font color =red>更新规律为月频。每月月末发布该指标当月数据。</font></li>
-<li><strong>PPI：</strong>反映工业企业产品第一次出售时的出厂价格的变化趋势和变动幅度；工业生产者出厂价格统计调查涵盖1638个基本分类的20000多种工业产品的价格。工业生产者出厂价格（PPI）采集不含增值税的价格，而购进价格（PPIRM）采集含税的价格。<font color =red>国家统计局口径，每月9-16日上午9:30发布新闻</font>，会在月底根据和国家统计局合作的内部资料进行精度上的调整。</li>
-<li><strong>CPI：</strong>价格指数是反映一定时期内居民家庭所购买的生活消费品价格和服务项目价格变动趋势和程度的相对数。通过该指数可以观察和分析消费品的零售价格和服务项目价格变动对居民收入和消费支出的影响。<font color =red>国家统计局口径，每月9-16日上午9:30发布新闻</font>，会在月底根据和国家统计局合作的内部资料进行精度上的调整。</li>
-<li><strong>营业收入：</strong>营业收入指企业经营主要业务和其他业务所确认的收入总额。<font colore =red>每月27号公布上月值。</font></li>
-<li><strong>城镇调查失业率：</strong>根据国家劳动力调查推算的城镇失业人口占城镇就业人口与失业人口之和的百分比。</li>
-<li><strong>周期四阶段：</strong>繁荣、衰退、萧条、复苏</li>
-<li><strong>阶段与库存表现：</strong>繁荣期-主动补库存、衰退-被动补库存、萧条-主动去库存、复苏-被动去库存。<font color =red>即库存变动滞后于需求变动。</font></li>
-<li><strong>阶段与信贷周期：</strong>繁荣-利率低-就业高-消费者信心强-通膨；到达顶点后衰退，反之。</li>
-<li>Consumer price index (CPI) measures the changes in the price of goods and services paid by consumers.</li>
-<li>The Producer Price Index (PPI) measures the average change over time in the prices domestic producers receive for their output. It is a measure of <a href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> at the wholesale level that is compiled from thousands of indexes measuring producer prices by industry and product category. <ul>
-<li>工业品出厂价格由生产成本、利润和税金三部分组成，它是工业产品进入流通领域的最初价格。</li>
-</ul>
-</li>
-</ul>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E6%B5%8E%E5%91%A8%E6%9C%9F%E5%9B%9B%E9%98%B6%E6%AE%B5.jpg" alt="经济周期四阶段" style="zoom: 67%;" /></p>
-<h1 id="货币中性"><a href="#货币中性" class="headerlink" title="货币中性"></a>货币中性</h1><ul>
-<li>定义：货币中性是货币数量论一个基本命题的简述，是指货币供给的增长将导致价格水平的相同比例增长，对于实际产出水平（比如实际产出Y，实际利率）没有产生影响。</li>
-<li>货币中性，只成立于长期，在短期中是不成立的。因为在短期中，货币供给的变化是会影响到经济，故此时货币是非中性的。</li>
-</ul>
-<h1 id="博弈论-斯塔克博格（Stackelberg）双寡头模型"><a href="#博弈论-斯塔克博格（Stackelberg）双寡头模型" class="headerlink" title="博弈论-斯塔克博格（Stackelberg）双寡头模型"></a>博弈论-斯塔克博格（Stackelberg）双寡头模型</h1><p>斯塔克博格模型是一个双寡头动态模型。该模型假设有两个企业，与古诺模型类似，这两个企业的决策的选择也是产量。在这两个企业中，其中一个企业处于支配地位，先行动进行产量选择，另一个企业处于从属地位，在支配企业选择产量之后再进行选择，因此，这是一个动态博弈问题。我们再假设博弈结构的其他方面，比如策略空间、收益函数和信息结构等与古诺模型一样。因此，这个斯塔克博格博弈模型是一个完全且完美信息的动态博弈。与古诺模型的唯一区别只是两博弈方的选择现在是先后进行的，而不是同时进行的。</p>
-<h1 id="期限结构理论"><a href="#期限结构理论" class="headerlink" title="期限结构理论"></a>期限结构理论</h1><p>略。</p>
+    <title>Python CheatSheet</title>
+    <url>/post/27831/</url>
+    <content><![CDATA[<h3 id="例1："><a href="#例1：" class="headerlink" title="例1："></a>例1：</h3><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">&#x27;β&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">&#x27;E(R)&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>, <span class="string">&#x27;基金P&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<h3 id="matplotlib、matplotlib-pyplot"><a href="#matplotlib、matplotlib-pyplot" class="headerlink" title="matplotlib、matplotlib.pyplot"></a><a href="https://matplotlib.org/">matplotlib、matplotlib.pyplot</a></h3><p><a href="https://matplotlib.org/cheatsheets/cheatsheets.pdf"><strong>CheatSheet</strong></a></p>
+<h3 id="Pandas"><a href="#Pandas" class="headerlink" title="Pandas"></a><a href="https://pandas.pydata.org/">Pandas</a></h3><p><a href="https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
+<h3 id="Numpy"><a href="#Numpy" class="headerlink" title="Numpy"></a><a href="https://numpy.org/">Numpy</a></h3><p><a href="https://assets.datacamp.com/blog_assets/Numpy_Python_Cheat_Sheet.pdf"><strong>CheatSheet</strong></a></p>
 ]]></content>
       <categories>
-        <category>投研交易</category>
-        <category>理论杂货</category>
+        <category>数据建模</category>
+        <category>数据清理</category>
       </categories>
       <tags>
-        <tag>久期-凸性</tag>
+        <tag>Python CheatSheet</tag>
       </tags>
   </entry>
   <entry>
@@ -419,33 +307,144 @@
       </tags>
   </entry>
   <entry>
-    <title>数据存储与执行</title>
-    <url>/post/32586/</url>
-    <content><![CDATA[<h4 id="数据结构创建及特点"><a href="#数据结构创建及特点" class="headerlink" title="数据结构创建及特点:"></a>数据结构创建及特点:</h4><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9B%E5%BB%BA%E5%8F%8A%E7%89%B9%E7%82%B9.png" alt="数据结构创建及特点"></p>
-<h4 id="if-name-‘-main-‘"><a href="#if-name-‘-main-‘" class="headerlink" title="if __name__ == ‘__main__‘:"></a>if <code>__name__</code> == ‘<code>__main__</code>‘:</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line">    function()</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;&#x27;</span>)</span><br><span class="line"><span class="comment">#__name__和__main__都是内置变量，当文件被直接执行时，__name__的值就是__main__，文件中代码均被执行。</span></span><br><span class="line"><span class="comment">#当文件作为模块被导入时，__name__的值就是文件名()，`if`下的内容均不会被执行。</span></span><br><span class="line"><span class="comment">#该结构常用于测试文件中的代码，即`if`下为测试代码。如此，可以将测试代码一同保留在文件中，且被导入时不会执行测试代码。</span></span><br></pre></td></tr></table></figure>
-<h4 id="库安装："><a href="#库安装：" class="headerlink" title="库安装："></a>库安装：</h4><ol>
-<li>IDE Python环境/CMD：pip install<br>IDE是一种软件应用程序，提供了编程人员编写软件时所需的工具，例如代码编辑器、编译器、调试器等。包括VSCode、PyCharm等。</li>
-<li>Jupyter Notebook：!pip install<br>加入!，以便.ipnb识别为shell代码，而不是python代码。</li>
-</ol>
-<h4 id="常用库介绍："><a href="#常用库介绍：" class="headerlink" title="常用库介绍："></a>常用库介绍：</h4><ol>
-<li>Excel读写：<br>pandas、(openpyxl、xlsxwriter支持新版.xlsx)、(xlrd、xlwt支持旧版.xls读写，不支持新版.xlsx)<br><code>to_excel</code>方法默认使用<code>openpyxl</code>作为写入引擎来处理.xlsx文件。通过engine=”xlsxwirter”切换引擎。r转义。</li>
-<li>with as用法：<br><code>with pd.excelwriter(&#39;PATH&#39;,engine=&#39;&#39;):</code><br>with表打开文件，语句结束时关闭文件。as输出with对象简称。通常用于打开或关闭文件的操作，如打开excel写入。</li>
-<li>os库：<br><code>os.listdir(os.getcwd)</code>#获取目录<code>os.rename</code>#改名<code>for root, dirs, files in os.walk(file_dir)</code>#获取路径</li>
-<li><strong>Pending：</strong>beautifulsoup、Numpy、Pandas、urllib、sklearn、matplotlib、sys、Pyqt5、selenium、tkinter、datetime、win32ui。</li>
-</ol>
+    <title>债券的久期-凸性</title>
+    <url>/post/55094/</url>
+    <content><![CDATA[<h1 id="债券的久期和凸性"><a href="#债券的久期和凸性" class="headerlink" title="债券的久期和凸性"></a>债券的久期和凸性</h1><h2 id="麦考利久期-Macaulay-duration-："><a href="#麦考利久期-Macaulay-duration-：" class="headerlink" title="麦考利久期(Macaulay duration)："></a><strong>麦考利久期(Macaulay duration)：</strong></h2><p>每次支付金额的现值占当前债券价格的比率作为权重，计算平均到期时间。<br>对于零息债券，其久期等于到期期限</p>
+<script type="math/tex; mode=display">\begin{align}D_{mac}&=\dfrac{\sum_{t=1}^{T}\dfrac{C_{t}}{(1+y)^t}\times{t}}{P}\\{D_{mac}}&=\sum_{t=1}^{T}t\times{W_t}\end{align}</script><h2 id="修正久期-Modified-Duration-："><a href="#修正久期-Modified-Duration-：" class="headerlink" title="修正久期(Modified Duration)："></a><strong>修正久期(Modified Duration)：</strong></h2><ul>
+<li><p>单位利率变动，债券价格变动的<font color =red>百分比</font>，度量价格对于利率变动的敏感性。</p>
+</li>
+<li><p>久期和修正久期是一个近似值，收益率变化幅度小时，久期和修正久期近似效果较好；当收益率变化幅度越大时，久期和修正久期的近似效果差。</p>
+<script type="math/tex; mode=display">{MD/D_m}=\dfrac{\Delta{P}/{P}}{\Delta{y}}=\dfrac{D_{mac}}{1+y/m}</script></li>
+<li><p>修正久期越大，利率变动对债券价格的影响程度就越大。</p>
+</li>
+</ul>
+<div class="note info flat"><script type="math/tex; mode=display">\begin{align}&\text{原式：}P=\sum\limits_{i=1}^{n}\dfrac{C}{(1+{YTM})^{i}}+\dfrac{F}{(1+YTM)^n}\\&\text{求导：}\textcolor{red}{\dfrac{\dfrac{dP}{dYTM}}{P}}=-\dfrac{1}{1+YTM}\times\textcolor{blue}{\dfrac{\dfrac{nF}{(1+YTM)^n}+\sum_{i=1}^{n}\dfrac{iC}{(1+YTM)^i}}{P}}\\&\text{或零息债券：}P=\frac{Ct}{(1+y)^t}\\&\text{求导：}dP=-\dfrac{C_t\cdot{t}}{(1+y)^{t+1}}d(y)=-\dfrac{P\cdot{t}}{1+y}d(y)\\&\text{变形：}\dfrac{\Delta{P}}{P}=-\dfrac{t}{1+y}d(y)=-\dfrac{D_{mac}}{1+y}\times{\Delta{y}}=-D_m\times{\Delta{y}}\quad{(5)}\end{align}</script></div>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B8%8D%E5%90%8CYTM%E5%80%BA%E5%88%B8%E7%9A%84%E4%B9%85%E6%9C%9F.jpg" alt="不同YTM债券的久期" style="zoom:50%;" /><sup><a href ="https://finance.eastmoney.com/a/202208292493323044.html">[1]</a></sup></p>
+<h2 id="美元久期-Dollar-Duration-："><a href="#美元久期-Dollar-Duration-：" class="headerlink" title="美元久期(Dollar Duration)："></a><strong>美元久期(Dollar Duration)：</strong></h2><ul>
+<li>美元久期是指利率变动（或者说单位利率变动）导致的债券价值变动的金额，(<script type="math/tex">-P\times{D_m}=D_{dollar}</script>)即$D_m$价格变动百分比乘以价格-得到变动金额，即价格-收益率曲线-切线斜率。</li>
+<li><p>Price value of basis point（PVBP-基点价值）：利率变动一个基点时，债券价格变动金额。</p>
+<ul>
+<li>记为：PV01(present value of 1bp) or DV01(dollar value of 1bp)</li>
+</ul>
+</li>
+<li><p><a href="https://zhuanlan.zhihu.com/p/487786099">公式推导</a></p>
+</li>
+</ul>
+<p>根据式(5)可得：<script type="math/tex">\begin{align}&\text{原式：}\dfrac{dP}{P\times{dy}}=-\dfrac{1}{1+y}D_{mac}=-D_m\\&\text{变形：}\dfrac{dP}{dy}=-\dfrac{P}{1+y}D_{mac}=-P\times{D_m}=D_{dollar}\\&\text{另：}\quad{}dP=-D_{dollar}\times{dr}\\&\text{DV01=}D_{dollar}\times{0.01\%}=D_m\times{P}\times{0.01\%}\end{align}</script></p>
+<ul>
+<li>DV01对冲：<script type="math/tex">\text{对冲比率}=\dfrac{DV01^A}{DV01^B}</script></li>
+</ul>
+<h2 id="凸性-convexity-："><a href="#凸性-convexity-：" class="headerlink" title="凸性(convexity)："></a>凸性(convexity)：</h2><p>凸性是对债券价格利率敏感性的二阶估计，是对债券久期利率敏感性的测量。凸性（ Convexity ）是收益率变化 1 %所引起的久期的变化。凸性越大,债券价格曲线弯曲程度越大,用修正久期度量债券的利率风险所产生的误差越大。</p>
+<p>在价格(y)-收益率(x)曲线中，债券价格随利率的变化关系是非线性的，凸向原点的。</p>
+<script type="math/tex; mode=display">\begin{align}{Con}&=\sum_{t=1}^{T}(W_t\times{t(t+1))}\\{MCon}&=\sum_{t=1}^{T}\dfrac{W_t\times{t(t+1)}}{(1+y)^2}=\sum_{t=1}^{T}t(1+t)\times{\dfrac{\dfrac{C_t}{(1+y)^t}}{P}}\times{\dfrac{1}{(1+y)^2}}\\\text{经过对债券}&\text{价格公式进行泰勒展开，变形得到由修正久期与凸性构成的}{\Delta{P}/{P}}\text{公式}\\\dfrac{\Delta{P}}{P}&=-D_{m}\Delta{y}+\frac{1}{2}Con(\Delta{y})^2\end{align}</script><div class="note info flat"><p><a href="https://zhuanlan.zhihu.com/p/47022333?utm_id=0">公式推导及结论</a></p>
+<ul>
+<li><p>张亦春、郑振龙的《金融市场学》认为，现在的久期概念是利率敏感性资产价值变动的百分比对利率变动的一阶敏感性，即$D_{m}=-\frac{dP/P}{dy}$ 。Macaulay久期不是久期，只是久期计算公式中的一部分。<strong>修正久期才真正考察了债券价值的利率风险</strong>。</p>
+</li>
+<li><p>蒋崇辉、马永开指出，修正久期不能简单理解为对Macaulay久期的“修正”，<strong>修正久期的本质是债券价格相对于市场基准利率变化的敏感性。</strong></p>
+</li>
+<li><p>张宗新的《投资学》同样提到<strong>久期最初表示平均还款期限，但实际运用中久期表示的是债券价格的波动性</strong>。</p>
+</li>
+<li><p><strong>Change in price=Duration effect+Convexity effect</strong></p>
+</li>
+</ul>
+</div>
+<h2 id="有效久期"><a href="#有效久期" class="headerlink" title="有效久期"></a><strong>有效久期</strong></h2><p>有效久期不需要考虑各期现金流的变化情况，不包含利率变化导致现金流发生变化的具体时间，而只考虑利率一定变化下的价格总体情况。因此，有效久期能够较准确地衡量具有隐含期权性质的金融工具的利率风险。对于没有隐含期权的金融工具，有效久期与修正久期是相等的。</p>
+<script type="math/tex; mode=display">D_{eff}=-\dfrac{\Delta{P}/P}{\Delta{y}}=\dfrac{P_--P_+}{P_0\times{2\Delta{y}}}=\dfrac{P_--P_+}{P_0\times(y_A-y_B)}</script><h2 id="有效凸性："><a href="#有效凸性：" class="headerlink" title="有效凸性："></a>有效凸性：</h2><script type="math/tex; mode=display">C_{eff}=\dfrac{D_--D_+}{\Delta{y}}=\dfrac{P_-+P_+-2P_0}{P_0\Delta{y^2}}</script><h2 id="基于有效久期和凸性的对冲："><a href="#基于有效久期和凸性的对冲：" class="headerlink" title="基于有效久期和凸性的对冲："></a>基于有效久期和凸性的对冲：</h2><p>$P=\dfrac{VD_v}{D_p}$</p>
+<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
+<p>$-VD_v-P_1D_1-P_2D_2=0$</p>
+<h1 id="到-即-期收益率"><a href="#到-即-期收益率" class="headerlink" title="到(即)期收益率"></a>到(即)期收益率</h1><h2 id="中债估值中心-收益率曲线"><a href="#中债估值中心-收益率曲线" class="headerlink" title="中债估值中心-收益率曲线"></a><a href="https://yield.chinabond.com.cn/cbweb-mn/yield_main?locale=zh_CN">中债估值中心-收益率曲线</a></h2><ul>
+<li><strong>即期收益率（Spot rate）：</strong>无息债到期收益率</li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8D%B3%E6%9C%9F%E6%94%B6%E7%9B%8A%E7%8E%87.png" alt="即期收益率"></p>
+<ul>
+<li><strong>到期收益率：</strong>持有至到期收益率</li>
+</ul>
+<h1 id="经济周期四阶段及经济指标"><a href="#经济周期四阶段及经济指标" class="headerlink" title="经济周期四阶段及经济指标"></a>经济周期四阶段及经济指标</h1><ul>
+<li><strong>考虑因素：</strong>GDP、利率、就业率、CPI、工业企业-产成品存货、工业企业-营业收入、PPI、PMI</li>
+<li><strong>产成品存货：</strong>指企业报告期末已经加工生产并完成全部生产过程，可以对外销售的制成产品。<font color=red>每月27号公布上月数据。</font></li>
+<li><strong>PMI：</strong>制造业采购经理调查指标体系包括生产、新订单、新出口订单、在手订单、产成品库存、采购量、进口、主要原材料购进价格、出厂价格、原材料库存、从业人员、供应商配送时间、生产经营活动预期等13个分类指数。制造业PMI是由5个扩散指数（分类指数）加权计算而成。5个分类指数及其权数是依据其对经济的先行影响程度确定的。具体包括：新订单指数，权数为30%；生产指数，权数为25%；从业人员指数，权数为20%；供应商配送时间指数，权数为15%；原材料库存指数，权数为10%。<font color =red>更新规律为月频。每月月末发布该指标当月数据。</font></li>
+<li><strong>PPI：</strong>反映工业企业产品第一次出售时的出厂价格的变化趋势和变动幅度；工业生产者出厂价格统计调查涵盖1638个基本分类的20000多种工业产品的价格。工业生产者出厂价格（PPI）采集不含增值税的价格，而购进价格（PPIRM）采集含税的价格。<font color =red>国家统计局口径，每月9-16日上午9:30发布新闻</font>，会在月底根据和国家统计局合作的内部资料进行精度上的调整。</li>
+<li><strong>CPI：</strong>价格指数是反映一定时期内居民家庭所购买的生活消费品价格和服务项目价格变动趋势和程度的相对数。通过该指数可以观察和分析消费品的零售价格和服务项目价格变动对居民收入和消费支出的影响。<font color =red>国家统计局口径，每月9-16日上午9:30发布新闻</font>，会在月底根据和国家统计局合作的内部资料进行精度上的调整。</li>
+<li><strong>营业收入：</strong>营业收入指企业经营主要业务和其他业务所确认的收入总额。<font colore =red>每月27号公布上月值。</font></li>
+<li><strong>城镇调查失业率：</strong>根据国家劳动力调查推算的城镇失业人口占城镇就业人口与失业人口之和的百分比。</li>
+<li><strong>周期四阶段：</strong>繁荣、衰退、萧条、复苏</li>
+<li><strong>阶段与库存表现：</strong>繁荣期-主动补库存、衰退-被动补库存、萧条-主动去库存、复苏-被动去库存。<font color =red>即库存变动滞后于需求变动。</font></li>
+<li><strong>阶段与信贷周期：</strong>繁荣-利率低-就业高-消费者信心强-通膨；到达顶点后衰退，反之。</li>
+<li>Consumer price index (CPI) measures the changes in the price of goods and services paid by consumers.</li>
+<li>The Producer Price Index (PPI) measures the average change over time in the prices domestic producers receive for their output. It is a measure of <a href="https://www.investopedia.com/terms/i/inflation.asp">inflation</a> at the wholesale level that is compiled from thousands of indexes measuring producer prices by industry and product category. <ul>
+<li>工业品出厂价格由生产成本、利润和税金三部分组成，它是工业产品进入流通领域的最初价格。</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E6%B5%8E%E5%91%A8%E6%9C%9F%E5%9B%9B%E9%98%B6%E6%AE%B5.jpg" alt="经济周期四阶段" style="zoom: 67%;" /></p>
+<h1 id="货币中性"><a href="#货币中性" class="headerlink" title="货币中性"></a>货币中性</h1><ul>
+<li>定义：货币中性是货币数量论一个基本命题的简述，是指货币供给的增长将导致价格水平的相同比例增长，对于实际产出水平（比如实际产出Y，实际利率）没有产生影响。</li>
+<li>货币中性，只成立于长期，在短期中是不成立的。因为在短期中，货币供给的变化是会影响到经济，故此时货币是非中性的。</li>
+</ul>
+<h1 id="博弈论-斯塔克博格（Stackelberg）双寡头模型"><a href="#博弈论-斯塔克博格（Stackelberg）双寡头模型" class="headerlink" title="博弈论-斯塔克博格（Stackelberg）双寡头模型"></a>博弈论-斯塔克博格（Stackelberg）双寡头模型</h1><p>斯塔克博格模型是一个双寡头动态模型。该模型假设有两个企业，与古诺模型类似，这两个企业的决策的选择也是产量。在这两个企业中，其中一个企业处于支配地位，先行动进行产量选择，另一个企业处于从属地位，在支配企业选择产量之后再进行选择，因此，这是一个动态博弈问题。我们再假设博弈结构的其他方面，比如策略空间、收益函数和信息结构等与古诺模型一样。因此，这个斯塔克博格博弈模型是一个完全且完美信息的动态博弈。与古诺模型的唯一区别只是两博弈方的选择现在是先后进行的，而不是同时进行的。</p>
+<h1 id="期限结构理论"><a href="#期限结构理论" class="headerlink" title="期限结构理论"></a>期限结构理论</h1><p>略。</p>
 ]]></content>
       <categories>
-        <category>数据建模</category>
-        <category>数据清理</category>
+        <category>投研交易</category>
+        <category>理论杂货</category>
       </categories>
       <tags>
-        <tag>存储与执行</tag>
+        <tag>久期-凸性</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>利率体系与指标分析</title>
+    <url>/post/28330/</url>
+    <content><![CDATA[<h1 id="中国利率体系"><a href="#中国利率体系" class="headerlink" title="中国利率体系"></a>中国利率体系</h1><p><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》—易纲，202109</a></p>
+<div class="note info flat"><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%88%91%E5%9B%BD%E5%88%A9%E7%8E%87%E4%BD%93%E7%B3%BB%E5%92%8C%E8%B0%83%E6%8E%A7%E6%A1%86%E6%9E%B6" alt="我国利率体系和调控框架" style="zoom:80%;" /></p>
+</div>
+<h2 id="货币政策工具"><a href="#货币政策工具" class="headerlink" title="货币政策工具"></a>货币政策工具</h2><p>货币市场、债券市场、信贷市场的指标性利率分别为存款类金融机构间的债券回购利率（DR）、国债收益率、贷款市场报价利率（LPR）</p>
+<p><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125463/2881199/index.html">公开市场操作(OMO)</a>：</strong>每日开展逆回购操作，主要包括回购交易（对象为<a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125469/4889129/index.html">51家一级交易商</a>）、现券交易和发行中央银行票据，不含MLF、SLO、PSL、国库现金定存。<br><em>短期流动性调节工具（Short-term Liquidity Operations, SLO）：调节市场短期资金供给，熨平突发性、临时性因素导致的市场资金供求大幅波动</em><br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125443/125854/2895400/index.html">常备借贷便利（StandingLendingFacility，SLF）</a>：</strong>金融机构主动发起。央行与金融机构“一对一”交易，针对性强。用于满足机构较长期限的大额流动性需求，期限为1-3个月，抵押式发放，对象为存款类金融机构，政策行和全国性商行为主。<br><div class="note info flat"><p>抵押不转移对抵押物的占管形态，仍由抵押人保管；质押改变了质押物的占管形态，由质权人保管。</p>
+</div><br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125446/125870/2809123/index.html">中期借贷便利利率（Medium-term Lending Facility，MLF）</a>：</strong><font color =red>每月月中</font>开展MLF操作。发放对象为符合宏观审慎要求的商业银行和政策行。采取质押式发放，质押券为国债、央票、政金债、高级信用债。<br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/3876493/index.html">贷款市场报价利率（LPR）</a>：</strong>2019年改革后<font color =red>代替贷款基准利率</font>，成为金融机构贷款利率定价的主要参考基准。各报价行在公开市场操作利率（主要为1年期MLF）的基础上加点报价，最终形成了“MLF利率→LPR→贷款利率”的利率传导机制，贷款利率和债券利率之间的相互参考作用也有所增强。<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/LPR%26MLF.png" alt="LPR&MLF" style="zoom: 50%;" /><br><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/4634692/4634697/5112065/index.html"><strong>结构性货币政策工具：</strong></a>如再贴现—对金融机构持有的已贴现票据进行贴现的业务，用于支持扩大涉农、小微和民营企业融资；抵押补充贷款(2014年)；租赁住房贷款支持计划—8个城市开展试点，支持市场化批量收购存量住房、扩大租赁住房供给；碳减排支持工具(2021年)。<br><strong>抵押补充贷款（Pledged Supplemental Lending，PSL）：</strong>为开发性金融支持棚改、支持国民经济重点领域、薄弱环节和社会事业发展提供长期稳定、成本适当的资金来源。<br><strong>存款准备金利率：</strong>2020年超额准备金利率由0.72%降至0.35%，与活期存款基准利率一致<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AD%98%E6%AC%BE%E5%87%86%E5%A4%87%E9%87%91%E5%88%A9%E7%8E%87.png" alt="存款准备金利率" style="zoom: 50%;" /><br><strong><a href="https://www.chinamoney.com.cn/chinese/bkshibor/">上海银行间同业拆放利率（Shibor）：</a></strong>2007年。报价行的算术平均利率，单利、无担保、批发性利率；包含8个品种：O/N、1W、2W、1M、3M、6M、9M、1Y<br><strong>常规货币政策（一般性货币政策工具）：</strong>通过控制短期利率进行调控，工具包括：法定存款准备金率、公开市场操作、再贴现率<br><strong>选择行货币政策工具及其他政策工具：</strong>消费者信用控制、证券市场信用控制、不动产信用控制、直接信用控制、间接信用控制<br><strong>创新型货币政策工具：</strong>SLO、SLF、PSL、MLF、TLF(临时流动性便利)、CRA(临时准备金动用安排)、TMLF(定向中期借贷便利)<br><strong>非传统货币政策：</strong><sup><a href="https://epaper.gmw.cn/gmrb/html/2010-08/27/nw.D110000gmrb_20100827_2-07.htm#:~:text=%E6%89%80%E8%B0%93%E9%9D%9E%E4%BC%A0%E7%BB%9F%E8%B4%A7%E5%B8%81%E6%94%BF,%E4%BF%A1%E8%B4%B7%E5%92%8C%E8%B5%84%E4%BA%A7%E5%B8%82%E5%9C%BA%E3%80%82">[1]</a></sup> <sup><a href="https://www.sohu.com/a/225901690_481741">[2]</a></sup>资产购买工具、量化宽松、负利率<br><div class="tabs" id="test1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="test1-1">OMO</button><button type="button" class="tab " data-href="test1-2">SLF</button><button type="button" class="tab " data-href="test1-3">超额准备金率</button><button type="button" class="tab " data-href="test1-4">DR007</button><button type="button" class="tab " data-href="test1-5">MLF</button></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>中国宏观-银行与货币-央行货币政策工具-逆回购利率：7天、14天、28天、63天</strong></p></div><div class="tab-item-content" id="test1-2"><p><strong>中国宏观-银行与货币-央行货币政策工具-常备借贷便利(SLF)利率: 隔夜、7天、1个月</strong></p></div><div class="tab-item-content" id="test1-3"><p><strong>中国宏观-利率汇率-存款利率-人民银行对金融机构存款利率</strong></p></div><div class="tab-item-content" id="test1-4"><p><strong>中国宏观-固收数据-回购利率-银行间质押式回购-DR001、007、014、021、1M、2M、3M、4M、6M、9M、1Y</strong></p></div><div class="tab-item-content" id="test1-5"><p><strong>中国宏观-银行与货币-央行货币政策工具-中期借贷便利操作-3个月、6个月、1年</strong></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div><br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9F%AD%E6%9C%9F%E6%94%BF%E7%AD%96%E5%88%A9%E7%8E%87%E5%92%8C%E5%88%A9%E7%8E%87%E8%B5%B0%E5%BB%8A" alt="短期政策利率和利率走廊" style="zoom: 25%;" /></p>
+<h1 id="资金分层及高频指标"><a href="#资金分层及高频指标" class="headerlink" title="资金分层及高频指标"></a>资金分层及高频指标</h1><p><em>注：相对于月度、季度指标，高频指标一般为日度、周度、旬度</em></p>
+<h2 id="资金分层"><a href="#资金分层" class="headerlink" title="资金分层"></a><a href="https://southern-ficc.github.io/post/44421/">资金分层</a></h2><p>银行间市场：存款类机构与银行间机构分层：R007 - DR007；R001 - DR001</p>
+<p>上海交易所与银行间分层：GC007 - R007；GC001 - R001</p>
+<p>超额流动性：R007 - 7天逆回购利率；DR007 - 7天逆回购利率</p>
+<p>期限利差、机构间利差（国股行与中小行与非银机构、城投与国债）、产品间利差（非银机构基金证券及货币市场基金）、市场间利差（上海交易所与银行间）</p>
+<p>基本面影响政策面，政策面影响资金面、资金面影响供需面、供需面影响情绪面</p>
+<h2 id="基本面"><a href="#基本面" class="headerlink" title="基本面"></a>基本面</h2><p>经济增长和通货膨胀指标决定利率中长期走势。—*’国家统计局、海关总署’</p>
+<ul>
+<li><p><strong>通货膨胀指标(月度|次月上旬<em>‘10日左右’</em>)：</strong><br>居民消费价格指数CPI；工业生产者出厂价格指数PPI；工业生产者购进价格指数PPIRM</p>
+</li>
+<li><p><strong>经济增长指标(月度|次月中旬<em>‘15日左右’</em>)：</strong><br>GDP(季度|次月中旬<em>‘18日左右’</em>)；<strong>生产法</strong>—规模以上工业增加值[<font color =red>工业</font>]；<u><strong>支出法</strong></u>—[<font color =red>投资</font>]固定资产投资、房地产市场基本情况；[<font color =red>消费</font>]社会消费品零售总额；[<font color =red>净出口</font>]进出口数据(次月上旬<em>‘8日左右’</em>)<br>注：GDP核算方法：生产法、收入法、支出法。</p>
+</li>
+<li><strong>生产法下的高频指标路径：</strong><br>1.<a href="https://www.stats.gov.cn/sj/tjbz/gmjjhyfl/202302/P020230213400314380798.pdf">国家统计局行业划分</a>：<br>工业包含①采矿业、②制造业、③[电力、热力、燃气及水生产和供应业]等3个行业，共40个细分大类。通过细分大类获得重点行业高频指标<br>2.<a href="https://data.stats.gov.cn/files/html/quickSearch/trcc/trcc01.html">投入产出表—国家统计局</a><br>根据2020年投入产出表,对于工业生产下的40个细分大类，前10大行业占比总和达到了52%。其中，钢铁产业、化工产业、汽车产业与多个行业相关性较高。<br><em><font color =grey>按照国家统计调查制度，自1987年起，每五年开展一次全国投入产出调查，编制两张全国投入产出表，最新编制的为2020年投入产出表。按照《国务院关于开展第五次全国经济普查的通知》，将于2023年开展第五次全国经济普查，并统筹开展投入产出调查。下一张表为2023年投入产出表，预计于2025年编制完成并公布。</font></em></li>
+<li><strong>支出法下的高频指标：</strong><br><strong>1.<a href="https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903707.html">社会消费品零售总额(为消除春节影响，1、2月合并发布)：</a></strong>企业（单位、个体户）通过交易售给个人、社会集团非生产、非经营用的实物商品金额，以及提供餐饮服务所取得的收入金额。<br><strong>1.1.按消费形态分类：</strong>商品零售(限额以上单位零售、限额以下单位零售)、餐饮收入。其中，对于商品零售，统计局仅统计限额以上单位零售。<br>1.2.<strong>高频指标：</strong>限额以上单位商品零售共计16类细分类科目，其中汽车类、石油及制品类，粮油食品类、服装类等四类细分科目占比最大。另，由于粮油食品类波动性小，不作为社会消费品零售总额的波动因子。<br><strong>2.投资相关的高频指标：</strong>固定资产投资、房地产市场基本情况<br>固定资产投资：由于统计局在2018年后仅公布累计同比，且每年统计口径都会有调整，因此可以通过移动平均值降低变动误差。<br><strong>高频指标：</strong>原材料（中国水泥网<strong>每周</strong>水泥价格指数(开工率、全国CEMPI)；沥青—道路基建(基础设施固定资产投资)；浮法玻璃、螺纹钢—房地产固定资产投资；）100大中城市成交土地占地面积；30大中城市商品房成交面积。<br><strong>3.出口相关的高频指标：</strong><br>海关总署发布的贸易数据：由于商品分类和出口目的国分类没有对应高频指标，因此采用能够反映外需的综合指标跟踪出口变动。<br>运输方式：海运(干散货运输、邮轮运输、集装箱运输)<br><strong>高频指标：</strong>上海航运交易所：中国出口集装箱运价指数(CCFI)和上海出口集装箱运价指数(SCFI)、波罗的海干散货指数—反映全球市场对大宗原料产品的需求、美国制造业PMI—最大去向国。<br><strong>4.通货膨胀及相关高频指标：</strong><br><strong>4.1.CPI：</strong>要包含<u>食品烟酒、</u>衣着、居住、生活用品及服务、<u>交通通信、</u>教育文化娱乐、医疗保健、其他用品及服务等8大类，共268个基本分类的商品与服务价格。<strong>统计局通常将CPI分为两大类，其中食品权重约为19%左右，非食品权重约为81%左右，其中食品权重主导CPI走势。畜肉类对CPI影响大，猪肉价格最大。</strong><br><strong>高频指标：</strong>商务部每周公布食用农产品价格指数，农业部每日公布农产品批发价格200指数、菜篮子产品批发价格200指数、猪肉批发价、现货价:布伦特DTD:原油。<br><strong>4.2.PPI：</strong>根据统计局的定义，工业生产者价格指数包括工业生产者出厂价格指数(PPI)和工业生产者购进价格指数(PPIRM)。<strong>统计局通常将PPI分为生产资料和生活资料两大类，其中生产资料包含采掘、原材料、加工3个子类，生活资料包含食品、衣着、一般日用品、耐用消费品4个子类。</strong><br><strong>高频指标：</strong>生产资料指标：生产资料价格指数(商务部)、南华期货商 品指数(南华期货)、南华期货工业品指数(南华期货)、CRB现货综合指数(CRB)。<br><em><font color =grey>PPI反映工业企业产品第一次出售时的出厂价格的变化趋势和变动幅度，PPIRM反映工业企业作为中间投入产品的购进价格的变化趋势和变动幅度。</font></em></li>
+</ul>
+<h2 id="政策面、资金面、供需面、情绪面"><a href="#政策面、资金面、供需面、情绪面" class="headerlink" title="政策面、资金面、供需面、情绪面"></a>政策面、资金面、供需面、情绪面</h2>]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>理论杂货</category>
+      </categories>
+      <tags>
+        <tag>利率与资金面</tag>
+        <tag>货币政策工具</tag>
+        <tag>风险指标</tag>
       </tags>
   </entry>
   <entry>
     <title>投资业绩评价及风险管理</title>
     <url>/post/62142/</url>
-    <content><![CDATA[<h1 id="投资组合管理"><a href="#投资组合管理" class="headerlink" title="投资组合管理"></a>投资组合管理</h1><p>略。均值-方差模型、CAPM、有效市场假说、现代投资组合理论、协方差、相关系数 <script type="math/tex">\rho_{i,j} = \dfrac{\text{cov}(i,j)}{\sigma_i\sigma_j}</script>、资产收益的可行集、最小方差前沿、有效前沿、无差异曲线、资本配置线CAL、最优CAL、资本市场线CML、系统性风险、非系统性风险、证券市场线SML</p>
+    <content><![CDATA[<h1 id="Wind指标"><a href="#Wind指标" class="headerlink" title="Wind指标"></a>Wind指标</h1><ul>
+<li><p>地域利差：取筛选条件下每个债在X时点与国开债的利差，以余额为权进行求和。</p>
+</li>
+<li><p>地域久期：将某地区发行在时点X存续的全部债看成投资组合，取修正久期，以余额为权进行求和。</p>
+</li>
+<li>样本券选取方式：在X时点存续的城投债，剔永续债、剔abs。</li>
+<li><a href="https://www.msci.com/www/blog-posts/factors-in-focus-are-your/02933279202">[MSCI Model]</a></li>
+</ul>
+<p>历年偏离度变化 | 剩余期限分布 | 年化收益率 | 年化波动率 | 最大回撤 | 恢复天数 | 年化夏普利率 | 卡玛比率 | 月度正收益率 | 年度ALPHA | 年度择时能力 | </p>
+<ul>
+<li>风险收益分析：区间收益、最大回撤、Alpha、Beta、Sharpe、Treynor、年化波动率、信息比率、Jensen、Sortino、Calmar、Sterling</li>
+<li>拟合业绩表现</li>
+<li>业绩表现：Alpha、Beta、Sharpe、信息比率、收益标准差、跟踪误差、超额回报、年化回报、回报</li>
+</ul>
+<h1 id="投资组合管理"><a href="#投资组合管理" class="headerlink" title="投资组合管理"></a>投资组合管理</h1><p>略。均值-方差模型、CAPM、有效市场假说、现代投资组合理论、协方差、相关系数 <script type="math/tex">\rho_{i,j} = \dfrac{\text{cov}(i,j)}{\sigma_i\sigma_j}</script>、资产收益的可行集、最小方差前沿、有效前沿、无差异曲线、资本配置线CAL、最优CAL、资本市场线CML、系统性风险、非系统性风险、证券市场线SML</p>
 <p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/SML%E5%92%8CCML.png" alt="SML和CML" style="zoom:50%;" /></p>
 <h1 id="投资风险管理"><a href="#投资风险管理" class="headerlink" title="投资风险管理"></a>投资风险管理</h1><h3 id="风险类型"><a href="#风险类型" class="headerlink" title="风险类型"></a>风险类型</h3><h4 id="市场风险"><a href="#市场风险" class="headerlink" title="市场风险"></a>市场风险</h4><table>
    <tr>
@@ -551,38 +550,27 @@
       </tags>
   </entry>
   <entry>
-    <title>利率体系与指标分析</title>
-    <url>/post/28330/</url>
-    <content><![CDATA[<h1 id="中国利率体系"><a href="#中国利率体系" class="headerlink" title="中国利率体系"></a>中国利率体系</h1><p><a href="http://camlmac.pbc.gov.cn/goutongjiaoliu/113456/113469/4351958/index.html">《中国的利率体系与利率市场化改革》—易纲，202109</a></p>
-<div class="note info flat"><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%88%91%E5%9B%BD%E5%88%A9%E7%8E%87%E4%BD%93%E7%B3%BB%E5%92%8C%E8%B0%83%E6%8E%A7%E6%A1%86%E6%9E%B6" alt="我国利率体系和调控框架" style="zoom:80%;" /></p>
-</div>
-<h2 id="货币政策工具"><a href="#货币政策工具" class="headerlink" title="货币政策工具"></a>货币政策工具</h2><p>货币市场、债券市场、信贷市场的指标性利率分别为存款类金融机构间的债券回购利率（DR）、国债收益率、贷款市场报价利率（LPR）</p>
-<p><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125463/2881199/index.html">公开市场操作(OMO)</a>：</strong>每日开展逆回购操作，主要包括回购交易（对象为<a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125431/125469/4889129/index.html">51家一级交易商</a>）、现券交易和发行中央银行票据，不含MLF、SLO、PSL、国库现金定存。<br><em>短期流动性调节工具（Short-term Liquidity Operations, SLO）：调节市场短期资金供给，熨平突发性、临时性因素导致的市场资金供求大幅波动</em><br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125443/125854/2895400/index.html">常备借贷便利（StandingLendingFacility，SLF）</a>：</strong>金融机构主动发起。央行与金融机构“一对一”交易，针对性强。用于满足机构较长期限的大额流动性需求，期限为1-3个月，抵押式发放，对象为存款类金融机构，政策行和全国性商行为主。<br><div class="note info flat"><p>抵押不转移对抵押物的占管形态，仍由抵押人保管；质押改变了质押物的占管形态，由质权人保管。</p>
-</div><br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125446/125870/2809123/index.html">中期借贷便利利率（Medium-term Lending Facility，MLF）</a>：</strong><font color =red>每月月中</font>开展MLF操作。发放对象为符合宏观审慎要求的商业银行和政策行。采取质押式发放，质押券为国债、央票、政金债、高级信用债。<br><strong><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/125440/3876551/3876493/index.html">贷款市场报价利率（LPR）</a>：</strong>2019年改革后<font color =red>代替贷款基准利率</font>，成为金融机构贷款利率定价的主要参考基准。各报价行在公开市场操作利率（主要为1年期MLF）的基础上加点报价，最终形成了“MLF利率→LPR→贷款利率”的利率传导机制，贷款利率和债券利率之间的相互参考作用也有所增强。<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/LPR%26MLF.png" alt="LPR&MLF" style="zoom: 50%;" /><br><a href="http://www.pbc.gov.cn/zhengcehuobisi/125207/125213/4634692/4634697/5112065/index.html"><strong>结构性货币政策工具：</strong></a>如再贴现—对金融机构持有的已贴现票据进行贴现的业务，用于支持扩大涉农、小微和民营企业融资；抵押补充贷款(2014年)；租赁住房贷款支持计划—8个城市开展试点，支持市场化批量收购存量住房、扩大租赁住房供给；碳减排支持工具(2021年)。<br><strong>抵押补充贷款（Pledged Supplemental Lending，PSL）：</strong>为开发性金融支持棚改、支持国民经济重点领域、薄弱环节和社会事业发展提供长期稳定、成本适当的资金来源。<br><strong>存款准备金利率：</strong>2020年超额准备金利率由0.72%降至0.35%，与活期存款基准利率一致<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AD%98%E6%AC%BE%E5%87%86%E5%A4%87%E9%87%91%E5%88%A9%E7%8E%87.png" alt="存款准备金利率" style="zoom: 50%;" /><br><strong><a href="https://www.chinamoney.com.cn/chinese/bkshibor/">上海银行间同业拆放利率（Shibor）：</a></strong>2007年。报价行的算术平均利率，单利、无担保、批发性利率；包含8个品种：O/N、1W、2W、1M、3M、6M、9M、1Y<br><strong>常规货币政策（一般性货币政策工具）：</strong>通过控制短期利率进行调控，工具包括：法定存款准备金率、公开市场操作、再贴现率<br><strong>选择行货币政策工具及其他政策工具：</strong>消费者信用控制、证券市场信用控制、不动产信用控制、直接信用控制、间接信用控制<br><strong>创新型货币政策工具：</strong>SLO、SLF、PSL、MLF、TLF(临时流动性便利)、CRA(临时准备金动用安排)、TMLF(定向中期借贷便利)<br><strong>非传统货币政策：</strong><sup><a href="https://epaper.gmw.cn/gmrb/html/2010-08/27/nw.D110000gmrb_20100827_2-07.htm#:~:text=%E6%89%80%E8%B0%93%E9%9D%9E%E4%BC%A0%E7%BB%9F%E8%B4%A7%E5%B8%81%E6%94%BF,%E4%BF%A1%E8%B4%B7%E5%92%8C%E8%B5%84%E4%BA%A7%E5%B8%82%E5%9C%BA%E3%80%82">[1]</a></sup> <sup><a href="https://www.sohu.com/a/225901690_481741">[2]</a></sup>资产购买工具、量化宽松、负利率<br><div class="tabs" id="test1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="test1-1">OMO</button><button type="button" class="tab " data-href="test1-2">SLF</button><button type="button" class="tab " data-href="test1-3">超额准备金率</button><button type="button" class="tab " data-href="test1-4">DR007</button><button type="button" class="tab " data-href="test1-5">MLF</button></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>中国宏观-银行与货币-央行货币政策工具-逆回购利率：7天、14天、28天、63天</strong></p></div><div class="tab-item-content" id="test1-2"><p><strong>中国宏观-银行与货币-央行货币政策工具-常备借贷便利(SLF)利率: 隔夜、7天、1个月</strong></p></div><div class="tab-item-content" id="test1-3"><p><strong>中国宏观-利率汇率-存款利率-人民银行对金融机构存款利率</strong></p></div><div class="tab-item-content" id="test1-4"><p><strong>中国宏观-固收数据-回购利率-银行间质押式回购-DR001、007、014、021、1M、2M、3M、4M、6M、9M、1Y</strong></p></div><div class="tab-item-content" id="test1-5"><p><strong>中国宏观-银行与货币-央行货币政策工具-中期借贷便利操作-3个月、6个月、1年</strong></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div><br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%9F%AD%E6%9C%9F%E6%94%BF%E7%AD%96%E5%88%A9%E7%8E%87%E5%92%8C%E5%88%A9%E7%8E%87%E8%B5%B0%E5%BB%8A" alt="短期政策利率和利率走廊" style="zoom: 25%;" /></p>
-<h1 id="资金分层及高频指标"><a href="#资金分层及高频指标" class="headerlink" title="资金分层及高频指标"></a>资金分层及高频指标</h1><p><em>注：相对于月度、季度指标，高频指标一般为日度、周度、旬度</em></p>
-<h2 id="资金分层"><a href="#资金分层" class="headerlink" title="资金分层"></a><a href="https://southern-ficc.github.io/post/44421/">资金分层</a></h2><p>银行间市场：存款类机构与银行间机构分层：R007 - DR007；R001 - DR001</p>
-<p>上海交易所与银行间分层：GC007 - R007；GC001 - R001</p>
-<p>超额流动性：R007 - 7天逆回购利率；DR007 - 7天逆回购利率</p>
-<p>期限利差、机构间利差（国股行与中小行与非银机构、城投与国债）、产品间利差（非银机构基金证券及货币市场基金）、市场间利差（上海交易所与银行间）</p>
-<p>基本面影响政策面，政策面影响资金面、资金面影响供需面、供需面影响情绪面</p>
-<h2 id="基本面"><a href="#基本面" class="headerlink" title="基本面"></a>基本面</h2><p>经济增长和通货膨胀指标决定利率中长期走势。—*’国家统计局、海关总署’</p>
-<ul>
-<li><p><strong>通货膨胀指标(月度|次月上旬<em>‘10日左右’</em>)：</strong><br>居民消费价格指数CPI；工业生产者出厂价格指数PPI；工业生产者购进价格指数PPIRM</p>
-</li>
-<li><p><strong>经济增长指标(月度|次月中旬<em>‘15日左右’</em>)：</strong><br>GDP(季度|次月中旬<em>‘18日左右’</em>)；<strong>生产法</strong>—规模以上工业增加值[<font color =red>工业</font>]；<u><strong>支出法</strong></u>—[<font color =red>投资</font>]固定资产投资、房地产市场基本情况；[<font color =red>消费</font>]社会消费品零售总额；[<font color =red>净出口</font>]进出口数据(次月上旬<em>‘8日左右’</em>)<br>注：GDP核算方法：生产法、收入法、支出法。</p>
-</li>
-<li><strong>生产法下的高频指标路径：</strong><br>1.<a href="https://www.stats.gov.cn/sj/tjbz/gmjjhyfl/202302/P020230213400314380798.pdf">国家统计局行业划分</a>：<br>工业包含①采矿业、②制造业、③[电力、热力、燃气及水生产和供应业]等3个行业，共40个细分大类。通过细分大类获得重点行业高频指标<br>2.<a href="https://data.stats.gov.cn/files/html/quickSearch/trcc/trcc01.html">投入产出表—国家统计局</a><br>根据2020年投入产出表,对于工业生产下的40个细分大类，前10大行业占比总和达到了52%。其中，钢铁产业、化工产业、汽车产业与多个行业相关性较高。<br><em><font color =grey>按照国家统计调查制度，自1987年起，每五年开展一次全国投入产出调查，编制两张全国投入产出表，最新编制的为2020年投入产出表。按照《国务院关于开展第五次全国经济普查的通知》，将于2023年开展第五次全国经济普查，并统筹开展投入产出调查。下一张表为2023年投入产出表，预计于2025年编制完成并公布。</font></em></li>
-<li><strong>支出法下的高频指标：</strong><br><strong>1.<a href="https://www.stats.gov.cn/zs/tjws/tjzb/202301/t20230101_1903707.html">社会消费品零售总额(为消除春节影响，1、2月合并发布)：</a></strong>企业（单位、个体户）通过交易售给个人、社会集团非生产、非经营用的实物商品金额，以及提供餐饮服务所取得的收入金额。<br><strong>1.1.按消费形态分类：</strong>商品零售(限额以上单位零售、限额以下单位零售)、餐饮收入。其中，对于商品零售，统计局仅统计限额以上单位零售。<br>1.2.<strong>高频指标：</strong>限额以上单位商品零售共计16类细分类科目，其中汽车类、石油及制品类，粮油食品类、服装类等四类细分科目占比最大。另，由于粮油食品类波动性小，不作为社会消费品零售总额的波动因子。<br><strong>2.投资相关的高频指标：</strong>固定资产投资、房地产市场基本情况<br>固定资产投资：由于统计局在2018年后仅公布累计同比，且每年统计口径都会有调整，因此可以通过移动平均值降低变动误差。<br><strong>高频指标：</strong>原材料（中国水泥网<strong>每周</strong>水泥价格指数(开工率、全国CEMPI)；沥青—道路基建(基础设施固定资产投资)；浮法玻璃、螺纹钢—房地产固定资产投资；）100大中城市成交土地占地面积；30大中城市商品房成交面积。<br><strong>3.出口相关的高频指标：</strong><br>海关总署发布的贸易数据：由于商品分类和出口目的国分类没有对应高频指标，因此采用能够反映外需的综合指标跟踪出口变动。<br>运输方式：海运(干散货运输、邮轮运输、集装箱运输)<br><strong>高频指标：</strong>上海航运交易所：中国出口集装箱运价指数(CCFI)和上海出口集装箱运价指数(SCFI)、波罗的海干散货指数—反映全球市场对大宗原料产品的需求、美国制造业PMI—最大去向国。<br><strong>4.通货膨胀及相关高频指标：</strong><br><strong>4.1.CPI：</strong>要包含<u>食品烟酒、</u>衣着、居住、生活用品及服务、<u>交通通信、</u>教育文化娱乐、医疗保健、其他用品及服务等8大类，共268个基本分类的商品与服务价格。<strong>统计局通常将CPI分为两大类，其中食品权重约为19%左右，非食品权重约为81%左右，其中食品权重主导CPI走势。畜肉类对CPI影响大，猪肉价格最大。</strong><br><strong>高频指标：</strong>商务部每周公布食用农产品价格指数，农业部每日公布农产品批发价格200指数、菜篮子产品批发价格200指数、猪肉批发价、现货价:布伦特DTD:原油。<br><strong>4.2.PPI：</strong>根据统计局的定义，工业生产者价格指数包括工业生产者出厂价格指数(PPI)和工业生产者购进价格指数(PPIRM)。<strong>统计局通常将PPI分为生产资料和生活资料两大类，其中生产资料包含采掘、原材料、加工3个子类，生活资料包含食品、衣着、一般日用品、耐用消费品4个子类。</strong><br><strong>高频指标：</strong>生产资料指标：生产资料价格指数(商务部)、南华期货商 品指数(南华期货)、南华期货工业品指数(南华期货)、CRB现货综合指数(CRB)。<br><em><font color =grey>PPI反映工业企业产品第一次出售时的出厂价格的变化趋势和变动幅度，PPIRM反映工业企业作为中间投入产品的购进价格的变化趋势和变动幅度。</font></em></li>
-</ul>
-<h2 id="政策面、资金面、供需面、情绪面"><a href="#政策面、资金面、供需面、情绪面" class="headerlink" title="政策面、资金面、供需面、情绪面"></a>政策面、资金面、供需面、情绪面</h2>]]></content>
+    <title>数据存储与执行</title>
+    <url>/post/32586/</url>
+    <content><![CDATA[<h4 id="数据结构创建及特点"><a href="#数据结构创建及特点" class="headerlink" title="数据结构创建及特点:"></a>数据结构创建及特点:</h4><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E5%88%9B%E5%BB%BA%E5%8F%8A%E7%89%B9%E7%82%B9.png" alt="数据结构创建及特点"></p>
+<h4 id="if-name-‘-main-‘"><a href="#if-name-‘-main-‘" class="headerlink" title="if __name__ == ‘__main__‘:"></a>if <code>__name__</code> == ‘<code>__main__</code>‘:</h4><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span> __name__ == <span class="string">&#x27;__main__&#x27;</span>:</span><br><span class="line">    main()</span><br><span class="line">    function()</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&#x27;&#x27;</span>)</span><br><span class="line"><span class="comment">#__name__和__main__都是内置变量，当文件被直接执行时，__name__的值就是__main__，文件中代码均被执行。</span></span><br><span class="line"><span class="comment">#当文件作为模块被导入时，__name__的值就是文件名()，`if`下的内容均不会被执行。</span></span><br><span class="line"><span class="comment">#该结构常用于测试文件中的代码，即`if`下为测试代码。如此，可以将测试代码一同保留在文件中，且被导入时不会执行测试代码。</span></span><br></pre></td></tr></table></figure>
+<h4 id="库安装："><a href="#库安装：" class="headerlink" title="库安装："></a>库安装：</h4><ol>
+<li>IDE Python环境/CMD：pip install<br>IDE是一种软件应用程序，提供了编程人员编写软件时所需的工具，例如代码编辑器、编译器、调试器等。包括VSCode、PyCharm等。</li>
+<li>Jupyter Notebook：!pip install<br>加入!，以便.ipnb识别为shell代码，而不是python代码。</li>
+</ol>
+<h4 id="常用库介绍："><a href="#常用库介绍：" class="headerlink" title="常用库介绍："></a>常用库介绍：</h4><ol>
+<li>Excel读写：<br>pandas、(openpyxl、xlsxwriter支持新版.xlsx)、(xlrd、xlwt支持旧版.xls读写，不支持新版.xlsx)<br><code>to_excel</code>方法默认使用<code>openpyxl</code>作为写入引擎来处理.xlsx文件。通过engine=”xlsxwirter”切换引擎。r转义。</li>
+<li>with as用法：<br><code>with pd.excelwriter(&#39;PATH&#39;,engine=&#39;&#39;):</code><br>with表打开文件，语句结束时关闭文件。as输出with对象简称。通常用于打开或关闭文件的操作，如打开excel写入。</li>
+<li>os库：<br><code>os.listdir(os.getcwd)</code>#获取目录<code>os.rename</code>#改名<code>for root, dirs, files in os.walk(file_dir)</code>#获取路径</li>
+<li><strong>Pending：</strong>beautifulsoup、Numpy、Pandas、urllib、sklearn、matplotlib、sys、Pyqt5、selenium、tkinter、datetime、win32ui。</li>
+</ol>
+]]></content>
       <categories>
-        <category>投研交易</category>
-        <category>理论杂货</category>
+        <category>数据建模</category>
+        <category>数据清理</category>
       </categories>
       <tags>
-        <tag>利率与资金面</tag>
-        <tag>货币政策工具</tag>
-        <tag>风险指标</tag>
+        <tag>存储与执行</tag>
       </tags>
   </entry>
   <entry>
@@ -901,72 +889,6 @@
         <tag>业务知识与规则</tag>
         <tag>政策与规范</tag>
         <tag>流动性风险管理</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>本币交易梳理04--政策与规范</title>
-    <url>/post/62746/</url>
-    <content><![CDATA[<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
-<li>法律-行政规定-团体规则-职业操守</li>
-<li><strong>法律（全国人大常委会）：</strong> 中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
-<li><strong>行政法规（国务院）：</strong> 企业债券管理条例、取消行政许可的国务院令</li>
-<li><strong>部门规章、规范性文件（国务院部委）：</strong> 人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
-<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong> 交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
-</ul>
-<h2 id="1-2-市场管理框架"><a href="#1-2-市场管理框架" class="headerlink" title="1.2 市场管理框架"></a>1.2 市场管理框架</h2><ul>
-<li><strong>中介机构及自律组织：</strong> 拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
-<li><strong>证监会、银保监会：</strong> 监管机构、主体，即<font color="#d99694">交易主体</font></li>
-<li><strong>人行：</strong> 指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
-<li><strong>人行、财政部、发改委、NAFMII：</strong> 监督<font color="#d99694">发债主体</font></li>
-<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
-
-</li>
-</ul>
-<h1 id="二、货币市场基本规则"><a href="#二、货币市场基本规则" class="headerlink" title="二、货币市场基本规则"></a>二、货币市场基本规则</h1><h2 id="2-1-同业拆借市场准入管理"><a href="#2-1-同业拆借市场准入管理" class="headerlink" title="2.1 同业拆借市场准入管理"></a>2.1 同业拆借市场准入管理</h2><ul>
-<li>金融机构通过开户系统（一站式平台）向拆借中心申请入市、退市<ul>
-<li>均在三日内完成，其中退市后两年内不再受理入市申请</li>
-</ul>
-</li>
-<li>三放松：放松准入、期限、限额管理</li>
-<li>两加强：加强<font color="#d99694">透明度管理</font>和<font color="#d99694">监督检查</font></li>
-<li>一促进：促进同业拆借市场健康发展</li>
-</ul>
-<h2 id="2-2-同业拆借市场期限管理"><a href="#2-2-同业拆借市场期限管理" class="headerlink" title="2.2 同业拆借市场期限管理"></a>2.2 同业拆借市场期限管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E6%9C%9F%E9%99%90%E7%AE%A1%E7%90%86.png" alt="同业拆借市场期限管理"><br>➢ 最长拆出期限不得超过对手方的最长拆入期限（第23条）<br>➢ 到期后不得展期（第24条）</p>
-<h2 id="2-3-同业拆借市场限额管理"><a href="#2-3-同业拆借市场限额管理" class="headerlink" title="2.3 同业拆借市场限额管理"></a>2.3 同业拆借市场限额管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E9%99%90%E9%A2%9D%E7%AE%A1%E7%90%86.png" alt="同业拆借市场限额管理"></p>
-<h2 id="2-4-同业拆借市场信息披露与监督检查"><a href="#2-4-同业拆借市场信息披露与监督检查" class="headerlink" title="2.4 同业拆借市场信息披露与监督检查"></a>2.4 同业拆借市场信息披露与监督检查</h2><ul>
-<li>信息披露管理<ul>
-<li>每年1月中旬：上年财务报表（未审计）</li>
-<li>每年四月底：经审计的年度财务报告及其他要求公布的报表、报告</li>
-<li>每年7月中旬：半年财务报表（未审计）</li>
-<li>获准进入拆借市场60日：公告基本情况、最近一次经审计的年度财务报告</li>
-<li>股权变更完成后30个工作日内：公告股权变更情况</li>
-<li>已经成为上市公司的成员可以豁免在同业拆借市场进行信息披露</li>
-</ul>
-</li>
-<li>监督检查<ul>
-<li>人行依法对同业拆借交易实施非现场监管和现场检查</li>
-</ul>
-</li>
-</ul>
-<h1 id="三、债券市场（含回购）基本规则"><a href="#三、债券市场（含回购）基本规则" class="headerlink" title="三、债券市场（含回购）基本规则"></a>三、债券市场（含回购）基本规则</h1><h2 id="3-1-准入管理"><a href="#3-1-准入管理" class="headerlink" title="3.1 准入管理"></a>3.1 准入管理</h2><ul>
-<li>境内主体：<ul>
-<li>02年备案制$\longrightarrow$ 13年人行上海总部上收分支行准入备案权限 </li>
-</ul>
-</li>
-<li>境外主体：<ul>
-<li>11年RQFII—13年QFII—15年境外央行、国际金融组织和主权财富基金可参与所有交易—16年CIBM</li>
-<li>直接入市（CIBM）、债券通（BC）</li>
-</ul>
-</li>
-</ul>
-<p>略</p>
-]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>本币交易</category>
-      </categories>
-      <tags>
-        <tag>政策与规范</tag>
       </tags>
   </entry>
   <entry>
@@ -1304,20 +1226,6 @@
       </tags>
   </entry>
   <entry>
-    <title>编写带有LaTex的坐标图.py</title>
-    <url>/post/21876/</url>
-    <content><![CDATA[<p>下一步：结构化参数</p>
-<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.usetex&#x27;</span>] = <span class="literal">True</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.latex.preamble&#x27;</span>] = <span class="string">r&#x27;\usepackage&#123;CJK&#125;&#x27;</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">r&#x27;$\beta$&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">r&#x27;$E(R)$&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>,  <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;基金P\end&#123;CJK&#125;&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在坐标右侧添加一个文本框</span></span><br><span class="line">text_box_content = <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;斜率$=\frac&#123;\overline&#123;R_p&#125;-\overline&#123;R_f&#125;&#125;&#123;\beta_p&#125;$\end&#123;CJK&#125;&#x27;</span>+ <span class="string">r&#x27;$\\$&#x27;</span>+<span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;证券市场线上任一个组合的斜率即为特雷诺比率，\\即单位系统风险下的超额收益率\end&#123;CJK&#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">plt.text(<span class="number">3</span>, <span class="number">5</span>, text_box_content, fontsize=<span class="number">12</span>, bbox=<span class="built_in">dict</span>(facecolor=<span class="string">&#x27;white&#x27;</span>, alpha=<span class="number">0.5</span>), va=<span class="string">&#x27;top&#x27;</span>, ha=<span class="string">&#x27;left&#x27;</span>, usetex=<span class="literal">True</span>) </span><br><span class="line"><span class="comment">#verticle align\herizon align</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>数据建模</category>
-        <category>绘图</category>
-      </categories>
-      <tags>
-        <tag>Latex绘图</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>本币交易梳理03--利率市场化改革</title>
     <url>/post/63431/</url>
     <content><![CDATA[<p>Pending</p>
@@ -1328,6 +1236,72 @@
       </categories>
       <tags>
         <tag>利率市场化改革</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>本币交易梳理04--政策与规范</title>
+    <url>/post/62746/</url>
+    <content><![CDATA[<h1 id="一、概述"><a href="#一、概述" class="headerlink" title="一、概述"></a>一、概述</h1><h2 id="1-1-规范体系"><a href="#1-1-规范体系" class="headerlink" title="1.1 规范体系"></a>1.1 规范体系</h2><ul>
+<li>法律-行政规定-团体规则-职业操守</li>
+<li><strong>法律（全国人大常委会）：</strong> 中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
+<li><strong>行政法规（国务院）：</strong> 企业债券管理条例、取消行政许可的国务院令</li>
+<li><strong>部门规章、规范性文件（国务院部委）：</strong> 人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
+<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong> 交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
+</ul>
+<h2 id="1-2-市场管理框架"><a href="#1-2-市场管理框架" class="headerlink" title="1.2 市场管理框架"></a>1.2 市场管理框架</h2><ul>
+<li><strong>中介机构及自律组织：</strong> 拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
+<li><strong>证监会、银保监会：</strong> 监管机构、主体，即<font color="#d99694">交易主体</font></li>
+<li><strong>人行：</strong> 指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
+<li><strong>人行、财政部、发改委、NAFMII：</strong> 监督<font color="#d99694">发债主体</font></li>
+<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
+
+</li>
+</ul>
+<h1 id="二、货币市场基本规则"><a href="#二、货币市场基本规则" class="headerlink" title="二、货币市场基本规则"></a>二、货币市场基本规则</h1><h2 id="2-1-同业拆借市场准入管理"><a href="#2-1-同业拆借市场准入管理" class="headerlink" title="2.1 同业拆借市场准入管理"></a>2.1 同业拆借市场准入管理</h2><ul>
+<li>金融机构通过开户系统（一站式平台）向拆借中心申请入市、退市<ul>
+<li>均在三日内完成，其中退市后两年内不再受理入市申请</li>
+</ul>
+</li>
+<li>三放松：放松准入、期限、限额管理</li>
+<li>两加强：加强<font color="#d99694">透明度管理</font>和<font color="#d99694">监督检查</font></li>
+<li>一促进：促进同业拆借市场健康发展</li>
+</ul>
+<h2 id="2-2-同业拆借市场期限管理"><a href="#2-2-同业拆借市场期限管理" class="headerlink" title="2.2 同业拆借市场期限管理"></a>2.2 同业拆借市场期限管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E6%9C%9F%E9%99%90%E7%AE%A1%E7%90%86.png" alt="同业拆借市场期限管理"><br>➢ 最长拆出期限不得超过对手方的最长拆入期限（第23条）<br>➢ 到期后不得展期（第24条）</p>
+<h2 id="2-3-同业拆借市场限额管理"><a href="#2-3-同业拆借市场限额管理" class="headerlink" title="2.3 同业拆借市场限额管理"></a>2.3 同业拆借市场限额管理</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%90%8C%E4%B8%9A%E6%8B%86%E5%80%9F%E5%B8%82%E5%9C%BA%E9%99%90%E9%A2%9D%E7%AE%A1%E7%90%86.png" alt="同业拆借市场限额管理"></p>
+<h2 id="2-4-同业拆借市场信息披露与监督检查"><a href="#2-4-同业拆借市场信息披露与监督检查" class="headerlink" title="2.4 同业拆借市场信息披露与监督检查"></a>2.4 同业拆借市场信息披露与监督检查</h2><ul>
+<li>信息披露管理<ul>
+<li>每年1月中旬：上年财务报表（未审计）</li>
+<li>每年四月底：经审计的年度财务报告及其他要求公布的报表、报告</li>
+<li>每年7月中旬：半年财务报表（未审计）</li>
+<li>获准进入拆借市场60日：公告基本情况、最近一次经审计的年度财务报告</li>
+<li>股权变更完成后30个工作日内：公告股权变更情况</li>
+<li>已经成为上市公司的成员可以豁免在同业拆借市场进行信息披露</li>
+</ul>
+</li>
+<li>监督检查<ul>
+<li>人行依法对同业拆借交易实施非现场监管和现场检查</li>
+</ul>
+</li>
+</ul>
+<h1 id="三、债券市场（含回购）基本规则"><a href="#三、债券市场（含回购）基本规则" class="headerlink" title="三、债券市场（含回购）基本规则"></a>三、债券市场（含回购）基本规则</h1><h2 id="3-1-准入管理"><a href="#3-1-准入管理" class="headerlink" title="3.1 准入管理"></a>3.1 准入管理</h2><ul>
+<li>境内主体：<ul>
+<li>02年备案制$\longrightarrow$ 13年人行上海总部上收分支行准入备案权限 </li>
+</ul>
+</li>
+<li>境外主体：<ul>
+<li>11年RQFII—13年QFII—15年境外央行、国际金融组织和主权财富基金可参与所有交易—16年CIBM</li>
+<li>直接入市（CIBM）、债券通（BC）</li>
+</ul>
+</li>
+</ul>
+<p>略</p>
+]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>本币交易</category>
+      </categories>
+      <tags>
+        <tag>政策与规范</tag>
       </tags>
   </entry>
   <entry>
@@ -1425,6 +1399,20 @@
       </categories>
       <tags>
         <tag>资金周报</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>编写带有LaTex的坐标图.py</title>
+    <url>/post/21876/</url>
+    <content><![CDATA[<p>下一步：结构化参数</p>
+<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.usetex&#x27;</span>] = <span class="literal">True</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;text.latex.preamble&#x27;</span>] = <span class="string">r&#x27;\usepackage&#123;CJK&#125;&#x27;</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;font.sans-serif&#x27;</span>] = [<span class="string">&#x27;Microsoft YaHei&#x27;</span>]  <span class="comment"># 用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span>  <span class="comment"># 用来正常显示负号</span></span><br><span class="line"><span class="comment"># 定义增函数的参数</span></span><br><span class="line">a = <span class="number">0.5</span>  <span class="comment"># a为增函数的斜率</span></span><br><span class="line">Rf = <span class="number">6</span>  <span class="comment"># Rf为y轴交点的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 创建图形和坐标系</span></span><br><span class="line">fig, ax = plt.subplots(figsize=(<span class="number">6</span>, <span class="number">6</span>))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制箭头</span></span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, <span class="number">0</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line">ax.arrow(<span class="number">0</span>, <span class="number">0</span>, <span class="number">0</span>, <span class="number">10</span>, head_width=<span class="number">0.2</span>, head_length=<span class="number">0.3</span>, fc=<span class="string">&#x27;black&#x27;</span>, ec=<span class="string">&#x27;black&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 添加轴标题</span></span><br><span class="line">ax.text(<span class="number">10</span>, -<span class="number">0.5</span>, <span class="string">r&#x27;$\beta$&#x27;</span>, fontsize=<span class="number">12</span>, ha=<span class="string">&#x27;center&#x27;</span>)</span><br><span class="line">ax.text(-<span class="number">0.5</span>, <span class="number">10</span>, <span class="string">r&#x27;$E(R)$&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, rotation=<span class="string">&#x27;vertical&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏刻度</span></span><br><span class="line">ax.set_xticks([])</span><br><span class="line">ax.set_yticks([])</span><br><span class="line"></span><br><span class="line"><span class="comment"># 隐藏边框线条</span></span><br><span class="line"><span class="keyword">for</span> spine <span class="keyword">in</span> ax.spines.values():</span><br><span class="line">    spine.set_visible(<span class="literal">False</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘制增函数</span></span><br><span class="line">x = np.linspace(<span class="number">0</span>, <span class="number">10</span>, <span class="number">100</span>)</span><br><span class="line">y = a * x + Rf</span><br><span class="line">plt.plot(x, y, color=<span class="string">&#x27;black&#x27;</span>, linestyle=<span class="string">&#x27;-&#x27;</span>, linewidth=<span class="number">2</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在线段中间标记红色点，并写上点的名字</span></span><br><span class="line">mid_point_x = <span class="number">5</span>  <span class="comment"># x轴坐标</span></span><br><span class="line">mid_point_y = a * mid_point_x + Rf  <span class="comment"># y轴坐标</span></span><br><span class="line">plt.plot(mid_point_x, mid_point_y, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记红色点</span></span><br><span class="line">ax.text(mid_point_x, mid_point_y + <span class="number">0.5</span>,  <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;基金P\end&#123;CJK&#125;&#x27;</span>, fontsize=<span class="number">12</span>, color=<span class="string">&#x27;red&#x27;</span>, ha=<span class="string">&#x27;center&#x27;</span>)  <span class="comment"># 在点上方写上点的名字</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 在y轴交点处标上Rf</span></span><br><span class="line">ax.plot(<span class="number">0</span>, Rf, <span class="string">&#x27;ro&#x27;</span>)  <span class="comment"># 标记交点</span></span><br><span class="line">ax.text(-<span class="number">0.5</span>, Rf, <span class="string">&#x27;Rf&#x27;</span>, fontsize=<span class="number">12</span>, va=<span class="string">&#x27;center&#x27;</span>, ha=<span class="string">&#x27;right&#x27;</span>)  <span class="comment"># 添加标签</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从Rf向右延申的蓝色线</span></span><br><span class="line">plt.plot([<span class="number">0</span>, mid_point_x], [Rf, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 画从基金P开始的垂直于x轴的蓝色线，终点设置为与水平蓝色线相交的位置</span></span><br><span class="line">plt.plot([mid_point_x, mid_point_x], [mid_point_y, Rf], color=<span class="string">&#x27;blue&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 在坐标右侧添加一个文本框</span></span><br><span class="line">text_box_content = <span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;斜率$=\frac&#123;\overline&#123;R_p&#125;-\overline&#123;R_f&#125;&#125;&#123;\beta_p&#125;$\end&#123;CJK&#125;&#x27;</span>+ <span class="string">r&#x27;$\\$&#x27;</span>+<span class="string">r&#x27;\begin&#123;CJK&#125;&#123;UTF8&#125;&#123;song&#125;证券市场线上任一个组合的斜率即为特雷诺比率，\\即单位系统风险下的超额收益率\end&#123;CJK&#125;&#x27;</span></span><br><span class="line"></span><br><span class="line">plt.text(<span class="number">3</span>, <span class="number">5</span>, text_box_content, fontsize=<span class="number">12</span>, bbox=<span class="built_in">dict</span>(facecolor=<span class="string">&#x27;white&#x27;</span>, alpha=<span class="number">0.5</span>), va=<span class="string">&#x27;top&#x27;</span>, ha=<span class="string">&#x27;left&#x27;</span>, usetex=<span class="literal">True</span>) </span><br><span class="line"><span class="comment">#verticle align\herizon align</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 显示图形</span></span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>数据建模</category>
+        <category>绘图</category>
+      </categories>
+      <tags>
+        <tag>Latex绘图</tag>
       </tags>
   </entry>
 </search>
