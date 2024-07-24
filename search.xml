@@ -63,6 +63,23 @@
       </tags>
   </entry>
   <entry>
+    <title>债券实操指南-债券交易</title>
+    <url>/post/46925/</url>
+    <content><![CDATA[<p>在利率债的大族群中，由于流动性、交易习惯、税收政策等方面原因，不同品种债券不仅在利率水平上存在差异，且该差异可能随着市场环境的变化呈现一定的规律。国开债和国债之间，无论从利差或是隐含税率的角度衡量，除部分时点可能受流动性、债券供给或者需求端因素冲击外，长期均存在“牛窄熊阔”的规律，这也意味着，在捕捉品种利差交易机会时，需要在把握长期共性的基础上，关注潜在的扰动因素及其影响。</p>
+<p>债券的利率水平，通常与经济增长率、发行主体信用资质、发行期限、债券流动性和税收差异相关，例如，利率水平与期限、违约风险正相关，而与流动性和税收政策负相关（即税收政策越有利，其利率水平越低）。<br>期限利差<br>信用利差：信用风险越高，市场要求的收益率补偿往往越高。<br>流动性利差： 由于发行方式、机构偏好、交易习惯等方面原因，从换手率和成交量来看，大部分时间内国开债流动性都要好于国债。<br>税收利差：税后收益率=税前收益率×（1-税率），若要保持相当的税后收益率，享有更多税收优惠的债券，其税前收益率应低于税收优惠较少的债券。对于债券而言，其收益一般分为票息和资本利得两部分，对于资本利得的部分，国债和国开债的税收政策一致，主要的差异在于票息部分，对于非免税主体来说，国债的票息免征6%的增值税和25%的所得税，而国开债票息仅 免征 6%增值税，不免所得税。因此，理论上，国开债与国债之间存在正的税收利差。</p>
+<p>中短期限利率走势易受资金面和货币政策预期影响</p>
+<p>基于税收差异的思路，可以用倒推的方法计算国债与国开债利差隐含的税率水平，即“隐含税率”指标，由于信用利差和流动性利差占比较小，近似的计算方法为：隐含税率=1-国债到期 收益率/国开债到期收益率，可以看到，国开债的隐含税率大致在 7%-20%波动。</p>
+<p>与利差相似，隐含税率反映的是国开债与国债收益率的差距大小，但由于隐含税率排除了量纲的影响，因此受收益率点位的影响较小。实证上，可以看到隐含税率和利差走势相近，大致存在牛市下降，熊市上升的规律，同时，随着整体债券收益率水平的下滑，利差的波动区间也略微呈现下行趋势。</p>
+<h1 id="债券交易"><a href="#债券交易" class="headerlink" title="债券交易"></a>债券交易</h1><h2 id="二级市场债券交易"><a href="#二级市场债券交易" class="headerlink" title="二级市场债券交易"></a>二级市场债券交易</h2>]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>理论杂货</category>
+      </categories>
+      <tags>
+        <tag>交易实操</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>上清所登记结算</title>
     <url>/post/63033/</url>
     <content><![CDATA[<h1 id="上清所发行登记业务"><a href="#上清所发行登记业务" class="headerlink" title="上清所发行登记业务"></a>上清所发行登记业务</h1><p><a href="https://www.nafmii.org.cn/hyfw/hyflmd/hyzmd/">银行间市场会员总名单</a></p>
@@ -166,23 +183,6 @@
       </categories>
       <tags>
         <tag>上清所登记结算</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>债券实操指南-债券交易</title>
-    <url>/post/46925/</url>
-    <content><![CDATA[<p>在利率债的大族群中，由于流动性、交易习惯、税收政策等方面原因，不同品种债券不仅在利率水平上存在差异，且该差异可能随着市场环境的变化呈现一定的规律。国开债和国债之间，无论从利差或是隐含税率的角度衡量，除部分时点可能受流动性、债券供给或者需求端因素冲击外，长期均存在“牛窄熊阔”的规律，这也意味着，在捕捉品种利差交易机会时，需要在把握长期共性的基础上，关注潜在的扰动因素及其影响。</p>
-<p>债券的利率水平，通常与经济增长率、发行主体信用资质、发行期限、债券流动性和税收差异相关，例如，利率水平与期限、违约风险正相关，而与流动性和税收政策负相关（即税收政策越有利，其利率水平越低）。<br>期限利差<br>信用利差：信用风险越高，市场要求的收益率补偿往往越高。<br>流动性利差： 由于发行方式、机构偏好、交易习惯等方面原因，从换手率和成交量来看，大部分时间内国开债流动性都要好于国债。<br>税收利差：税后收益率=税前收益率×（1-税率），若要保持相当的税后收益率，享有更多税收优惠的债券，其税前收益率应低于税收优惠较少的债券。对于债券而言，其收益一般分为票息和资本利得两部分，对于资本利得的部分，国债和国开债的税收政策一致，主要的差异在于票息部分，对于非免税主体来说，国债的票息免征6%的增值税和25%的所得税，而国开债票息仅 免征 6%增值税，不免所得税。因此，理论上，国开债与国债之间存在正的税收利差。</p>
-<p>中短期限利率走势易受资金面和货币政策预期影响</p>
-<p>基于税收差异的思路，可以用倒推的方法计算国债与国开债利差隐含的税率水平，即“隐含税率”指标，由于信用利差和流动性利差占比较小，近似的计算方法为：隐含税率=1-国债到期 收益率/国开债到期收益率，可以看到，国开债的隐含税率大致在 7%-20%波动。</p>
-<p>与利差相似，隐含税率反映的是国开债与国债收益率的差距大小，但由于隐含税率排除了量纲的影响，因此受收益率点位的影响较小。实证上，可以看到隐含税率和利差走势相近，大致存在牛市下降，熊市上升的规律，同时，随着整体债券收益率水平的下滑，利差的波动区间也略微呈现下行趋势。</p>
-<h1 id="债券交易"><a href="#债券交易" class="headerlink" title="债券交易"></a>债券交易</h1><h2 id="二级市场债券交易"><a href="#二级市场债券交易" class="headerlink" title="二级市场债券交易"></a>二级市场债券交易</h2>]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>理论杂货</category>
-      </categories>
-      <tags>
-        <tag>交易实操</tag>
       </tags>
   </entry>
   <entry>
@@ -599,340 +599,6 @@
         <tag>利率与资金面</tag>
         <tag>货币政策工具</tag>
         <tag>风险指标</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>本币交易梳理02--系统功能介绍</title>
-    <url>/post/31077/</url>
-    <content><![CDATA[<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/CIBMTS%E7%95%8C%E9%9D%A2.png" alt="CIBMTS界面"></p>
-<p><strong>报买价：对手方报出买价，本方以报买价卖出；报卖价：对手方报出卖价，本方以报卖价买入</strong></p>
-<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B9%B0%E5%8D%96%E7%9B%AE%E6%A0%87%E4%BB%B7%E5%92%8C%E5%BA%95%E4%BB%B7.png" alt="买卖目标价和底价"></p>
-<h3 id="界面布局："><a href="#界面布局：" class="headerlink" title="界面布局："></a><strong>界面布局：</strong></h3><ul>
-<li><p><strong>一级目录：</strong><font color =red>内部管理</font>（资金账户及交易账户组设置、权限设置）、<font color =red>个人设置</font>（我的关注券）、<font color =red>交易设置</font>（首选交易账户设置、机构群组维护、限额管理、对手方管理、<strong>产品篮子维护（分仓）</strong>、信息披露、报备）、<font color =red>用户统一认证</font>（修改密码、机构用户管理）</p>
-</li>
-<li><p><strong>侧边栏：</strong>我要报价<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%88%91%E8%A6%81%E6%8A%A5%E4%BB%B7.png">图1</a>、单券-合约查看记录、计算工具、消息盒子<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B6%88%E6%81%AF%E7%9B%92%E5%AD%90.png">图2</a>、iDeal</p>
-</li>
-<li><p><strong>快捷键：</strong>iDeal-F11，我要报价-F8</p>
-</li>
-<li><strong>界面：</strong><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E9%A6%96%E9%A1%B5.png">图1</a></li>
-</ul>
-<h1 id="一、用户管理"><a href="#一、用户管理" class="headerlink" title="一、用户管理"></a>一、用户管理</h1><h2 id="1-1-登录"><a href="#1-1-登录" class="headerlink" title="1.1 登录"></a>1.1 登录</h2><ul>
-<li>银行间市场开户系统</li>
-<li>中国银行间市场交易平台：CIBMTS<ul>
-<li>证书、人脸识别、二维码（暂不可用）</li>
-<li>专线网、互联网</li>
-</ul>
-</li>
-<li>iDeal：即时通讯报价</li>
-</ul>
-<h2 id="1-2-用户统一认证"><a href="#1-2-用户统一认证" class="headerlink" title="1.2 用户统一认证"></a>1.2 <font color =red>用户统一认证</font></h2><h3 id="1-2-1-机构用户管理"><a href="#1-2-1-机构用户管理" class="headerlink" title="1.2.1 机构用户管理"></a>1.2.1 机构用户管理</h3><ul>
-<li>新增、锁定/解锁、重置密码、禁用/启用、取消实名认证/取消身份确认等<ul>
-<li>用户重置密码、新增由系统管理员完成</li>
-<li>系统管理员用户解锁和密码重置由交易中心场务完成</li>
-</ul>
-</li>
-</ul>
-<h3 id="1-2-2-实名认证-身份确认"><a href="#1-2-2-实名认证-身份确认" class="headerlink" title="1.2.2 实名认证/身份确认"></a>1.2.2 实名认证/身份确认</h3><ul>
-<li>系统管理员无需实名认证/身份确认</li>
-<li>用户开展交易进行实名认证，无交易员资格证书的用户必须进行身份确认，否则无法登录iDeal</li>
-<li>实名认证必须填写交易员证书信息</li>
-</ul>
-<h2 id="1-3-内部管理"><a href="#1-3-内部管理" class="headerlink" title="1.3 内部管理"></a>1.3 <font color =red>内部管理</font></h2><h3 id="1-3-1-用户权限设置"><a href="#1-3-1-用户权限设置" class="headerlink" title="1.3.1 用户权限设置"></a>1.3.1 用户权限设置</h3><ul>
-<li>交易员身份设置：自营账户、资产管理、代理交易、账户管理、FT账户</li>
-<li>设置机构权限：略</li>
-</ul>
-<h3 id="1-3-2-多账户管理：概览"><a href="#1-3-2-多账户管理：概览" class="headerlink" title="1.3.2 多账户管理：概览"></a>1.3.2 多账户管理：概览</h3><ul>
-<li>交易账户即产品</li>
-<li>交易账户组是对交易员及交易账户进行归类</li>
-<li>交易账户组只能包含同类交易员或者交易账户</li>
-<li>交易账户只能对应一个同类交易账户组，交易员可对应多个同类交易账户组</li>
-<li><font color =red>**交易账户组类型：资产管理、代理交易、账户管理、FT账户**</font>
-
-</li>
-</ul>
-<h3 id="1-3-3-账户设置"><a href="#1-3-3-账户设置" class="headerlink" title="1.3.3 账户设置"></a>1.3.3 账户设置</h3><ul>
-<li>托管账户设置：<font color =red>开户系统</font>设置托管账户—中债登及上清所账户各一个<ul>
-<li>新建和修改托管账户由交易中心审核通过后生效</li>
-</ul>
-</li>
-<li>资金账户设置：一家机构可设置多个资金账户；<font color =red>需设置业务类型首选：如拆借默认、衍生品首选、X-SWAP、期权费首选、预发行首选</font></li>
-<li>关联账户：<font color =red>两个托管账户需设置DVP首选资金账户</font></li>
-</ul>
-<h3 id="1-3-4-互联网交易设置"><a href="#1-3-4-互联网交易设置" class="headerlink" title="1.3.4 互联网交易设置"></a>1.3.4 互联网交易设置</h3><ul>
-<li>系统管理员设置是否使用互联网接入</li>
-</ul>
-<h2 id="1-4-交易设置"><a href="#1-4-交易设置" class="headerlink" title="1.4 交易设置"></a>1.4 <font color =red>交易设置</font></h2><h3 id="1-4-1-限额管理"><a href="#1-4-1-限额管理" class="headerlink" title="1.4.1 限额管理"></a>1.4.1 限额管理</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png" alt="交易限额设置" style="zoom:50%; align: middle" /></p>
-<ul>
-<li>人民银行限额由交易中心场务设置</li>
-<li>基金净值提交</li>
-<li>交易员限额</li>
-<li>单笔交易限额</li>
-<li><strong>交易员限额：</strong>累计限额、每日限额<br><strong>对手方管理：</strong>对手方限额、现券黑名单、质押RFQ白名单</li>
-</ul>
-<h4 id="1-4-1-1-对手方限额："><a href="#1-4-1-1-对手方限额：" class="headerlink" title="1.4.1.1 对手方限额："></a>1.4.1.1 <strong>对手方限额：</strong></h4><ul>
-<li><p>信用拆借：<font color =red>累计限额</font>、拆入拆出限额（亿）、净限额区间</p>
-</li>
-<li><p>质押式回购：本方方向（正逆回购）、黑白名单设置</p>
-<ul>
-<li><p>正回购：设置黑/白名单<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E6%AD%A3%E5%9B%9E%E8%B4%AD%E9%99%90%E9%A2%9D.png">图1</a></p>
-</li>
-<li><p>逆回购：设置对手方及其产品是否共享额度、关系授信（打勾即融出额度无限大）、额度授信（总额度大于X-Repo额度）<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E9%80%86%E5%9B%9E%E8%B4%AD%E5%AF%B9%E6%89%8B%E6%96%B9%E9%99%90%E9%A2%9D%E7%95%8C%E9%9D%A2.png">图1</a>、<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E9%80%86%E5%9B%9E%E8%B4%AD%E5%AF%B9%E6%89%8B%E6%96%B9%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png">图2</a></p>
-</li>
-</ul>
-</li>
-<li><p>利率互换：关系授信、额度授信<font color =red>二选一</font>，<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png">图1</a></p>
-</li>
-</ul>
-<h4 id="1-4-1-2-现券黑名单："><a href="#1-4-1-2-现券黑名单：" class="headerlink" title="1.4.1.2 现券黑名单："></a>1.4.1.2 现券黑名单：</h4><ul>
-<li>拉黑对手方后收不到对手方的报价</li>
-</ul>
-<h4 id="1-4-1-3-质押RFQ白名单："><a href="#1-4-1-3-质押RFQ白名单：" class="headerlink" title="1.4.1.3 质押RFQ白名单："></a>1.4.1.3 <strong>质押RFQ白名单：</strong></h4><ul>
-<li>申请加入白名单：我要报价-请求-交易对手列表-可申请对手方<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8FRFQ%E9%99%90%E9%A2%9D.png">图1</a></li>
-</ul>
-<h1 id="二、报价行情"><a href="#二、报价行情" class="headerlink" title="二、报价行情"></a>二、报价行情</h1><ul>
-<li><strong>非做市机构可以通过【模板】—【债券报价管理】查看【我的报价】|’可批量导入‘、【我的订单】|‘可以提交新订单及批量导入’、【当日成交】</strong></li>
-<li><strong>报价查询时间跨度不能超过30天，可查看交易全流程，包括报价详情、成交概览。成交概览支持下载成交单。成交查询时间跨度不能超过1年。</strong><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%8A%A5%E4%BB%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2.png">图1</a></li>
-</ul>
-<h2 id="2-1-债券市场："><a href="#2-1-债券市场：" class="headerlink" title="2.1 债券市场："></a>2.1 <strong>债券市场：</strong></h2><ul>
-<li><p>报价行情：综合报价、活跃券报价、优选报价、热点关注券、 X-bond报价、债券借贷报价、债券路演、 X-Auction报价行情</p>
-</li>
-<li><p>成交行情：综合成交、活跃券成交、 X-Bond成交、债券借贷成交行情、预发行成交行情</p>
-</li>
-</ul>
-<h2 id="2-2-货币市场："><a href="#2-2-货币市场：" class="headerlink" title="2.2 货币市场："></a>2.2 <strong>货币市场：</strong></h2><ul>
-<li>报价行情：报价行情、存单路演</li>
-<li>成交行情：实时、历史行情包括质押式回购、X-Repo、买断式回购、信用拆借  </li>
-</ul>
-<h2 id="2-3-衍生品市场-X-Swap："><a href="#2-3-衍生品市场-X-Swap：" class="headerlink" title="2.3 衍生品市场 X-Swap："></a>2.3 <strong>衍生品市场 X-Swap：</strong></h2><ul>
-<li>报价行情：利率互换聚合行情、利率互换实时承接、普通利率互换、标准利率互换、标准债券远期、CDS双向报价</li>
-<li>成交行情：利率互换成交、标准利率互换成交、标准债券远期成交、债券远期成交、信用风险缓释凭证成交、信用违约互换成交、利率期权成交行情  </li>
-</ul>
-<h2 id="2-4-单券-合约行情"><a href="#2-4-单券-合约行情" class="headerlink" title="2.4 单券/合约行情"></a>2.4 单券/合约行情</h2><h2 id="2-5-现券"><a href="#2-5-现券" class="headerlink" title="2.5 现券"></a>2.5 现券</h2><h3 id="2-5-1-综合报价行情"><a href="#2-5-1-综合报价行情" class="headerlink" title="2.5.1 综合报价行情"></a>2.5.1 综合报价行情</h3><ul>
-<li>各种报价方式整合后的<font color =red>最优报价（含做市、 X-Bond和指示性报价）</font>，意向报价和经纪报价 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%BC%E5%90%88%E6%8A%A5%E4%BB%B7%E8%A1%8C%E6%83%85.png">图1</a></li>
-<li>不可直接点击成交，可点击代码或者名称进入单券/合约页面 或通过侧边栏【单券-合约查看记录】打开<ul>
-<li>【单券页面】展现做市点击、X-Bond、指示性报价、意向报价、经纪报价的报价信息</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-5-2-活跃券报价行情"><a href="#2-5-2-活跃券报价行情" class="headerlink" title="2.5.2 活跃券报价行情"></a>2.5.2 活跃券报价行情</h3><ul>
-<li>活跃券由系统根据近期最活跃（交易量大）的债券计算得出  </li>
-<li>点击深度可打开点击成交窗口，展示<font color =red>活跃券的最优报价（做市报价、X-Bond）</font>，深度报价5档（做市机构10档），可选中多笔可进行扫单 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B4%BB%E8%B7%83%E5%88%B8%E6%8A%A5%E4%BB%B7%E6%88%90%E4%BA%A4.png">图1</a>。</li>
-<li>在【我要报价】提交报价后，点击活跃券报价的【深度】，从而进行扫单操作。</li>
-<li>不可直接点击成交，可点击代码或者名称进入单券/合约页面</li>
-</ul>
-<h3 id="2-5-3-热点关注券报价行情"><a href="#2-5-3-热点关注券报价行情" class="headerlink" title="2.5.3 热点关注券报价行情"></a>2.5.3 热点关注券报价行情</h3><ul>
-<li>仅展示收藏后的债券行情，行情页面不可直接点击成交，点击债券名称/代码可打开单券/合约行情页面</li>
-<li>展示买、卖两个方向的最优报价、最优价格间的价差及最新成交价 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%83%AD%E7%82%B9%E5%85%B3%E6%B3%A8%E5%88%B8%E8%A1%8C%E6%83%85.png">图1</a></li>
-</ul>
-<h3 id="2-5-4-X-Bond报价行情"><a href="#2-5-4-X-Bond报价行情" class="headerlink" title="2.5.4 X-Bond报价行情"></a>2.5.4 X-Bond报价行情</h3><ul>
-<li>点击成交、一键冻结。分连续报价和集中报价两部分展示，连续报价页面可直接点击成交，每只债券展示的行情深度为5档（做市机构为10档），选中多笔可进行扫单。</li>
-</ul>
-<h3 id="2-5-5-X-Lending报价行情"><a href="#2-5-5-X-Lending报价行情" class="headerlink" title="2.5.5 X-Lending报价行情"></a>2.5.5 X-Lending报价行情</h3><ul>
-<li>点击成交、意向报价（具名）—可转对话报价、意向报价（匿名）—通过iDeal进行商谈</li>
-</ul>
-<h2 id="2-6-货币市场"><a href="#2-6-货币市场" class="headerlink" title="2.6 货币市场"></a>2.6 货币市场</h2><h3 id="2-6-1-货币交易极速通"><a href="#2-6-1-货币交易极速通" class="headerlink" title="2.6.1 货币交易极速通"></a>2.6.1 货币交易极速通</h3><ul>
-<li>报价行情：X-Repo双边、资金意向版</li>
-<li>实时行情：当日成交行情：质押式回购、买断式回购、X-Repo、信用拆借；<font color =red>按照DR、R进行分类</font></li>
-</ul>
-<h2 id="2-7-衍生品市场"><a href="#2-7-衍生品市场" class="headerlink" title="2.7 衍生品市场"></a>2.7 衍生品市场</h2><ul>
-<li>成交行情：逐笔成交、成交汇总  </li>
-</ul>
-<h3 id="2-7-1-利率互换X-Swap"><a href="#2-7-1-利率互换X-Swap" class="headerlink" title="2.7.1 利率互换X-Swap"></a>2.7.1 利率互换X-Swap</h3><ul>
-<li>聚合行情：自营账户支持实时承接+非实时承接行情聚合；若无实时承接权限，仅能查看非实时承接行情  </li>
-<li>实施承接：上清所作为对手方实时接单，同时纳入利率互换的集中清算。<font color =red>需与上清所签订相关协议。</font></li>
-</ul>
-<h2 id="2-8-单券-合约行情"><a href="#2-8-单券-合约行情" class="headerlink" title="2.8 单券/合约行情"></a>2.8 单券/合约行情</h2><ul>
-<li>单券行情：提供当日行情、债券信息/估值、历史成交行情、相关券推荐<ul>
-<li>报价行情：支持做市、 X-Bond、指示性、意向报价、经纪报价。非做市机构深度为5档，做市机构10档  </li>
-</ul>
-</li>
-<li>单合约行情：提供当日行情、合约债券信息、历史成交行情  <ul>
-<li>报价行情：实时承接、非实时承接报价，档位为5档。 <img src="" style="zoom:10%;" /> </li>
-</ul>
-</li>
-</ul>
-<h1 id="三、交易机制"><a href="#三、交易机制" class="headerlink" title="三、交易机制"></a>三、交易机制</h1><h2 id="3-1-报价方式"><a href="#3-1-报价方式" class="headerlink" title="3.1 报价方式"></a>3.1 报价方式</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%8A%A5%E4%BB%B7%E6%96%B9%E5%BC%8F%E6%B1%87%E6%80%BB.png" alt="报价方式汇总"></p>
-<h2 id="3-1-协商驱动（询价-‘格式化报价’）"><a href="#3-1-协商驱动（询价-‘格式化报价’）" class="headerlink" title="3.1 协商驱动（询价|‘格式化报价’）"></a>3.1 协商驱动（询价|‘格式化报价’）</h2><h3 id="3-1-1（iDeal聊天）意向报价、对话报价（直接对话、聊天转对话）"><a href="#3-1-1（iDeal聊天）意向报价、对话报价（直接对话、聊天转对话）" class="headerlink" title="3.1.1（iDeal聊天）意向报价、对话报价（直接对话、聊天转对话）"></a>3.1.1（iDeal聊天）意向报价、对话报价（直接对话、聊天转对话）</h3><ul>
-<li><font color =red>债券市场的对话报价不是格式化交谈|‘即只能对手方只能拒绝或成交，不能对话修改’，货币市场的对话报价是格式化交谈</font> <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E5%AF%B9%E8%AF%9D%E6%8A%A5%E4%BB%B7%E6%8F%90%E5%8D%95.png">现券对话报价提单</a> <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E5%AF%B9%E8%AF%9D%E6%88%90%E4%BA%A4.png">现券对话成交</a></li>
-<li>目前iDeal支持【现券买卖】、【质押式回购】、【利率互换】</li>
-<li><strong>方式一：</strong>发起iDeal聊天（商定要素：期限、资金量、利率|‘非必填’）$\longrightarrow$ <font color =red>聊天窗口发对话报价意向</font>$\longrightarrow$转对话报价$\longrightarrow$ 格式化交谈$\longrightarrow$成交确认（需补充完其他要素，如：本方交易账户、对手方、利率、质押券及其券面总额、折算总额（折算比例可取CFETS标准折算率，也可自行商谈）、期限）</li>
-<li><strong>方式二：</strong>直接发起对话报价$\longrightarrow$格式化交谈$\longrightarrow$成交确认</li>
-<li>对手方通过消息盒子处理收到的对话报价请求。对话交谈轮次不超过5轮。通过功能列表—我的交易查看</li>
-<li><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/iDeal%E5%8F%91%E8%B5%B7%E8%81%8A%E5%A4%A9.png">iDeal发起聊天</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/iDeal%E8%A6%81%E7%B4%A0%E5%A1%AB%E5%86%99.png">iDeal要素填写</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AF%B9%E8%AF%9D%E6%8A%A5%E4%BB%B7%E5%8F%91%E8%B5%B7%E7%95%8C%E9%9D%A2.png">对话报价发起界面</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AF%B9%E6%89%8B%E6%96%B9%E5%A4%84%E7%90%86%E6%8A%A5%E4%BB%B7%E7%94%B3%E8%AF%B7.png">对手方处理报价申请</a></li>
-</ul>
-<h3 id="3-1-2-资金意向（意向转对话）"><a href="#3-1-2-资金意向（意向转对话）" class="headerlink" title="3.1.2 资金意向（意向转对话）"></a>3.1.2 <strong>资金意向</strong>（意向转对话）</h3><ul>
-<li><strong>方式三：</strong><font color =red>在【我要报价】发起资金意向报价</font>$\longrightarrow$在资金意向版（即货币市场报价行情）$\longrightarrow$转对话</li>
-<li>实时报价、表明交易意向。可通过设置群组发送至指定对象群组，发送范围也可为全市场  </li>
-<li>报价要素成交方式可以选择【质押、拆借、买断单券、买断多券】</li>
-<li>报价要素包括：基准利率（固定利率、DR、R、Shibor、IBO）、成交方式</li>
-<li><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B5%84%E9%87%91%E6%84%8F%E5%90%91%E6%8A%A5%E4%BB%B7.png">资金意向报价</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B5%84%E9%87%91%E6%84%8F%E5%90%91%E6%8A%A5%E4%BB%B72.png">资金意向报价2</a></li>
-</ul>
-<h3 id="3-1-3-现券意向报价（意向转对话-’X-Bargin‘）"><a href="#3-1-3-现券意向报价（意向转对话-’X-Bargin‘）" class="headerlink" title="3.1.3 现券意向报价（意向转对话|’X-Bargin‘）"></a>3.1.3 现券意向报价（意向转对话|’X-Bargin‘）</h3><ul>
-<li>非实价报价、表明交易意向，发送范围为全市场，可匿名（即X-Bargain，归于意向报价中，不单列于报价方式）<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E6%84%8F%E5%90%91%E6%8A%A5%E4%BB%B7%E7%95%8C%E9%9D%A2.png">现券意向报价界面</a></li>
-<li>同一只债券只能发送一笔同一方向的意向报价  </li>
-<li><font color =red>X-Bargin支持三轮询价</font>。交易要素：明价、底价、做市商费用（若需要做市商搭桥代为交易，以厘计价）、券面总额，另可选【一口价】（本轮谈判是否允许修改报价信息）、AON（All or None|对于券面总额’全部成交或是全部不成交’）<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X-Brargin.png">X-Brargin</a></li>
-<li>X-Bargin达成交易后，进行分仓（选择对应的交易账户）<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X-Bargin%E4%BA%A4%E6%98%93%E5%88%86%E4%BB%93.png">X-Bargin交易分仓</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X-Bargin%E4%BA%A4%E6%98%93%E5%88%86%E4%BB%932.png">X-Bargin交易分仓2</a></li>
-</ul>
-<h3 id="3-1-4-利率互换—对话报价"><a href="#3-1-4-利率互换—对话报价" class="headerlink" title="3.1.4 利率互换—对话报价"></a>3.1.4 利率互换—对话报价</h3><ul>
-<li>须交易双方都给对手方维护利率互换市场对话报价的<font color =red>对手方限额</font>方可成交。支持询价，轮次不超过5次。</li>
-<li>计算机构选择“中国外汇交易中心”的前提是与交易中心签署了计算代理协议。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E2%80%94%E5%8D%8F%E5%95%86%E6%8A%A5%E4%BB%B7.png">利率互换—协商报价</a></li>
-</ul>
-<h3 id="3-1-5-债券借贷—意向报价、对话报价"><a href="#3-1-5-债券借贷—意向报价、对话报价" class="headerlink" title="3.1.5 债券借贷—意向报价、对话报价"></a>3.1.5 债券借贷—意向报价、对话报价</h3><ul>
-<li>意向报价：非实价报价、表明交易意向，可发送标的债券类型/代码或者标的债券类型的意向报价，发送范围为全市场，可匿名。非本方发出的具名意向报价可转成对话报价。</li>
-<li>对话报价：<ul>
-<li>不可进行格式化交谈，要素商定可通过聊天工具iDeal进行。</li>
-<li>质押券最大数量15只，且债券币种只能为CNY  <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%80%BA%E5%88%B8%E5%80%9F%E8%B4%B7%E6%8A%A5%E4%BB%B7.png">债券借贷报价</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="3-1-6-买断式回购—对话报价"><a href="#3-1-6-买断式回购—对话报价" class="headerlink" title="3.1.6 买断式回购—对话报价"></a>3.1.6 买断式回购—对话报价</h3><ul>
-<li>类型：单券、多券。支持格式化交谈，必须在5轮内完成。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B9%B0%E6%96%AD%E5%BC%8F%E5%9B%9E%E8%B4%AD-%E5%AF%B9%E8%AF%9D%E6%8A%A5%E4%BB%B7.png">买断式回购-对话报价</a></li>
-</ul>
-<h2 id="3-2-报价驱动（由做市-资金商报价）"><a href="#3-2-报价驱动（由做市-资金商报价）" class="headerlink" title="3.2 报价驱动（由做市/资金商报价）"></a>3.2 报价驱动（由做市/资金商报价）</h2><p><strong>债券市场—做市商；货币市场—资金商</strong></p>
-<h3 id="3-2-1-做市报价"><a href="#3-2-1-做市报价" class="headerlink" title="3.2.1 做市报价"></a>3.2.1 做市报价</h3><ul>
-<li>发起方只能是做市商，发送范围是全市场，点击方是具有现券交易权限的所有现券交易员  </li>
-<li>必须同时发送买、卖两个方向的报价  </li>
-<li>报价发送后本方可以冻结、撤销和修改该笔报价 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E4%B9%B0%E5%8D%96%E2%80%94%E5%81%9A%E5%B8%82%E6%8A%A5%E4%BB%B7.png">[现券买卖—做市报价]</a>  </li>
-<li>本方可在“我的做市”面板中管理机构的指示性报价 </li>
-<li>现券买卖做市分层：<ul>
-<li>报价发送方：有分层报价权限的做市机构用户，且已维护分层报价群组</li>
-<li>做市机构发送活跃券的分层报价后，群组中的机构可在活跃券报价 行情看到小蓝点，深度行情中展示的蓝色字体数据即为分层报价 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%81%9A%E5%B8%82%E6%8A%A5%E4%BB%B7%E5%88%86%E5%B1%82.png">[做市报价分层]</a> | <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%81%9A%E5%B8%82%E6%8A%A5%E4%BB%B7%E5%88%86%E5%B1%822.png">[做市报价分层2]</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="3-2-2-指示性报价"><a href="#3-2-2-指示性报价" class="headerlink" title="3.2.2 指示性报价"></a>3.2.2 指示性报价</h3><ul>
-<li>指示性报价：解决做市报价中点击即成交带来的压力。<font color =red>不能直接报价，通过转请求报价进行成交</font></li>
-<li>发起方只能是做市商，发送范围是全市场。发送内容为含价格、可以不含量的买卖两个方向的报价<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%8C%87%E7%A4%BA%E6%80%A7%E6%8A%A5%E4%BB%B7.png">图1</a><ul>
-<li>不可直接被成交，只可以被转成请求报价，转换成请求报价时可只发给一家做市机构（交易对手），也可添加其他做市机构</li>
-</ul>
-</li>
-<li>本方可在“我的做市”面板中管理机构的指示性报价</li>
-<li>对手方可在现券买卖-综合报价-最优报价页面或单券报价行情中查看指示性价格，双击后进入请求报价。</li>
-</ul>
-<h3 id="3-2-3-请求报价—现券"><a href="#3-2-3-请求报价—现券" class="headerlink" title="3.2.3 请求报价—现券"></a>3.2.3 请求报价—现券</h3><p><strong>请求报价：需求方请求做市方报价。</strong></p>
-<ul>
-<li>分仓方式有3个选择，不分仓和PreAllocation（前分仓）、 Post-Allocation（后分仓）<ul>
-<li>前分仓：做市商回复的券面总额小于请求量时，确认成交前可以修改分仓量；若等于请求量则无法修改  </li>
-</ul>
-</li>
-<li><font color =red>**发送时只包含券面总额，不包含价格**</font></li>
-<li>回复请求报价：做市机构可通过请求回复界面查看待回复状态的RFQ请求，并具名回复报价。回复时可修改券面总额，改后不可超过请求量。</li>
-<li><p>请求方可在我的报价界面中查看做市机构的回复，右上角红色气泡中数字表示回复方数量，红色标识出最优价格。双击某笔待成交RFQ报价，请求报价确认窗 口将展示所有回复方的回复内容。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%96%B9%E5%9B%9E%E5%A4%8D%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7.png">[请求方回复请求报价]</a></p>
-</li>
-<li><font color =red>成交后，未选中的交易将消失</font>
-
-</li>
-</ul>
-<h3 id="3-2-4-请求报价—质押式回购"><a href="#3-2-4-请求报价—质押式回购" class="headerlink" title="3.2.4 请求报价—质押式回购"></a>3.2.4 请求报价—质押式回购</h3><ul>
-<li>正回购方：<ul>
-<li>本方在资金商白名单内才可向其发送RFQ，仅支持正回购。</li>
-<li>可选择一个或多个资金交易商，对手方交易员非必填。</li>
-<li>分仓方式：不分仓和Pre-Allocation。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E6%AD%A3%E5%9B%9E%E8%B4%AD%E6%96%B9.png">[请求报价-正回购方]</a></li>
-<li><font color =red>若发给多个资金商， RFQ选择一笔确认成交后，即使成交量等于请求量时，还可继续确认回复并成交 </font> </li>
-<li>本方确认资金商回复价格后，在“提券管理”中管理待提券 报价，补充质押券信息。质押券最多不超过15只；支持质押境外债；支持质押跨托管机构的债券；可选择CFETS标准折算率<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E6%AD%A3%E5%9B%9E%E8%B4%AD%E6%96%B9%E8%B4%A8%E6%8A%BC%E6%8F%90%E5%88%B8.png">[请求报价-正回购方质押提券]</a> | <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E6%AD%A3%E5%9B%9E%E8%B4%AD%E6%96%B9%E8%B4%A8%E6%8A%BC%E6%8F%90%E5%88%B82.png">[请求报价-正回购方质押提券2]</a></li>
-</ul>
-</li>
-<li>逆回购方：<ul>
-<li>资金商在“我的回复”可批量回复。回复时， “回复量”和“回复有限时间”为必填项；<font color =red>“回购利率”为非必填项，可由正回购方在提券时填写</font></li>
-<li>在提券管理页面收到已提券报价后，可直接确认成交。支持修改提交，交谈询价轮次不超过 5次。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E9%80%86%E5%9B%9E%E8%B4%AD%E6%96%B9%E6%8F%90%E5%88%B8.png">[请求报价-逆回购方提券]</a> | <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E9%80%86%E5%9B%9E%E8%B4%AD%E6%96%B9%E6%8F%90%E5%88%B82.png">[请求报价-逆回购方提券2]</a></li>
-</ul>
-</li>
-</ul>
-<h3 id="3-2-5-请求报价—利率互换"><a href="#3-2-5-请求报价—利率互换" class="headerlink" title="3.2.5 请求报价—利率互换"></a>3.2.5 请求报价—利率互换</h3><ul>
-<li>分仓方式：不分仓和Pre-Allocation</li>
-<li><font color = red>当请求报价发送给多个对手方且多个对手方机构给予回复，请求方仅可就一笔回复进行成交，不可成交多笔。</font>已确认成交的请求报价结束，不再“我的请求”界面显示</li>
-<li><font color =red>选择直接合约，授信充足时，回复方回复量必须等于请求量；授信不足时，系统自动计算授信范围内的最大回复量，不可修改</font> <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7%E2%80%94%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2.png">[请求报价—利率互换]</a></li>
-</ul>
-<h3 id="3-2-6-请求报价—南向通"><a href="#3-2-6-请求报价—南向通" class="headerlink" title="3.2.6 请求报价—南向通"></a>3.2.6 请求报价—南向通</h3><ul>
-<li>请求方可根据实际情况选择对手方机构数量，至少发送给1家做市机构</li>
-<li>请求报价发送成功后可在我的报价-南向通中查看，本方状态为：已发送，本方可以撤销<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7%E2%80%94%E5%8D%97%E5%90%91%E9%80%9A.png">[请求报价—南向通]</a></li>
-</ul>
-<h3 id="3-2-7-小结："><a href="#3-2-7-小结：" class="headerlink" title="3.2.7 小结："></a>3.2.7 小结：</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7%E2%80%94%E5%B0%8F%E7%BB%93.png" alt="请求报价—小结"></p>
-<h2 id="四、订单驱动（即匿名点击）"><a href="#四、订单驱动（即匿名点击）" class="headerlink" title="四、订单驱动（即匿名点击）"></a>四、订单驱动（即匿名点击）</h2><ul>
-<li><strong>X—Bond：</strong>略</li>
-<li><p><strong>X—Swap：</strong>须满足最小有效授信账户主体数（5家）要求。须提前设置X-Swap资金账户<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Swap2.png">[X—Swap2]</a></p>
-</li>
-<li><p><strong>X—Repo：</strong></p>
-<ul>
-<li><strong>正回购</strong>可交易对手数量不得低于30个。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Repo%E6%AD%A3%E5%9B%9E%E8%B4%AD.png">[X—Repo正回购]</a></li>
-<li>预提质押劵开关按钮：开关默认关闭，可手动开启；单笔交易质押券最大数量为15个。</li>
-<li>回购利率超出X-Repo涨跌幅设置范围时，系统提示：回购利率超出可交易范围。</li>
-<li>若本方正回购订单的回购利率高于本方逆回购订单的回购利率则提示价格出现倒挂，提交失败。</li>
-<li><strong>逆回购</strong>可交易对手数量不得低于30个<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Repo%E9%80%86%E5%9B%9E%E8%B4%AD.png">[X—Repo逆回购]</a></li>
-<li>交易时段外提交成功的订单展示为预提交状态，非有效。</li>
-<li><font color =red>具有分层报价权限的机构</font>，显示分层报价的开关按钮，开关默认关闭，可手动开启； 可以选择群组进行报价，群组上限5个  </li>
-</ul>
-</li>
-<li><p><strong>X—Lending：</strong></p>
-<ul>
-<li>标的债券代码： X-Lending可交易债券列表可在【文件下载】界面下载后查看。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Lending1.png">[X—Lending1]</a></li>
-<li>质押券属性：选择某类质押券属性，则该笔交易仅能提交该类质押券，比如选择”利率债”，则融入方<br>提交质押券时，仅能选择国债、政策性金融债、央行票据。</li>
-</ul>
-</li>
-<li><p><strong>X—Auction：</strong></p>
-<ul>
-<li>预申报：打开 X-Auction-匿名拍卖-预申报页面。右上方展示当前场次、预申报日及时间段<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Auction.png">[图1]</a></li>
-<li>申报：申报日，可在 X-Auction 申报界面查看可申报债券，并进行申报</li>
-<li>双向报价：拍卖日-双向报价阶段，在我要报价页面提交双向报价</li>
-<li>订单：拍卖日-集中报价阶段，在我要报价页面提交订单</li>
-</ul>
-</li>
-</ul>
-<h3 id="4-1-连续报价"><a href="#4-1-连续报价" class="headerlink" title="4.1 连续报价"></a>4.1 连续报价</h3><ul>
-<li><p><strong>交易规则：</strong></p>
-<ul>
-<li>交易时段内可发送报价进行匹配撮合，也可直接点击成交。</li>
-<li>用户提交订单后，系统根据授信约束按照<font color =red>价格优先、时间优先</font>原则匹配  </li>
-<li>匹配成交时，以先进入订单簿的价格成交；<font color =red>可以最小变动单位的整数倍拆分成交 </font></li>
-<li>对于未被匹配成交的有效订单，系统根据机构的双边授信约束匿名显示每个机构可成交的市场最优5档价格（做市机构10档）供点击成交；  </li>
-<li>系统提供扫单功能，即点击某档深度价格时，可成交该价格以上的所有订单。  </li>
-</ul>
-</li>
-<li><p><strong>订单类型/策略交易：</strong></p>
-<p><a href="https://mp.weixin.qq.com/s/vuwkWd254-G3ATH9KruS9Q">教你玩转X-Bond第二篇：如何设置策略交易</a></p>
-<ul>
-<li><strong>限价订单：</strong>发送包含价格和券面总额的订单，与订单簿中优于或等于该价格的反方向订单匹配成交，未撮合成功的进入订单簿  </li>
-<li><strong>弹性订单：</strong>发送的订单除价格和券面总额外，还增加一定的价格弹性（BP），即设置了底价，可与优于或等于底价价格的反方向订单匹配成交  </li>
-<li><strong>市转限：</strong>发送只含量的订单，按市场最优价开始匹配，如果发送的量大于市场上所有的反向订单量，则剩余的量按成交的最差价格进入订单簿。  </li>
-<li><strong>市转撤：</strong>发送只含量的订单，按市场最优价开始匹配，如果发送的量大于市场上所有的反向订单量，则<br>剩余的量全部撤销。  </li>
-<li><strong>OCO订单（One Cancels the order）：</strong>将多个订单设置成OCO订单，当其中任何一笔订单匹配成交完成，其他订单自动撤销</li>
-<li><strong>If Done订单：</strong>将一笔活动的和一笔冻结的订单进行绑定，当活动的订单匹配成交完，冻结的订单自动被激活 </li>
-</ul>
-</li>
-</ul>
-<h3 id="4-2-集中报价（略）"><a href="#4-2-集中报价（略）" class="headerlink" title="4.2 集中报价（略）"></a>4.2 集中报价（略）</h3><h1 id="五、总结："><a href="#五、总结：" class="headerlink" title="五、总结："></a>五、总结：</h1><h2 id="5-1-分市场报价与交易方式总结"><a href="#5-1-分市场报价与交易方式总结" class="headerlink" title="5.1 分市场报价与交易方式总结"></a>5.1 分市场报价与交易方式总结</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%86%E5%B8%82%E5%9C%BA%E6%8A%A5%E4%BB%B7%E4%B8%8E%E4%BA%A4%E6%98%93%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93.png" alt="分市场报价与交易方式总结"></p>
-<h2 id="5-2-交易方式"><a href="#5-2-交易方式" class="headerlink" title="5.2 交易方式"></a>5.2 交易方式</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E6%96%B9%E5%BC%8Fbacked.png" alt="交易方式"></p>
-<h2 id="5-3-交易限额设置"><a href="#5-3-交易限额设置" class="headerlink" title="5.3 交易限额设置"></a>5.3 交易限额设置</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png" /></p>
-<h2 id="5-4-功能设置生效时间总结"><a href="#5-4-功能设置生效时间总结" class="headerlink" title="5.4 功能设置生效时间总结"></a>5.4 功能设置生效时间总结</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE%E7%94%9F%E6%95%88%E6%97%B6%E9%97%B4%E6%80%BB%E7%BB%93.png" alt="功能设置生效时间总结"></p>
-<h2 id="5-5-交易时间总结"><a href="#5-5-交易时间总结" class="headerlink" title="5.5 交易时间总结"></a>5.5 交易时间总结</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E6%97%B6%E9%97%B4%E6%80%BB%E7%BB%93.png" alt="交易时间总结"></p>
-<h1 id="六、练习："><a href="#六、练习：" class="headerlink" title="六、练习："></a>六、练习：</h1><h2 id="6-1-用户管理："><a href="#6-1-用户管理：" class="headerlink" title="6.1 用户管理："></a>6.1 用户管理：</h2><ol>
-<li><p>CIBMTS的两级用户：系统管理员、普通用户</p>
-</li>
-<li><p>本币新平台提供的限额管理功能在哪里设置？哪些市场必须要设置对手方限额才能交易？</p>
-<p>限额管理在新本币的管理设置-交易设置下；信用拆借、利率互换、利率互换期权、利率上限/下限期权、信用违约互换、远期利率协议  </p>
-</li>
-<li><p>做信用拆借交易前必须做哪些设置？做现券买卖交易前必须做哪些设置？</p>
-<p>做信用拆借前必须要进行对手方限额和交易员限额设置以及资金账户设置；做现券买卖交易前必须要进行资金和托管账户设置</p>
-</li>
-</ol>
-<h2 id="6-2-现券RFQ"><a href="#6-2-现券RFQ" class="headerlink" title="6.2 现券RFQ"></a>6.2 现券RFQ</h2><ol>
-<li>发送一笔卖出请求报价，债券代码180027，清算速度T+1，券面总额5000万。</li>
-<li>其中一家机构收到报价请求后回复，修改报价量为4000万，净价为98.5，另一家机构收到请求后输入净价98.3后回复。</li>
-<li>用户收到请求回复后，查看最优报价，并选择最优报价进行确认成交。  </li>
-</ol>
-<h2 id="6-3-质押RFQ"><a href="#6-3-质押RFQ" class="headerlink" title="6.3 质押RFQ"></a>6.3 质押RFQ</h2><ol>
-<li>资金交易商A和资金交易商B将演示机构添加到其质押RFQ白名单内，演示机构发送一笔正回购方向的请求报价到这2家机构，清算速度T+0，券面总额5000万</li>
-<li>其中资金商A收到报价请求后回复，修改回复量为4000万，资金商B收到请求后回复默认量5000万，回购利率3.34%</li>
-<li>用户收到请求回复后，查看回复的量和回购利率，并选择进行确认</li>
-<li>正回购方完成提券，逆回购方成交  </li>
-</ol>
-]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>本币交易</category>
-      </categories>
-      <tags>
-        <tag>系统功能</tag>
       </tags>
   </entry>
   <entry>
@@ -1525,6 +1191,340 @@
       </tags>
   </entry>
   <entry>
+    <title>本币交易梳理02--系统功能介绍</title>
+    <url>/post/31077/</url>
+    <content><![CDATA[<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/CIBMTS%E7%95%8C%E9%9D%A2.png" alt="CIBMTS界面"></p>
+<p><strong>报买价：对手方报出买价，本方以报买价卖出；报卖价：对手方报出卖价，本方以报卖价买入</strong></p>
+<p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B9%B0%E5%8D%96%E7%9B%AE%E6%A0%87%E4%BB%B7%E5%92%8C%E5%BA%95%E4%BB%B7.png" alt="买卖目标价和底价"></p>
+<h3 id="界面布局："><a href="#界面布局：" class="headerlink" title="界面布局："></a><strong>界面布局：</strong></h3><ul>
+<li><p><strong>一级目录：</strong><font color =red>内部管理</font>（资金账户及交易账户组设置、权限设置）、<font color =red>个人设置</font>（我的关注券）、<font color =red>交易设置</font>（首选交易账户设置、机构群组维护、限额管理、对手方管理、<strong>产品篮子维护（分仓）</strong>、信息披露、报备）、<font color =red>用户统一认证</font>（修改密码、机构用户管理）</p>
+</li>
+<li><p><strong>侧边栏：</strong>我要报价<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%88%91%E8%A6%81%E6%8A%A5%E4%BB%B7.png">图1</a>、单券-合约查看记录、计算工具、消息盒子<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B6%88%E6%81%AF%E7%9B%92%E5%AD%90.png">图2</a>、iDeal</p>
+</li>
+<li><p><strong>快捷键：</strong>iDeal-F11，我要报价-F8</p>
+</li>
+<li><strong>界面：</strong><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E9%A6%96%E9%A1%B5.png">图1</a></li>
+</ul>
+<h1 id="一、用户管理"><a href="#一、用户管理" class="headerlink" title="一、用户管理"></a>一、用户管理</h1><h2 id="1-1-登录"><a href="#1-1-登录" class="headerlink" title="1.1 登录"></a>1.1 登录</h2><ul>
+<li>银行间市场开户系统</li>
+<li>中国银行间市场交易平台：CIBMTS<ul>
+<li>证书、人脸识别、二维码（暂不可用）</li>
+<li>专线网、互联网</li>
+</ul>
+</li>
+<li>iDeal：即时通讯报价</li>
+</ul>
+<h2 id="1-2-用户统一认证"><a href="#1-2-用户统一认证" class="headerlink" title="1.2 用户统一认证"></a>1.2 <font color =red>用户统一认证</font></h2><h3 id="1-2-1-机构用户管理"><a href="#1-2-1-机构用户管理" class="headerlink" title="1.2.1 机构用户管理"></a>1.2.1 机构用户管理</h3><ul>
+<li>新增、锁定/解锁、重置密码、禁用/启用、取消实名认证/取消身份确认等<ul>
+<li>用户重置密码、新增由系统管理员完成</li>
+<li>系统管理员用户解锁和密码重置由交易中心场务完成</li>
+</ul>
+</li>
+</ul>
+<h3 id="1-2-2-实名认证-身份确认"><a href="#1-2-2-实名认证-身份确认" class="headerlink" title="1.2.2 实名认证/身份确认"></a>1.2.2 实名认证/身份确认</h3><ul>
+<li>系统管理员无需实名认证/身份确认</li>
+<li>用户开展交易进行实名认证，无交易员资格证书的用户必须进行身份确认，否则无法登录iDeal</li>
+<li>实名认证必须填写交易员证书信息</li>
+</ul>
+<h2 id="1-3-内部管理"><a href="#1-3-内部管理" class="headerlink" title="1.3 内部管理"></a>1.3 <font color =red>内部管理</font></h2><h3 id="1-3-1-用户权限设置"><a href="#1-3-1-用户权限设置" class="headerlink" title="1.3.1 用户权限设置"></a>1.3.1 用户权限设置</h3><ul>
+<li>交易员身份设置：自营账户、资产管理、代理交易、账户管理、FT账户</li>
+<li>设置机构权限：略</li>
+</ul>
+<h3 id="1-3-2-多账户管理：概览"><a href="#1-3-2-多账户管理：概览" class="headerlink" title="1.3.2 多账户管理：概览"></a>1.3.2 多账户管理：概览</h3><ul>
+<li>交易账户即产品</li>
+<li>交易账户组是对交易员及交易账户进行归类</li>
+<li>交易账户组只能包含同类交易员或者交易账户</li>
+<li>交易账户只能对应一个同类交易账户组，交易员可对应多个同类交易账户组</li>
+<li><font color =red>**交易账户组类型：资产管理、代理交易、账户管理、FT账户**</font>
+
+</li>
+</ul>
+<h3 id="1-3-3-账户设置"><a href="#1-3-3-账户设置" class="headerlink" title="1.3.3 账户设置"></a>1.3.3 账户设置</h3><ul>
+<li>托管账户设置：<font color =red>开户系统</font>设置托管账户—中债登及上清所账户各一个<ul>
+<li>新建和修改托管账户由交易中心审核通过后生效</li>
+</ul>
+</li>
+<li>资金账户设置：一家机构可设置多个资金账户；<font color =red>需设置业务类型首选：如拆借默认、衍生品首选、X-SWAP、期权费首选、预发行首选</font></li>
+<li>关联账户：<font color =red>两个托管账户需设置DVP首选资金账户</font></li>
+</ul>
+<h3 id="1-3-4-互联网交易设置"><a href="#1-3-4-互联网交易设置" class="headerlink" title="1.3.4 互联网交易设置"></a>1.3.4 互联网交易设置</h3><ul>
+<li>系统管理员设置是否使用互联网接入</li>
+</ul>
+<h2 id="1-4-交易设置"><a href="#1-4-交易设置" class="headerlink" title="1.4 交易设置"></a>1.4 <font color =red>交易设置</font></h2><h3 id="1-4-1-限额管理"><a href="#1-4-1-限额管理" class="headerlink" title="1.4.1 限额管理"></a>1.4.1 限额管理</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png" alt="交易限额设置" style="zoom:50%; align: middle" /></p>
+<ul>
+<li>人民银行限额由交易中心场务设置</li>
+<li>基金净值提交</li>
+<li>交易员限额</li>
+<li>单笔交易限额</li>
+<li><strong>交易员限额：</strong>累计限额、每日限额<br><strong>对手方管理：</strong>对手方限额、现券黑名单、质押RFQ白名单</li>
+</ul>
+<h4 id="1-4-1-1-对手方限额："><a href="#1-4-1-1-对手方限额：" class="headerlink" title="1.4.1.1 对手方限额："></a>1.4.1.1 <strong>对手方限额：</strong></h4><ul>
+<li><p>信用拆借：<font color =red>累计限额</font>、拆入拆出限额（亿）、净限额区间</p>
+</li>
+<li><p>质押式回购：本方方向（正逆回购）、黑白名单设置</p>
+<ul>
+<li><p>正回购：设置黑/白名单<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E6%AD%A3%E5%9B%9E%E8%B4%AD%E9%99%90%E9%A2%9D.png">图1</a></p>
+</li>
+<li><p>逆回购：设置对手方及其产品是否共享额度、关系授信（打勾即融出额度无限大）、额度授信（总额度大于X-Repo额度）<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8F%E5%9B%9E%E8%B4%AD%E9%80%86%E5%9B%9E%E8%B4%AD%E5%AF%B9%E6%89%8B%E6%96%B9%E9%99%90%E9%A2%9D%E7%95%8C%E9%9D%A2.png">图1</a>、<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E9%80%86%E5%9B%9E%E8%B4%AD%E5%AF%B9%E6%89%8B%E6%96%B9%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png">图2</a></p>
+</li>
+</ul>
+</li>
+<li><p>利率互换：关系授信、额度授信<font color =red>二选一</font>，<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png">图1</a></p>
+</li>
+</ul>
+<h4 id="1-4-1-2-现券黑名单："><a href="#1-4-1-2-现券黑名单：" class="headerlink" title="1.4.1.2 现券黑名单："></a>1.4.1.2 现券黑名单：</h4><ul>
+<li>拉黑对手方后收不到对手方的报价</li>
+</ul>
+<h4 id="1-4-1-3-质押RFQ白名单："><a href="#1-4-1-3-质押RFQ白名单：" class="headerlink" title="1.4.1.3 质押RFQ白名单："></a>1.4.1.3 <strong>质押RFQ白名单：</strong></h4><ul>
+<li>申请加入白名单：我要报价-请求-交易对手列表-可申请对手方<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B4%A8%E6%8A%BC%E5%BC%8FRFQ%E9%99%90%E9%A2%9D.png">图1</a></li>
+</ul>
+<h1 id="二、报价行情"><a href="#二、报价行情" class="headerlink" title="二、报价行情"></a>二、报价行情</h1><ul>
+<li><strong>非做市机构可以通过【模板】—【债券报价管理】查看【我的报价】|’可批量导入‘、【我的订单】|‘可以提交新订单及批量导入’、【当日成交】</strong></li>
+<li><strong>报价查询时间跨度不能超过30天，可查看交易全流程，包括报价详情、成交概览。成交概览支持下载成交单。成交查询时间跨度不能超过1年。</strong><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%8A%A5%E4%BB%B7%E4%BF%A1%E6%81%AF%E6%9F%A5%E8%AF%A2.png">图1</a></li>
+</ul>
+<h2 id="2-1-债券市场："><a href="#2-1-债券市场：" class="headerlink" title="2.1 债券市场："></a>2.1 <strong>债券市场：</strong></h2><ul>
+<li><p>报价行情：综合报价、活跃券报价、优选报价、热点关注券、 X-bond报价、债券借贷报价、债券路演、 X-Auction报价行情</p>
+</li>
+<li><p>成交行情：综合成交、活跃券成交、 X-Bond成交、债券借贷成交行情、预发行成交行情</p>
+</li>
+</ul>
+<h2 id="2-2-货币市场："><a href="#2-2-货币市场：" class="headerlink" title="2.2 货币市场："></a>2.2 <strong>货币市场：</strong></h2><ul>
+<li>报价行情：报价行情、存单路演</li>
+<li>成交行情：实时、历史行情包括质押式回购、X-Repo、买断式回购、信用拆借  </li>
+</ul>
+<h2 id="2-3-衍生品市场-X-Swap："><a href="#2-3-衍生品市场-X-Swap：" class="headerlink" title="2.3 衍生品市场 X-Swap："></a>2.3 <strong>衍生品市场 X-Swap：</strong></h2><ul>
+<li>报价行情：利率互换聚合行情、利率互换实时承接、普通利率互换、标准利率互换、标准债券远期、CDS双向报价</li>
+<li>成交行情：利率互换成交、标准利率互换成交、标准债券远期成交、债券远期成交、信用风险缓释凭证成交、信用违约互换成交、利率期权成交行情  </li>
+</ul>
+<h2 id="2-4-单券-合约行情"><a href="#2-4-单券-合约行情" class="headerlink" title="2.4 单券/合约行情"></a>2.4 单券/合约行情</h2><h2 id="2-5-现券"><a href="#2-5-现券" class="headerlink" title="2.5 现券"></a>2.5 现券</h2><h3 id="2-5-1-综合报价行情"><a href="#2-5-1-综合报价行情" class="headerlink" title="2.5.1 综合报价行情"></a>2.5.1 综合报价行情</h3><ul>
+<li>各种报价方式整合后的<font color =red>最优报价（含做市、 X-Bond和指示性报价）</font>，意向报价和经纪报价 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%BC%E5%90%88%E6%8A%A5%E4%BB%B7%E8%A1%8C%E6%83%85.png">图1</a></li>
+<li>不可直接点击成交，可点击代码或者名称进入单券/合约页面 或通过侧边栏【单券-合约查看记录】打开<ul>
+<li>【单券页面】展现做市点击、X-Bond、指示性报价、意向报价、经纪报价的报价信息</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-5-2-活跃券报价行情"><a href="#2-5-2-活跃券报价行情" class="headerlink" title="2.5.2 活跃券报价行情"></a>2.5.2 活跃券报价行情</h3><ul>
+<li>活跃券由系统根据近期最活跃（交易量大）的债券计算得出  </li>
+<li>点击深度可打开点击成交窗口，展示<font color =red>活跃券的最优报价（做市报价、X-Bond）</font>，深度报价5档（做市机构10档），可选中多笔可进行扫单 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B4%BB%E8%B7%83%E5%88%B8%E6%8A%A5%E4%BB%B7%E6%88%90%E4%BA%A4.png">图1</a>。</li>
+<li>在【我要报价】提交报价后，点击活跃券报价的【深度】，从而进行扫单操作。</li>
+<li>不可直接点击成交，可点击代码或者名称进入单券/合约页面</li>
+</ul>
+<h3 id="2-5-3-热点关注券报价行情"><a href="#2-5-3-热点关注券报价行情" class="headerlink" title="2.5.3 热点关注券报价行情"></a>2.5.3 热点关注券报价行情</h3><ul>
+<li>仅展示收藏后的债券行情，行情页面不可直接点击成交，点击债券名称/代码可打开单券/合约行情页面</li>
+<li>展示买、卖两个方向的最优报价、最优价格间的价差及最新成交价 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%83%AD%E7%82%B9%E5%85%B3%E6%B3%A8%E5%88%B8%E8%A1%8C%E6%83%85.png">图1</a></li>
+</ul>
+<h3 id="2-5-4-X-Bond报价行情"><a href="#2-5-4-X-Bond报价行情" class="headerlink" title="2.5.4 X-Bond报价行情"></a>2.5.4 X-Bond报价行情</h3><ul>
+<li>点击成交、一键冻结。分连续报价和集中报价两部分展示，连续报价页面可直接点击成交，每只债券展示的行情深度为5档（做市机构为10档），选中多笔可进行扫单。</li>
+</ul>
+<h3 id="2-5-5-X-Lending报价行情"><a href="#2-5-5-X-Lending报价行情" class="headerlink" title="2.5.5 X-Lending报价行情"></a>2.5.5 X-Lending报价行情</h3><ul>
+<li>点击成交、意向报价（具名）—可转对话报价、意向报价（匿名）—通过iDeal进行商谈</li>
+</ul>
+<h2 id="2-6-货币市场"><a href="#2-6-货币市场" class="headerlink" title="2.6 货币市场"></a>2.6 货币市场</h2><h3 id="2-6-1-货币交易极速通"><a href="#2-6-1-货币交易极速通" class="headerlink" title="2.6.1 货币交易极速通"></a>2.6.1 货币交易极速通</h3><ul>
+<li>报价行情：X-Repo双边、资金意向版</li>
+<li>实时行情：当日成交行情：质押式回购、买断式回购、X-Repo、信用拆借；<font color =red>按照DR、R进行分类</font></li>
+</ul>
+<h2 id="2-7-衍生品市场"><a href="#2-7-衍生品市场" class="headerlink" title="2.7 衍生品市场"></a>2.7 衍生品市场</h2><ul>
+<li>成交行情：逐笔成交、成交汇总  </li>
+</ul>
+<h3 id="2-7-1-利率互换X-Swap"><a href="#2-7-1-利率互换X-Swap" class="headerlink" title="2.7.1 利率互换X-Swap"></a>2.7.1 利率互换X-Swap</h3><ul>
+<li>聚合行情：自营账户支持实时承接+非实时承接行情聚合；若无实时承接权限，仅能查看非实时承接行情  </li>
+<li>实施承接：上清所作为对手方实时接单，同时纳入利率互换的集中清算。<font color =red>需与上清所签订相关协议。</font></li>
+</ul>
+<h2 id="2-8-单券-合约行情"><a href="#2-8-单券-合约行情" class="headerlink" title="2.8 单券/合约行情"></a>2.8 单券/合约行情</h2><ul>
+<li>单券行情：提供当日行情、债券信息/估值、历史成交行情、相关券推荐<ul>
+<li>报价行情：支持做市、 X-Bond、指示性、意向报价、经纪报价。非做市机构深度为5档，做市机构10档  </li>
+</ul>
+</li>
+<li>单合约行情：提供当日行情、合约债券信息、历史成交行情  <ul>
+<li>报价行情：实时承接、非实时承接报价，档位为5档。 <img src="" style="zoom:10%;" /> </li>
+</ul>
+</li>
+</ul>
+<h1 id="三、交易机制"><a href="#三、交易机制" class="headerlink" title="三、交易机制"></a>三、交易机制</h1><h2 id="3-1-报价方式"><a href="#3-1-报价方式" class="headerlink" title="3.1 报价方式"></a>3.1 报价方式</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%8A%A5%E4%BB%B7%E6%96%B9%E5%BC%8F%E6%B1%87%E6%80%BB.png" alt="报价方式汇总"></p>
+<h2 id="3-1-协商驱动（询价-‘格式化报价’）"><a href="#3-1-协商驱动（询价-‘格式化报价’）" class="headerlink" title="3.1 协商驱动（询价|‘格式化报价’）"></a>3.1 协商驱动（询价|‘格式化报价’）</h2><h3 id="3-1-1（iDeal聊天）意向报价、对话报价（直接对话、聊天转对话）"><a href="#3-1-1（iDeal聊天）意向报价、对话报价（直接对话、聊天转对话）" class="headerlink" title="3.1.1（iDeal聊天）意向报价、对话报价（直接对话、聊天转对话）"></a>3.1.1（iDeal聊天）意向报价、对话报价（直接对话、聊天转对话）</h3><ul>
+<li><font color =red>债券市场的对话报价不是格式化交谈|‘即只能对手方只能拒绝或成交，不能对话修改’，货币市场的对话报价是格式化交谈</font> <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E5%AF%B9%E8%AF%9D%E6%8A%A5%E4%BB%B7%E6%8F%90%E5%8D%95.png">现券对话报价提单</a> <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E5%AF%B9%E8%AF%9D%E6%88%90%E4%BA%A4.png">现券对话成交</a></li>
+<li>目前iDeal支持【现券买卖】、【质押式回购】、【利率互换】</li>
+<li><strong>方式一：</strong>发起iDeal聊天（商定要素：期限、资金量、利率|‘非必填’）$\longrightarrow$ <font color =red>聊天窗口发对话报价意向</font>$\longrightarrow$转对话报价$\longrightarrow$ 格式化交谈$\longrightarrow$成交确认（需补充完其他要素，如：本方交易账户、对手方、利率、质押券及其券面总额、折算总额（折算比例可取CFETS标准折算率，也可自行商谈）、期限）</li>
+<li><strong>方式二：</strong>直接发起对话报价$\longrightarrow$格式化交谈$\longrightarrow$成交确认</li>
+<li>对手方通过消息盒子处理收到的对话报价请求。对话交谈轮次不超过5轮。通过功能列表—我的交易查看</li>
+<li><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/iDeal%E5%8F%91%E8%B5%B7%E8%81%8A%E5%A4%A9.png">iDeal发起聊天</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/iDeal%E8%A6%81%E7%B4%A0%E5%A1%AB%E5%86%99.png">iDeal要素填写</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AF%B9%E8%AF%9D%E6%8A%A5%E4%BB%B7%E5%8F%91%E8%B5%B7%E7%95%8C%E9%9D%A2.png">对话报价发起界面</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%AF%B9%E6%89%8B%E6%96%B9%E5%A4%84%E7%90%86%E6%8A%A5%E4%BB%B7%E7%94%B3%E8%AF%B7.png">对手方处理报价申请</a></li>
+</ul>
+<h3 id="3-1-2-资金意向（意向转对话）"><a href="#3-1-2-资金意向（意向转对话）" class="headerlink" title="3.1.2 资金意向（意向转对话）"></a>3.1.2 <strong>资金意向</strong>（意向转对话）</h3><ul>
+<li><strong>方式三：</strong><font color =red>在【我要报价】发起资金意向报价</font>$\longrightarrow$在资金意向版（即货币市场报价行情）$\longrightarrow$转对话</li>
+<li>实时报价、表明交易意向。可通过设置群组发送至指定对象群组，发送范围也可为全市场  </li>
+<li>报价要素成交方式可以选择【质押、拆借、买断单券、买断多券】</li>
+<li>报价要素包括：基准利率（固定利率、DR、R、Shibor、IBO）、成交方式</li>
+<li><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B5%84%E9%87%91%E6%84%8F%E5%90%91%E6%8A%A5%E4%BB%B7.png">资金意向报价</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%B5%84%E9%87%91%E6%84%8F%E5%90%91%E6%8A%A5%E4%BB%B72.png">资金意向报价2</a></li>
+</ul>
+<h3 id="3-1-3-现券意向报价（意向转对话-’X-Bargin‘）"><a href="#3-1-3-现券意向报价（意向转对话-’X-Bargin‘）" class="headerlink" title="3.1.3 现券意向报价（意向转对话|’X-Bargin‘）"></a>3.1.3 现券意向报价（意向转对话|’X-Bargin‘）</h3><ul>
+<li>非实价报价、表明交易意向，发送范围为全市场，可匿名（即X-Bargain，归于意向报价中，不单列于报价方式）<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E6%84%8F%E5%90%91%E6%8A%A5%E4%BB%B7%E7%95%8C%E9%9D%A2.png">现券意向报价界面</a></li>
+<li>同一只债券只能发送一笔同一方向的意向报价  </li>
+<li><font color =red>X-Bargin支持三轮询价</font>。交易要素：明价、底价、做市商费用（若需要做市商搭桥代为交易，以厘计价）、券面总额，另可选【一口价】（本轮谈判是否允许修改报价信息）、AON（All or None|对于券面总额’全部成交或是全部不成交’）<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X-Brargin.png">X-Brargin</a></li>
+<li>X-Bargin达成交易后，进行分仓（选择对应的交易账户）<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X-Bargin%E4%BA%A4%E6%98%93%E5%88%86%E4%BB%93.png">X-Bargin交易分仓</a>| <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X-Bargin%E4%BA%A4%E6%98%93%E5%88%86%E4%BB%932.png">X-Bargin交易分仓2</a></li>
+</ul>
+<h3 id="3-1-4-利率互换—对话报价"><a href="#3-1-4-利率互换—对话报价" class="headerlink" title="3.1.4 利率互换—对话报价"></a>3.1.4 利率互换—对话报价</h3><ul>
+<li>须交易双方都给对手方维护利率互换市场对话报价的<font color =red>对手方限额</font>方可成交。支持询价，轮次不超过5次。</li>
+<li>计算机构选择“中国外汇交易中心”的前提是与交易中心签署了计算代理协议。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E2%80%94%E5%8D%8F%E5%95%86%E6%8A%A5%E4%BB%B7.png">利率互换—协商报价</a></li>
+</ul>
+<h3 id="3-1-5-债券借贷—意向报价、对话报价"><a href="#3-1-5-债券借贷—意向报价、对话报价" class="headerlink" title="3.1.5 债券借贷—意向报价、对话报价"></a>3.1.5 债券借贷—意向报价、对话报价</h3><ul>
+<li>意向报价：非实价报价、表明交易意向，可发送标的债券类型/代码或者标的债券类型的意向报价，发送范围为全市场，可匿名。非本方发出的具名意向报价可转成对话报价。</li>
+<li>对话报价：<ul>
+<li>不可进行格式化交谈，要素商定可通过聊天工具iDeal进行。</li>
+<li>质押券最大数量15只，且债券币种只能为CNY  <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%80%BA%E5%88%B8%E5%80%9F%E8%B4%B7%E6%8A%A5%E4%BB%B7.png">债券借贷报价</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="3-1-6-买断式回购—对话报价"><a href="#3-1-6-买断式回购—对话报价" class="headerlink" title="3.1.6 买断式回购—对话报价"></a>3.1.6 买断式回购—对话报价</h3><ul>
+<li>类型：单券、多券。支持格式化交谈，必须在5轮内完成。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%B9%B0%E6%96%AD%E5%BC%8F%E5%9B%9E%E8%B4%AD-%E5%AF%B9%E8%AF%9D%E6%8A%A5%E4%BB%B7.png">买断式回购-对话报价</a></li>
+</ul>
+<h2 id="3-2-报价驱动（由做市-资金商报价）"><a href="#3-2-报价驱动（由做市-资金商报价）" class="headerlink" title="3.2 报价驱动（由做市/资金商报价）"></a>3.2 报价驱动（由做市/资金商报价）</h2><p><strong>债券市场—做市商；货币市场—资金商</strong></p>
+<h3 id="3-2-1-做市报价"><a href="#3-2-1-做市报价" class="headerlink" title="3.2.1 做市报价"></a>3.2.1 做市报价</h3><ul>
+<li>发起方只能是做市商，发送范围是全市场，点击方是具有现券交易权限的所有现券交易员  </li>
+<li>必须同时发送买、卖两个方向的报价  </li>
+<li>报价发送后本方可以冻结、撤销和修改该笔报价 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%8E%B0%E5%88%B8%E4%B9%B0%E5%8D%96%E2%80%94%E5%81%9A%E5%B8%82%E6%8A%A5%E4%BB%B7.png">[现券买卖—做市报价]</a>  </li>
+<li>本方可在“我的做市”面板中管理机构的指示性报价 </li>
+<li>现券买卖做市分层：<ul>
+<li>报价发送方：有分层报价权限的做市机构用户，且已维护分层报价群组</li>
+<li>做市机构发送活跃券的分层报价后，群组中的机构可在活跃券报价 行情看到小蓝点，深度行情中展示的蓝色字体数据即为分层报价 <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%81%9A%E5%B8%82%E6%8A%A5%E4%BB%B7%E5%88%86%E5%B1%82.png">[做市报价分层]</a> | <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%81%9A%E5%B8%82%E6%8A%A5%E4%BB%B7%E5%88%86%E5%B1%822.png">[做市报价分层2]</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="3-2-2-指示性报价"><a href="#3-2-2-指示性报价" class="headerlink" title="3.2.2 指示性报价"></a>3.2.2 指示性报价</h3><ul>
+<li>指示性报价：解决做市报价中点击即成交带来的压力。<font color =red>不能直接报价，通过转请求报价进行成交</font></li>
+<li>发起方只能是做市商，发送范围是全市场。发送内容为含价格、可以不含量的买卖两个方向的报价<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%8C%87%E7%A4%BA%E6%80%A7%E6%8A%A5%E4%BB%B7.png">图1</a><ul>
+<li>不可直接被成交，只可以被转成请求报价，转换成请求报价时可只发给一家做市机构（交易对手），也可添加其他做市机构</li>
+</ul>
+</li>
+<li>本方可在“我的做市”面板中管理机构的指示性报价</li>
+<li>对手方可在现券买卖-综合报价-最优报价页面或单券报价行情中查看指示性价格，双击后进入请求报价。</li>
+</ul>
+<h3 id="3-2-3-请求报价—现券"><a href="#3-2-3-请求报价—现券" class="headerlink" title="3.2.3 请求报价—现券"></a>3.2.3 请求报价—现券</h3><p><strong>请求报价：需求方请求做市方报价。</strong></p>
+<ul>
+<li>分仓方式有3个选择，不分仓和PreAllocation（前分仓）、 Post-Allocation（后分仓）<ul>
+<li>前分仓：做市商回复的券面总额小于请求量时，确认成交前可以修改分仓量；若等于请求量则无法修改  </li>
+</ul>
+</li>
+<li><font color =red>**发送时只包含券面总额，不包含价格**</font></li>
+<li>回复请求报价：做市机构可通过请求回复界面查看待回复状态的RFQ请求，并具名回复报价。回复时可修改券面总额，改后不可超过请求量。</li>
+<li><p>请求方可在我的报价界面中查看做市机构的回复，右上角红色气泡中数字表示回复方数量，红色标识出最优价格。双击某笔待成交RFQ报价，请求报价确认窗 口将展示所有回复方的回复内容。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%96%B9%E5%9B%9E%E5%A4%8D%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7.png">[请求方回复请求报价]</a></p>
+</li>
+<li><font color =red>成交后，未选中的交易将消失</font>
+
+</li>
+</ul>
+<h3 id="3-2-4-请求报价—质押式回购"><a href="#3-2-4-请求报价—质押式回购" class="headerlink" title="3.2.4 请求报价—质押式回购"></a>3.2.4 请求报价—质押式回购</h3><ul>
+<li>正回购方：<ul>
+<li>本方在资金商白名单内才可向其发送RFQ，仅支持正回购。</li>
+<li>可选择一个或多个资金交易商，对手方交易员非必填。</li>
+<li>分仓方式：不分仓和Pre-Allocation。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E6%AD%A3%E5%9B%9E%E8%B4%AD%E6%96%B9.png">[请求报价-正回购方]</a></li>
+<li><font color =red>若发给多个资金商， RFQ选择一笔确认成交后，即使成交量等于请求量时，还可继续确认回复并成交 </font> </li>
+<li>本方确认资金商回复价格后，在“提券管理”中管理待提券 报价，补充质押券信息。质押券最多不超过15只；支持质押境外债；支持质押跨托管机构的债券；可选择CFETS标准折算率<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E6%AD%A3%E5%9B%9E%E8%B4%AD%E6%96%B9%E8%B4%A8%E6%8A%BC%E6%8F%90%E5%88%B8.png">[请求报价-正回购方质押提券]</a> | <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E6%AD%A3%E5%9B%9E%E8%B4%AD%E6%96%B9%E8%B4%A8%E6%8A%BC%E6%8F%90%E5%88%B82.png">[请求报价-正回购方质押提券2]</a></li>
+</ul>
+</li>
+<li>逆回购方：<ul>
+<li>资金商在“我的回复”可批量回复。回复时， “回复量”和“回复有限时间”为必填项；<font color =red>“回购利率”为非必填项，可由正回购方在提券时填写</font></li>
+<li>在提券管理页面收到已提券报价后，可直接确认成交。支持修改提交，交谈询价轮次不超过 5次。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E9%80%86%E5%9B%9E%E8%B4%AD%E6%96%B9%E6%8F%90%E5%88%B8.png">[请求报价-逆回购方提券]</a> | <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7-%E9%80%86%E5%9B%9E%E8%B4%AD%E6%96%B9%E6%8F%90%E5%88%B82.png">[请求报价-逆回购方提券2]</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="3-2-5-请求报价—利率互换"><a href="#3-2-5-请求报价—利率互换" class="headerlink" title="3.2.5 请求报价—利率互换"></a>3.2.5 请求报价—利率互换</h3><ul>
+<li>分仓方式：不分仓和Pre-Allocation</li>
+<li><font color = red>当请求报价发送给多个对手方且多个对手方机构给予回复，请求方仅可就一笔回复进行成交，不可成交多笔。</font>已确认成交的请求报价结束，不再“我的请求”界面显示</li>
+<li><font color =red>选择直接合约，授信充足时，回复方回复量必须等于请求量；授信不足时，系统自动计算授信范围内的最大回复量，不可修改</font> <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7%E2%80%94%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2.png">[请求报价—利率互换]</a></li>
+</ul>
+<h3 id="3-2-6-请求报价—南向通"><a href="#3-2-6-请求报价—南向通" class="headerlink" title="3.2.6 请求报价—南向通"></a>3.2.6 请求报价—南向通</h3><ul>
+<li>请求方可根据实际情况选择对手方机构数量，至少发送给1家做市机构</li>
+<li>请求报价发送成功后可在我的报价-南向通中查看，本方状态为：已发送，本方可以撤销<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7%E2%80%94%E5%8D%97%E5%90%91%E9%80%9A.png">[请求报价—南向通]</a></li>
+</ul>
+<h3 id="3-2-7-小结："><a href="#3-2-7-小结：" class="headerlink" title="3.2.7 小结："></a>3.2.7 小结：</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7%E2%80%94%E5%B0%8F%E7%BB%93.png" alt="请求报价—小结"></p>
+<h2 id="四、订单驱动（即匿名点击）"><a href="#四、订单驱动（即匿名点击）" class="headerlink" title="四、订单驱动（即匿名点击）"></a>四、订单驱动（即匿名点击）</h2><ul>
+<li><strong>X—Bond：</strong>略</li>
+<li><p><strong>X—Swap：</strong>须满足最小有效授信账户主体数（5家）要求。须提前设置X-Swap资金账户<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Swap2.png">[X—Swap2]</a></p>
+</li>
+<li><p><strong>X—Repo：</strong></p>
+<ul>
+<li><strong>正回购</strong>可交易对手数量不得低于30个。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Repo%E6%AD%A3%E5%9B%9E%E8%B4%AD.png">[X—Repo正回购]</a></li>
+<li>预提质押劵开关按钮：开关默认关闭，可手动开启；单笔交易质押券最大数量为15个。</li>
+<li>回购利率超出X-Repo涨跌幅设置范围时，系统提示：回购利率超出可交易范围。</li>
+<li>若本方正回购订单的回购利率高于本方逆回购订单的回购利率则提示价格出现倒挂，提交失败。</li>
+<li><strong>逆回购</strong>可交易对手数量不得低于30个<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Repo%E9%80%86%E5%9B%9E%E8%B4%AD.png">[X—Repo逆回购]</a></li>
+<li>交易时段外提交成功的订单展示为预提交状态，非有效。</li>
+<li><font color =red>具有分层报价权限的机构</font>，显示分层报价的开关按钮，开关默认关闭，可手动开启； 可以选择群组进行报价，群组上限5个  </li>
+</ul>
+</li>
+<li><p><strong>X—Lending：</strong></p>
+<ul>
+<li>标的债券代码： X-Lending可交易债券列表可在【文件下载】界面下载后查看。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Lending1.png">[X—Lending1]</a></li>
+<li>质押券属性：选择某类质押券属性，则该笔交易仅能提交该类质押券，比如选择”利率债”，则融入方<br>提交质押券时，仅能选择国债、政策性金融债、央行票据。</li>
+</ul>
+</li>
+<li><p><strong>X—Auction：</strong></p>
+<ul>
+<li>预申报：打开 X-Auction-匿名拍卖-预申报页面。右上方展示当前场次、预申报日及时间段<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/X%E2%80%94Auction.png">[图1]</a></li>
+<li>申报：申报日，可在 X-Auction 申报界面查看可申报债券，并进行申报</li>
+<li>双向报价：拍卖日-双向报价阶段，在我要报价页面提交双向报价</li>
+<li>订单：拍卖日-集中报价阶段，在我要报价页面提交订单</li>
+</ul>
+</li>
+</ul>
+<h3 id="4-1-连续报价"><a href="#4-1-连续报价" class="headerlink" title="4.1 连续报价"></a>4.1 连续报价</h3><ul>
+<li><p><strong>交易规则：</strong></p>
+<ul>
+<li>交易时段内可发送报价进行匹配撮合，也可直接点击成交。</li>
+<li>用户提交订单后，系统根据授信约束按照<font color =red>价格优先、时间优先</font>原则匹配  </li>
+<li>匹配成交时，以先进入订单簿的价格成交；<font color =red>可以最小变动单位的整数倍拆分成交 </font></li>
+<li>对于未被匹配成交的有效订单，系统根据机构的双边授信约束匿名显示每个机构可成交的市场最优5档价格（做市机构10档）供点击成交；  </li>
+<li>系统提供扫单功能，即点击某档深度价格时，可成交该价格以上的所有订单。  </li>
+</ul>
+</li>
+<li><p><strong>订单类型/策略交易：</strong></p>
+<p><a href="https://mp.weixin.qq.com/s/vuwkWd254-G3ATH9KruS9Q">教你玩转X-Bond第二篇：如何设置策略交易</a></p>
+<ul>
+<li><strong>限价订单：</strong>发送包含价格和券面总额的订单，与订单簿中优于或等于该价格的反方向订单匹配成交，未撮合成功的进入订单簿  </li>
+<li><strong>弹性订单：</strong>发送的订单除价格和券面总额外，还增加一定的价格弹性（BP），即设置了底价，可与优于或等于底价价格的反方向订单匹配成交  </li>
+<li><strong>市转限：</strong>发送只含量的订单，按市场最优价开始匹配，如果发送的量大于市场上所有的反向订单量，则剩余的量按成交的最差价格进入订单簿。  </li>
+<li><strong>市转撤：</strong>发送只含量的订单，按市场最优价开始匹配，如果发送的量大于市场上所有的反向订单量，则<br>剩余的量全部撤销。  </li>
+<li><strong>OCO订单（One Cancels the order）：</strong>将多个订单设置成OCO订单，当其中任何一笔订单匹配成交完成，其他订单自动撤销</li>
+<li><strong>If Done订单：</strong>将一笔活动的和一笔冻结的订单进行绑定，当活动的订单匹配成交完，冻结的订单自动被激活 </li>
+</ul>
+</li>
+</ul>
+<h3 id="4-2-集中报价（略）"><a href="#4-2-集中报价（略）" class="headerlink" title="4.2 集中报价（略）"></a>4.2 集中报价（略）</h3><h1 id="五、总结："><a href="#五、总结：" class="headerlink" title="五、总结："></a>五、总结：</h1><h2 id="5-1-分市场报价与交易方式总结"><a href="#5-1-分市场报价与交易方式总结" class="headerlink" title="5.1 分市场报价与交易方式总结"></a>5.1 分市场报价与交易方式总结</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%86%E5%B8%82%E5%9C%BA%E6%8A%A5%E4%BB%B7%E4%B8%8E%E4%BA%A4%E6%98%93%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93.png" alt="分市场报价与交易方式总结"></p>
+<h2 id="5-2-交易方式"><a href="#5-2-交易方式" class="headerlink" title="5.2 交易方式"></a>5.2 交易方式</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E6%96%B9%E5%BC%8Fbacked.png" alt="交易方式"></p>
+<h2 id="5-3-交易限额设置"><a href="#5-3-交易限额设置" class="headerlink" title="5.3 交易限额设置"></a>5.3 交易限额设置</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png" /></p>
+<h2 id="5-4-功能设置生效时间总结"><a href="#5-4-功能设置生效时间总结" class="headerlink" title="5.4 功能设置生效时间总结"></a>5.4 功能设置生效时间总结</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8A%9F%E8%83%BD%E8%AE%BE%E7%BD%AE%E7%94%9F%E6%95%88%E6%97%B6%E9%97%B4%E6%80%BB%E7%BB%93.png" alt="功能设置生效时间总结"></p>
+<h2 id="5-5-交易时间总结"><a href="#5-5-交易时间总结" class="headerlink" title="5.5 交易时间总结"></a>5.5 交易时间总结</h2><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E6%97%B6%E9%97%B4%E6%80%BB%E7%BB%93.png" alt="交易时间总结"></p>
+<h1 id="六、练习："><a href="#六、练习：" class="headerlink" title="六、练习："></a>六、练习：</h1><h2 id="6-1-用户管理："><a href="#6-1-用户管理：" class="headerlink" title="6.1 用户管理："></a>6.1 用户管理：</h2><ol>
+<li><p>CIBMTS的两级用户：系统管理员、普通用户</p>
+</li>
+<li><p>本币新平台提供的限额管理功能在哪里设置？哪些市场必须要设置对手方限额才能交易？</p>
+<p>限额管理在新本币的管理设置-交易设置下；信用拆借、利率互换、利率互换期权、利率上限/下限期权、信用违约互换、远期利率协议  </p>
+</li>
+<li><p>做信用拆借交易前必须做哪些设置？做现券买卖交易前必须做哪些设置？</p>
+<p>做信用拆借前必须要进行对手方限额和交易员限额设置以及资金账户设置；做现券买卖交易前必须要进行资金和托管账户设置</p>
+</li>
+</ol>
+<h2 id="6-2-现券RFQ"><a href="#6-2-现券RFQ" class="headerlink" title="6.2 现券RFQ"></a>6.2 现券RFQ</h2><ol>
+<li>发送一笔卖出请求报价，债券代码180027，清算速度T+1，券面总额5000万。</li>
+<li>其中一家机构收到报价请求后回复，修改报价量为4000万，净价为98.5，另一家机构收到请求后输入净价98.3后回复。</li>
+<li>用户收到请求回复后，查看最优报价，并选择最优报价进行确认成交。  </li>
+</ol>
+<h2 id="6-3-质押RFQ"><a href="#6-3-质押RFQ" class="headerlink" title="6.3 质押RFQ"></a>6.3 质押RFQ</h2><ol>
+<li>资金交易商A和资金交易商B将演示机构添加到其质押RFQ白名单内，演示机构发送一笔正回购方向的请求报价到这2家机构，清算速度T+0，券面总额5000万</li>
+<li>其中资金商A收到报价请求后回复，修改回复量为4000万，资金商B收到请求后回复默认量5000万，回购利率3.34%</li>
+<li>用户收到请求回复后，查看回复的量和回购利率，并选择进行确认</li>
+<li>正回购方完成提券，逆回购方成交  </li>
+</ol>
+]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>本币交易</category>
+      </categories>
+      <tags>
+        <tag>系统功能</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>本币交易梳理03--利率市场化改革</title>
     <url>/post/63431/</url>
     <content><![CDATA[<p>Pending</p>
@@ -1601,104 +1601,6 @@
       </categories>
       <tags>
         <tag>政策与规范</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>法考—刑法—柏浪涛</title>
-    <url>/post/63791/</url>
-    <content><![CDATA[<p><table>
-    <tr>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%951.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%952.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%953.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%954.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%955.png" width=120/></td>
-        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%956.png" width=120/></td>
-</table><br><strong>通过典型的案例建构行为模型；前苏联：旧理论；德日：新理论(官方立场|代表人物：清华大学张明楷)</strong></p>
-<h1 id="1-刑法总论"><a href="#1-刑法总论" class="headerlink" title="1 刑法总论"></a>1 刑法总论</h1><h2 id="1-1-刑法论"><a href="#1-1-刑法论" class="headerlink" title="1.1 刑法论"></a>1.1 刑法论</h2><h3 id="第一节-刑法的解释"><a href="#第一节-刑法的解释" class="headerlink" title="第一节 刑法的解释"></a>第一节 刑法的解释</h3><h4 id="刑法解释："><a href="#刑法解释：" class="headerlink" title="刑法解释："></a><strong>刑法解释：</strong></h4><p><strong>解释法律、适用法律，而不是如何批判法律、完善法律</strong></p>
-<ul>
-<li>解释的对象是法律文本，是现行刑法规范。包括：一、1997 年10 月1 日生效的刑法典；刑法修正案是对刑法典作的小修小补，至今巳有11 个刑法修正案。二、一部单行刑法。</li>
-<li>解释方法包括解释技巧和解释理由。解释技巧负责生产结论，解释理由负责为结论提供论证理由。</li>
-</ul>
-<h4 id="解释技巧："><a href="#解释技巧：" class="headerlink" title="解释技巧："></a><strong>解释技巧：</strong></h4><ol>
-<li>平义解释</li>
-<li>扩大解释（扩张解释）</li>
-<li>缩小解释（限制解释）</li>
-<li>类推解释：<font color =red>允许扩大解释，禁止类推解释，但有例外</font>；(另解：<sup><font color =blue>Adobe</font></sup>即不符合刑法文字的可能含义)</li>
-<li>反义解释：A和非A</li>
-</ol>
-<h4 id="解释理由："><a href="#解释理由：" class="headerlink" title="解释理由："></a><strong>解释理由：</strong></h4><ol>
-<li>文理解释</li>
-<li>体系解释：一词多义、多词一义、同类解释</li>
-<li>当然解释：举重以明轻 | 举轻以明重；两个事项必须是性质相同、程度不同的关系；法益比较、轻重比较</li>
-<li>目的解释：就是用<a href="#法益">法益</a>来解释罪名的构成要件。刑法的保护目的就是法益<br> <strong>注：解释技巧之间是排斥关系，即解释技巧只能选择一种；而解释理由之间是并存关系，且越多越好</strong><br> 前者负责生产结论，后者负责论证结论的合理性，要求二者正反推均成立。如：解释技巧生产结论，但论证理由不充分，则不采纳；解释理由论证解释技巧合理，但技巧为类推解释，则不采纳。</li>
-</ol>
-<h3 id="第二节-刑法的功能"><a href="#第二节-刑法的功能" class="headerlink" title="第二节 刑法的功能"></a>第二节 刑法的功能</h3><ol>
-<li><p><span id="法益">保护法益</span>：法益，是指刑法保护的利益。一个罪名的保护法益也称为保护客体或犯罪客体。犯罪是指侵害法益的行为。</p>
-</li>
-<li><p>保障人权：严格依据刑法来定罪处罚。即刑法在打击犯罪、保护法益的同时，也应保障人权。</p>
-<font color =red>若一味侧重保护法益，则容易认定为有罪。若一味侧重保障人权，则容易认定为无罪。二者冲突时，优先保障人权。</font>
-
-</li>
-</ol>
-<h3 id="第三节-刑法的原则"><a href="#第三节-刑法的原则" class="headerlink" title="第三节 刑法的原则"></a>第三节 刑法的原则</h3><h4 id="罪刑法定原则"><a href="#罪刑法定原则" class="headerlink" title="罪刑法定原则"></a>罪刑法定原则</h4><ul>
-<li>法无明文规定不为罪，法无明文规定不处；目的是保障人权。<ol>
-<li><strong>思想基础：</strong><br>a. 民主主义：意指只有民主产生的立法机关才有权规定犯罪与刑罚。<br>b. 自由主义（最重要的）：也称为尊重人权主义，意指<font color =red>法律应当具有预测可能性</font>，使国民知晓什么是犯罪，什么不是犯罪，以保障个人的行动自由。这种思想也称为国民预测可能性原理。<br>例：新中国1979年第一部刑法典出台前使用反革命条例，以致出现“反革命梦奸罪”、“反革命不讲卫生罪”。79年刑法典出台后，由于部分罪名未明确，如：流氓罪，投机倒把罪（皆与97年废除），因此未列入罪刑法定原则（97年列入）。</li>
-<li><strong>基本内容：</strong><br>a. 成文的罪刑法定：1. 法律主义：如全国人大制定的基本法律、国务院制定的行政法规。只有全国人大及其常委会有资格规定犯罪和刑法，而国务院及两高的司法解释均没有立法权，只有解释权。2. 禁止习惯法：即不能像民法一样适用习惯法，民法是意思自治原则（即双方可以商量解决），而刑法是罪刑法定原则。<br>b. 事前的罪刑法定：禁止溯及既往、刑法的时间效力<br>c. 严格的罪刑法定：禁止类推解释，但允许扩大解释<br>d. 确定的罪刑法定：指罪刑规范应当明确、适当。(1) 明确性要求；(2) 禁止绝对不定刑及绝对不定期刑：即不明确刑罚的种类和期刑的刑期；(3) 禁止处罚不当罚的行为：体现刑法的谦抑性/补充性要求：即民法、行政法无济于事、无法规制后才适用刑法，因为刑罚是最严厉的制裁措施；(4) 禁止不均衡、残虐的刑罚：即刑罚应与罪行相适应， 重罪重判， 轻罪轻判，广义上可以包含罪刑相适应原则。<br><strong>注*：民法和刑法不是对立排斥关系，而是位阶关系（适用顺序而言），如：刑事附带民事诉讼制度，即如果罪行既符合民法又符合刑法，以刑法为主，附带民事诉讼。民法和刑法基本法律，地位平等。</strong></li>
-</ol>
-</li>
-</ul>
-<h4 id="罪刑相适应原则"><a href="#罪刑相适应原则" class="headerlink" title="罪刑相适应原则"></a>罪刑相适应原则</h4><ul>
-<li>又罪刑均衡原则，即刑罚应与罪行相适应， 重罪重判， 轻罪轻判</li>
-<li><strong>量刑标准包含法益侵害性和人身危险性（再犯可能性）</strong></li>
-<li><strong>法益侵害性</strong>是针对已然发生的犯罪事实，又报应刑或责任刑。<strong>人身危害性</strong>是针对未然的犯罪事实，预防未来再犯的犯罪事实，又预防刑或目的刑。<br>如：1. 入室抢劫与普通抢劫重，因为多了法益侵害性（侵入住宅）；2. 累犯从重处罚，因为多了人身危险性（再犯可能性）；3. 投案自首从宽处罚是由于再犯可能性降低。<br><strong>刑罚个别化理念：</strong>即再犯可能性因人而异，如：为了吸毒偷钱与为了治病偷钱。</li>
-</ul>
-<h3 id="第四节-刑法的效力"><a href="#第四节-刑法的效力" class="headerlink" title="第四节 刑法的效力"></a>第四节 刑法的效力</h3><h4 id="一、刑法的空间效力"><a href="#一、刑法的空间效力" class="headerlink" title="一、刑法的空间效力"></a>一、刑法的空间效力</h4><p><strong>（一）在中国境内犯罪：属地管辖原则</strong></p>
-<ol>
-<li>“我国领域”包括领土、领水、领空<br><strong>a. 旗国主义。</strong>仅航空器（飞机）与船舶属于，国际列车、国际长途汽车不属于。</li>
-<li>属地管辖原则之“地”，既包括犯罪行为地，也包括犯罪结果地。<br><strong>a. 犯罪行为。</strong>从共同犯罪上分，包括<strong>实行</strong>行为地、<strong>教唆</strong>行为地、和<strong>帮助</strong>行为地；从犯罪形态上分，包括<strong>预备</strong>行为地和<strong>实行</strong>行为地。上述行为中，只要有一项行为发生在国内，其他相关行为即使发生在国外，也认为是在我国领域内犯罪。（如：从缅甸打电话到国内进行诈骗，犯罪结果在国内，因此也能依据属地管辖原则进行管辖）<br><strong>b. 犯罪结果。</strong>从共同犯罪上分，包括整体结果和部分共犯人的结果；从犯罪形态上分，包括实害结果和危险结果。</li>
-</ol>
-<p><strong>（二）在中国境外犯罪：属人管辖原则、保护管辖原则、普遍管辖原则</strong></p>
-<ol>
-<li>属人管辖原则：我国公民在境外犯罪（但是最高刑为三年以下有期徒刑的（即轻罪），可以不予追究；国家工作人员和军人一律追究）</li>
-<li>保护管辖原则：外国人在境外对中国人或中国政府犯罪，且为重罪（最低刑3年以上），且遵循双重犯罪原则（即犯罪地的法律也认为是犯罪）</li>
-<li>普遍管辖：国际犯罪<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%91%E6%B3%95%E7%9A%84%E7%A9%BA%E9%97%B4%E6%95%88%E5%8A%9B.png" alt="刑法的空间效力" style="zoom:50%;" /></li>
-</ol>
-<p>朝鲜领导的哥哥金正男在马来西亚被越南人杀死。朝鲜-保护管辖；马来西亚-属地管辖；越南-属人管辖。</p>
-<h4 id="二、刑法的时间效力（即溯及力）"><a href="#二、刑法的时间效力（即溯及力）" class="headerlink" title="二、刑法的时间效力（即溯及力）"></a>二、刑法的时间效力（即溯及力）</h4><ol>
-<li>从旧兼从轻原则：原则上适用旧法（行为时的法律），但适用新法有利于被告人时，适用新法。也即，原则上禁止法律溯及既往，例外是不禁止有利于被告人的溯及既往。（如：适用新法，被告人能够被判得更轻）</li>
-<li><font color =red>该原则的使用对象是未决犯，即案件发生在旧法，审判发生在新法。</font>对于已决犯（已判决的案件）则不存在是否溯及既往的问题。<br>另，再审案件也是适用旧法。</li>
-<li>司法解释的时间效力：<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%91%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E6%95%88%E5%8A%9B.png" alt="司法解释的时间效力" style="zoom:50%;" />即第一种是“从旧”，第二种是“从旧兼从轻”<br><em>随笔：专业无贵贱，知识有阶梯；叔本华：人的痛苦都来自价值观</em></li>
-</ol>
-]]></content>
-      <categories>
-        <category>司法考试</category>
-      </categories>
-      <tags>
-        <tag>刑法</tag>
-        <tag>柏浪涛</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>结构化ABS与金融模型：投资收益与风险管理</title>
-    <url>/post/32586/</url>
-    <content><![CDATA[<h1 id="结构化融资与非标产品"><a href="#结构化融资与非标产品" class="headerlink" title="结构化融资与非标产品"></a>结构化融资与非标产品</h1><h2 id="结构化融资："><a href="#结构化融资：" class="headerlink" title="结构化融资："></a>结构化融资：</h2><ol>
-<li><strong>结构化融资评级：</strong>指以基础资产未来所产生的现金流为偿付支持，通过结构化设计进行信用增级，在此基础上发行资产支持证券的过程。它是以特定资产组合或特定现金流为支持，发行可交易证券的一种融资形式。</li>
-<li><strong>结构化融资主要分为：</strong>信贷资产证券化、交易商协会ABN、证监会主管ABS、银保监会主管ABS 。</li>
-</ol>
-<h2 id="非标准化债权资产评级："><a href="#非标准化债权资产评级：" class="headerlink" title="非标准化债权资产评级："></a>非标准化债权资产评级：</h2><ol>
-<li><strong>非标准化债权资产：</strong>指未在银行间市场及证券交易所市场交易的债权性资产，它通常绕过银行或债券审批管理部门，通过某个非标准化的载体(如信托计划等)，将投融资双方衔接起来。</li>
-<li><strong>非标准化产品：</strong>信托产品、 保险债权投资计划、保险股权投资计划、保险资产支持计划等、集合资金信托计划、信贷资产支持证券、专项资产管理计划、资产支持计划等都属于非标资产。</li>
-</ol>
-<h1 id="金融模型"><a href="#金融模型" class="headerlink" title="金融模型"></a>金融模型</h1><h2 id="蒙特卡洛模型-Monte-Carlo-simulation"><a href="#蒙特卡洛模型-Monte-Carlo-simulation" class="headerlink" title="蒙特卡洛模型(Monte-Carlo simulation)"></a>蒙特卡洛模型(Monte-Carlo simulation)</h2><h2 id="有限差分方法-Finite-Difference-Method"><a href="#有限差分方法-Finite-Difference-Method" class="headerlink" title="有限差分方法(Finite-Difference Method)"></a>有限差分方法(Finite-Difference Method)</h2><h2 id="风险价值-Value-at-Risk"><a href="#风险价值-Value-at-Risk" class="headerlink" title="风险价值(Value-at-Risk)"></a>风险价值(Value-at-Risk)</h2><h2 id="预期缺口-Expected-Shortfall"><a href="#预期缺口-Expected-Shortfall" class="headerlink" title="预期缺口(Expected Shortfall)"></a>预期缺口(Expected Shortfall)</h2><h2 id="Jump-Diffusion-Model"><a href="#Jump-Diffusion-Model" class="headerlink" title="Jump-Diffusion Model"></a>Jump-Diffusion Model</h2><h2 id="Local-Stochastic-Volatility-Model"><a href="#Local-Stochastic-Volatility-Model" class="headerlink" title="Local Stochastic Volatility Model"></a>Local Stochastic Volatility Model</h2><h2 id="市场风险计量模型"><a href="#市场风险计量模型" class="headerlink" title="市场风险计量模型"></a>市场风险计量模型</h2><h2 id="交易对手信用风险测量模型"><a href="#交易对手信用风险测量模型" class="headerlink" title="交易对手信用风险测量模型"></a>交易对手信用风险测量模型</h2>]]></content>
-      <categories>
-        <category>风险管理与信用</category>
-      </categories>
-      <tags>
-        <tag>投资收益与风险管理</tag>
-        <tag>信用评级</tag>
-        <tag>结构融资/非标融资</tag>
-        <tag>资产证券化ABS</tag>
       </tags>
   </entry>
   <entry>
@@ -2005,6 +1907,120 @@
       </tags>
   </entry>
   <entry>
+    <title>法考—刑法—柏浪涛</title>
+    <url>/post/63791/</url>
+    <content><![CDATA[<p><table>
+    <tr>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%951.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%952.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%953.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%954.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%955.png" width=120/></td>
+        <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%B3%95%E8%80%83%E7%9B%AE%E5%BD%956.png" width=120/></td>
+</table><br><strong>通过典型的案例建构行为模型；前苏联：旧理论；德日：新理论(官方立场|代表人物：清华大学张明楷)</strong></p>
+<h1 id="1-刑法总论"><a href="#1-刑法总论" class="headerlink" title="1 刑法总论"></a>1 刑法总论</h1><h2 id="1-1-刑法论"><a href="#1-1-刑法论" class="headerlink" title="1.1 刑法论"></a>1.1 刑法论</h2><h3 id="第一节-刑法的解释"><a href="#第一节-刑法的解释" class="headerlink" title="第一节 刑法的解释"></a>第一节 刑法的解释</h3><h4 id="刑法解释："><a href="#刑法解释：" class="headerlink" title="刑法解释："></a><strong>刑法解释：</strong></h4><p><strong>解释法律、适用法律，而不是如何批判法律、完善法律</strong></p>
+<ul>
+<li>解释的对象是法律文本，是现行刑法规范。包括：一、1997 年10 月1 日生效的刑法典；刑法修正案是对刑法典作的小修小补，至今巳有11 个刑法修正案。二、一部单行刑法。</li>
+<li>解释方法包括解释技巧和解释理由。解释技巧负责生产结论，解释理由负责为结论提供论证理由。</li>
+</ul>
+<h4 id="解释技巧："><a href="#解释技巧：" class="headerlink" title="解释技巧："></a><strong>解释技巧：</strong></h4><ol>
+<li>平义解释</li>
+<li>扩大解释（扩张解释）</li>
+<li>缩小解释（限制解释）</li>
+<li>类推解释：<font color =red>允许扩大解释，禁止类推解释，但有例外</font>；(另解：<sup><font color =blue>Adobe</font></sup>即不符合刑法文字的可能含义)</li>
+<li>反义解释：A和非A</li>
+</ol>
+<h4 id="解释理由："><a href="#解释理由：" class="headerlink" title="解释理由："></a><strong>解释理由：</strong></h4><ol>
+<li>文理解释</li>
+<li>体系解释：一词多义、多词一义、同类解释</li>
+<li>当然解释：举重以明轻 | 举轻以明重；两个事项必须是性质相同、程度不同的关系；法益比较、轻重比较</li>
+<li>目的解释：就是用<a href="#法益">法益</a>来解释罪名的构成要件。刑法的保护目的就是法益<br> <strong>注：解释技巧之间是排斥关系，即解释技巧只能选择一种；而解释理由之间是并存关系，且越多越好</strong><br> 前者负责生产结论，后者负责论证结论的合理性，要求二者正反推均成立。如：解释技巧生产结论，但论证理由不充分，则不采纳；解释理由论证解释技巧合理，但技巧为类推解释，则不采纳。</li>
+</ol>
+<h3 id="第二节-刑法的功能"><a href="#第二节-刑法的功能" class="headerlink" title="第二节 刑法的功能"></a>第二节 刑法的功能</h3><ol>
+<li><p><span id="法益">保护法益</span>：法益，是指刑法保护的利益。一个罪名的保护法益也称为保护客体或犯罪客体。犯罪是指侵害法益的行为。</p>
+</li>
+<li><p>保障人权：严格依据刑法来定罪处罚。即刑法在打击犯罪、保护法益的同时，也应保障人权。</p>
+<font color =red>若一味侧重保护法益，则容易认定为有罪。若一味侧重保障人权，则容易认定为无罪。二者冲突时，优先保障人权。</font>
+
+</li>
+</ol>
+<h3 id="第三节-刑法的原则"><a href="#第三节-刑法的原则" class="headerlink" title="第三节 刑法的原则"></a>第三节 刑法的原则</h3><h4 id="罪刑法定原则"><a href="#罪刑法定原则" class="headerlink" title="罪刑法定原则"></a>罪刑法定原则</h4><ul>
+<li>法无明文规定不为罪，法无明文规定不处；目的是保障人权。<ol>
+<li><strong>思想基础：</strong><br>a. 民主主义：意指只有民主产生的立法机关才有权规定犯罪与刑罚。<br>b. 自由主义（最重要的）：也称为尊重人权主义，意指<font color =red>法律应当具有预测可能性</font>，使国民知晓什么是犯罪，什么不是犯罪，以保障个人的行动自由。这种思想也称为国民预测可能性原理。<br>例：新中国1979年第一部刑法典出台前使用反革命条例，以致出现“反革命梦奸罪”、“反革命不讲卫生罪”。79年刑法典出台后，由于部分罪名未明确，如：流氓罪，投机倒把罪（皆与97年废除），因此未列入罪刑法定原则（97年列入）。</li>
+<li><strong>基本内容：</strong><br>a. 成文的罪刑法定：1. 法律主义：如全国人大制定的基本法律、国务院制定的行政法规。只有全国人大及其常委会有资格规定犯罪和刑法，而国务院及两高的司法解释均没有立法权，只有解释权。2. 禁止习惯法：即不能像民法一样适用习惯法，民法是意思自治原则（即双方可以商量解决），而刑法是罪刑法定原则。<br>b. 事前的罪刑法定：禁止溯及既往、刑法的时间效力<br>c. 严格的罪刑法定：禁止类推解释，但允许扩大解释<br>d. 确定的罪刑法定：指罪刑规范应当明确、适当。(1) 明确性要求；(2) 禁止绝对不定刑及绝对不定期刑：即不明确刑罚的种类和期刑的刑期；(3) 禁止处罚不当罚的行为：体现刑法的谦抑性/补充性要求：即民法、行政法无济于事、无法规制后才适用刑法，因为刑罚是最严厉的制裁措施；(4) 禁止不均衡、残虐的刑罚：即刑罚应与罪行相适应， 重罪重判， 轻罪轻判，广义上可以包含罪刑相适应原则。<br><strong>注*：民法和刑法不是对立排斥关系，而是位阶关系（适用顺序而言），如：刑事附带民事诉讼制度，即如果罪行既符合民法又符合刑法，以刑法为主，附带民事诉讼。民法和刑法基本法律，地位平等。</strong></li>
+</ol>
+</li>
+</ul>
+<h4 id="罪刑相适应原则"><a href="#罪刑相适应原则" class="headerlink" title="罪刑相适应原则"></a>罪刑相适应原则</h4><ul>
+<li>又罪刑均衡原则，即刑罚应与罪行相适应， 重罪重判， 轻罪轻判</li>
+<li><strong>量刑标准包含法益侵害性和人身危险性（再犯可能性）</strong></li>
+<li><strong>法益侵害性</strong>是针对已然发生的犯罪事实，又报应刑或责任刑。<strong>人身危害性</strong>是针对未然的犯罪事实，预防未来再犯的犯罪事实，又预防刑或目的刑。<br>如：1. 入室抢劫与普通抢劫重，因为多了法益侵害性（侵入住宅）；2. 累犯从重处罚，因为多了人身危险性（再犯可能性）；3. 投案自首从宽处罚是由于再犯可能性降低。<br><strong>刑罚个别化理念：</strong>即再犯可能性因人而异，如：为了吸毒偷钱与为了治病偷钱。</li>
+</ul>
+<h3 id="第四节-刑法的效力"><a href="#第四节-刑法的效力" class="headerlink" title="第四节 刑法的效力"></a>第四节 刑法的效力</h3><h4 id="一、刑法的空间效力"><a href="#一、刑法的空间效力" class="headerlink" title="一、刑法的空间效力"></a>一、刑法的空间效力</h4><p><strong>（一）在中国境内犯罪：属地管辖原则</strong></p>
+<ol>
+<li>“我国领域”包括领土、领水、领空<br><strong>a. 旗国主义。</strong>仅航空器（飞机）与船舶属于，国际列车、国际长途汽车不属于。</li>
+<li>属地管辖原则之“地”，既包括犯罪行为地，也包括犯罪结果地。<br><strong>a. 犯罪行为。</strong>从共同犯罪上分，包括<strong>实行</strong>行为地、<strong>教唆</strong>行为地、和<strong>帮助</strong>行为地；从犯罪形态上分，包括<strong>预备</strong>行为地和<strong>实行</strong>行为地。上述行为中，只要有一项行为发生在国内，其他相关行为即使发生在国外，也认为是在我国领域内犯罪。（如：从缅甸打电话到国内进行诈骗，犯罪结果在国内，因此也能依据属地管辖原则进行管辖）<br><strong>b. 犯罪结果。</strong>从共同犯罪上分，包括整体结果和部分共犯人的结果；从犯罪形态上分，包括实害结果和危险结果。</li>
+</ol>
+<p><strong>（二）在中国境外犯罪：属人管辖原则、保护管辖原则、普遍管辖原则</strong></p>
+<ol>
+<li>属人管辖原则：我国公民在境外犯罪（但是最高刑为三年以下有期徒刑的（即轻罪），可以不予追究；国家工作人员和军人一律追究）</li>
+<li>保护管辖原则：外国人在境外对中国人或中国政府犯罪，且为重罪（最低刑3年以上），且遵循双重犯罪原则（即犯罪地的法律也认为是犯罪）</li>
+<li>普遍管辖：国际犯罪<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%91%E6%B3%95%E7%9A%84%E7%A9%BA%E9%97%B4%E6%95%88%E5%8A%9B.png" alt="刑法的空间效力" style="zoom:50%;" /></li>
+</ol>
+<p>朝鲜领导的哥哥金正男在马来西亚被越南人杀死。朝鲜-保护管辖；马来西亚-属地管辖；越南-属人管辖。</p>
+<h4 id="二、刑法的时间效力（即溯及力）"><a href="#二、刑法的时间效力（即溯及力）" class="headerlink" title="二、刑法的时间效力（即溯及力）"></a>二、刑法的时间效力（即溯及力）</h4><ol>
+<li>从旧兼从轻原则：原则上适用旧法（行为时的法律），但适用新法有利于被告人时，适用新法。也即，原则上禁止法律溯及既往，例外是不禁止有利于被告人的溯及既往。（如：适用新法，被告人能够被判得更轻）</li>
+<li><font color =red>该原则的使用对象是未决犯，即案件发生在旧法，审判发生在新法。</font>对于已决犯（已判决的案件）则不存在是否溯及既往的问题。<br>另，再审案件也是适用旧法。</li>
+<li>司法解释的时间效力：<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%91%E6%B3%95%E7%9A%84%E6%97%B6%E9%97%B4%E6%95%88%E5%8A%9B.png" alt="司法解释的时间效力" style="zoom:50%;" />即第一种是“从旧”，第二种是“从旧兼从轻”<br><em>随笔：专业无贵贱，知识有阶梯；叔本华：人的痛苦都来自价值观</em></li>
+</ol>
+]]></content>
+      <categories>
+        <category>司法考试</category>
+      </categories>
+      <tags>
+        <tag>刑法</tag>
+        <tag>柏浪涛</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>结构化ABS与金融模型：投资收益与风险管理</title>
+    <url>/post/32586/</url>
+    <content><![CDATA[<h1 id="结构化融资与非标产品"><a href="#结构化融资与非标产品" class="headerlink" title="结构化融资与非标产品"></a>结构化融资与非标产品</h1><h2 id="结构化融资："><a href="#结构化融资：" class="headerlink" title="结构化融资："></a>结构化融资：</h2><ol>
+<li><strong>结构化融资评级：</strong>指以基础资产未来所产生的现金流为偿付支持，通过结构化设计进行信用增级，在此基础上发行资产支持证券的过程。它是以特定资产组合或特定现金流为支持，发行可交易证券的一种融资形式。</li>
+<li><strong>结构化融资主要分为：</strong>信贷资产证券化、交易商协会ABN、证监会主管ABS、银保监会主管ABS 。</li>
+</ol>
+<h2 id="非标准化债权资产评级："><a href="#非标准化债权资产评级：" class="headerlink" title="非标准化债权资产评级："></a>非标准化债权资产评级：</h2><ol>
+<li><strong>非标准化债权资产：</strong>指未在银行间市场及证券交易所市场交易的债权性资产，它通常绕过银行或债券审批管理部门，通过某个非标准化的载体(如信托计划等)，将投融资双方衔接起来。</li>
+<li><strong>非标准化产品：</strong>信托产品、 保险债权投资计划、保险股权投资计划、保险资产支持计划等、集合资金信托计划、信贷资产支持证券、专项资产管理计划、资产支持计划等都属于非标资产。</li>
+</ol>
+<h1 id="金融模型"><a href="#金融模型" class="headerlink" title="金融模型"></a>金融模型</h1><h2 id="蒙特卡洛模型-Monte-Carlo-simulation"><a href="#蒙特卡洛模型-Monte-Carlo-simulation" class="headerlink" title="蒙特卡洛模型(Monte-Carlo simulation)"></a>蒙特卡洛模型(Monte-Carlo simulation)</h2><h2 id="有限差分方法-Finite-Difference-Method"><a href="#有限差分方法-Finite-Difference-Method" class="headerlink" title="有限差分方法(Finite-Difference Method)"></a>有限差分方法(Finite-Difference Method)</h2><h2 id="风险价值-Value-at-Risk"><a href="#风险价值-Value-at-Risk" class="headerlink" title="风险价值(Value-at-Risk)"></a>风险价值(Value-at-Risk)</h2><h2 id="预期缺口-Expected-Shortfall"><a href="#预期缺口-Expected-Shortfall" class="headerlink" title="预期缺口(Expected Shortfall)"></a>预期缺口(Expected Shortfall)</h2><h2 id="Jump-Diffusion-Model"><a href="#Jump-Diffusion-Model" class="headerlink" title="Jump-Diffusion Model"></a>Jump-Diffusion Model</h2><h2 id="Local-Stochastic-Volatility-Model"><a href="#Local-Stochastic-Volatility-Model" class="headerlink" title="Local Stochastic Volatility Model"></a>Local Stochastic Volatility Model</h2><h2 id="市场风险计量模型"><a href="#市场风险计量模型" class="headerlink" title="市场风险计量模型"></a>市场风险计量模型</h2><h2 id="交易对手信用风险测量模型"><a href="#交易对手信用风险测量模型" class="headerlink" title="交易对手信用风险测量模型"></a>交易对手信用风险测量模型</h2>]]></content>
+      <categories>
+        <category>风险管理与信用</category>
+      </categories>
+      <tags>
+        <tag>投资收益与风险管理</tag>
+        <tag>信用评级</tag>
+        <tag>结构融资/非标融资</tag>
+        <tag>资产证券化ABS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>金融机构内控指引与法律法规(含监管报表与系统)</title>
+    <url>/post/32433/</url>
+    <content><![CDATA[<h1 id="查询路径"><a href="#查询路径" class="headerlink" title="查询路径"></a>查询路径</h1><h3 id="国家法律法规数据库"><a href="#国家法律法规数据库" class="headerlink" title=" 国家法律法规数据库"></a><i class="fa-solid fa-link"></i> <a href="https://flk.npc.gov.cn/xzfg.html">国家法律法规数据库</a></h3><h3 id="证监会信息公开"><a href="#证监会信息公开" class="headerlink" title=" 证监会信息公开"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101951/zfxxgk_zdgk.shtml?channelid=8bf8f81659be4d00920fbb3db02d0102">证监会信息公开</a></h3><h3 id="证券期货法规数据库系统"><a href="#证券期货法规数据库系统" class="headerlink" title=" 证券期货法规数据库系统"></a><i class="fa-solid fa-link"></i> <a href="https://neris.csrc.gov.cn/falvfagui/">证券期货法规数据库系统</a></h3><h3 id="中国会计视野"><a href="#中国会计视野" class="headerlink" title=" 中国会计视野"></a><i class="fa-solid fa-link"></i> <a href="https://law.esnai.com/do.aspx?controller=home&amp;action=ListByType&amp;LawType=008004002">中国会计视野</a></h3><h3 id="中国证券业协会法律法规"><a href="#中国证券业协会法律法规" class="headerlink" title=" 中国证券业协会法律法规"></a><i class="fa-solid fa-link"></i> <a href="https://www.sac.net.cn/flfg/zlgz/">中国证券业协会法律法规</a></h3><h3 id="中国证券投资基金业协会产品备案和数据报送"><a href="#中国证券投资基金业协会产品备案和数据报送" class="headerlink" title=" 中国证券投资基金业协会产品备案和数据报送"></a><i class="fa-solid fa-link"></i> <a href="https://www.amac.org.cn/fwdt/wyb/jgdjhcpbeian/smjjglrdjhcpba/fwzn/">中国证券投资基金业协会产品备案和数据报送</a></h3><h1 id="法律法规"><a href="#法律法规" class="headerlink" title="法律法规"></a>法律法规</h1><h3 id="中华人民共和国证券法"><a href="#中华人民共和国证券法" class="headerlink" title=" 中华人民共和国证券法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国证券法.pdf" target="_blank"><strong>中华人民共和国证券法</strong></a></h3><h3 id="中华人民共和国公司法"><a href="#中华人民共和国公司法" class="headerlink" title=" 中华人民共和国公司法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国公司法.pdf" target="_blank"><strong>中华人民共和国公司法</strong></a></h3><h3 id="中华人民共和国证券投资基金法"><a href="#中华人民共和国证券投资基金法" class="headerlink" title=" 中华人民共和国证券投资基金法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国证券投资基金法.pdf" target="_blank"><strong>中华人民共和国证券投资基金法</strong></a></h3><h1 id="规范性文件"><a href="#规范性文件" class="headerlink" title="规范性文件"></a>规范性文件</h1><h2 id="财政部-证监会"><a href="#财政部-证监会" class="headerlink" title="财政部\证监会"></a>财政部\证监会</h2><h3 id="证券期货经营机构私募资产管理计划运作管理规定"><a href="#证券期货经营机构私募资产管理计划运作管理规定" class="headerlink" title=" 证券期货经营机构私募资产管理计划运作管理规定"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101954/c6987994/content.shtml">证券期货经营机构私募资产管理计划运作管理规定</a></h3><h4 id="证券期货经营机构私募资产管理计划运作管理规定-1"><a href="#证券期货经营机构私募资产管理计划运作管理规定-1" class="headerlink" title=" 证券期货经营机构私募资产管理计划运作管理规定"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101954/c6987994/6987994/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92%E8%BF%90%E4%BD%9C%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%E3%80%8B.pdf">证券期货经营机构私募资产管理计划运作管理规定</a></h4><h3 id="2023《证券期货经营机构私募资产管理业务管理办法》"><a href="#2023《证券期货经营机构私募资产管理业务管理办法》" class="headerlink" title=" 2023《证券期货经营机构私募资产管理业务管理办法》"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101953/c6987995/content.shtml">2023《证券期货经营机构私募资产管理业务管理办法》</a></h3><h4 id="证券期货经营机构私募资产管理业务管理办法"><a href="#证券期货经营机构私募资产管理业务管理办法" class="headerlink" title=" 证券期货经营机构私募资产管理业务管理办法"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101953/c6987995/6987995/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf">证券期货经营机构私募资产管理业务管理办法</a></h4><h3 id="2020《证券投资基金托管业务管理办法》"><a href="#2020《证券投资基金托管业务管理办法》" class="headerlink" title=" 2020《证券投资基金托管业务管理办法》"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101877/c1029534/content.shtml">2020《证券投资基金托管业务管理办法》</a></h3><h4 id="证券投资基金托管业务管理办法"><a href="#证券投资基金托管业务管理办法" class="headerlink" title=" 证券投资基金托管业务管理办法"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101877/c1029534/1029534/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E6%89%98%E7%AE%A1%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf">证券投资基金托管业务管理办法</a></h4><h3 id="关于强化上市公司及拟上市企业内部控制建设-推进内部控制评价和审计的通知"><a href="#关于强化上市公司及拟上市企业内部控制建设-推进内部控制评价和审计的通知" class="headerlink" title=" 关于强化上市公司及拟上市企业内部控制建设 推进内部控制评价和审计的通知"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/202312/t20231215_3922541.htm">关于强化上市公司及拟上市企业内部控制建设 推进内部控制评价和审计的通知</a></h3><h3 id="企业内部控制基本规范"><a href="#企业内部控制基本规范" class="headerlink" title=" 企业内部控制基本规范"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/200807/t20080704_55982.htm">企业内部控制基本规范</a></h3><h3 id="企业内部控制配套指引"><a href="#企业内部控制配套指引" class="headerlink" title=" 企业内部控制配套指引"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/201005/t20100505_290459.htm">企业内部控制配套指引</a></h3><h4 id="企业内部控制应用指引"><a href="#企业内部控制应用指引" class="headerlink" title=" 企业内部控制应用指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制应用指引.pdf" target="_blank"><strong>企业内部控制应用指引</strong></a></h4><h4 id="企业内部控制评价指引"><a href="#企业内部控制评价指引" class="headerlink" title=" 企业内部控制评价指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制评价指引.pdf" target="_blank"><strong>企业内部控制评价指引</strong></a></h4><h4 id="企业内部控制审计指引"><a href="#企业内部控制审计指引" class="headerlink" title=" 企业内部控制审计指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制审计指引.pdf" target="_blank"><strong>企业内部控制审计指引</strong></a></h4><h3 id="《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》"><a href="#《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》" class="headerlink" title=" 《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/201401/t20140107_1033337.htm">《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》</a></h3><h1 id="监管报表"><a href="#监管报表" class="headerlink" title="监管报表"></a>监管报表</h1><h2 id="1104-非现场监管信息系统"><a href="#1104-非现场监管信息系统" class="headerlink" title="1104-非现场监管信息系统"></a>1104-非现场监管信息系统</h2><h3 id="2024年1104报表"><a href="#2024年1104报表" class="headerlink" title=" 2024年1104报表"></a><i class="fa-solid fa-link"></i> <a href="https://zhuanlan.zhihu.com/p/675868050">2024年1104报表</a></h3><h2 id="理财产品、非标及标准债券产品"><a href="#理财产品、非标及标准债券产品" class="headerlink" title="理财产品、非标及标准债券产品"></a>理财产品、非标及标准债券产品</h2><h3 id="理财产品相关监管政策"><a href="#理财产品相关监管政策" class="headerlink" title=" 理财产品相关监管政策"></a><i class="fa-solid fa-link"></i> <a href="https://zhuanlan.zhihu.com/p/548968240">理财产品相关监管政策</a></h3><h1 id="金融机构柜台系统"><a href="#金融机构柜台系统" class="headerlink" title="金融机构柜台系统"></a>金融机构柜台系统</h1><p>Pending</p>
+<h1 id="第二代偿付能力监管制度"><a href="#第二代偿付能力监管制度" class="headerlink" title="第二代偿付能力监管制度"></a>第二代偿付能力监管制度</h1><h3 id="第二代偿付能力监管制度-1"><a href="#第二代偿付能力监管制度-1" class="headerlink" title=" 第二代偿付能力监管制度"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%BF%9D%E9%99%A9%E5%85%AC%E5%8F%B8%E5%81%BF%E4%BB%98%E8%83%BD%E5%8A%9B">第二代偿付能力监管制度</a></h3><h1 id="证券期货监管法规汇编"><a href="#证券期货监管法规汇编" class="headerlink" title="证券期货监管法规汇编"></a>证券期货监管法规汇编</h1><h3 id="证券期货监管法规汇编-1"><a href="#证券期货监管法规汇编-1" class="headerlink" title=" 证券期货监管法规汇编"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E9%A3%8E%E6%8E%A7">证券期货监管法规汇编</a></h3>]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>内控指引与法律法规</category>
+      </categories>
+      <tags>
+        <tag>内控指引与法律法规(含系统)</tag>
+        <tag>1104监管报表</tag>
+        <tag>人行大集中</tag>
+        <tag>偿二代</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>资金周报</title>
     <url>/post/44421/</url>
     <content><![CDATA[<h1 id="市场随笔"><a href="#市场随笔" class="headerlink" title="市场随笔"></a>市场随笔</h1><h2 id="24-2-26-资产荒持续-30年国债"><a href="#24-2-26-资产荒持续-30年国债" class="headerlink" title="24.2.26 资产荒持续-30年国债"></a>24.2.26 资产荒持续-30年国债</h2><p>2024年2月26日，长期默默无闻的30年国债成为全市场交易量最大的债券品种，从10年期国开<script type="math/tex">\rightarrow</script>10年期国债<script type="math/tex">\rightarrow</script>到现在10年与30年国债并存。<br><img src="C:/Users/10939/AppData/Roaming/Typora/typora-user-images/image-20240227104335877.png" style="zoom: 25%;" /></p>
@@ -2043,22 +2059,6 @@
       </categories>
       <tags>
         <tag>资金周报</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>金融机构内控指引与法律法规(含监管报表与系统)</title>
-    <url>/post/32433/</url>
-    <content><![CDATA[<h1 id="查询路径"><a href="#查询路径" class="headerlink" title="查询路径"></a>查询路径</h1><h3 id="国家法律法规数据库"><a href="#国家法律法规数据库" class="headerlink" title=" 国家法律法规数据库"></a><i class="fa-solid fa-link"></i> <a href="https://flk.npc.gov.cn/xzfg.html">国家法律法规数据库</a></h3><h3 id="证监会信息公开"><a href="#证监会信息公开" class="headerlink" title=" 证监会信息公开"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101951/zfxxgk_zdgk.shtml?channelid=8bf8f81659be4d00920fbb3db02d0102">证监会信息公开</a></h3><h3 id="证券期货法规数据库系统"><a href="#证券期货法规数据库系统" class="headerlink" title=" 证券期货法规数据库系统"></a><i class="fa-solid fa-link"></i> <a href="https://neris.csrc.gov.cn/falvfagui/">证券期货法规数据库系统</a></h3><h3 id="中国会计视野"><a href="#中国会计视野" class="headerlink" title=" 中国会计视野"></a><i class="fa-solid fa-link"></i> <a href="https://law.esnai.com/do.aspx?controller=home&amp;action=ListByType&amp;LawType=008004002">中国会计视野</a></h3><h3 id="中国证券业协会法律法规"><a href="#中国证券业协会法律法规" class="headerlink" title=" 中国证券业协会法律法规"></a><i class="fa-solid fa-link"></i> <a href="https://www.sac.net.cn/flfg/zlgz/">中国证券业协会法律法规</a></h3><h3 id="中国证券投资基金业协会产品备案和数据报送"><a href="#中国证券投资基金业协会产品备案和数据报送" class="headerlink" title=" 中国证券投资基金业协会产品备案和数据报送"></a><i class="fa-solid fa-link"></i> <a href="https://www.amac.org.cn/fwdt/wyb/jgdjhcpbeian/smjjglrdjhcpba/fwzn/">中国证券投资基金业协会产品备案和数据报送</a></h3><h1 id="法律法规"><a href="#法律法规" class="headerlink" title="法律法规"></a>法律法规</h1><h3 id="中华人民共和国证券法"><a href="#中华人民共和国证券法" class="headerlink" title=" 中华人民共和国证券法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国证券法.pdf" target="_blank"><strong>中华人民共和国证券法</strong></a></h3><h3 id="中华人民共和国公司法"><a href="#中华人民共和国公司法" class="headerlink" title=" 中华人民共和国公司法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国公司法.pdf" target="_blank"><strong>中华人民共和国公司法</strong></a></h3><h3 id="中华人民共和国证券投资基金法"><a href="#中华人民共和国证券投资基金法" class="headerlink" title=" 中华人民共和国证券投资基金法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国证券投资基金法.pdf" target="_blank"><strong>中华人民共和国证券投资基金法</strong></a></h3><h1 id="规范性文件"><a href="#规范性文件" class="headerlink" title="规范性文件"></a>规范性文件</h1><h2 id="财政部-证监会"><a href="#财政部-证监会" class="headerlink" title="财政部\证监会"></a>财政部\证监会</h2><h3 id="证券期货经营机构私募资产管理计划运作管理规定"><a href="#证券期货经营机构私募资产管理计划运作管理规定" class="headerlink" title=" 证券期货经营机构私募资产管理计划运作管理规定"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101954/c6987994/content.shtml">证券期货经营机构私募资产管理计划运作管理规定</a></h3><h4 id="证券期货经营机构私募资产管理计划运作管理规定-1"><a href="#证券期货经营机构私募资产管理计划运作管理规定-1" class="headerlink" title=" 证券期货经营机构私募资产管理计划运作管理规定"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101954/c6987994/6987994/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92%E8%BF%90%E4%BD%9C%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%E3%80%8B.pdf">证券期货经营机构私募资产管理计划运作管理规定</a></h4><h3 id="2023《证券期货经营机构私募资产管理业务管理办法》"><a href="#2023《证券期货经营机构私募资产管理业务管理办法》" class="headerlink" title=" 2023《证券期货经营机构私募资产管理业务管理办法》"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101953/c6987995/content.shtml">2023《证券期货经营机构私募资产管理业务管理办法》</a></h3><h4 id="证券期货经营机构私募资产管理业务管理办法"><a href="#证券期货经营机构私募资产管理业务管理办法" class="headerlink" title=" 证券期货经营机构私募资产管理业务管理办法"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101953/c6987995/6987995/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf">证券期货经营机构私募资产管理业务管理办法</a></h4><h3 id="2020《证券投资基金托管业务管理办法》"><a href="#2020《证券投资基金托管业务管理办法》" class="headerlink" title=" 2020《证券投资基金托管业务管理办法》"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101877/c1029534/content.shtml">2020《证券投资基金托管业务管理办法》</a></h3><h4 id="证券投资基金托管业务管理办法"><a href="#证券投资基金托管业务管理办法" class="headerlink" title=" 证券投资基金托管业务管理办法"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101877/c1029534/1029534/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E6%89%98%E7%AE%A1%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf">证券投资基金托管业务管理办法</a></h4><h3 id="关于强化上市公司及拟上市企业内部控制建设-推进内部控制评价和审计的通知"><a href="#关于强化上市公司及拟上市企业内部控制建设-推进内部控制评价和审计的通知" class="headerlink" title=" 关于强化上市公司及拟上市企业内部控制建设 推进内部控制评价和审计的通知"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/202312/t20231215_3922541.htm">关于强化上市公司及拟上市企业内部控制建设 推进内部控制评价和审计的通知</a></h3><h3 id="企业内部控制基本规范"><a href="#企业内部控制基本规范" class="headerlink" title=" 企业内部控制基本规范"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/200807/t20080704_55982.htm">企业内部控制基本规范</a></h3><h3 id="企业内部控制配套指引"><a href="#企业内部控制配套指引" class="headerlink" title=" 企业内部控制配套指引"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/201005/t20100505_290459.htm">企业内部控制配套指引</a></h3><h4 id="企业内部控制应用指引"><a href="#企业内部控制应用指引" class="headerlink" title=" 企业内部控制应用指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制应用指引.pdf" target="_blank"><strong>企业内部控制应用指引</strong></a></h4><h4 id="企业内部控制评价指引"><a href="#企业内部控制评价指引" class="headerlink" title=" 企业内部控制评价指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制评价指引.pdf" target="_blank"><strong>企业内部控制评价指引</strong></a></h4><h4 id="企业内部控制审计指引"><a href="#企业内部控制审计指引" class="headerlink" title=" 企业内部控制审计指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制审计指引.pdf" target="_blank"><strong>企业内部控制审计指引</strong></a></h4><h3 id="《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》"><a href="#《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》" class="headerlink" title=" 《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/201401/t20140107_1033337.htm">《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》</a></h3><h1 id="监管报表"><a href="#监管报表" class="headerlink" title="监管报表"></a>监管报表</h1><h2 id="1104-非现场监管信息系统"><a href="#1104-非现场监管信息系统" class="headerlink" title="1104-非现场监管信息系统"></a>1104-非现场监管信息系统</h2><h3 id="2024年1104报表"><a href="#2024年1104报表" class="headerlink" title=" 2024年1104报表"></a><i class="fa-solid fa-link"></i> <a href="https://zhuanlan.zhihu.com/p/675868050">2024年1104报表</a></h3><h2 id="理财产品、非标及标准债券产品"><a href="#理财产品、非标及标准债券产品" class="headerlink" title="理财产品、非标及标准债券产品"></a>理财产品、非标及标准债券产品</h2><h3 id="理财产品相关监管政策"><a href="#理财产品相关监管政策" class="headerlink" title=" 理财产品相关监管政策"></a><i class="fa-solid fa-link"></i> <a href="https://zhuanlan.zhihu.com/p/548968240">理财产品相关监管政策</a></h3><h1 id="金融机构柜台系统"><a href="#金融机构柜台系统" class="headerlink" title="金融机构柜台系统"></a>金融机构柜台系统</h1><p>Pending</p>
-<h1 id="第二代偿付能力监管制度"><a href="#第二代偿付能力监管制度" class="headerlink" title="第二代偿付能力监管制度"></a>第二代偿付能力监管制度</h1><h3 id="第二代偿付能力监管制度-1"><a href="#第二代偿付能力监管制度-1" class="headerlink" title=" 第二代偿付能力监管制度"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%BF%9D%E9%99%A9%E5%85%AC%E5%8F%B8%E5%81%BF%E4%BB%98%E8%83%BD%E5%8A%9B">第二代偿付能力监管制度</a></h3><h1 id="证券期货监管法规汇编"><a href="#证券期货监管法规汇编" class="headerlink" title="证券期货监管法规汇编"></a>证券期货监管法规汇编</h1><h3 id="证券期货监管法规汇编-1"><a href="#证券期货监管法规汇编-1" class="headerlink" title=" 证券期货监管法规汇编"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E9%A3%8E%E6%8E%A7">证券期货监管法规汇编</a></h3>]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>内控指引与法律法规</category>
-      </categories>
-      <tags>
-        <tag>内控指引与法律法规(含系统)</tag>
-        <tag>1104监管报表</tag>
-        <tag>人行大集中</tag>
-        <tag>偿二代</tag>
       </tags>
   </entry>
   <entry>
