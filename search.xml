@@ -1928,15 +1928,24 @@
   <entry>
     <title>ESG</title>
     <url>/post/32586/</url>
-    <content><![CDATA[<h1 id="ESG概述"><a href="#ESG概述" class="headerlink" title="ESG概述"></a>ESG概述</h1><p>ESG概况、评级、投资、报告、证书、职业发展</p>
-<ol>
-<li><strong>ESG|可持续发展|30.60碳中和：</strong><ol>
-<li><strong>相关链接：</strong><a href="http://www.chinagreenindex.com/databaseGreen.html">中财绿指</a>、<a href="https://iigf.cufe.edu.cn/index.htm">中财绿金</a>、<a href="https://www.chindices.com/">华证指数</a>、<a href="https://finance.sina.com.cn/esg/grade.shtml">新浪ESG指数</a>、<a href="http://ccxgf.com.cn/">中诚信绿金</a>、<a href="https://esgratings.ccxgf.com/#/home">ESG Ratings</a>、<a href="https://doc.weixin.qq.com/doc/w3_Af0AOwbNAHonShGRyK6Rpq1FDrUae?scode=AI4A8gcnABAFW0EOWJ">高顿ESG政策梳理</a></li>
-<li><strong>政策链接：</strong><a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91">Github-Folder</a>、</li>
+    <content><![CDATA[<h1 id="ESG概述"><a href="#ESG概述" class="headerlink" title="ESG概述"></a>ESG概述</h1><ol>
+<li><strong>名词释义：</strong><a href="https://mp.weixin.qq.com/s/gC6AYl1CL6eSvuTpQZomhg">名词释义</a><ol>
+<li><strong>碳排放：</strong>生产经营活动过程中向外界排放温室气体(二氧化碳、甲烷、氧化亚氮、氢氟碳化物、全氟碳化物、六氟化硫等)</li>
+<li><strong>碳达峰：</strong>二氧化碳排放总量的增长在2026-2029(十五五期间)达到历史最高值，之后逐步回落</li>
+<li><strong>碳中和：</strong>二氧化碳或温室气体净排放为零，即通过碳汇、碳捕集(如在排放处放置干冰装置收集)、利用与封存等(植树造林和节能减排)方式抵消全部的二氧化碳或温室气体排放量。</li>
+<li><strong>碳强度：</strong>单位GDP的二氧化碳排放量</li>
+</ol>
+</li>
+<li><strong>作用：</strong>减少碳排放、推动企业在工艺、技术方面转型升级、提升就业率。避免全球变暖造成农业减产。</li>
+<li><strong>目标及现状：</strong><a href="https://mp.weixin.qq.com/s/uNuN8ZZXnP5UniD9wTk90g">中国碳达峰时间表和路径图</a>(根据社会发展需求和转型速度适用不同的路径和目标)</li>
+<li><strong>Link链接：</strong><ol>
+<li><strong>相关链接：</strong><a href="https://i-esg.com/">青绿数据</a><a href="http://www.chinagreenindex.com/databaseGreen.html">中财绿指</a>、<a href="https://iigf.cufe.edu.cn/index.htm">中财绿金</a>、<a href="https://www.chindices.com/">华证指数</a>、<a href="https://finance.sina.com.cn/esg/grade.shtml">新浪ESG指数</a>、<a href="http://ccxgf.com.cn/">中诚信绿金</a>、<a href="https://esgratings.ccxgf.com/#/home">ESG Ratings</a></li>
+<li><strong>政策链接：</strong><a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91">Github-Folder</a>、<a href="https://doc.weixin.qq.com/doc/w3_Af0AOwbNAHonShGRyK6Rpq1FDrUae?scode=AI4A8gcnABAFW0EOWJ">高顿ESG政策梳理</a></li>
 </ol>
 </li>
 <li><strong>业务资质(标准)：</strong>国际资本市场协会(ICMA)、全国金融标准化技术委员会绿色金融标准(CFSTC)、中国银行间市场交易商协会、国际气候债券倡议组织(CBI)、广州市绿色金融协会、中国金融学会绿色金融专业委员会、北京绿色交易所服务</li>
-<li><strong>信披要求：中国证监会</strong>《上市公司治理准则》、<strong>国资委</strong>《关于中央企业履行社会责任的指导意见》、<strong>深交所</strong>《上市公司社会责任指引》、<strong>上交所</strong>《上市公司环境信息披露指引》、<strong>港交所</strong>《环境、社会及管治报告指引》全球报告倡议组织(GRI)《可持续报告编写指南》、<strong>ISO26000</strong>发布的《社会责任指引》</li>
+<li><strong>信披要求：中国证监会</strong>《上市公司治理准则》、<strong>国资委</strong>《关于中央企业履行社会责任的指导意见》、<strong>深交所</strong>《上市公司社会责任指引》、<strong>上交所</strong>《上市公司环境信息披露指引》、<strong>港交所</strong>《环境、社会及管治报告指引》、全球报告倡议组织(GRI)《可持续报告编写指南》、<strong>ISO26000</strong>发布的《社会责任指引》</li>
+<li><strong>国际通用标准：GRI标准(78%采用)</strong>、可持续发展会计准则委员会<strong>(SASB)</strong>的可持续会计准则、金融稳定理事会<strong>(FSB)</strong>的气候相关财务信息披露工作组<strong>(TCFD)</strong>建议、碳信息披露项目<strong>(CDP)</strong>的环境信息披露、国际标准化组织的ISO26000社会责任指南、价值报告基金会<strong>(VRF)</strong>的综合报告框架</li>
 <li><strong>业务：</strong><ol>
 <li><strong>绿色债券、SLB、转型债券、社会责任债券评估认证：</strong>参照上述标准(ICMA、CBI等)进行评估。涵盖绿色金融债、绿色中期票据、绿色公司债绿色ABS、绿色ABN、绿色熊猫债、碳中和债券、SLB等多个类别。<br><strong>可持续发展挂钩债券(Sustainability-linked Bond，SLB)</strong>是指将债券条款与发行人可持续发展目标相挂钩的债券。挂钩目标包括关键绩效指标(KPI)和可持续发展绩效目标(SPT)。其中,关键绩效指标(KPI)是对发行人运营有核心作用的可持续发展业绩指标；可持续发展绩效目标(SPT)是对关键绩效指标的量化评估目标，并需明确达成时限。第三方机构对相关指标进行验证，如果关键绩效指标在上述时限未达到(或达到)预定的可持续发展绩效目标，将触发债券条款的调整。</li>
 <li><strong>绿色企业认证：</strong>获评后才能够在资质有效期内发行绿色债券，且享受发行绿色通道，而且发行前不需披露具体用途，仅需将70%的募集资金用于绿色产业领域。涉及拟投项目的合规性、项目决策及资金募集制度完备性、信披和报告制度完备性、环境效益预期目标合理性、环境效益测算</li>
@@ -1952,7 +1961,7 @@
 <li><strong>银行\券商\基金：</strong>中金ESG研究(碳中和组)、南方基金、嘉实基金、易方达基金、兴业银行</li>
 <li><strong>甲方：</strong>平安集团、字节跳动、阳光电源、远景、施耐德、欧莱雅、Shein、H&amp;M、Tiffiny、天齐锂业、宜家、益海嘉里、吉利控股、利乐、飞利浦、晶科能源、富士康</li>
 <li><strong>地产咨询：</strong>五大行(C&amp;W、JLL)</li>
-<li><strong>评级机构：</strong>MSCI、Wind、中诚信绿金、商道纵横、商道融绿、责扬天下，社投盟、百度基金会、妙盈、盟浪、鼎力、Senecaesg、Michaelpage、环保桥、万全智策、北京绿金院、长三角绿色价值投资研究院、诺亚控股AECOM</li>
+<li><strong>评级机构：MSCI</strong>、Wind、<strong>彭博、富时罗素、穆迪、汤森路透</strong>、<strong>中诚信绿金、</strong>商道纵横、<strong>商道融绿、</strong>责扬天下，<strong>社投盟、</strong>百度基金会、妙盈、盟浪、鼎力、Senecaesg、Michaelpage、环保桥、万全智策、北京绿金院、长三角绿色价值投资研究院、</li>
 <li><strong>第三方鉴证：</strong>SGS、TUV、Bureau Veritas(碳盘查/核查领域较专业)</li>
 <li><strong>碳资产相关：</strong>中化能源科技、碳盘查/核查/碳管理/CCER项目开发</li>
 <li><strong>EHS相关：</strong>药厂/制造业/化工等大厂央企国企</li>
@@ -1960,6 +1969,7 @@
 </li>
 <li><strong>知识点：</strong>Gis使用、碳信用、ESG报告、CSR报告</li>
 <li><strong>岗位：</strong>分析师(ESG评估、绿色金融方向、政府与金融机构方向)、碳交易员</li>
+<li><strong>评级路径：</strong>搜集数据(标准化数据、数据可比)、以标准化方法进行风险暴露度量与公司治理度量、关键指标的评分与权重以及ESG评级的最终结果。每个指标衡量的是：1)该公司是否暴露于这种风险；2)公司是如何管理这种风险的。<br><strong>MSCI：</strong>3大项-35个细分-(0-10分)-“AAA-CCC”;<strong>富时罗素：</strong>3大项-14个二级-每级(19-35)个细分-关注绿色收入占比;<strong>穆迪：</strong>ESG分数+ESG对主体信评的影响-对国有和私营发行人的E和S区分对待-考虑当下及远期的政策风险;<strong>路透：</strong>分行业分国家分配ESG权重-纳入重大争议项目对ESG评分的影响;<strong>商道融绿：</strong>国内最早发布上市公司 ESG 评级的机构，自 2015 年开始推出商道融绿ESG评级方法体系，根据不同行业ESG的实质性因子进行加权计算，得到各上市公司的ESG综合得分。<br><strong>数据来源：</strong>企业年报、官网、非政府组织网站、证交所备案文件、企业社会责任报告、新闻等渠道</li>
 <li><strong>ESG评级指标体系：</strong><sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91%E8%AE%A4%E8%AF%81%E7%9A%84%E9%83%A8%E5%88%86%E7%BB%BF%E8%89%B2%E5%80%BA%E5%88%B8.png">[经中诚信绿金认证的部分绿色债券]</a></sup> <sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%94%BF%E5%BA%9C%E6%9C%8D%E5%8A%A1%E6%A1%88%E4%BE%8B.png">[政府服务案例]</a></sup></li>
 </ol>
 <table style="border-collapse: collapse;">
@@ -2040,6 +2050,10 @@
     </tr>
   </tbody>
 </table>
+
+<h1 id="30-60现状及目标"><a href="#30-60现状及目标" class="headerlink" title="30.60现状及目标"></a>30.60现状及目标</h1><ol>
+<li></li>
+</ol>
 ]]></content>
       <categories>
         <category>投研交易</category>
