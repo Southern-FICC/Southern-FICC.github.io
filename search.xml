@@ -373,6 +373,12 @@
 <li>Conference Board编制的领先经济指标LEI，也在2022年初发出了美国正处于经济衰退边缘的信号，但似乎也失灵了。</li>
 </ol>
 </li>
+<li><p><strong>右侧顺势交易：</strong>认为市场总是对的，当指数或标的价格开始上涨加仓买入，当市场下跌时会止损卖出。<br>右侧顺势交易的投资者，还经常体现为是分批买入的。因为右侧交易者觉得自己不一定判断就都是对的，得看市场的走势是否能验证自己的判断是否正确。</p>
+</li>
+<li><strong>左侧逆势交易：</strong>核心逻辑是投资者坚信自己对于大势、个股的判断是对的，找到市场错误定价的机会(即市场会修正)。<br>激进的左侧交易者认为市场错误定价的下跌是千载难逢的机会，可以用加杠杆的方式买入，以期博取最大化的收益。</li>
+<li><strong>Alpha：</strong>代表投资组合的超额收益，相对于基准(如市场指数)的超额回报。<br>通过选择特定的证券或采取某种策略，获得比市场基准更高的收益。Alpha可以通过多种方式实现，例如选股、市场时机选择、利用信息优势或执行特定的投资策略。</li>
+<li><strong>风格均衡：</strong>一种投资组合管理策略——通过在不同的投资风格(如价值型、成长型、大盘股、小盘股等)之间进行平衡配置，以降低投资组合的波动性和风险。</li>
+<li><strong>全要素生产率：</strong>衡量在不增加投入（如劳动和资本）的情况下，通过技术进步、效率改进等方式，所能实现的产出增长。<script type="math/tex; mode=display">TFP = \frac{Y}{K^\alpha L^{1-\alpha}}\\注：Y总产出GDP,K资本投入,L劳动投入,α资本投入的产出弹性</script></li>
 </ol>
 <h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><ol>
 <li><a href="https://zhuanlan.zhihu.com/p/391679912">央行货币政策框架解读</a></li>
@@ -1928,23 +1934,26 @@
   <entry>
     <title>ESG</title>
     <url>/post/32586/</url>
-    <content><![CDATA[<h1 id="ESG概述"><a href="#ESG概述" class="headerlink" title="ESG概述"></a>ESG概述</h1><ol>
+    <content><![CDATA[<h1 id="ESG"><a href="#ESG" class="headerlink" title="ESG"></a>ESG</h1><ol>
 <li><strong>名词释义：</strong><a href="https://mp.weixin.qq.com/s/gC6AYl1CL6eSvuTpQZomhg">名词释义</a><ol>
+<li><strong>ESG：</strong>代表环境、社会和公司治理三个方面。用于评估企业的经营过程在这三个方面遇到的风险和机遇，用于衡量企业可持续发展能力和潜力。信用评级考虑区域状况、经营&amp;财务状况、而ESG作为调整因素影响信用评级。</li>
 <li><strong>碳排放：</strong>生产经营活动过程中向外界排放温室气体(二氧化碳、甲烷、氧化亚氮、氢氟碳化物、全氟碳化物、六氟化硫等)</li>
 <li><strong>碳达峰：</strong>二氧化碳排放总量的增长在2026-2029(十五五期间)达到历史最高值，之后逐步回落</li>
 <li><strong>碳中和：</strong>二氧化碳或温室气体净排放为零，即通过碳汇、碳捕集(如在排放处放置干冰装置收集)、利用与封存等(植树造林和节能减排)方式抵消全部的二氧化碳或温室气体排放量。</li>
 <li><strong>碳强度：</strong>单位GDP的二氧化碳排放量</li>
+<li><strong>碳排放范围1：</strong>公司拥有和控制的资源的直接排放；<strong>范围2：</strong>企业使用外购的能源产生的间接排放；<strong>范围3：</strong>除1和2温室气体核算体系</li>
+<li><strong>ESG和CSR异同：①</strong>共同点都是强调非财务信息披露的重要性，其非财务方面的投入都给社会带来了正外部性影响。<strong>②CSR更为注重对社会、环境做出贡献，将一部分利润用于社会和环境，比如：扶贫和捐款；而ESG更像是一个共赢的概念，寻找能够同时实现商业价值和社会价值的可持续投资项目，比如：新能源汽车。③</strong>CSR报告起源于公共监管部门对企业的“自上而下”的要求，解决的是“企业该对谁负责”的问题；ESG报告起源于机构投资者面对气候变化等非财务风险频发下对企业“自下而上”的需求，解决的是“什么样的企业值得投资”的问题。<strong>④</strong>ESG报告侧重于展现从环境、社会和治理评估上市公司的绩效，可持续发展报告侧重于从商业事件的角度表现公司的可持续承诺。</li>
 </ol>
 </li>
-<li><strong>作用：</strong>减少碳排放、推动企业在工艺、技术方面转型升级、提升就业率。避免全球变暖造成农业减产。</li>
+<li><strong>ESG作用：</strong>减少碳排放、推动企业在工艺、技术方面转型升级、提升能源效率、提升就业率。避免全球变暖造成农业减产。<strong>响应国家政策：</strong>五大金融(绿色、科技、普惠、养老、数字)、风光电能源政策，储能政策、设备更新政策。政策期望新质生产力对总需求的拉动量能够超过地产建筑产业链<strong>(汽车、新能源、军工、医药、数字经济)。</strong>对于企业来说：**绿色债券和信贷的融资成本低，且投资绿色产业能够同时实现商业价值和社会价值，企业出海获得投资的需求。</li>
 <li><strong>目标及现状：</strong><a href="https://mp.weixin.qq.com/s/uNuN8ZZXnP5UniD9wTk90g">中国碳达峰时间表和路径图</a>(根据社会发展需求和转型速度适用不同的路径和目标)</li>
-<li><strong>Link链接：</strong><ol>
-<li><strong>相关链接：</strong><a href="https://i-esg.com/">青绿数据</a><a href="http://www.chinagreenindex.com/databaseGreen.html">中财绿指</a>、<a href="https://iigf.cufe.edu.cn/index.htm">中财绿金</a>、<a href="https://www.chindices.com/">华证指数</a>、<a href="https://finance.sina.com.cn/esg/grade.shtml">新浪ESG指数</a>、<a href="http://ccxgf.com.cn/">中诚信绿金</a>、<a href="https://esgratings.ccxgf.com/#/home">ESG Ratings</a></li>
-<li><strong>政策链接：</strong><a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91">Github-Folder</a>、<a href="https://doc.weixin.qq.com/doc/w3_Af0AOwbNAHonShGRyK6Rpq1FDrUae?scode=AI4A8gcnABAFW0EOWJ">高顿ESG政策梳理</a></li>
+<li><strong>Link链接：</strong><sup><a herf="https://weibo.com/ttarticle/p/show?id=2309404792494587249240">[国内指数编制机构]</a></sup><ol>
+<li><strong>相关链接：</strong><a href="https://i-esg.com/">青绿数据</a>、<a href="https://www.chindices.com/">华证指数</a>、<a href="https://www.csindex.com.cn/#/esg">中证指数(沪深交所共同设立)</a>、<a href="http://www.cnindex.com.cn/index.html">国证指数(深交所)</a>、<a href="https://finance.sina.com.cn/esg/grade.shtml">新浪ESG指数</a>、<a href="https://www.quantdata.com.cn/zh">秩鼎(NLP)</a>、<a href="http://ccxgf.com.cn/">中诚信绿金</a>、<a href="https://esgratings.ccxgf.com/#/home">ESG Ratings</a>、<a href="http://www.chinagreenindex.com/databaseGreen.html">中财绿指</a>、<a href="https://iigf.cufe.edu.cn/index.htm">中财绿金</a></li>
+<li><strong>政策链接：</strong><a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91">Github-Folder</a>、<a href="https://doc.weixin.qq.com/doc/w3_Af0AOwbNAHonShGRyK6Rpq1FDrUae?scode=AI4A8gcnABAFW0EOWJ">高顿ESG政策梳理</a>、<a href="https://Southern-FICC.github.io/share/绿色产业指导目录（2023年版）.pdf" target="_blank">绿色产业指导目录2023</a>、<a href="https://Southern-FICC.github.io/share/《绿色产业指导目录（2023年版）》的解释说明.pdf" target="_blank">绿色产业指导目录解释说明</a></li>
 </ol>
 </li>
 <li><strong>业务资质(标准)：</strong>国际资本市场协会(ICMA)、全国金融标准化技术委员会绿色金融标准(CFSTC)、中国银行间市场交易商协会、国际气候债券倡议组织(CBI)、广州市绿色金融协会、中国金融学会绿色金融专业委员会、北京绿色交易所服务</li>
-<li><strong>信披要求：中国证监会</strong>《上市公司治理准则》、<strong>国资委</strong>《关于中央企业履行社会责任的指导意见》、<strong>深交所</strong>《上市公司社会责任指引》、<strong>上交所</strong>《上市公司环境信息披露指引》、<strong>港交所</strong>《环境、社会及管治报告指引》、全球报告倡议组织(GRI)《可持续报告编写指南》、<strong>ISO26000</strong>发布的《社会责任指引》</li>
+<li><strong>信披要求：中国证监会</strong>《上市公司治理准则》、<strong>国资委</strong>《关于中央企业履行社会责任的指导意见》、<strong>深交所</strong>《上市公司社会责任指引》、<strong>上交所</strong>《上市公司环境信息披露指引》、<strong>港交所</strong>《环境、社会及管治报告指引》、<strong>全球报告倡议组织(GRI)</strong>《可持续报告编写指南》、<strong>ISO26000</strong>发布的《社会责任指引》、<strong>央行</strong>《金融机构环境信息披露指南》<br><strong>债券市场ESG信息披露要求：</strong>社会信息<strong>鼓励披露</strong>，治理信息<strong>强制披露</strong>，重点排污企业、绿色债券发行人<strong>环境信息强制披露</strong>，没有相关政策要求以社会责任报告或ESG报告或可持续发展报告形式全面披露ESG信息。<br><strong>权益市场ESG信息披露要求：A+H股上市公司、科创板公司、深证100指数成分股、央企控股</strong>上市公司按照要求需要披露社会责任报告或ESG报告。</li>
 <li><strong>国际通用标准：GRI标准(78%采用)</strong>、可持续发展会计准则委员会<strong>(SASB)</strong>的可持续会计准则、金融稳定理事会<strong>(FSB)</strong>的气候相关财务信息披露工作组<strong>(TCFD)</strong>建议、碳信息披露项目<strong>(CDP)</strong>的环境信息披露、国际标准化组织的ISO26000社会责任指南、价值报告基金会<strong>(VRF)</strong>的综合报告框架</li>
 <li><strong>业务：</strong><ol>
 <li><strong>绿色债券、SLB、转型债券、社会责任债券评估认证：</strong>参照上述标准(ICMA、CBI等)进行评估。涵盖绿色金融债、绿色中期票据、绿色公司债绿色ABS、绿色ABN、绿色熊猫债、碳中和债券、SLB等多个类别。<br><strong>可持续发展挂钩债券(Sustainability-linked Bond，SLB)</strong>是指将债券条款与发行人可持续发展目标相挂钩的债券。挂钩目标包括关键绩效指标(KPI)和可持续发展绩效目标(SPT)。其中,关键绩效指标(KPI)是对发行人运营有核心作用的可持续发展业绩指标；可持续发展绩效目标(SPT)是对关键绩效指标的量化评估目标，并需明确达成时限。第三方机构对相关指标进行验证，如果关键绩效指标在上述时限未达到(或达到)预定的可持续发展绩效目标，将触发债券条款的调整。</li>
@@ -1969,8 +1978,17 @@
 </li>
 <li><strong>知识点：</strong>Gis使用、碳信用、ESG报告、CSR报告</li>
 <li><strong>岗位：</strong>分析师(ESG评估、绿色金融方向、政府与金融机构方向)、碳交易员</li>
-<li><strong>评级路径：</strong>搜集数据(标准化数据、数据可比)、以标准化方法进行风险暴露度量与公司治理度量、关键指标的评分与权重以及ESG评级的最终结果。每个指标衡量的是：1)该公司是否暴露于这种风险；2)公司是如何管理这种风险的。<br><strong>MSCI：</strong>3大项-35个细分-(0-10分)-“AAA-CCC”;<strong>富时罗素：</strong>3大项-14个二级-每级(19-35)个细分-关注绿色收入占比;<strong>穆迪：</strong>ESG分数+ESG对主体信评的影响-对国有和私营发行人的E和S区分对待-考虑当下及远期的政策风险;<strong>路透：</strong>分行业分国家分配ESG权重-纳入重大争议项目对ESG评分的影响;<strong>商道融绿：</strong>国内最早发布上市公司 ESG 评级的机构，自 2015 年开始推出商道融绿ESG评级方法体系，根据不同行业ESG的实质性因子进行加权计算，得到各上市公司的ESG综合得分。<br><strong>数据来源：</strong>企业年报、官网、非政府组织网站、证交所备案文件、企业社会责任报告、新闻等渠道</li>
-<li><strong>ESG评级指标体系：</strong><sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91%E8%AE%A4%E8%AF%81%E7%9A%84%E9%83%A8%E5%88%86%E7%BB%BF%E8%89%B2%E5%80%BA%E5%88%B8.png">[经中诚信绿金认证的部分绿色债券]</a></sup> <sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%94%BF%E5%BA%9C%E6%9C%8D%E5%8A%A1%E6%A1%88%E4%BE%8B.png">[政府服务案例]</a></sup></li>
+<li><strong>评级路径：</strong>搜集数据(标准化数据、数据可比)、以标准化方法进行风险暴露度量与公司治理度量、关键指标的评分与权重以及ESG评级的最终结果。每个指标衡量的是：1)该公司是否暴露于这种风险；2)公司是如何管理这种风险的。<br><strong>MSCI：</strong>3大项-35个细分-(0-10分)-“AAA-CCC”;<strong>富时罗素：</strong>3大项-14个二级-每级(19-35)个细分-关注绿色收入占比;<strong>穆迪：</strong>ESG分数+ESG对主体信评的影响-对国有和私营发行人的E和S区分对待-考虑当下及远期的政策风险;<strong>路透：</strong>分行业分国家分配ESG权重-纳入重大争议项目对ESG评分的影响;<strong>商道融绿：</strong>国内最早发布上市公司 ESG 评级的机构，自 2015 年开始推出商道融绿ESG评级方法体系，根据不同行业ESG的实质性因子进行加权计算，得到各上市公司的ESG综合得分。<br><strong>数据来源：</strong>企业年报、官网、非政府组织网站、证交所备案文件、企业社会责任报告、新闻等信息披露渠道。<strong>漂绿：</strong>捏造ESG数据、夸大宣传；可能受到数据抹黑的干扰。</li>
+<li><strong>ESG报告框架：</strong><br><strong>确定报告范围和目标、数据收集分析、评价体系/模型建立、评估过程、综合评分。</strong><br>【报告说明、董事长致辞、三方面绩效、业务介绍、组织架构(包括ESG)、奖项、可持续发展战略和目标、实质性议题识别一二级指标(结合内外部利益相关方需求、同业讨论对标、学术研究)、就各议题的风险(情景分析)与机遇、应对策略、当前管理策略与绩效】<br><strong>产业层面考虑：</strong>环境因素对能源、农业具有实质影响、社会因素对金融、医药有实质影响。<strong>企业微观层面：</strong>了解ESG机遇和挑战、分析ESG管理政策、关注突出的ESG风险以及改进计划。<br>(因公司规模、行业和地区等因素而有所不同)(某咨询公司的评价内容包括风险和机遇分析、投资组合构建、实施、ESG承诺和理念。)</li>
+<li><p><strong>ESG各模块思路：</strong></p>
+<ol>
+<li><strong>环境因素：</strong><br>【思路】从外部第三方视角对企业面临的环境相关风险及其管理状况作出客观评价(中国证监会、环保部门等监管组织)<br>【指标】处罚整改通知、对生产的影响、污染物排放量、节能减排措施、目标达成承诺</li>
+<li><strong>社会因素：</strong><br>【思路】一般从利益相关者的维度来设计指标体系(股东、员工、客户和消费者、上下游关系(供应链)、债权人和同业、宏观经济和金融市场、政府和公众)<br>【指标】人均税收、就业、ROE、员工人均收入、研发强度、营业收人增长、资产负债率等。如：上市公司开展精准扶贫工作、加强消费者保护责任等。</li>
+<li><strong>治理因素：</strong><br><strong>①除了满足监管合规要求，更需要注重治理是否有效，是否能增加公司价值：</strong>公司战略是否可持续，是否健全风控和内部监督的制度等；<br><strong>②董事会的独立董事是否独立：</strong>行使权利维护股东和会议召开次数，董事年龄简历等等；<br><strong>③公司治理结果：</strong>股东回报(分红率)、投资者关系；<br><strong>④公司治理异常：</strong>反贪污培训、高管增减持、关联交易；<br><strong>⑤公司治理透明度：</strong>信息披露；<br><strong>⑥环境维度：</strong>公司的环境政策、资源使用、废物处理、碳排放等方面的表现；<br><strong>⑦社会维度：</strong>公司与社区、员工和供应商的关系、产品安全、人权和劳工标准等方面的表现；<br><strong>⑧公司治理维度：</strong>公司治理架构、董事会结构、薪酬和透明度等方面的表现。</li>
+</ol>
+</li>
+<li><p><strong>ESG评级指标体系：</strong><sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91%E8%AE%A4%E8%AF%81%E7%9A%84%E9%83%A8%E5%88%86%E7%BB%BF%E8%89%B2%E5%80%BA%E5%88%B8.png">[经中诚信绿金认证的部分绿色债券]</a></sup> <sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%94%BF%E5%BA%9C%E6%9C%8D%E5%8A%A1%E6%A1%88%E4%BE%8B.png">[政府服务案例]</a></sup></p>
+</li>
 </ol>
 <table style="border-collapse: collapse;">
   <thead>
@@ -2049,12 +2067,7 @@
       <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">ESG信息披露等</td>
     </tr>
   </tbody>
-</table>
-
-<h1 id="30-60现状及目标"><a href="#30-60现状及目标" class="headerlink" title="30.60现状及目标"></a>30.60现状及目标</h1><ol>
-<li></li>
-</ol>
-]]></content>
+</table>]]></content>
       <categories>
         <category>投研交易</category>
         <category>理论杂货</category>
