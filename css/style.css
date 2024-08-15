@@ -9,6 +9,12 @@ cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/p
   default;
 }
 
+.search-keyword {
+  background: #ffff1c;
+  color: #003444E6;
+  font-weight: bold;
+}
+
 :root {
   /* head */
   --head-text-color: #333444;
