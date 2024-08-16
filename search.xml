@@ -708,6 +708,7 @@
 <h4 id="6-8-现券-利率互换基差交易"><a href="#6-8-现券-利率互换基差交易" class="headerlink" title="6.8 现券+利率互换基差交易"></a>6.8 <strong>现券+利率互换基差交易</strong></h4><ul>
 <li>例1：当前5年期国开债与FR007_5Y的利差为120BP。交易员认为当前利差显著高估，预期利差将大幅收窄，卖出Spread，即买入1亿元5年期国开债，同时pay 1亿元FR007_5Y。1年后， 5年期国开债与FR007_5Y的利差如预期收窄为40BP，买入Spread，即卖出1亿元5年期国开债，同时Sell 1亿元FR007_5Y。基差收益：<script type="math/tex">(120BP-40BP)*5*10000=400万元</script></li>
 </ul>
+<h4 id="6-9-相关链接"><a href="#6-9-相关链接" class="headerlink" title="6.9 相关链接"></a>6.9 相关链接</h4><p><a href="https://www.nafmii.org.cn/hyfw/hyflmd/hyzmd/">中国银行间市场交易商协会(NAFMII)——会员名单</a>、<a href="https://bond.sse.com.cn/data/statistics/bonddealers/#">上证债券信息网——参与者名单</a>、</p>
 ]]></content>
       <categories>
         <category>投研交易</category>
