@@ -1450,6 +1450,327 @@
       </tags>
   </entry>
   <entry>
+    <title>资金周报与FICC联动</title>
+    <url>/post/44421/</url>
+    <content><![CDATA[<h1 id="市场随笔"><a href="#市场随笔" class="headerlink" title="市场随笔"></a>市场随笔</h1><h2 id="240226-资产荒持续-30年国债"><a href="#240226-资产荒持续-30年国债" class="headerlink" title="240226 资产荒持续-30年国债"></a>240226 资产荒持续-30年国债</h2><p>2024年2月26日，长期默默无闻的30年国债成为全市场交易量最大的债券品种，从10年期国开<script type="math/tex">\rightarrow</script>10年期国债<script type="math/tex">\rightarrow</script>到现在10年与30年国债并存。<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/20240227%E8%B5%84%E4%BA%A7%E8%8D%92Wind%E7%BB%BC%E5%90%88%E5%B1%8F%E6%88%AA%E5%9B%BE.png" style="zoom: 25%;" /></p>
+<h1 id="资金周报"><a href="#资金周报" class="headerlink" title="资金周报"></a>资金周报</h1><h2 id="23-1225-1229"><a href="#23-1225-1229" class="headerlink" title="23.1225-1229"></a>23.1225-1229</h2><p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
+<table>
+    <tr><td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/23.1225-1229WindOMO.png"style="zoom:80%;" /></td><td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png"style="zoom:25%;" /></td></tr>
+</table>
+
+<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。<font color =red>观察分机构净融出情况，—Required More Info From Ideal—</font></p>
+<h2 id="周报要素"><a href="#周报要素" class="headerlink" title="周报要素"></a>周报要素</h2><ol>
+<li><p>本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）<br>资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
+</li>
+<li><p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
+</li>
+<li><p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计。</p>
+</li>
+<li><p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比。</p>
+</li>
+<li><p>体现资金绝对价格的绝对指标：存款类机构质押式回购加权利率（DR系列）、银行间质押式回购加权利率（R系列）、上证质押式国债回购加权平均利率（GC系列）。</p>
+</li>
+<li><p><a href="https://southern-ficc.github.io/post/44421/">资金分层</a></p>
+<p>银行间市场：存款类机构与银行间机构分层：R007 - DR007；R001 - DR001</p>
+<p>上海交易所与银行间分层：GC007 - R007；GC001 - R001</p>
+<p>超额流动性：R007 - 7天逆回购利率；DR007 - 7天逆回购利率</p>
+<p>期限利差、机构间利差（国股行与中小行与非银机构、城投与国债）、产品间利差（非银机构基金证券及货币市场基金）、市场间利差（上海交易所与银行间）</p>
+<p>基本面影响政策面，政策面影响资金面、资金面影响供需面、供需面影响情绪面</p>
+</li>
+</ol>
+<h2 id="资金供需角色"><a href="#资金供需角色" class="headerlink" title="资金供需角色"></a>资金供需角色</h2><ol>
+<li><p><strong>资金市场的流动性层级为大行-中小行-非银机构：</strong></p>
+<ol>
+<li>大行、股份行是资金市场的主要供给方，净融出金额与资金价格呈现负相关性。月末/季末指标压力导致减少资金融出，致使资金价格季节性抬升。</li>
+<li>城、农商行处于流动性层级的中间位置，通常选择承担信用及流动性风险从而获得更大的利差：表现为押利率债给大行融入资金，收信用债融出资金给非银机构，净融出金额与资金利率呈负相关。</li>
+<li>近年来，农商行由于贷款投放减弱，需要增加金融市场业务收益，因此资金交易行为与非银机构相似。</li>
+<li>货币市场基金虽是资金供给方，但是没有对资金价格产生较大影响，属于资金价格的被动接受者，净融出金额与资金价格呈正相关。</li>
+<li>基金、证券为资金需求方，其通过资金市场满足流动性需求，同时增加杠杆，用以增强债券投资的收益率，资金净融入金额与资金价格负相关。资金面收紧时期，‘滚隔夜’难度加大，基金、证券对14D及以上的长期资金需求往往是后续资金面收紧的领先指标。</li>
+</ol>
+</li>
+<li><p>通过央行的货币投放、缴税、政府债券发行、财政支出等影响超额存款准备金的因素以判断资金面的松紧。同时，还可以通过资金价格和资金分层判断资金面松紧。如：信用利差——【五年期AAA城投债-5年期国债(短期1年)】</p>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>本币交易</category>
+      </categories>
+      <tags>
+        <tag>资金周报</tag>
+        <tag>FICC联动</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>银行间市场-利率衍生品</title>
+    <url>/post/49094/</url>
+    <content><![CDATA[<h1 id="利率衍生品"><a href="#利率衍生品" class="headerlink" title="利率衍生品"></a>利率衍生品</h1><p><strong>产品种类：</strong>债券远期、利率互换(IRS)、远期利率协议(FRA)、标准利率互换、标准化债券远期<br><em>利率互换的一级交易对手方为上清所，由上清所作为中央对手方，进行集中清算和担保交收的工作，所以不再有交易对手方风险，无信用风险。</em></p>
+<p><strong>利率衍生品的<u>价格发现</u>功能：</strong></p>
+<p>（一）远期利率: 利率互换市场的极佳流动性使得互换利率成为远期利率的更佳表征工具。远期利率是对冲工具定价、曲线插值等的基础，集中反映了市场当前的利率预期。<br>（二）基准利率: 特别是对于一年以上国债流动性不佳的市场，互换利率成为比国债利率更好的基准利率。</p>
+<h3 id="利率互换"><a href="#利率互换" class="headerlink" title="利率互换"></a>利率互换</h3><h3 id="基础知识及交易要素"><a href="#基础知识及交易要素" class="headerlink" title="基础知识及交易要素"></a>基础知识及交易要素</h3><ol>
+<li>利率互换是指交易双方约定在未来一定期限内，根据约定数量的名义本金按照不同的计息方法进行利息交换的金融合约。</li>
+<li>现金流交换形式——利息交换形式：（一）固定换浮动（二）浮动换浮动（三）固定换固定。其中固定利率换浮动利率（Plain Vanilla IRS）是目前最为普遍的标准型利率互换。<strong>【Fixed payer or Fixed receiver】</strong></li>
+<li>利率互换的需求：<br>a.双方分别由固定利率和浮动利率的借款需求；双方在利率(贷款)市场上均存在比较优势；双方均在自己比较劣势的市场上有借款需求；借款规模和期限匹配<br>b.双方分别持有固定利率资产(负债)和浮动利率资产(负债)；双方对自己持有的资产(负债)的现金流性质不满意，而希望与对方资产或负债的现金流进行交换；双方持有的资产(负债)规模和期限基本匹配</li>
+<li>利率互换的目的(作用)：降低融资成本或提高资产收益；管理利率风险；构建结构化产品</li>
+<li>合约基本条款：<br><strong>a.互换期限：</strong>传统互换的期限通常比较长，123457103050(年)、我国银行间市场还有1369(月)、10+(天)的利率互换协议<br><strong>b.支付周期：</strong>最常见：半年付息、季度付息<br><strong>c.计息基础：</strong>ACT/360、ACT/365、ACT/ACT；<strong>算头不算尾</strong><br><em>计息期是指相邻两个重置日间隔的天数。各期利息金额为以名义本金乘以当期届时的浮动利率，一般提前一个计息期确定浮动利率。且若计息周期小于结算周期，则复利计息，反之单利计息</em><br><strong>d.参考利率：</strong><br>（1）普遍为Shibor3M、FR007、FDR001、FDR007、ShiborON、LPR1Y(季付)、LPR5Y(季付)、1年定期存款和1年贷款利率<br>（2）<strong>或者使用利差作为参考利率：</strong>S3M/R07(Shibor 3M-FR007)、GB10(十年期国债收益率)、CDB10(十年期国开债收益率)、D10/G10(10年期国开债-10年期国债)和AAA3/D3(3年期AAA中短期票据-3年期国开债)<br><strong>e.贴现利率：</strong>一般将浮动利率作为贴现利率。<br><strong>f.关键日期：</strong>交易日、起息日、支付日、到期日/终止日、营业日:除非交易双方另有约定，指下列日期:对于任何付款而言，为相关账户所在地商业银行正常营业的日期(不含法定节假日);对通知或通讯而言，为接收方提供的通知地址中指定城市的商业银行正常营业的日期(不含法定节假日)<br><strong>g.前端残段：</strong>指交易双方约定的不可整除支付周期的首个计息期。前端残段的最后一日为首个支付日，首个支付日根据营业日准则发生调整的，前端残段天数不发生调整。<em>前端残段，如FR007支付频率为7天，但双方约定月底结算，因此不能整除，此时将残段最后一日    作为首个支付日</em><br><strong>h.支付日：</strong>指交易一方进行支付的日期。支付日遵循营业日准则。支付日=起息日+支付周期。对于支付周期为整月或倍数月，则下一支付日为对应下个月的同一日，若无则选择该月最后一日。若存在约定的前端残段的，将残段最后一日作为首个支付日。<br><strong>i.名义本金：</strong>以万元为单位，最小交易量为10万元，最小变动单位为1万元。<br><strong>j.重置频率：</strong>即浮动利率重置的频率。</li>
+</ol>
+<table>
+    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%B8%B8%E7%94%A8%E8%AE%A1%E6%81%AF%E5%9F%BA%E5%87%86%E6%94%B9.png"/></td>
+    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0%E5%9B%BE%E7%A4%BA" style="zoom:50%;" /></td>
+</table>
+
+<h3 id="交易方式"><a href="#交易方式" class="headerlink" title="交易方式"></a>交易方式</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2bid-offer%E5%AD%97%E6%AE%B5.png" alt="image-20240406205936263" /><br><strong>offer: 报卖价，即卖swap，即对手方愿意收的固定利率；bid: 报买价，即买swap，即对手方愿意支出的固定利率</strong><br><strong>同一对手方的bid offer价格为其预期利率价格水平，特别是二者中间价</strong></p>
+<h4 id="相关成交术语"><a href="#相关成交术语" class="headerlink" title="相关成交术语"></a>相关成交术语</h4><p>（1）TKN：“要了”，买家不还价，卖方offer直接被点击成交（一般利率下行的趋势，买盘压力大）<br>（2）GIVEN：“给了”，卖方不还价，买方Bid直接被点成交（一般利率上行的趋势，卖盘压力大）<br>（3）Trd：买卖双方协商后达成交易<br>（4）Done：直接与你的报价匹配<br>（5）Ref：报价撤销</p>
+<h4 id="利率互换的多空歧义"><a href="#利率互换的多空歧义" class="headerlink" title="利率互换的多空歧义"></a>利率互换的多空歧义</h4><p>（1）在中国大陆市场或者中资机构，利率互换的多空说法与现券相反，即看利率上行的支付固定方被称为利率互换的多头(而看利率上行是现券的空头)，看利率下行的支付浮动方则称为利率互换的空头。<strong>因为国内认为利率互换交易的是利率，所以看利率上升成为看多，而现券交易的是现券，看利率上升，即现券价格下跌，即看空。</strong><br>（2）在外国市场、中国大陆的一些外资机构，多空与现券保持一致，即看利率上行为空否则为多。<br>（3）在实务中为了防止不必要的歧义，比较少说多空，而是直接说是支固收浮或者支浮收固。一般支付固定方直接说pay fixed，并称其进入了一个payer swap。</p>
+<h4 id="对手方限额"><a href="#对手方限额" class="headerlink" title="对手方限额"></a>对手方限额</h4><p>利率互换：关系授信、额度授信<font color =red>二选一</font>，<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png">图1</a></p>
+<h4 id="成交行情"><a href="#成交行情" class="headerlink" title="成交行情"></a>成交行情</h4><ul>
+<li>报价行情：利率互换聚合行情、利率互换实时承接、普通利率互换、标准利率互换、标准债券远期、CDS双向报价</li>
+<li>成交行情：利率互换成交、标准利率互换成交、标准债券远期成交、债券远期成交、信用风险缓释凭证成交、信用违约互换成交、利率期权成交行情</li>
+</ul>
+<h4 id="报价方式"><a href="#报价方式" class="headerlink" title="报价方式"></a>报价方式</h4><ol>
+<li>协商驱动（询价|‘格式化报价’）——对话报价（直接对话、聊天转对话）<br>a.须交易双方都给对手方维护利率互换市场对话报价的<font color =red>对手方限额</font>方可成交。支持询价，轮次不超过5次。<br>b.计算机构选择“中国外汇交易中心”的前提是与交易中心签署了计算代理协议。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E2%80%94%E5%8D%8F%E5%95%86%E6%8A%A5%E4%BB%B7.png">利率互换—协商报价</a></li>
+<li>报价驱动（由做市/资金商报价）——请求报价—利率互换<br>a.分仓方式：不分仓和Pre-Allocation<br>b.<font color = red>当请求报价发送给多个对手方且多个对手方机构给予回复，请求方仅可就一笔回复进行成交，不可成交多笔。</font>已确认成交的请求报价结束，不再“我的请求”界面显示<br>c.<font color =red>选择直接合约，授信充足时，回复方回复量必须等于请求量；授信不足时，系统自动计算授信范围内的最大回复量，不可修改</font> <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7%E2%80%94%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2.png">[请求报价—利率互换]</a></li>
+</ol>
+<h4 id="交易时间及交易方式"><a href="#交易时间及交易方式" class="headerlink" title="交易时间及交易方式"></a>交易时间及交易方式</h4><table>
+    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E6%97%B6%E9%97%B4%E6%80%BB%E7%BB%93.png"/></td>
+    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%86%E5%B8%82%E5%9C%BA%E6%8A%A5%E4%BB%B7%E4%B8%8E%E4%BA%A4%E6%98%93%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93.png"/></td>
+</table>
+
+<h3 id="IRS定价"><a href="#IRS定价" class="headerlink" title="IRS定价"></a>IRS定价</h3><ol>
+<li>根据无套利原则，有PV(Fixed) = PV(Float)，即产品的固定利率与浮动参考利率的现金流差额的现值为零，之后随着市场利率变动，合约价格不再为零。产品的固定利率、参考利率的远期利率如下：通过”单变量求解“进行IRS定价 及 通过”单变量求解“计算贴现率</li>
+</ol>
+<table>
+    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/IRS%E5%8D%95%E5%8F%98%E9%87%8F%E6%B1%82%E8%A7%A3%E5%AE%9A%E4%BB%B7"/></td>
+    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8D%95%E5%8F%98%E9%87%8F%E6%B1%82%E8%A7%A3%E8%B4%B4%E7%8E%B0%E7%8E%87"/></td>
+</table>
+
+<h3 id="IRS交易策略"><a href="#IRS交易策略" class="headerlink" title="IRS交易策略"></a>IRS交易策略</h3><ul>
+<li>利差套利<script type="math/tex">\rightarrow</script>净票息收益<br>（1）滚动借入低成本资金投入高利率资产<br>（2）通过利率互换支固收浮冲抵借款成本</li>
+<li>骑乘策略<br>（1）先持有吃票息，待剩余期限减少，吃利得</li>
+<li>期差交易(Spread Trade)<script type="math/tex">\rightarrow</script>研究对象为同一标的的长、短期变化幅度不同<br>（1）陡峭策略：卖长买短<script type="math/tex">\rightarrow</script>Buy Spread<script type="math/tex">\rightarrow</script>Pay Spread<br>（2）平缓策略：买长卖短<script type="math/tex">\rightarrow</script>Sell Spread<script type="math/tex">\rightarrow</script>Receive Spread<br>（3）正蝶式策略：下凸<script type="math/tex">\rightarrow</script>买中间卖两边<br>（4）反蝶式策略：上凸<script type="math/tex">\rightarrow</script>买两边卖中间<ul>
+<li>Spread的表示方法为”短端 * 长端“，其中期差交易的方式由长端决定，即买卖长端<br>如：Buy Spread<script type="math/tex">\rightarrow</script>Pay 5Y IRS + Receive 1Y IRS<br>   Pay Spread<script type="math/tex">\rightarrow</script>Pay 1Y IRS + Receive 5Y IRS</li>
+</ul>
+</li>
+<li>基差交易(Basis Trade)<script type="math/tex">\rightarrow</script>不同市场<strong>但同一期限</strong>的收益率曲线之间的利差<br>有：期现基差、信用基差、利率互换基差、现券+利率互换基差策略<ul>
+<li>利率互换基差策略<script type="math/tex">\longrightarrow</script><strong>基差扩大买入basis(Pay)，缩小卖出basis(Receive)</strong><br>表达方式为”曲线1/曲线2“，如Shibor/FR007 Basis，交易方向为”曲线1“<br>如：Pay Shibor/FR007 Basis 为 Pay Shibor IRS + Receive FR007 IRS<br>   Receive Shibor/FR007 Basis 为 Receive Shibor IRS + Pay FR007 IRS</li>
+</ul>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>本币交易</category>
+      </categories>
+      <tags>
+        <tag>利率衍生品</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>内控指引|法律法规|监管报表|资产负债管理</title>
+    <url>/post/32433/</url>
+    <content><![CDATA[<h1 id="查询路径"><a href="#查询路径" class="headerlink" title="查询路径"></a>查询路径</h1><h3 id="国家法律法规数据库"><a href="#国家法律法规数据库" class="headerlink" title=" 国家法律法规数据库"></a><i class="fa-solid fa-link"></i> <a href="https://flk.npc.gov.cn/xzfg.html">国家法律法规数据库</a></h3><h3 id="证监会信息公开"><a href="#证监会信息公开" class="headerlink" title=" 证监会信息公开"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101951/zfxxgk_zdgk.shtml?channelid=8bf8f81659be4d00920fbb3db02d0102">证监会信息公开</a></h3><h3 id="证券期货法规数据库系统"><a href="#证券期货法规数据库系统" class="headerlink" title=" 证券期货法规数据库系统"></a><i class="fa-solid fa-link"></i> <a href="https://neris.csrc.gov.cn/falvfagui/">证券期货法规数据库系统</a></h3><h3 id="中国会计视野"><a href="#中国会计视野" class="headerlink" title=" 中国会计视野"></a><i class="fa-solid fa-link"></i> <a href="https://law.esnai.com/do.aspx?controller=home&amp;action=ListByType&amp;LawType=008004002">中国会计视野</a></h3><h3 id="中国证券业协会法律法规"><a href="#中国证券业协会法律法规" class="headerlink" title=" 中国证券业协会法律法规"></a><i class="fa-solid fa-link"></i> <a href="https://www.sac.net.cn/flfg/zlgz/">中国证券业协会法律法规</a></h3><h3 id="中国证券投资基金业协会产品备案和数据报送"><a href="#中国证券投资基金业协会产品备案和数据报送" class="headerlink" title=" 中国证券投资基金业协会产品备案和数据报送"></a><i class="fa-solid fa-link"></i> <a href="https://www.amac.org.cn/fwdt/wyb/jgdjhcpbeian/smjjglrdjhcpba/fwzn/">中国证券投资基金业协会产品备案和数据报送</a></h3><h3 id="北大法宝"><a href="#北大法宝" class="headerlink" title=" 北大法宝"></a><i class="fa-solid fa-link"></i> <a href="http://xiaotsg.cn/db/category/3">北大法宝</a></h3><h1 id="法律法规"><a href="#法律法规" class="headerlink" title="法律法规"></a>法律法规</h1><h3 id="中华人民共和国证券法"><a href="#中华人民共和国证券法" class="headerlink" title=" 中华人民共和国证券法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国证券法.pdf" target="_blank"><strong>中华人民共和国证券法</strong></a></h3><h3 id="中华人民共和国公司法"><a href="#中华人民共和国公司法" class="headerlink" title=" 中华人民共和国公司法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国公司法.pdf" target="_blank"><strong>中华人民共和国公司法</strong></a></h3><h3 id="中华人民共和国证券投资基金法"><a href="#中华人民共和国证券投资基金法" class="headerlink" title=" 中华人民共和国证券投资基金法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国证券投资基金法.pdf" target="_blank"><strong>中华人民共和国证券投资基金法</strong></a></h3><h1 id="规范性文件"><a href="#规范性文件" class="headerlink" title="规范性文件"></a>规范性文件</h1><h2 id="财政部-证监会"><a href="#财政部-证监会" class="headerlink" title="财政部\证监会"></a>财政部\证监会</h2><h3 id="证券期货经营机构私募资产管理计划运作管理规定"><a href="#证券期货经营机构私募资产管理计划运作管理规定" class="headerlink" title=" 证券期货经营机构私募资产管理计划运作管理规定"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101954/c6987994/content.shtml">证券期货经营机构私募资产管理计划运作管理规定</a></h3><h4 id="证券期货经营机构私募资产管理计划运作管理规定-1"><a href="#证券期货经营机构私募资产管理计划运作管理规定-1" class="headerlink" title=" 证券期货经营机构私募资产管理计划运作管理规定"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101954/c6987994/6987994/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92%E8%BF%90%E4%BD%9C%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%E3%80%8B.pdf">证券期货经营机构私募资产管理计划运作管理规定</a></h4><h3 id="2023《证券期货经营机构私募资产管理业务管理办法》"><a href="#2023《证券期货经营机构私募资产管理业务管理办法》" class="headerlink" title=" 2023《证券期货经营机构私募资产管理业务管理办法》"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101953/c6987995/content.shtml">2023《证券期货经营机构私募资产管理业务管理办法》</a></h3><h4 id="证券期货经营机构私募资产管理业务管理办法"><a href="#证券期货经营机构私募资产管理业务管理办法" class="headerlink" title=" 证券期货经营机构私募资产管理业务管理办法"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101953/c6987995/6987995/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf">证券期货经营机构私募资产管理业务管理办法</a></h4><h3 id="2020《证券投资基金托管业务管理办法》"><a href="#2020《证券投资基金托管业务管理办法》" class="headerlink" title=" 2020《证券投资基金托管业务管理办法》"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101877/c1029534/content.shtml">2020《证券投资基金托管业务管理办法》</a></h3><h4 id="证券投资基金托管业务管理办法"><a href="#证券投资基金托管业务管理办法" class="headerlink" title=" 证券投资基金托管业务管理办法"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101877/c1029534/1029534/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E6%89%98%E7%AE%A1%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf">证券投资基金托管业务管理办法</a></h4><h3 id="关于强化上市公司及拟上市企业内部控制建设-推进内部控制评价和审计的通知"><a href="#关于强化上市公司及拟上市企业内部控制建设-推进内部控制评价和审计的通知" class="headerlink" title=" 关于强化上市公司及拟上市企业内部控制建设 推进内部控制评价和审计的通知"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/202312/t20231215_3922541.htm">关于强化上市公司及拟上市企业内部控制建设 推进内部控制评价和审计的通知</a></h3><h3 id="企业内部控制基本规范"><a href="#企业内部控制基本规范" class="headerlink" title=" 企业内部控制基本规范"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/200807/t20080704_55982.htm">企业内部控制基本规范</a></h3><h3 id="企业内部控制配套指引"><a href="#企业内部控制配套指引" class="headerlink" title=" 企业内部控制配套指引"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/201005/t20100505_290459.htm">企业内部控制配套指引</a></h3><h4 id="企业内部控制应用指引"><a href="#企业内部控制应用指引" class="headerlink" title=" 企业内部控制应用指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制应用指引.pdf" target="_blank"><strong>企业内部控制应用指引</strong></a></h4><h4 id="企业内部控制评价指引"><a href="#企业内部控制评价指引" class="headerlink" title=" 企业内部控制评价指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制评价指引.pdf" target="_blank"><strong>企业内部控制评价指引</strong></a></h4><h4 id="企业内部控制审计指引"><a href="#企业内部控制审计指引" class="headerlink" title=" 企业内部控制审计指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制审计指引.pdf" target="_blank"><strong>企业内部控制审计指引</strong></a></h4><h3 id="《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》"><a href="#《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》" class="headerlink" title=" 《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/201401/t20140107_1033337.htm">《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》</a></h3><h1 id="监管报表"><a href="#监管报表" class="headerlink" title="监管报表"></a>监管报表</h1><h2 id="1104-非现场监管信息系统"><a href="#1104-非现场监管信息系统" class="headerlink" title="1104-非现场监管信息系统"></a>1104-非现场监管信息系统</h2><h3 id="2024年1104报表"><a href="#2024年1104报表" class="headerlink" title=" 2024年1104报表"></a><i class="fa-solid fa-link"></i> <a href="https://zhuanlan.zhihu.com/p/675868050">2024年1104报表</a></h3><h2 id="理财产品、非标及标准债券产品"><a href="#理财产品、非标及标准债券产品" class="headerlink" title="理财产品、非标及标准债券产品"></a>理财产品、非标及标准债券产品</h2><h3 id="理财产品相关监管政策"><a href="#理财产品相关监管政策" class="headerlink" title=" 理财产品相关监管政策"></a><i class="fa-solid fa-link"></i> <a href="https://zhuanlan.zhihu.com/p/548968240">理财产品相关监管政策</a></h3><h1 id="第二代偿付能力监管制度-资产负债管理"><a href="#第二代偿付能力监管制度-资产负债管理" class="headerlink" title="第二代偿付能力监管制度|资产负债管理"></a>第二代偿付能力监管制度|资产负债管理</h1><h3 id="第二代偿付能力监管制度"><a href="#第二代偿付能力监管制度" class="headerlink" title=" 第二代偿付能力监管制度"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%BF%9D%E9%99%A9%E5%85%AC%E5%8F%B8%E5%81%BF%E4%BB%98%E8%83%BD%E5%8A%9B">第二代偿付能力监管制度</a></h3><h3 id="KPMG资产负债管理"><a href="#KPMG资产负债管理" class="headerlink" title=" KPMG资产负债管理"></a><i class="fa-solid fa-link"></i> <a href="https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2017/06/insurance-company-asset-liability-management.pdf">KPMG资产负债管理</a></h3><h3 id="中国保险资管协会-规范性文件"><a href="#中国保险资管协会-规范性文件" class="headerlink" title=" 中国保险资管协会-规范性文件"></a><i class="fa-solid fa-link"></i> <a href="https://www.iamac.org.cn/flfg/gfxwj/index.html">中国保险资管协会-规范性文件</a></h3><h3 id="中国保险资管协会—财险资负管理量化评估规则"><a href="#中国保险资管协会—财险资负管理量化评估规则" class="headerlink" title=" 中国保险资管协会—财险资负管理量化评估规则"></a><i class="fa-solid fa-link"></i> <a href="https://www.sohu.com/a/163983181_756396">中国保险资管协会—财险资负管理量化评估规则</a></h3><h3 id="中国保险资管协会—寿险资负管理量化评估规则"><a href="#中国保险资管协会—寿险资负管理量化评估规则" class="headerlink" title=" 中国保险资管协会—寿险资负管理量化评估规则"></a><i class="fa-solid fa-link"></i> <a href="https://www.iamac.org.cn/jypx/pxdt/201708/t20170808_4933.html">中国保险资管协会—寿险资负管理量化评估规则</a></h3><h3 id="安永分享—国际财务报告准则第9号-金融工具"><a href="#安永分享—国际财务报告准则第9号-金融工具" class="headerlink" title=" 安永分享—国际财务报告准则第9号-金融工具"></a><i class="fa-solid fa-link"></i> <a href="https://www.iamac.org.cn/xhgz/201710/t20171018_5113.html">安永分享—国际财务报告准则第9号-金融工具</a></h3><h3 id="金融时报—保险业改革发展成色更足"><a href="#金融时报—保险业改革发展成色更足" class="headerlink" title=" 金融时报—保险业改革发展成色更足"></a><i class="fa-solid fa-link"></i> <a href="https://mp.weixin.qq.com/s/-tzGsySxjJktzpMiHeAH8Q">金融时报—保险业改革发展成色更足</a></h3><h1 id="证券期货监管法规汇编"><a href="#证券期货监管法规汇编" class="headerlink" title="证券期货监管法规汇编"></a>证券期货监管法规汇编</h1><h3 id="证券期货监管法规汇编-1"><a href="#证券期货监管法规汇编-1" class="headerlink" title=" 证券期货监管法规汇编"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E9%A3%8E%E6%8E%A7">证券期货监管法规汇编</a></h3><h3 id="证券投资基金会计核算操作实务手册"><a href="#证券投资基金会计核算操作实务手册" class="headerlink" title=" 证券投资基金会计核算操作实务手册"></a><i class="fa-solid fa-link"></i> <a href="https://www.amac.org.cn/hyyj/hjtj/202405/P020240530424712416888.pdf">证券投资基金会计核算操作实务手册</a></h3><h3 id="证券期货监管法规汇编-2"><a href="#证券期货监管法规汇编-2" class="headerlink" title=" 证券期货监管法规汇编"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E9%A3%8E%E6%8E%A7">证券期货监管法规汇编</a></h3>]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>内控指引与法律法规</category>
+      </categories>
+      <tags>
+        <tag>1104监管报表</tag>
+        <tag>人行大集中</tag>
+        <tag>偿二代</tag>
+        <tag>内控指引</tag>
+        <tag>法律法规</tag>
+        <tag>风险监管报表</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>大宗商品|金融期货|期权|策略</title>
+    <url>/post/55094/</url>
+    <content><![CDATA[<h1 id="常用渠道"><a href="#常用渠道" class="headerlink" title="常用渠道"></a>常用渠道</h1><p>研报策略复现及回测：天软、WIND、ifind<br>主观投资策略：使用金字塔、文华财经进行择时策略开发</p>
+<h1 id="相关策略"><a href="#相关策略" class="headerlink" title="相关策略"></a>相关策略</h1><h2 id="主观期货多因子共振策略"><a href="#主观期货多因子共振策略" class="headerlink" title="主观期货多因子共振策略"></a>主观期货多因子共振策略</h2><ol>
+<li>根据国内期货的波动性、研报、及技术指标构建因子；</li>
+<li>结合国内商品期货的日内波动特性，采用非固定周期指标算法进行买卖操作；</li>
+<li>日内中频交易，隔夜仓位控制在30%左右，模型预期年化回报率200%。</li>
+</ol>
+<h2 id="商品指数优选策略"><a href="#商品指数优选策略" class="headerlink" title="商品指数优选策略"></a>商品指数优选策略</h2><ol>
+<li>选取Wind商品指数中高Beta值前5的商品进行买入；</li>
+<li>根据波动率的不同赋值相应的权重，追求超越指数的超额收益；</li>
+<li>模型最大本金回撤不超过3%，稳定盈利年化收益率35%。</li>
+</ol>
+<h2 id="追涨停板策略"><a href="#追涨停板策略" class="headerlink" title="追涨停板策略"></a>追涨停板策略</h2><ol>
+<li>选取日内即将打涨停板的股票以涨停板报单，次日择时卖出</li>
+<li>年化收益约40%，最大回撤11%。</li>
+</ol>
+<h2 id="行业板块优选策略"><a href="#行业板块优选策略" class="headerlink" title="行业板块优选策略"></a>行业板块优选策略</h2><ol>
+<li>将板块进行动态权重赋权，选取初始目标板块；</li>
+<li>提取板块成分股，对成分股进行择时买卖判断；</li>
+<li>模型最大回撤16%，预期年化收益率约60%。</li>
+</ol>
+<h2 id="基金净值估值发现模型"><a href="#基金净值估值发现模型" class="headerlink" title="基金净值估值发现模型"></a>基金净值估值发现模型</h2><ol>
+<li>通过调取基金持仓数据，比对资产与即时市场表现之间存在的差异；</li>
+<li>运用高频数据库实时全市场计算发现可能出现的套利空间；</li>
+<li>模型最大回撤仅为4%，预期年化收益率约为40%(全市场基金，B级基金表现更抢眼)</li>
+</ol>
+<h2 id="复杂K线图形择时算法"><a href="#复杂K线图形择时算法" class="headerlink" title="复杂K线图形择时算法"></a>复杂K线图形择时算法</h2><ol>
+<li>依据形态理论划分的K线形态用计算机语言表达；</li>
+<li>完善了阶段性平台箱体震荡后第一个突破点，成功率达 75%；</li>
+<li>可用计算机语言实现阶段性W底和V形反转形态，反转点可近似到第二根Bar，成功率约65%。</li>
+</ol>
+<h1 id="农产品"><a href="#农产品" class="headerlink" title="农产品"></a>农产品</h1>]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>理论杂货</category>
+      </categories>
+      <tags>
+        <tag>衍生品</tag>
+        <tag>量化投资</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>ESG</title>
+    <url>/post/32586/</url>
+    <content><![CDATA[<h1 id="ESG"><a href="#ESG" class="headerlink" title="ESG"></a>ESG</h1><ol>
+<li><strong>名词释义：</strong><a href="https://mp.weixin.qq.com/s/gC6AYl1CL6eSvuTpQZomhg">名词释义</a><ol>
+<li><strong>ESG：</strong>代表环境、社会和公司治理三个方面。用于评估企业的经营过程在这三个方面遇到的风险和机遇，用于衡量企业可持续发展能力和潜力。信用评级考虑区域状况、经营&amp;财务状况、而ESG作为调整因素影响信用评级。</li>
+<li><strong>碳排放：</strong>生产经营活动过程中向外界排放温室气体(二氧化碳、甲烷、氧化亚氮、氢氟碳化物、全氟碳化物、六氟化硫等)</li>
+<li><strong>碳达峰：</strong>二氧化碳排放总量的增长在2026-2029(十五五期间)达到历史最高值，之后逐步回落</li>
+<li><strong>碳中和：</strong>二氧化碳或温室气体净排放为零，即通过碳汇、碳捕集(如在排放处放置干冰装置收集)、利用与封存等(植树造林和节能减排)方式抵消全部的二氧化碳或温室气体排放量。</li>
+<li><strong>碳强度：</strong>单位GDP的二氧化碳排放量</li>
+<li><strong>碳排放范围1：</strong>公司拥有和控制的资源的直接排放；<strong>范围2：</strong>企业使用外购的能源产生的间接排放；<strong>范围3：</strong>除1和2温室气体核算体系</li>
+<li><strong>ESG和CSR异同：①</strong>共同点都是强调非财务信息披露的重要性，其非财务方面的投入都给社会带来了正外部性影响。<strong>②CSR更为注重对社会、环境做出贡献，将一部分利润用于社会和环境，比如：扶贫和捐款；而ESG更像是一个共赢的概念，寻找能够同时实现商业价值和社会价值的可持续投资项目，比如：新能源汽车。③</strong>CSR报告起源于公共监管部门对企业的“自上而下”的要求，解决的是“企业该对谁负责”的问题；ESG报告起源于机构投资者面对气候变化等非财务风险频发下对企业“自下而上”的需求，解决的是“什么样的企业值得投资”的问题。<strong>④</strong>ESG报告侧重于展现从环境、社会和治理评估上市公司的绩效，可持续发展报告侧重于从商业事件的角度表现公司的可持续承诺。</li>
+</ol>
+</li>
+<li><strong>ESG作用：</strong>减少碳排放、推动企业在工艺、技术方面转型升级、提升能源效率、提升就业率。避免全球变暖造成农业减产。<strong>响应国家政策：</strong>五大金融(绿色、科技、普惠、养老、数字)、风光电能源政策，储能政策、设备更新政策。政策期望新质生产力对总需求的拉动量能够超过地产建筑产业链<strong>(汽车、新能源、军工、医药、数字经济)。</strong>对于企业来说：**绿色债券和信贷的融资成本低，且投资绿色产业能够同时实现商业价值和社会价值，企业出海获得投资的需求。</li>
+<li><strong>目标及现状：</strong><a href="https://mp.weixin.qq.com/s/uNuN8ZZXnP5UniD9wTk90g">中国碳达峰时间表和路径图</a>(根据社会发展需求和转型速度适用不同的路径和目标)</li>
+<li><strong>Link链接：</strong><sup><a herf="https://weibo.com/ttarticle/p/show?id=2309404792494587249240">[国内指数编制机构]</a></sup><ol>
+<li><strong>相关链接：</strong><a href="https://i-esg.com/">青绿数据</a>、<a href="https://www.chindices.com/">华证指数</a>、<a href="https://www.csindex.com.cn/#/esg">中证指数(沪深交所共同设立)</a>、<a href="http://www.cnindex.com.cn/index.html">国证指数(深交所)</a>、<a href="https://finance.sina.com.cn/esg/grade.shtml">新浪ESG指数</a>、<a href="https://www.quantdata.com.cn/zh">秩鼎(NLP)</a>、<a href="http://ccxgf.com.cn/">中诚信绿金</a>、<a href="https://esgratings.ccxgf.com/#/home">ESG Ratings</a>、<a href="http://www.chinagreenindex.com/databaseGreen.html">中财绿指</a>、<a href="https://iigf.cufe.edu.cn/index.htm">中财绿金</a></li>
+<li><strong>政策链接：</strong><a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91">Github-Folder</a>、<a href="https://doc.weixin.qq.com/doc/w3_Af0AOwbNAHonShGRyK6Rpq1FDrUae?scode=AI4A8gcnABAFW0EOWJ">高顿ESG政策梳理</a>、<a href="https://Southern-FICC.github.io/share/绿色产业指导目录（2023年版）.pdf" target="_blank">绿色产业指导目录2023</a>、<a href="https://Southern-FICC.github.io/share/《绿色产业指导目录（2023年版）》的解释说明.pdf" target="_blank">绿色产业指导目录解释说明</a></li>
+</ol>
+</li>
+<li><strong>业务资质(标准)：</strong>国际资本市场协会(ICMA)、全国金融标准化技术委员会绿色金融标准(CFSTC)、中国银行间市场交易商协会、国际气候债券倡议组织(CBI)、广州市绿色金融协会、中国金融学会绿色金融专业委员会、北京绿色交易所服务</li>
+<li><strong>信披要求：中国证监会</strong>《上市公司治理准则》、<strong>国资委</strong>《关于中央企业履行社会责任的指导意见》、<strong>深交所</strong>《上市公司社会责任指引》、<strong>上交所</strong>《上市公司环境信息披露指引》、<strong>港交所</strong>《环境、社会及管治报告指引》、<strong>全球报告倡议组织(GRI)</strong>《可持续报告编写指南》、<strong>ISO26000</strong>发布的《社会责任指引》、<strong>央行</strong>《金融机构环境信息披露指南》<br><strong>债券市场ESG信息披露要求：</strong>社会信息<strong>鼓励披露</strong>，治理信息<strong>强制披露</strong>，重点排污企业、绿色债券发行人<strong>环境信息强制披露</strong>，没有相关政策要求以社会责任报告或ESG报告或可持续发展报告形式全面披露ESG信息。<br><strong>权益市场ESG信息披露要求：A+H股上市公司、科创板公司、深证100指数成分股、央企控股</strong>上市公司按照要求需要披露社会责任报告或ESG报告。</li>
+<li><strong>国际通用标准：GRI标准(78%采用)</strong>、可持续发展会计准则委员会<strong>(SASB)</strong>的可持续会计准则、金融稳定理事会<strong>(FSB)</strong>的气候相关财务信息披露工作组<strong>(TCFD)</strong>建议、碳信息披露项目<strong>(CDP)</strong>的环境信息披露、国际标准化组织的ISO26000社会责任指南、价值报告基金会<strong>(VRF)</strong>的综合报告框架</li>
+<li><strong>业务：</strong><ol>
+<li><strong>绿色债券、SLB、转型债券、社会责任债券评估认证：</strong>参照上述标准(ICMA、CBI等)进行评估。涵盖绿色金融债、绿色中期票据、绿色公司债绿色ABS、绿色ABN、绿色熊猫债、碳中和债券、SLB等多个类别。<br><strong>可持续发展挂钩债券(Sustainability-linked Bond，SLB)</strong>是指将债券条款与发行人可持续发展目标相挂钩的债券。挂钩目标包括关键绩效指标(KPI)和可持续发展绩效目标(SPT)。其中,关键绩效指标(KPI)是对发行人运营有核心作用的可持续发展业绩指标；可持续发展绩效目标(SPT)是对关键绩效指标的量化评估目标，并需明确达成时限。第三方机构对相关指标进行验证，如果关键绩效指标在上述时限未达到(或达到)预定的可持续发展绩效目标，将触发债券条款的调整。</li>
+<li><strong>绿色企业认证：</strong>获评后才能够在资质有效期内发行绿色债券，且享受发行绿色通道，而且发行前不需披露具体用途，仅需将70%的募集资金用于绿色产业领域。涉及拟投项目的合规性、项目决策及资金募集制度完备性、信披和报告制度完备性、环境效益预期目标合理性、环境效益测算</li>
+<li><strong>金融机构绿色金融/转型金融服务：</strong>绿色金融综合管理平台(绿色信贷识别、环境效益计量、碳排放测算工具、数据统计报送)、为金融机构发放绿色信贷、票据提供评估服务、为金融机构提供环境信披报告、提供ESG风险管理服务(对绿色信贷客户的ESG风险进行分类和评级，引导资金流向低ESG风险)、压力测试(环境风险敏感性分析、压力测试)</li>
+<li><strong>碳金融服务：</strong><br>碳核算服务：面向企业和金融机构提供温室气体核查与测算、基于碳核算的碳资产管理咨询服务；碳账户建立；<br>碳金融创新产品设计：碳资产抵质押贷款、碳汇项目开发贷、碳汇项目经营贷等碳信贷创新产品设计；碳债券、碳基金、碳信托、碳租赁、碳互换、碳期货、碳期权等碳金融创新产品设计。</li>
+<li><strong>地方政府绿色金融服务：</strong>提供绿色金融政策制度咨询(政策落地方案、项目评估方法、数据库、应用场景、绿色普惠、碳排放权等权益抵质押融资、绿色GDP核算、投融资咨询)</li>
+<li><strong>投资者及其它服务：</strong>评级模型、数据库(ESG Ratings:环境绩效数据、绿色业务数据、融资数据、产品数据)、<strong>ESG报告咨询(依照披露要求编制社会责任/ESG报告，并以投资机构关注点、评级机构关注点差异化编制)</strong>、企业ESG管理咨询(ESG制度、管理架构、实施程序和考核方式、指标体系、系统维护)</li>
+<li><strong>案例：</strong>碳中和股权基金(主体+基金)、</li>
+</ol>
+</li>
+<li><strong>参与者：</strong><ol>
+<li><strong>四大：</strong>PwC创新服务部、EY CCaSS、Deloitte风险咨询\Assurance</li>
+<li><strong>银行\券商\基金：</strong>中金ESG研究(碳中和组)、南方基金、嘉实基金、易方达基金、兴业银行</li>
+<li><strong>甲方：</strong>平安集团、字节跳动、阳光电源、远景、施耐德、欧莱雅、Shein、H&amp;M、Tiffiny、天齐锂业、宜家、益海嘉里、吉利控股、利乐、飞利浦、晶科能源、富士康</li>
+<li><strong>地产咨询：</strong>五大行(C&amp;W、JLL)</li>
+<li><strong>评级机构：MSCI</strong>、Wind、<strong>彭博、富时罗素、穆迪、汤森路透</strong>、<strong>中诚信绿金、</strong>商道纵横、<strong>商道融绿、</strong>责扬天下，<strong>社投盟、</strong>百度基金会、妙盈、盟浪、鼎力、Senecaesg、Michaelpage、环保桥、万全智策、北京绿金院、长三角绿色价值投资研究院、</li>
+<li><strong>第三方鉴证：</strong>SGS、TUV、Bureau Veritas(碳盘查/核查领域较专业)</li>
+<li><strong>碳资产相关：</strong>中化能源科技、碳盘查/核查/碳管理/CCER项目开发</li>
+<li><strong>EHS相关：</strong>药厂/制造业/化工等大厂央企国企</li>
+</ol>
+</li>
+<li><strong>知识点：</strong>Gis使用、碳信用、ESG报告、CSR报告</li>
+<li><strong>岗位：</strong>分析师(ESG评估、绿色金融方向、政府与金融机构方向)、碳交易员</li>
+<li><strong>评级路径：</strong>搜集数据(标准化数据、数据可比)、以标准化方法进行风险暴露度量与公司治理度量、关键指标的评分与权重以及ESG评级的最终结果。每个指标衡量的是：1)该公司是否暴露于这种风险；2)公司是如何管理这种风险的。<br><strong>MSCI：</strong>3大项-35个细分-(0-10分)-“AAA-CCC”;<strong>富时罗素：</strong>3大项-14个二级-每级(19-35)个细分-关注绿色收入占比;<strong>穆迪：</strong>ESG分数+ESG对主体信评的影响-对国有和私营发行人的E和S区分对待-考虑当下及远期的政策风险;<strong>路透：</strong>分行业分国家分配ESG权重-纳入重大争议项目对ESG评分的影响;<strong>商道融绿：</strong>国内最早发布上市公司 ESG 评级的机构，自 2015 年开始推出商道融绿ESG评级方法体系，根据不同行业ESG的实质性因子进行加权计算，得到各上市公司的ESG综合得分。<br><strong>数据来源：</strong>企业年报、官网、非政府组织网站、证交所备案文件、企业社会责任报告、新闻等信息披露渠道。<strong>漂绿：</strong>捏造ESG数据、夸大宣传；可能受到数据抹黑的干扰。</li>
+<li><strong>ESG报告框架：</strong><br><strong>确定报告范围和目标、数据收集分析、评价体系/模型建立、评估过程、综合评分。</strong><br>【报告说明、董事长致辞、三方面绩效、业务介绍、组织架构(包括ESG)、奖项、可持续发展战略和目标、实质性议题识别一二级指标(结合内外部利益相关方需求、同业讨论对标、学术研究)、就各议题的风险(情景分析)与机遇、应对策略、当前管理策略与绩效】<br><strong>产业层面考虑：</strong>环境因素对能源、农业具有实质影响、社会因素对金融、医药有实质影响。<strong>企业微观层面：</strong>了解ESG机遇和挑战、分析ESG管理政策、关注突出的ESG风险以及改进计划。<br>(因公司规模、行业和地区等因素而有所不同)(某咨询公司的评价内容包括风险和机遇分析、投资组合构建、实施、ESG承诺和理念。)</li>
+<li><p><strong>ESG各模块思路：</strong></p>
+<ol>
+<li><strong>环境因素：</strong><br>【思路】从外部第三方视角对企业面临的环境相关风险及其管理状况作出客观评价(中国证监会、环保部门等监管组织)<br>【指标】处罚整改通知、对生产的影响、污染物排放量、节能减排措施、目标达成承诺</li>
+<li><strong>社会因素：</strong><br>【思路】一般从利益相关者的维度来设计指标体系(股东、员工、客户和消费者、上下游关系(供应链)、债权人和同业、宏观经济和金融市场、政府和公众)<br>【指标】人均税收、就业、ROE、员工人均收入、研发强度、营业收人增长、资产负债率等。如：上市公司开展精准扶贫工作、加强消费者保护责任等。</li>
+<li><strong>治理因素：</strong><br><strong>①除了满足监管合规要求，更需要注重治理是否有效，是否能增加公司价值：</strong>公司战略是否可持续，是否健全风控和内部监督的制度等；<br><strong>②董事会的独立董事是否独立：</strong>行使权利维护股东和会议召开次数，董事年龄简历等等；<br><strong>③公司治理结果：</strong>股东回报(分红率)、投资者关系；<br><strong>④公司治理异常：</strong>反贪污培训、高管增减持、关联交易；<br><strong>⑤公司治理透明度：</strong>信息披露；<br><strong>⑥环境维度：</strong>公司的环境政策、资源使用、废物处理、碳排放等方面的表现；<br><strong>⑦社会维度：</strong>公司与社区、员工和供应商的关系、产品安全、人权和劳工标准等方面的表现；<br><strong>⑧公司治理维度：</strong>公司治理架构、董事会结构、薪酬和透明度等方面的表现。</li>
+</ol>
+</li>
+<li><p><strong>ESG评级指标体系：</strong><sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91%E8%AE%A4%E8%AF%81%E7%9A%84%E9%83%A8%E5%88%86%E7%BB%BF%E8%89%B2%E5%80%BA%E5%88%B8.png">[经中诚信绿金认证的部分绿色债券]</a></sup> <sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%94%BF%E5%BA%9C%E6%9C%8D%E5%8A%A1%E6%A1%88%E4%BE%8B.png">[政府服务案例]</a></sup></p>
+</li>
+</ol>
+<table style="border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">评级维度</th>
+      <th style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">一级指标</th>
+      <th style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">二级指标内容</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;" rowspan="4">环境维度</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">环保管理</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">管理体系、环境风险管控、环保培训等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">排放物管理</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">大气污染物排放、水污染物排放、废排放等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">资源管理</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">能源管理、资源管理、材料管理等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">可持续发展</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">生态环境保护、环保宣传活动等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;" rowspan="6">社会维度</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">客户责任</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">客户权益保护、客户满意度等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">产品责任</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">产品质量管理、产品召回等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">员工责任</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">员工安全、员工福利、员工培训、员工发展等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">社会贡献</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">纳税情况、就业贡献、扶贫贡献等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">供应商责任</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">供应商管理、供应商审核、供应商培训等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">投资者责任</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">股东利益、投资者沟通等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;" rowspan="7">公司治理维度</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">治理结构和运行</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">董事会治理、监事会治理、控股股东等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">高管行为</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">高管资质、高管责任等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">经营行为</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">股东回报、审计意见、重大诉讼等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">合规风险</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">合规管理、内部控制等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">发展战略</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">ESG管理、产业政策等</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">信息披露</td>
+      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">ESG信息披露等</td>
+    </tr>
+  </tbody>
+</table>]]></content>
+      <categories>
+        <category>投研交易</category>
+        <category>理论杂货</category>
+      </categories>
+      <tags>
+        <tag>ESG</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>投资财务尽调</title>
     <url>/post/76666/</url>
     <content><![CDATA[<h1 id="私募股权投资财务尽调"><a href="#私募股权投资财务尽调" class="headerlink" title="私募股权投资财务尽调"></a>私募股权投资财务尽调</h1><h2 id="概述："><a href="#概述：" class="headerlink" title="概述："></a>概述：</h2><p>财务尽调：关注目标公司的历史财务业绩的情况并对未来财务状况进行合理预测<br>调查内容：企业的历史经营业绩、未来盈利预测、营运资金、融资结构、资本性开支以及财务风险敏感度分析<br>尽调作用：为投资及整合方案设计、交易谈判、投资决策提供支撑，进而判断投资是否符合战略目标及投资原则</p>
@@ -1793,6 +2114,7 @@
 <li>作为贷款风险补偿政策受托管理机构，负责日常运作，具体包括备案管理、项目审核、后续跟踪等工作，定期报送政策执行情况，协助市工信局拟定配套文件，明确具体业务流程和操作指引。其中，银行板块业务审核工作由科创担保公司负责（2022年12月31日及以前已纳入相关政策扶持范围的贷款一并负责执行），融担贷款板块业务审核工作由市电子计算中心负责。受托管理机构可按年度提取风险补偿项目服务费，在风险补偿资金中列支。</li>
 <li>确认担保合约中，代偿金额，贷款是否符合国家、省有关风险补偿政策。另外，贷款风险补偿政策用于补偿合作银行实际贷款本金损失以及担保机构的代偿损失，而贷款利息损失以及追偿所产生的费用不在补偿范围。</li>
 <li><strong>纳入银行板块风险补偿范畴的是非实物抵押、非担保公司担保的贷款，且贷款利率不超过LPR+150BP、贷款期限不超过3年；政策期内单家企业合共可补偿限额为1000万元。纳入融担板块风险补偿范畴的为国家融担基金支持贷款，具体业务条件按照国家融担基金相关文件要求确定。</strong></li>
+<li>中小企业主管部门运用财税、金融、技术、产业、人才、用地、用能等政策工具持续支持优质中小企业发展</li>
 </ol>
 </li>
 <li><strong>案例：</strong><ol>
@@ -1800,7 +2122,18 @@
 <li><a href="https://jrj.dg.gov.cn/zwgk/dzyw/content/post_4054893.html">东莞市金融工作局加大政府性融资担保支持力度措施操作指引</a>——推动辖内银行机构与政府性融资担保机构开展“总对总”合作，<strong>“见贷即保”批量化融资担保费率不高于1%。</strong>1.申请对象可以向政府性融资担保公司（东莞市科创融资担保有限公司）或者与东莞市科创融资担保有限公司有批量化业务合作的银行机构（目前合作银行机构有中国银行东莞分行、东莞银行、东莞农村商业银行、广州银行东莞分行、平安银行东莞分行）申请批量担保贷款；<strong>2.银行机构根据申请对象的条件进行独立审批；</strong>3.东莞市科创融资担保有限公司<strong>对银行机构提供的审批通过申请对象有关材料开展形式审查，符合条件的纳入批量化担保业务范围；</strong>4.银行机构、东莞市科创融资担保有限公司与申请对象签订相关合同，履行相关程序后放款。</li>
 </ol>
 </li>
-<li><strong>相关链接：</strong><a href="http://www.dgkcjr.com/%e6%94%bf%e7%ad%96%e6%b3%95%e8%a7%84/%e6%8b%85%e4%bf%9d%e6%94%bf%e7%ad%96">融资担保政策</a>、<a href="https://jrj.dg.gov.cn/ywzy/rzxdbgs/content/post_4066444.html">东莞市融资担保公司名单</a>、<a href="https://im.dg.gov.cn/dtxw/tzgg/content/post_4248770.html">24年东莞创新型中小企业评价、专精特新中小企业认定</a>、<a href="https://www.gd.gov.cn/zwgk/gongbao/2022/33/content/post_4057858.html">广东省优质中小企业梯度培育管理实施细则</a>、<a href="https://im.dg.gov.cn/">东莞市工信局—企管家</a>、<a href="https://im.dg.gov.cn/zwgk/zxgk/content/post_4174307.html">东莞市中小微企业贷款风险补偿白名单（第一批）公告</a>、<a href="https://www.gov.cn/zhengce/zhengceku/2022-06/02/5693548/files/b688da806d224e828076e99a2cbb9151.pdf">工信部—优质中小企业梯度培育管理暂行办法(包含三类优质中小企业的评定标准)</a>、<a href="https://www.dg.gov.cn/zwgk/zfxxgkml/szfbgs/zcwj/qtwj/content/post_4137332.html">东莞市中小微企业融资风险补偿工作方案</a>、<a href="https://im.dg.gov.cn/zwgk/zfxxgkml/zcwj/gfxwj/content/post_4142011.html">东莞市中小微企业贷款风险补偿工作实施细则</a>、<a href="https://www.cbirc.gov.cn/cn/view/pages/rulesDetail.html?docId=1095372">商业银行金融资产风险分类办法—2023年第1号</a></li>
+<li><p><strong>专有名词释义：</strong></p>
+<ol>
+<li><strong>专精特新企业：</strong>专业化指标(主营收入占营业收入、主营收入平均增长率、从事年限、领域)、精细化指标(数字化水平、质量管理水平”广东省质量奖”、净利润率、资产负债率)、特色化指标(地方特色指标)、创新能力指标(知识产权)</li>
+<li><strong>倍增企业：</strong>倍增是指企业的规模和效益均实现倍增。遴选企业主要从规模、增长、效益、创新四个维度选取规模、增长、盈利能力、投资规模、科技研发、专精特新等16项客观指标进行评价</li>
+<li><strong>优质中小企业：</strong>在产品、技术、管理、模式等方面创新能力强、专注细分市场、成长性好的中小企业。<br>(共有评定指标：近三年内获得过国家级、省级科技奖励；获得高新技术企业、国家级技术创新示范企业、知识产权优势企业和知识产权示范企业等荣誉；近三年新增股权融资总额500万、6000万，8000万；<strong>研发费用占比3%-5%；主营收入占比70%；主导产品所属领域情况</strong>)</li>
+<li><strong>创新型中小企业：</strong>具有较高专业化水平、较强创新能力和发展潜力。(属于《战略性新兴产业分类》最佳、其它次之)<br>(基础条件：无；指标：资负率55%以下及55%-75%、主营收入增长5%-15%及15%以上)</li>
+<li><strong>专精特新中小企业：</strong>实现专业化、精细化、特色化发展。(产业链供应链关键环节及关键领域、属于工业“六基”领域、中华老字号名录或企业主导产品服务关键产业链重点龙头企业、<strong>其它零分</strong>)<br>(基础条件：营收1000万以上、研发费用100万以上(占营收3%以上)、资负率50%以下及50-70%、主营增长0%-10%及10%以上)</li>
+<li><strong>专精特新”小巨人”：</strong>位于产业基础核心领域、产业链关键环节。需同时满足专、精、特、新、链、品六个方面指标。<br>(包括营收5000万以上；<strong>资负率不超过70%；主营增长5%以上；</strong>主导产品在细分市场市占率10%以上，较高知名度；<strong>主导产品原则</strong>上属于以下重点领域：<strong>从事细分产品市场属于制造业核心基础零部件</strong>、元器件、关键软件、先进基础工艺、关键基础材料和产业技术基础；或符合<strong>制造强国战略十大重点产业领域</strong>；或属于<strong>网络强国建设的信息基础设施</strong>、关键核心技术、网络安全、数据安全领域等产品。)</li>
+</ol>
+</li>
+<li><p><strong>相关链接：</strong><a href="http://www.dgkcjr.com/%e6%94%bf%e7%ad%96%e6%b3%95%e8%a7%84/%e6%8b%85%e4%bf%9d%e6%94%bf%e7%ad%96">融资担保政策</a>、<a href="https://jrj.dg.gov.cn/ywzy/rzxdbgs/content/post_4066444.html">东莞市融资担保公司名单</a>、<a href="https://im.dg.gov.cn/dtxw/tzgg/content/post_4248770.html">24年东莞创新型中小企业评价、专精特新中小企业认定</a>、<a href="https://www.gd.gov.cn/zwgk/gongbao/2022/33/content/post_4057858.html">广东省优质中小企业梯度培育管理实施细则</a>、<a href="https://im.dg.gov.cn/">东莞市工信局—企管家</a>、<a href="https://im.dg.gov.cn/zwgk/zxgk/content/post_4174307.html">东莞市中小微企业贷款风险补偿白名单（第一批）公告</a>、<a href="https://www.gov.cn/zhengce/zhengceku/2022-06/02/5693548/files/b688da806d224e828076e99a2cbb9151.pdf">工信部—优质中小企业梯度培育管理暂行办法(包含三类优质中小企业的评定标准)</a>、<a href="https://www.dg.gov.cn/zwgk/zfxxgkml/szfbgs/zcwj/qtwj/content/post_4137332.html">东莞市中小微企业融资风险补偿工作方案</a>、<a href="https://im.dg.gov.cn/zwgk/zfxxgkml/zcwj/gfxwj/content/post_4142011.html">东莞市中小微企业贷款风险补偿工作实施细则</a>、<a href="https://www.cbirc.gov.cn/cn/view/pages/rulesDetail.html?docId=1095372">商业银行金融资产风险分类办法—2023年第1号</a>、<a href="https://zjtx.miit.gov.cn/zxqySy/main">优质中小企业梯度培育平台</a></p>
+</li>
 </ol>
 <h1 id="行研框架"><a href="#行研框架" class="headerlink" title="行研框架"></a>行研框架</h1><table style="width: 100%; border-collapse: collapse;">
     <thead>
@@ -1853,327 +2186,7 @@
         <tag>财务尽调</tag>
         <tag>融资担保</tag>
         <tag>行研框架</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资金周报与FICC联动</title>
-    <url>/post/44421/</url>
-    <content><![CDATA[<h1 id="市场随笔"><a href="#市场随笔" class="headerlink" title="市场随笔"></a>市场随笔</h1><h2 id="240226-资产荒持续-30年国债"><a href="#240226-资产荒持续-30年国债" class="headerlink" title="240226 资产荒持续-30年国债"></a>240226 资产荒持续-30年国债</h2><p>2024年2月26日，长期默默无闻的30年国债成为全市场交易量最大的债券品种，从10年期国开<script type="math/tex">\rightarrow</script>10年期国债<script type="math/tex">\rightarrow</script>到现在10年与30年国债并存。<br><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/20240227%E8%B5%84%E4%BA%A7%E8%8D%92Wind%E7%BB%BC%E5%90%88%E5%B1%8F%E6%88%AA%E5%9B%BE.png" style="zoom: 25%;" /></p>
-<h1 id="资金周报"><a href="#资金周报" class="headerlink" title="资金周报"></a>资金周报</h1><h2 id="23-1225-1229"><a href="#23-1225-1229" class="headerlink" title="23.1225-1229"></a>23.1225-1229</h2><p>本周央行公开市场共有6,720亿元逆回购到期，央行累计开展19,290亿元逆回购操作与1800亿国库现金定存，实现净投放14,370亿元。</p>
-<table>
-    <tr><td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/23.1225-1229WindOMO.png"style="zoom:80%;" /></td><td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/A002.png"style="zoom:25%;" /></td></tr>
-</table>
-
-<p>2023年最后一周，在央行公开市场持续净投放的大力呵护下，市场资金面大幅度宽松。周一至周三分别净投放2870亿，3440亿，2920亿。本周利率短暂冲高，而后一泻千里，回到均值附近。<font color =red>观察分机构净融出情况，—Required More Info From Ideal—</font></p>
-<h2 id="周报要素"><a href="#周报要素" class="headerlink" title="周报要素"></a>周报要素</h2><ol>
-<li><p>本周逆回购、MLF到期量，本周累计投放量，本周净投放。（央行公开市场交易公告/CFETS央行公开市场业务公告）<br>资金分层：资金利率趋势与信用利差（短长、国股行与中小行与非银机构（逆回购利率、DR、R、GC）、交易所与银行间、城投与国债、国股行与城商行票据转贴现利率）、分机构（大行股份行、城商行农商行、非银机构基金证券及货币市场基金）（周度/日度）正逆回购净额。</p>
-</li>
-<li><p>隔夜期限，7天期限，长期限跨年，每日走势成交量，分层态势，质押国股、地方债，国股存单，质押信用债等的利率报价变动</p>
-</li>
-<li><p>汇总1、7、14、21，1、2、3、4、6、9、1的加权利率均值、成交量及占比，期限利差变化（R）、分层变化（R-DR），下周公开市场到期量、政府债券到期发行统计。</p>
-</li>
-<li><p>（上交所）交易所市场：GC001、7、14、28，均值及日度趋势，成交量及占比。</p>
-</li>
-<li><p>体现资金绝对价格的绝对指标：存款类机构质押式回购加权利率（DR系列）、银行间质押式回购加权利率（R系列）、上证质押式国债回购加权平均利率（GC系列）。</p>
-</li>
-<li><p><a href="https://southern-ficc.github.io/post/44421/">资金分层</a></p>
-<p>银行间市场：存款类机构与银行间机构分层：R007 - DR007；R001 - DR001</p>
-<p>上海交易所与银行间分层：GC007 - R007；GC001 - R001</p>
-<p>超额流动性：R007 - 7天逆回购利率；DR007 - 7天逆回购利率</p>
-<p>期限利差、机构间利差（国股行与中小行与非银机构、城投与国债）、产品间利差（非银机构基金证券及货币市场基金）、市场间利差（上海交易所与银行间）</p>
-<p>基本面影响政策面，政策面影响资金面、资金面影响供需面、供需面影响情绪面</p>
-</li>
-</ol>
-<h2 id="资金供需角色"><a href="#资金供需角色" class="headerlink" title="资金供需角色"></a>资金供需角色</h2><ol>
-<li><p><strong>资金市场的流动性层级为大行-中小行-非银机构：</strong></p>
-<ol>
-<li>大行、股份行是资金市场的主要供给方，净融出金额与资金价格呈现负相关性。月末/季末指标压力导致减少资金融出，致使资金价格季节性抬升。</li>
-<li>城、农商行处于流动性层级的中间位置，通常选择承担信用及流动性风险从而获得更大的利差：表现为押利率债给大行融入资金，收信用债融出资金给非银机构，净融出金额与资金利率呈负相关。</li>
-<li>近年来，农商行由于贷款投放减弱，需要增加金融市场业务收益，因此资金交易行为与非银机构相似。</li>
-<li>货币市场基金虽是资金供给方，但是没有对资金价格产生较大影响，属于资金价格的被动接受者，净融出金额与资金价格呈正相关。</li>
-<li>基金、证券为资金需求方，其通过资金市场满足流动性需求，同时增加杠杆，用以增强债券投资的收益率，资金净融入金额与资金价格负相关。资金面收紧时期，‘滚隔夜’难度加大，基金、证券对14D及以上的长期资金需求往往是后续资金面收紧的领先指标。</li>
-</ol>
-</li>
-<li><p>通过央行的货币投放、缴税、政府债券发行、财政支出等影响超额存款准备金的因素以判断资金面的松紧。同时，还可以通过资金价格和资金分层判断资金面松紧。如：信用利差——【五年期AAA城投债-5年期国债(短期1年)】</p>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>本币交易</category>
-      </categories>
-      <tags>
-        <tag>资金周报</tag>
-        <tag>FICC联动</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>银行间市场-利率衍生品</title>
-    <url>/post/49094/</url>
-    <content><![CDATA[<h1 id="利率衍生品"><a href="#利率衍生品" class="headerlink" title="利率衍生品"></a>利率衍生品</h1><p><strong>产品种类：</strong>债券远期、利率互换(IRS)、远期利率协议(FRA)、标准利率互换、标准化债券远期<br><em>利率互换的一级交易对手方为上清所，由上清所作为中央对手方，进行集中清算和担保交收的工作，所以不再有交易对手方风险，无信用风险。</em></p>
-<p><strong>利率衍生品的<u>价格发现</u>功能：</strong></p>
-<p>（一）远期利率: 利率互换市场的极佳流动性使得互换利率成为远期利率的更佳表征工具。远期利率是对冲工具定价、曲线插值等的基础，集中反映了市场当前的利率预期。<br>（二）基准利率: 特别是对于一年以上国债流动性不佳的市场，互换利率成为比国债利率更好的基准利率。</p>
-<h3 id="利率互换"><a href="#利率互换" class="headerlink" title="利率互换"></a>利率互换</h3><h3 id="基础知识及交易要素"><a href="#基础知识及交易要素" class="headerlink" title="基础知识及交易要素"></a>基础知识及交易要素</h3><ol>
-<li>利率互换是指交易双方约定在未来一定期限内，根据约定数量的名义本金按照不同的计息方法进行利息交换的金融合约。</li>
-<li>现金流交换形式——利息交换形式：（一）固定换浮动（二）浮动换浮动（三）固定换固定。其中固定利率换浮动利率（Plain Vanilla IRS）是目前最为普遍的标准型利率互换。<strong>【Fixed payer or Fixed receiver】</strong></li>
-<li>利率互换的需求：<br>a.双方分别由固定利率和浮动利率的借款需求；双方在利率(贷款)市场上均存在比较优势；双方均在自己比较劣势的市场上有借款需求；借款规模和期限匹配<br>b.双方分别持有固定利率资产(负债)和浮动利率资产(负债)；双方对自己持有的资产(负债)的现金流性质不满意，而希望与对方资产或负债的现金流进行交换；双方持有的资产(负债)规模和期限基本匹配</li>
-<li>利率互换的目的(作用)：降低融资成本或提高资产收益；管理利率风险；构建结构化产品</li>
-<li>合约基本条款：<br><strong>a.互换期限：</strong>传统互换的期限通常比较长，123457103050(年)、我国银行间市场还有1369(月)、10+(天)的利率互换协议<br><strong>b.支付周期：</strong>最常见：半年付息、季度付息<br><strong>c.计息基础：</strong>ACT/360、ACT/365、ACT/ACT；<strong>算头不算尾</strong><br><em>计息期是指相邻两个重置日间隔的天数。各期利息金额为以名义本金乘以当期届时的浮动利率，一般提前一个计息期确定浮动利率。且若计息周期小于结算周期，则复利计息，反之单利计息</em><br><strong>d.参考利率：</strong><br>（1）普遍为Shibor3M、FR007、FDR001、FDR007、ShiborON、LPR1Y(季付)、LPR5Y(季付)、1年定期存款和1年贷款利率<br>（2）<strong>或者使用利差作为参考利率：</strong>S3M/R07(Shibor 3M-FR007)、GB10(十年期国债收益率)、CDB10(十年期国开债收益率)、D10/G10(10年期国开债-10年期国债)和AAA3/D3(3年期AAA中短期票据-3年期国开债)<br><strong>e.贴现利率：</strong>一般将浮动利率作为贴现利率。<br><strong>f.关键日期：</strong>交易日、起息日、支付日、到期日/终止日、营业日:除非交易双方另有约定，指下列日期:对于任何付款而言，为相关账户所在地商业银行正常营业的日期(不含法定节假日);对通知或通讯而言，为接收方提供的通知地址中指定城市的商业银行正常营业的日期(不含法定节假日)<br><strong>g.前端残段：</strong>指交易双方约定的不可整除支付周期的首个计息期。前端残段的最后一日为首个支付日，首个支付日根据营业日准则发生调整的，前端残段天数不发生调整。<em>前端残段，如FR007支付频率为7天，但双方约定月底结算，因此不能整除，此时将残段最后一日    作为首个支付日</em><br><strong>h.支付日：</strong>指交易一方进行支付的日期。支付日遵循营业日准则。支付日=起息日+支付周期。对于支付周期为整月或倍数月，则下一支付日为对应下个月的同一日，若无则选择该月最后一日。若存在约定的前端残段的，将残段最后一日作为首个支付日。<br><strong>i.名义本金：</strong>以万元为单位，最小交易量为10万元，最小变动单位为1万元。<br><strong>j.重置频率：</strong>即浮动利率重置的频率。</li>
-</ol>
-<table>
-    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%B8%B8%E7%94%A8%E8%AE%A1%E6%81%AF%E5%9F%BA%E5%87%86%E6%94%B9.png"/></td>
-    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0%E5%9B%BE%E7%A4%BA" style="zoom:50%;" /></td>
-</table>
-
-<h3 id="交易方式"><a href="#交易方式" class="headerlink" title="交易方式"></a>交易方式</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2bid-offer%E5%AD%97%E6%AE%B5.png" alt="image-20240406205936263" /><br><strong>offer: 报卖价，即卖swap，即对手方愿意收的固定利率；bid: 报买价，即买swap，即对手方愿意支出的固定利率</strong><br><strong>同一对手方的bid offer价格为其预期利率价格水平，特别是二者中间价</strong></p>
-<h4 id="相关成交术语"><a href="#相关成交术语" class="headerlink" title="相关成交术语"></a>相关成交术语</h4><p>（1）TKN：“要了”，买家不还价，卖方offer直接被点击成交（一般利率下行的趋势，买盘压力大）<br>（2）GIVEN：“给了”，卖方不还价，买方Bid直接被点成交（一般利率上行的趋势，卖盘压力大）<br>（3）Trd：买卖双方协商后达成交易<br>（4）Done：直接与你的报价匹配<br>（5）Ref：报价撤销</p>
-<h4 id="利率互换的多空歧义"><a href="#利率互换的多空歧义" class="headerlink" title="利率互换的多空歧义"></a>利率互换的多空歧义</h4><p>（1）在中国大陆市场或者中资机构，利率互换的多空说法与现券相反，即看利率上行的支付固定方被称为利率互换的多头(而看利率上行是现券的空头)，看利率下行的支付浮动方则称为利率互换的空头。<strong>因为国内认为利率互换交易的是利率，所以看利率上升成为看多，而现券交易的是现券，看利率上升，即现券价格下跌，即看空。</strong><br>（2）在外国市场、中国大陆的一些外资机构，多空与现券保持一致，即看利率上行为空否则为多。<br>（3）在实务中为了防止不必要的歧义，比较少说多空，而是直接说是支固收浮或者支浮收固。一般支付固定方直接说pay fixed，并称其进入了一个payer swap。</p>
-<h4 id="对手方限额"><a href="#对手方限额" class="headerlink" title="对手方限额"></a>对手方限额</h4><p>利率互换：关系授信、额度授信<font color =red>二选一</font>，<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png">图1</a></p>
-<h4 id="成交行情"><a href="#成交行情" class="headerlink" title="成交行情"></a>成交行情</h4><ul>
-<li>报价行情：利率互换聚合行情、利率互换实时承接、普通利率互换、标准利率互换、标准债券远期、CDS双向报价</li>
-<li>成交行情：利率互换成交、标准利率互换成交、标准债券远期成交、债券远期成交、信用风险缓释凭证成交、信用违约互换成交、利率期权成交行情</li>
-</ul>
-<h4 id="报价方式"><a href="#报价方式" class="headerlink" title="报价方式"></a>报价方式</h4><ol>
-<li>协商驱动（询价|‘格式化报价’）——对话报价（直接对话、聊天转对话）<br>a.须交易双方都给对手方维护利率互换市场对话报价的<font color =red>对手方限额</font>方可成交。支持询价，轮次不超过5次。<br>b.计算机构选择“中国外汇交易中心”的前提是与交易中心签署了计算代理协议。<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E2%80%94%E5%8D%8F%E5%95%86%E6%8A%A5%E4%BB%B7.png">利率互换—协商报价</a></li>
-<li>报价驱动（由做市/资金商报价）——请求报价—利率互换<br>a.分仓方式：不分仓和Pre-Allocation<br>b.<font color = red>当请求报价发送给多个对手方且多个对手方机构给予回复，请求方仅可就一笔回复进行成交，不可成交多笔。</font>已确认成交的请求报价结束，不再“我的请求”界面显示<br>c.<font color =red>选择直接合约，授信充足时，回复方回复量必须等于请求量；授信不足时，系统自动计算授信范围内的最大回复量，不可修改</font> <a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E8%AF%B7%E6%B1%82%E6%8A%A5%E4%BB%B7%E2%80%94%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2.png">[请求报价—利率互换]</a></li>
-</ol>
-<h4 id="交易时间及交易方式"><a href="#交易时间及交易方式" class="headerlink" title="交易时间及交易方式"></a>交易时间及交易方式</h4><table>
-    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E4%BA%A4%E6%98%93%E6%97%B6%E9%97%B4%E6%80%BB%E7%BB%93.png"/></td>
-    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%86%E5%B8%82%E5%9C%BA%E6%8A%A5%E4%BB%B7%E4%B8%8E%E4%BA%A4%E6%98%93%E6%96%B9%E5%BC%8F%E6%80%BB%E7%BB%93.png"/></td>
-</table>
-
-<h3 id="IRS定价"><a href="#IRS定价" class="headerlink" title="IRS定价"></a>IRS定价</h3><ol>
-<li>根据无套利原则，有PV(Fixed) = PV(Float)，即产品的固定利率与浮动参考利率的现金流差额的现值为零，之后随着市场利率变动，合约价格不再为零。产品的固定利率、参考利率的远期利率如下：通过”单变量求解“进行IRS定价 及 通过”单变量求解“计算贴现率</li>
-</ol>
-<table>
-    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/IRS%E5%8D%95%E5%8F%98%E9%87%8F%E6%B1%82%E8%A7%A3%E5%AE%9A%E4%BB%B7"/></td>
-    <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%8D%95%E5%8F%98%E9%87%8F%E6%B1%82%E8%A7%A3%E8%B4%B4%E7%8E%B0%E7%8E%87"/></td>
-</table>
-
-<h3 id="IRS交易策略"><a href="#IRS交易策略" class="headerlink" title="IRS交易策略"></a>IRS交易策略</h3><ul>
-<li>利差套利<script type="math/tex">\rightarrow</script>净票息收益<br>（1）滚动借入低成本资金投入高利率资产<br>（2）通过利率互换支固收浮冲抵借款成本</li>
-<li>骑乘策略<br>（1）先持有吃票息，待剩余期限减少，吃利得</li>
-<li>期差交易(Spread Trade)<script type="math/tex">\rightarrow</script>研究对象为同一标的的长、短期变化幅度不同<br>（1）陡峭策略：卖长买短<script type="math/tex">\rightarrow</script>Buy Spread<script type="math/tex">\rightarrow</script>Pay Spread<br>（2）平缓策略：买长卖短<script type="math/tex">\rightarrow</script>Sell Spread<script type="math/tex">\rightarrow</script>Receive Spread<br>（3）正蝶式策略：下凸<script type="math/tex">\rightarrow</script>买中间卖两边<br>（4）反蝶式策略：上凸<script type="math/tex">\rightarrow</script>买两边卖中间<ul>
-<li>Spread的表示方法为”短端 * 长端“，其中期差交易的方式由长端决定，即买卖长端<br>如：Buy Spread<script type="math/tex">\rightarrow</script>Pay 5Y IRS + Receive 1Y IRS<br>   Pay Spread<script type="math/tex">\rightarrow</script>Pay 1Y IRS + Receive 5Y IRS</li>
-</ul>
-</li>
-<li>基差交易(Basis Trade)<script type="math/tex">\rightarrow</script>不同市场<strong>但同一期限</strong>的收益率曲线之间的利差<br>有：期现基差、信用基差、利率互换基差、现券+利率互换基差策略<ul>
-<li>利率互换基差策略<script type="math/tex">\longrightarrow</script><strong>基差扩大买入basis(Pay)，缩小卖出basis(Receive)</strong><br>表达方式为”曲线1/曲线2“，如Shibor/FR007 Basis，交易方向为”曲线1“<br>如：Pay Shibor/FR007 Basis 为 Pay Shibor IRS + Receive FR007 IRS<br>   Receive Shibor/FR007 Basis 为 Receive Shibor IRS + Pay FR007 IRS</li>
-</ul>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>本币交易</category>
-      </categories>
-      <tags>
-        <tag>利率衍生品</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>内控指引|法律法规|监管报表|资产负债管理</title>
-    <url>/post/32433/</url>
-    <content><![CDATA[<h1 id="查询路径"><a href="#查询路径" class="headerlink" title="查询路径"></a>查询路径</h1><h3 id="国家法律法规数据库"><a href="#国家法律法规数据库" class="headerlink" title=" 国家法律法规数据库"></a><i class="fa-solid fa-link"></i> <a href="https://flk.npc.gov.cn/xzfg.html">国家法律法规数据库</a></h3><h3 id="证监会信息公开"><a href="#证监会信息公开" class="headerlink" title=" 证监会信息公开"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101951/zfxxgk_zdgk.shtml?channelid=8bf8f81659be4d00920fbb3db02d0102">证监会信息公开</a></h3><h3 id="证券期货法规数据库系统"><a href="#证券期货法规数据库系统" class="headerlink" title=" 证券期货法规数据库系统"></a><i class="fa-solid fa-link"></i> <a href="https://neris.csrc.gov.cn/falvfagui/">证券期货法规数据库系统</a></h3><h3 id="中国会计视野"><a href="#中国会计视野" class="headerlink" title=" 中国会计视野"></a><i class="fa-solid fa-link"></i> <a href="https://law.esnai.com/do.aspx?controller=home&amp;action=ListByType&amp;LawType=008004002">中国会计视野</a></h3><h3 id="中国证券业协会法律法规"><a href="#中国证券业协会法律法规" class="headerlink" title=" 中国证券业协会法律法规"></a><i class="fa-solid fa-link"></i> <a href="https://www.sac.net.cn/flfg/zlgz/">中国证券业协会法律法规</a></h3><h3 id="中国证券投资基金业协会产品备案和数据报送"><a href="#中国证券投资基金业协会产品备案和数据报送" class="headerlink" title=" 中国证券投资基金业协会产品备案和数据报送"></a><i class="fa-solid fa-link"></i> <a href="https://www.amac.org.cn/fwdt/wyb/jgdjhcpbeian/smjjglrdjhcpba/fwzn/">中国证券投资基金业协会产品备案和数据报送</a></h3><h3 id="北大法宝"><a href="#北大法宝" class="headerlink" title=" 北大法宝"></a><i class="fa-solid fa-link"></i> <a href="http://xiaotsg.cn/db/category/3">北大法宝</a></h3><h1 id="法律法规"><a href="#法律法规" class="headerlink" title="法律法规"></a>法律法规</h1><h3 id="中华人民共和国证券法"><a href="#中华人民共和国证券法" class="headerlink" title=" 中华人民共和国证券法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国证券法.pdf" target="_blank"><strong>中华人民共和国证券法</strong></a></h3><h3 id="中华人民共和国公司法"><a href="#中华人民共和国公司法" class="headerlink" title=" 中华人民共和国公司法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国公司法.pdf" target="_blank"><strong>中华人民共和国公司法</strong></a></h3><h3 id="中华人民共和国证券投资基金法"><a href="#中华人民共和国证券投资基金法" class="headerlink" title=" 中华人民共和国证券投资基金法"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/中华人民共和国证券投资基金法.pdf" target="_blank"><strong>中华人民共和国证券投资基金法</strong></a></h3><h1 id="规范性文件"><a href="#规范性文件" class="headerlink" title="规范性文件"></a>规范性文件</h1><h2 id="财政部-证监会"><a href="#财政部-证监会" class="headerlink" title="财政部\证监会"></a>财政部\证监会</h2><h3 id="证券期货经营机构私募资产管理计划运作管理规定"><a href="#证券期货经营机构私募资产管理计划运作管理规定" class="headerlink" title=" 证券期货经营机构私募资产管理计划运作管理规定"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101954/c6987994/content.shtml">证券期货经营机构私募资产管理计划运作管理规定</a></h3><h4 id="证券期货经营机构私募资产管理计划运作管理规定-1"><a href="#证券期货经营机构私募资产管理计划运作管理规定-1" class="headerlink" title=" 证券期货经营机构私募资产管理计划运作管理规定"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101954/c6987994/6987994/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E8%AE%A1%E5%88%92%E8%BF%90%E4%BD%9C%E7%AE%A1%E7%90%86%E8%A7%84%E5%AE%9A%E3%80%8B.pdf">证券期货经营机构私募资产管理计划运作管理规定</a></h4><h3 id="2023《证券期货经营机构私募资产管理业务管理办法》"><a href="#2023《证券期货经营机构私募资产管理业务管理办法》" class="headerlink" title=" 2023《证券期货经营机构私募资产管理业务管理办法》"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101953/c6987995/content.shtml">2023《证券期货经营机构私募资产管理业务管理办法》</a></h3><h4 id="证券期货经营机构私募资产管理业务管理办法"><a href="#证券期货经营机构私募资产管理业务管理办法" class="headerlink" title=" 证券期货经营机构私募资产管理业务管理办法"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101953/c6987995/6987995/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E3%80%8A%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E7%BB%8F%E8%90%A5%E6%9C%BA%E6%9E%84%E7%A7%81%E5%8B%9F%E8%B5%84%E4%BA%A7%E7%AE%A1%E7%90%86%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95%E3%80%8B.pdf">证券期货经营机构私募资产管理业务管理办法</a></h4><h3 id="2020《证券投资基金托管业务管理办法》"><a href="#2020《证券投资基金托管业务管理办法》" class="headerlink" title=" 2020《证券投资基金托管业务管理办法》"></a><i class="fa-solid fa-link"></i> <a href="http://www.csrc.gov.cn/csrc/c101877/c1029534/content.shtml">2020《证券投资基金托管业务管理办法》</a></h3><h4 id="证券投资基金托管业务管理办法"><a href="#证券投资基金托管业务管理办法" class="headerlink" title=" 证券投资基金托管业务管理办法"></a><i class="fa-solid fa-file-pdf"></i> <a href="http://www.csrc.gov.cn/csrc/c101877/c1029534/1029534/files/%E9%99%84%E4%BB%B61%EF%BC%9A%E8%AF%81%E5%88%B8%E6%8A%95%E8%B5%84%E5%9F%BA%E9%87%91%E6%89%98%E7%AE%A1%E4%B8%9A%E5%8A%A1%E7%AE%A1%E7%90%86%E5%8A%9E%E6%B3%95.pdf">证券投资基金托管业务管理办法</a></h4><h3 id="关于强化上市公司及拟上市企业内部控制建设-推进内部控制评价和审计的通知"><a href="#关于强化上市公司及拟上市企业内部控制建设-推进内部控制评价和审计的通知" class="headerlink" title=" 关于强化上市公司及拟上市企业内部控制建设 推进内部控制评价和审计的通知"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/202312/t20231215_3922541.htm">关于强化上市公司及拟上市企业内部控制建设 推进内部控制评价和审计的通知</a></h3><h3 id="企业内部控制基本规范"><a href="#企业内部控制基本规范" class="headerlink" title=" 企业内部控制基本规范"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/200807/t20080704_55982.htm">企业内部控制基本规范</a></h3><h3 id="企业内部控制配套指引"><a href="#企业内部控制配套指引" class="headerlink" title=" 企业内部控制配套指引"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/201005/t20100505_290459.htm">企业内部控制配套指引</a></h3><h4 id="企业内部控制应用指引"><a href="#企业内部控制应用指引" class="headerlink" title=" 企业内部控制应用指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制应用指引.pdf" target="_blank"><strong>企业内部控制应用指引</strong></a></h4><h4 id="企业内部控制评价指引"><a href="#企业内部控制评价指引" class="headerlink" title=" 企业内部控制评价指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制评价指引.pdf" target="_blank"><strong>企业内部控制评价指引</strong></a></h4><h4 id="企业内部控制审计指引"><a href="#企业内部控制审计指引" class="headerlink" title=" 企业内部控制审计指引"></a><i class="fa-solid fa-file-pdf"></i> <a href="https://Southern-FICC.github.io/share/企业内部控制审计指引.pdf" target="_blank"><strong>企业内部控制审计指引</strong></a></h4><h3 id="《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》"><a href="#《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》" class="headerlink" title=" 《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》"></a><i class="fa-solid fa-link"></i> <a href="https://kjs.mof.gov.cn/zhengcefabu/201401/t20140107_1033337.htm">《公开发行证券的公司信息披露编报规则第21号——年度内部控制评价报告的一般规定》</a></h3><h1 id="监管报表"><a href="#监管报表" class="headerlink" title="监管报表"></a>监管报表</h1><h2 id="1104-非现场监管信息系统"><a href="#1104-非现场监管信息系统" class="headerlink" title="1104-非现场监管信息系统"></a>1104-非现场监管信息系统</h2><h3 id="2024年1104报表"><a href="#2024年1104报表" class="headerlink" title=" 2024年1104报表"></a><i class="fa-solid fa-link"></i> <a href="https://zhuanlan.zhihu.com/p/675868050">2024年1104报表</a></h3><h2 id="理财产品、非标及标准债券产品"><a href="#理财产品、非标及标准债券产品" class="headerlink" title="理财产品、非标及标准债券产品"></a>理财产品、非标及标准债券产品</h2><h3 id="理财产品相关监管政策"><a href="#理财产品相关监管政策" class="headerlink" title=" 理财产品相关监管政策"></a><i class="fa-solid fa-link"></i> <a href="https://zhuanlan.zhihu.com/p/548968240">理财产品相关监管政策</a></h3><h1 id="第二代偿付能力监管制度-资产负债管理"><a href="#第二代偿付能力监管制度-资产负债管理" class="headerlink" title="第二代偿付能力监管制度|资产负债管理"></a>第二代偿付能力监管制度|资产负债管理</h1><h3 id="第二代偿付能力监管制度"><a href="#第二代偿付能力监管制度" class="headerlink" title=" 第二代偿付能力监管制度"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%BF%9D%E9%99%A9%E5%85%AC%E5%8F%B8%E5%81%BF%E4%BB%98%E8%83%BD%E5%8A%9B">第二代偿付能力监管制度</a></h3><h3 id="KPMG资产负债管理"><a href="#KPMG资产负债管理" class="headerlink" title=" KPMG资产负债管理"></a><i class="fa-solid fa-link"></i> <a href="https://assets.kpmg.com/content/dam/kpmg/cn/pdf/zh/2017/06/insurance-company-asset-liability-management.pdf">KPMG资产负债管理</a></h3><h3 id="中国保险资管协会-规范性文件"><a href="#中国保险资管协会-规范性文件" class="headerlink" title=" 中国保险资管协会-规范性文件"></a><i class="fa-solid fa-link"></i> <a href="https://www.iamac.org.cn/flfg/gfxwj/index.html">中国保险资管协会-规范性文件</a></h3><h3 id="中国保险资管协会—财险资负管理量化评估规则"><a href="#中国保险资管协会—财险资负管理量化评估规则" class="headerlink" title=" 中国保险资管协会—财险资负管理量化评估规则"></a><i class="fa-solid fa-link"></i> <a href="https://www.sohu.com/a/163983181_756396">中国保险资管协会—财险资负管理量化评估规则</a></h3><h3 id="中国保险资管协会—寿险资负管理量化评估规则"><a href="#中国保险资管协会—寿险资负管理量化评估规则" class="headerlink" title=" 中国保险资管协会—寿险资负管理量化评估规则"></a><i class="fa-solid fa-link"></i> <a href="https://www.iamac.org.cn/jypx/pxdt/201708/t20170808_4933.html">中国保险资管协会—寿险资负管理量化评估规则</a></h3><h3 id="安永分享—国际财务报告准则第9号-金融工具"><a href="#安永分享—国际财务报告准则第9号-金融工具" class="headerlink" title=" 安永分享—国际财务报告准则第9号-金融工具"></a><i class="fa-solid fa-link"></i> <a href="https://www.iamac.org.cn/xhgz/201710/t20171018_5113.html">安永分享—国际财务报告准则第9号-金融工具</a></h3><h3 id="金融时报—保险业改革发展成色更足"><a href="#金融时报—保险业改革发展成色更足" class="headerlink" title=" 金融时报—保险业改革发展成色更足"></a><i class="fa-solid fa-link"></i> <a href="https://mp.weixin.qq.com/s/-tzGsySxjJktzpMiHeAH8Q">金融时报—保险业改革发展成色更足</a></h3><h1 id="证券期货监管法规汇编"><a href="#证券期货监管法规汇编" class="headerlink" title="证券期货监管法规汇编"></a>证券期货监管法规汇编</h1><h3 id="证券期货监管法规汇编-1"><a href="#证券期货监管法规汇编-1" class="headerlink" title=" 证券期货监管法规汇编"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E9%A3%8E%E6%8E%A7">证券期货监管法规汇编</a></h3><h3 id="证券投资基金会计核算操作实务手册"><a href="#证券投资基金会计核算操作实务手册" class="headerlink" title=" 证券投资基金会计核算操作实务手册"></a><i class="fa-solid fa-link"></i> <a href="https://www.amac.org.cn/hyyj/hjtj/202405/P020240530424712416888.pdf">证券投资基金会计核算操作实务手册</a></h3><h3 id="证券期货监管法规汇编-2"><a href="#证券期货监管法规汇编-2" class="headerlink" title=" 证券期货监管法规汇编"></a><i class="fa-solid fa-link"></i> <a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E8%AF%81%E5%88%B8%E6%9C%9F%E8%B4%A7%E9%A3%8E%E6%8E%A7">证券期货监管法规汇编</a></h3>]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>内控指引与法律法规</category>
-      </categories>
-      <tags>
-        <tag>1104监管报表</tag>
-        <tag>人行大集中</tag>
-        <tag>偿二代</tag>
-        <tag>内控指引</tag>
-        <tag>法律法规</tag>
-        <tag>风险监管报表</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>大宗商品|金融期货|期权|策略</title>
-    <url>/post/55094/</url>
-    <content><![CDATA[<h1 id="常用渠道"><a href="#常用渠道" class="headerlink" title="常用渠道"></a>常用渠道</h1><p>研报策略复现及回测：天软、WIND、ifind<br>主观投资策略：使用金字塔、文华财经进行择时策略开发</p>
-<h1 id="相关策略"><a href="#相关策略" class="headerlink" title="相关策略"></a>相关策略</h1><h2 id="主观期货多因子共振策略"><a href="#主观期货多因子共振策略" class="headerlink" title="主观期货多因子共振策略"></a>主观期货多因子共振策略</h2><ol>
-<li>根据国内期货的波动性、研报、及技术指标构建因子；</li>
-<li>结合国内商品期货的日内波动特性，采用非固定周期指标算法进行买卖操作；</li>
-<li>日内中频交易，隔夜仓位控制在30%左右，模型预期年化回报率200%。</li>
-</ol>
-<h2 id="商品指数优选策略"><a href="#商品指数优选策略" class="headerlink" title="商品指数优选策略"></a>商品指数优选策略</h2><ol>
-<li>选取Wind商品指数中高Beta值前5的商品进行买入；</li>
-<li>根据波动率的不同赋值相应的权重，追求超越指数的超额收益；</li>
-<li>模型最大本金回撤不超过3%，稳定盈利年化收益率35%。</li>
-</ol>
-<h2 id="追涨停板策略"><a href="#追涨停板策略" class="headerlink" title="追涨停板策略"></a>追涨停板策略</h2><ol>
-<li>选取日内即将打涨停板的股票以涨停板报单，次日择时卖出</li>
-<li>年化收益约40%，最大回撤11%。</li>
-</ol>
-<h2 id="行业板块优选策略"><a href="#行业板块优选策略" class="headerlink" title="行业板块优选策略"></a>行业板块优选策略</h2><ol>
-<li>将板块进行动态权重赋权，选取初始目标板块；</li>
-<li>提取板块成分股，对成分股进行择时买卖判断；</li>
-<li>模型最大回撤16%，预期年化收益率约60%。</li>
-</ol>
-<h2 id="基金净值估值发现模型"><a href="#基金净值估值发现模型" class="headerlink" title="基金净值估值发现模型"></a>基金净值估值发现模型</h2><ol>
-<li>通过调取基金持仓数据，比对资产与即时市场表现之间存在的差异；</li>
-<li>运用高频数据库实时全市场计算发现可能出现的套利空间；</li>
-<li>模型最大回撤仅为4%，预期年化收益率约为40%(全市场基金，B级基金表现更抢眼)</li>
-</ol>
-<h2 id="复杂K线图形择时算法"><a href="#复杂K线图形择时算法" class="headerlink" title="复杂K线图形择时算法"></a>复杂K线图形择时算法</h2><ol>
-<li>依据形态理论划分的K线形态用计算机语言表达；</li>
-<li>完善了阶段性平台箱体震荡后第一个突破点，成功率达 75%；</li>
-<li>可用计算机语言实现阶段性W底和V形反转形态，反转点可近似到第二根Bar，成功率约65%。</li>
-</ol>
-<h1 id="农产品"><a href="#农产品" class="headerlink" title="农产品"></a>农产品</h1>]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>理论杂货</category>
-      </categories>
-      <tags>
-        <tag>衍生品</tag>
-        <tag>量化投资</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>ESG</title>
-    <url>/post/32586/</url>
-    <content><![CDATA[<h1 id="ESG"><a href="#ESG" class="headerlink" title="ESG"></a>ESG</h1><ol>
-<li><strong>名词释义：</strong><a href="https://mp.weixin.qq.com/s/gC6AYl1CL6eSvuTpQZomhg">名词释义</a><ol>
-<li><strong>ESG：</strong>代表环境、社会和公司治理三个方面。用于评估企业的经营过程在这三个方面遇到的风险和机遇，用于衡量企业可持续发展能力和潜力。信用评级考虑区域状况、经营&amp;财务状况、而ESG作为调整因素影响信用评级。</li>
-<li><strong>碳排放：</strong>生产经营活动过程中向外界排放温室气体(二氧化碳、甲烷、氧化亚氮、氢氟碳化物、全氟碳化物、六氟化硫等)</li>
-<li><strong>碳达峰：</strong>二氧化碳排放总量的增长在2026-2029(十五五期间)达到历史最高值，之后逐步回落</li>
-<li><strong>碳中和：</strong>二氧化碳或温室气体净排放为零，即通过碳汇、碳捕集(如在排放处放置干冰装置收集)、利用与封存等(植树造林和节能减排)方式抵消全部的二氧化碳或温室气体排放量。</li>
-<li><strong>碳强度：</strong>单位GDP的二氧化碳排放量</li>
-<li><strong>碳排放范围1：</strong>公司拥有和控制的资源的直接排放；<strong>范围2：</strong>企业使用外购的能源产生的间接排放；<strong>范围3：</strong>除1和2温室气体核算体系</li>
-<li><strong>ESG和CSR异同：①</strong>共同点都是强调非财务信息披露的重要性，其非财务方面的投入都给社会带来了正外部性影响。<strong>②CSR更为注重对社会、环境做出贡献，将一部分利润用于社会和环境，比如：扶贫和捐款；而ESG更像是一个共赢的概念，寻找能够同时实现商业价值和社会价值的可持续投资项目，比如：新能源汽车。③</strong>CSR报告起源于公共监管部门对企业的“自上而下”的要求，解决的是“企业该对谁负责”的问题；ESG报告起源于机构投资者面对气候变化等非财务风险频发下对企业“自下而上”的需求，解决的是“什么样的企业值得投资”的问题。<strong>④</strong>ESG报告侧重于展现从环境、社会和治理评估上市公司的绩效，可持续发展报告侧重于从商业事件的角度表现公司的可持续承诺。</li>
-</ol>
-</li>
-<li><strong>ESG作用：</strong>减少碳排放、推动企业在工艺、技术方面转型升级、提升能源效率、提升就业率。避免全球变暖造成农业减产。<strong>响应国家政策：</strong>五大金融(绿色、科技、普惠、养老、数字)、风光电能源政策，储能政策、设备更新政策。政策期望新质生产力对总需求的拉动量能够超过地产建筑产业链<strong>(汽车、新能源、军工、医药、数字经济)。</strong>对于企业来说：**绿色债券和信贷的融资成本低，且投资绿色产业能够同时实现商业价值和社会价值，企业出海获得投资的需求。</li>
-<li><strong>目标及现状：</strong><a href="https://mp.weixin.qq.com/s/uNuN8ZZXnP5UniD9wTk90g">中国碳达峰时间表和路径图</a>(根据社会发展需求和转型速度适用不同的路径和目标)</li>
-<li><strong>Link链接：</strong><sup><a herf="https://weibo.com/ttarticle/p/show?id=2309404792494587249240">[国内指数编制机构]</a></sup><ol>
-<li><strong>相关链接：</strong><a href="https://i-esg.com/">青绿数据</a>、<a href="https://www.chindices.com/">华证指数</a>、<a href="https://www.csindex.com.cn/#/esg">中证指数(沪深交所共同设立)</a>、<a href="http://www.cnindex.com.cn/index.html">国证指数(深交所)</a>、<a href="https://finance.sina.com.cn/esg/grade.shtml">新浪ESG指数</a>、<a href="https://www.quantdata.com.cn/zh">秩鼎(NLP)</a>、<a href="http://ccxgf.com.cn/">中诚信绿金</a>、<a href="https://esgratings.ccxgf.com/#/home">ESG Ratings</a>、<a href="http://www.chinagreenindex.com/databaseGreen.html">中财绿指</a>、<a href="https://iigf.cufe.edu.cn/index.htm">中财绿金</a></li>
-<li><strong>政策链接：</strong><a href="https://github.com/Southern-FICC/Southern-FICC.github.io/tree/master/share/%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91">Github-Folder</a>、<a href="https://doc.weixin.qq.com/doc/w3_Af0AOwbNAHonShGRyK6Rpq1FDrUae?scode=AI4A8gcnABAFW0EOWJ">高顿ESG政策梳理</a>、<a href="https://Southern-FICC.github.io/share/绿色产业指导目录（2023年版）.pdf" target="_blank">绿色产业指导目录2023</a>、<a href="https://Southern-FICC.github.io/share/《绿色产业指导目录（2023年版）》的解释说明.pdf" target="_blank">绿色产业指导目录解释说明</a></li>
-</ol>
-</li>
-<li><strong>业务资质(标准)：</strong>国际资本市场协会(ICMA)、全国金融标准化技术委员会绿色金融标准(CFSTC)、中国银行间市场交易商协会、国际气候债券倡议组织(CBI)、广州市绿色金融协会、中国金融学会绿色金融专业委员会、北京绿色交易所服务</li>
-<li><strong>信披要求：中国证监会</strong>《上市公司治理准则》、<strong>国资委</strong>《关于中央企业履行社会责任的指导意见》、<strong>深交所</strong>《上市公司社会责任指引》、<strong>上交所</strong>《上市公司环境信息披露指引》、<strong>港交所</strong>《环境、社会及管治报告指引》、<strong>全球报告倡议组织(GRI)</strong>《可持续报告编写指南》、<strong>ISO26000</strong>发布的《社会责任指引》、<strong>央行</strong>《金融机构环境信息披露指南》<br><strong>债券市场ESG信息披露要求：</strong>社会信息<strong>鼓励披露</strong>，治理信息<strong>强制披露</strong>，重点排污企业、绿色债券发行人<strong>环境信息强制披露</strong>，没有相关政策要求以社会责任报告或ESG报告或可持续发展报告形式全面披露ESG信息。<br><strong>权益市场ESG信息披露要求：A+H股上市公司、科创板公司、深证100指数成分股、央企控股</strong>上市公司按照要求需要披露社会责任报告或ESG报告。</li>
-<li><strong>国际通用标准：GRI标准(78%采用)</strong>、可持续发展会计准则委员会<strong>(SASB)</strong>的可持续会计准则、金融稳定理事会<strong>(FSB)</strong>的气候相关财务信息披露工作组<strong>(TCFD)</strong>建议、碳信息披露项目<strong>(CDP)</strong>的环境信息披露、国际标准化组织的ISO26000社会责任指南、价值报告基金会<strong>(VRF)</strong>的综合报告框架</li>
-<li><strong>业务：</strong><ol>
-<li><strong>绿色债券、SLB、转型债券、社会责任债券评估认证：</strong>参照上述标准(ICMA、CBI等)进行评估。涵盖绿色金融债、绿色中期票据、绿色公司债绿色ABS、绿色ABN、绿色熊猫债、碳中和债券、SLB等多个类别。<br><strong>可持续发展挂钩债券(Sustainability-linked Bond，SLB)</strong>是指将债券条款与发行人可持续发展目标相挂钩的债券。挂钩目标包括关键绩效指标(KPI)和可持续发展绩效目标(SPT)。其中,关键绩效指标(KPI)是对发行人运营有核心作用的可持续发展业绩指标；可持续发展绩效目标(SPT)是对关键绩效指标的量化评估目标，并需明确达成时限。第三方机构对相关指标进行验证，如果关键绩效指标在上述时限未达到(或达到)预定的可持续发展绩效目标，将触发债券条款的调整。</li>
-<li><strong>绿色企业认证：</strong>获评后才能够在资质有效期内发行绿色债券，且享受发行绿色通道，而且发行前不需披露具体用途，仅需将70%的募集资金用于绿色产业领域。涉及拟投项目的合规性、项目决策及资金募集制度完备性、信披和报告制度完备性、环境效益预期目标合理性、环境效益测算</li>
-<li><strong>金融机构绿色金融/转型金融服务：</strong>绿色金融综合管理平台(绿色信贷识别、环境效益计量、碳排放测算工具、数据统计报送)、为金融机构发放绿色信贷、票据提供评估服务、为金融机构提供环境信披报告、提供ESG风险管理服务(对绿色信贷客户的ESG风险进行分类和评级，引导资金流向低ESG风险)、压力测试(环境风险敏感性分析、压力测试)</li>
-<li><strong>碳金融服务：</strong><br>碳核算服务：面向企业和金融机构提供温室气体核查与测算、基于碳核算的碳资产管理咨询服务；碳账户建立；<br>碳金融创新产品设计：碳资产抵质押贷款、碳汇项目开发贷、碳汇项目经营贷等碳信贷创新产品设计；碳债券、碳基金、碳信托、碳租赁、碳互换、碳期货、碳期权等碳金融创新产品设计。</li>
-<li><strong>地方政府绿色金融服务：</strong>提供绿色金融政策制度咨询(政策落地方案、项目评估方法、数据库、应用场景、绿色普惠、碳排放权等权益抵质押融资、绿色GDP核算、投融资咨询)</li>
-<li><strong>投资者及其它服务：</strong>评级模型、数据库(ESG Ratings:环境绩效数据、绿色业务数据、融资数据、产品数据)、<strong>ESG报告咨询(依照披露要求编制社会责任/ESG报告，并以投资机构关注点、评级机构关注点差异化编制)</strong>、企业ESG管理咨询(ESG制度、管理架构、实施程序和考核方式、指标体系、系统维护)</li>
-<li><strong>案例：</strong>碳中和股权基金(主体+基金)、</li>
-</ol>
-</li>
-<li><strong>参与者：</strong><ol>
-<li><strong>四大：</strong>PwC创新服务部、EY CCaSS、Deloitte风险咨询\Assurance</li>
-<li><strong>银行\券商\基金：</strong>中金ESG研究(碳中和组)、南方基金、嘉实基金、易方达基金、兴业银行</li>
-<li><strong>甲方：</strong>平安集团、字节跳动、阳光电源、远景、施耐德、欧莱雅、Shein、H&amp;M、Tiffiny、天齐锂业、宜家、益海嘉里、吉利控股、利乐、飞利浦、晶科能源、富士康</li>
-<li><strong>地产咨询：</strong>五大行(C&amp;W、JLL)</li>
-<li><strong>评级机构：MSCI</strong>、Wind、<strong>彭博、富时罗素、穆迪、汤森路透</strong>、<strong>中诚信绿金、</strong>商道纵横、<strong>商道融绿、</strong>责扬天下，<strong>社投盟、</strong>百度基金会、妙盈、盟浪、鼎力、Senecaesg、Michaelpage、环保桥、万全智策、北京绿金院、长三角绿色价值投资研究院、</li>
-<li><strong>第三方鉴证：</strong>SGS、TUV、Bureau Veritas(碳盘查/核查领域较专业)</li>
-<li><strong>碳资产相关：</strong>中化能源科技、碳盘查/核查/碳管理/CCER项目开发</li>
-<li><strong>EHS相关：</strong>药厂/制造业/化工等大厂央企国企</li>
-</ol>
-</li>
-<li><strong>知识点：</strong>Gis使用、碳信用、ESG报告、CSR报告</li>
-<li><strong>岗位：</strong>分析师(ESG评估、绿色金融方向、政府与金融机构方向)、碳交易员</li>
-<li><strong>评级路径：</strong>搜集数据(标准化数据、数据可比)、以标准化方法进行风险暴露度量与公司治理度量、关键指标的评分与权重以及ESG评级的最终结果。每个指标衡量的是：1)该公司是否暴露于这种风险；2)公司是如何管理这种风险的。<br><strong>MSCI：</strong>3大项-35个细分-(0-10分)-“AAA-CCC”;<strong>富时罗素：</strong>3大项-14个二级-每级(19-35)个细分-关注绿色收入占比;<strong>穆迪：</strong>ESG分数+ESG对主体信评的影响-对国有和私营发行人的E和S区分对待-考虑当下及远期的政策风险;<strong>路透：</strong>分行业分国家分配ESG权重-纳入重大争议项目对ESG评分的影响;<strong>商道融绿：</strong>国内最早发布上市公司 ESG 评级的机构，自 2015 年开始推出商道融绿ESG评级方法体系，根据不同行业ESG的实质性因子进行加权计算，得到各上市公司的ESG综合得分。<br><strong>数据来源：</strong>企业年报、官网、非政府组织网站、证交所备案文件、企业社会责任报告、新闻等信息披露渠道。<strong>漂绿：</strong>捏造ESG数据、夸大宣传；可能受到数据抹黑的干扰。</li>
-<li><strong>ESG报告框架：</strong><br><strong>确定报告范围和目标、数据收集分析、评价体系/模型建立、评估过程、综合评分。</strong><br>【报告说明、董事长致辞、三方面绩效、业务介绍、组织架构(包括ESG)、奖项、可持续发展战略和目标、实质性议题识别一二级指标(结合内外部利益相关方需求、同业讨论对标、学术研究)、就各议题的风险(情景分析)与机遇、应对策略、当前管理策略与绩效】<br><strong>产业层面考虑：</strong>环境因素对能源、农业具有实质影响、社会因素对金融、医药有实质影响。<strong>企业微观层面：</strong>了解ESG机遇和挑战、分析ESG管理政策、关注突出的ESG风险以及改进计划。<br>(因公司规模、行业和地区等因素而有所不同)(某咨询公司的评价内容包括风险和机遇分析、投资组合构建、实施、ESG承诺和理念。)</li>
-<li><p><strong>ESG各模块思路：</strong></p>
-<ol>
-<li><strong>环境因素：</strong><br>【思路】从外部第三方视角对企业面临的环境相关风险及其管理状况作出客观评价(中国证监会、环保部门等监管组织)<br>【指标】处罚整改通知、对生产的影响、污染物排放量、节能减排措施、目标达成承诺</li>
-<li><strong>社会因素：</strong><br>【思路】一般从利益相关者的维度来设计指标体系(股东、员工、客户和消费者、上下游关系(供应链)、债权人和同业、宏观经济和金融市场、政府和公众)<br>【指标】人均税收、就业、ROE、员工人均收入、研发强度、营业收人增长、资产负债率等。如：上市公司开展精准扶贫工作、加强消费者保护责任等。</li>
-<li><strong>治理因素：</strong><br><strong>①除了满足监管合规要求，更需要注重治理是否有效，是否能增加公司价值：</strong>公司战略是否可持续，是否健全风控和内部监督的制度等；<br><strong>②董事会的独立董事是否独立：</strong>行使权利维护股东和会议召开次数，董事年龄简历等等；<br><strong>③公司治理结果：</strong>股东回报(分红率)、投资者关系；<br><strong>④公司治理异常：</strong>反贪污培训、高管增减持、关联交易；<br><strong>⑤公司治理透明度：</strong>信息披露；<br><strong>⑥环境维度：</strong>公司的环境政策、资源使用、废物处理、碳排放等方面的表现；<br><strong>⑦社会维度：</strong>公司与社区、员工和供应商的关系、产品安全、人权和劳工标准等方面的表现；<br><strong>⑧公司治理维度：</strong>公司治理架构、董事会结构、薪酬和透明度等方面的表现。</li>
-</ol>
-</li>
-<li><p><strong>ESG评级指标体系：</strong><sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E7%BB%8F%E4%B8%AD%E8%AF%9A%E4%BF%A1%E7%BB%BF%E9%87%91%E8%AE%A4%E8%AF%81%E7%9A%84%E9%83%A8%E5%88%86%E7%BB%BF%E8%89%B2%E5%80%BA%E5%88%B8.png">[经中诚信绿金认证的部分绿色债券]</a></sup> <sup><a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E6%94%BF%E5%BA%9C%E6%9C%8D%E5%8A%A1%E6%A1%88%E4%BE%8B.png">[政府服务案例]</a></sup></p>
-</li>
-</ol>
-<table style="border-collapse: collapse;">
-  <thead>
-    <tr>
-      <th style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">评级维度</th>
-      <th style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">一级指标</th>
-      <th style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">二级指标内容</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;" rowspan="4">环境维度</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">环保管理</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">管理体系、环境风险管控、环保培训等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">排放物管理</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">大气污染物排放、水污染物排放、废排放等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">资源管理</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">能源管理、资源管理、材料管理等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">可持续发展</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">生态环境保护、环保宣传活动等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;" rowspan="6">社会维度</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">客户责任</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">客户权益保护、客户满意度等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">产品责任</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">产品质量管理、产品召回等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">员工责任</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">员工安全、员工福利、员工培训、员工发展等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">社会贡献</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">纳税情况、就业贡献、扶贫贡献等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">供应商责任</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">供应商管理、供应商审核、供应商培训等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">投资者责任</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">股东利益、投资者沟通等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;" rowspan="7">公司治理维度</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">治理结构和运行</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">董事会治理、监事会治理、控股股东等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">高管行为</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">高管资质、高管责任等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">经营行为</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">股东回报、审计意见、重大诉讼等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">合规风险</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">合规管理、内部控制等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">发展战略</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">ESG管理、产业政策等</td>
-    </tr>
-    <tr>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2; text-align: center;">信息披露</td>
-      <td style="border: 1px solid black; padding: 5px; line-height: 1.2;">ESG信息披露等</td>
-    </tr>
-  </tbody>
-</table>]]></content>
-      <categories>
-        <category>投研交易</category>
-        <category>理论杂货</category>
-      </categories>
-      <tags>
-        <tag>ESG</tag>
+        <tag>风险尽调</tag>
       </tags>
   </entry>
 </search>
