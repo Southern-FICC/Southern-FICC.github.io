@@ -158,3 +158,6 @@ cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/p
 #article-container.post-content h6::before {
   content: 'H6';
 }
+.fancybox__container {
+  --fancybox-bg: #ffffff;
+}
