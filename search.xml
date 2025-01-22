@@ -2016,6 +2016,7 @@
 </ol>
 </li>
 <li><strong>LGFV：</strong>城投、建投、交投、水务；<strong>利率债：</strong>国债、地方政府债、政策性银行债；企业债、公司债、中期票据、短期融资券、资产支持证券。</li>
+<li><a href="https://www.celma.org.cn/">CELMA——中国地方政府债券信息公开平台</a></li>
 </ol>
 <h4 id="政府性基金预算"><a href="#政府性基金预算" class="headerlink" title="政府性基金预算"></a>政府性基金预算</h4><ol>
 <li><strong>政府性基金预算</strong>(与一般公共预算不同，为专项基金)占总预算26%。收入主要来源于土地出让(80%)、专项债。支出主要用于土地使用权方面的支出(拆迁补偿、安居工程)、专项债的支出(棚改、新能源、农林水利)。</li>
@@ -2222,6 +2223,10 @@
 <li><strong>风格均衡：</strong>一种投资组合管理策略——通过在不同的投资风格(如价值型、成长型、大盘股、小盘股等)之间进行平衡配置，以降低投资组合的波动性和风险。</li>
 <li><strong>全要素生产率：</strong>衡量在不增加投入（如劳动和资本）的情况下，通过技术进步、效率改进等方式，所能实现的产出增长。<script type="math/tex; mode=display">TFP = \frac{Y}{K^\alpha L^{1-\alpha}}\\注：Y总产出GDP,K资本投入,L劳动投入,α资本投入的产出弹性</script></li>
 </ol>
+<h1 id="债券实操指南-交易-研究-与量化投资"><a href="#债券实操指南-交易-研究-与量化投资" class="headerlink" title="债券实操指南-交易-研究-与量化投资"></a>债券实操指南-交易-研究-与量化投资</h1><h2 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h2><ol>
+<li>债券市场包括买方、卖方、交易产所三个要素。<br><strong>卖方(6个)：</strong>1-在银行间和交易所发行政金债的政策性银行；2-在银行间发行金融债和存单的普通商业银行；3-在银行间和交易所发行金融债的非银金融机构；4-在银行间和交易所发行信用债的非金融企业；5-在全市场发行的地方和政府债券；6-在银行间市场发行熊猫债的国际机构<br><strong>买方：</strong>以回购的方式在银行间市场进行公开市场操作的央行；通过购买债券向政府定向融出资金的政策性银行；进行自营或资管业务的商业银行；非银金融机构可以在两个市场投资；个人和非金融企业只能在柜台市场和交易所市场进行债券投资。</li>
+<li>交易场所：银行间市场、柜台市场、交易所市场</li>
+</ol>
 <h1 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h1><ol>
 <li><a href="https://zhuanlan.zhihu.com/p/391679912">央行货币政策框架解读</a></li>
 <li><a href="https://mp.weixin.qq.com/s/5u9whdtVXYMSRJH6INYW0A">2024年05月15日——《严禁！手工补息！》</a></li>
@@ -2229,6 +2234,7 @@
 <li><a href="https://m.163.com/money/article/CB7FOV53002580S6.html">2017年01月20日——低利率环境对保险资产配置的影响及对策</a></li>
 <li><a href="https://www.zhihu.com/question/267707454/answer/2995894042">我国财政预算体系的“四本账”详细是指哪些？</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/146387676">一文读懂中国的四大财政预算体系！</a></li>
+<li><a href="https://www.celma.org.cn/">CELMA——中国地方政府债券信息公开平台</a></li>
 </ol>
 ]]></content>
       <categories>
