@@ -54,7 +54,80 @@
   <entry>
     <title>上清所登记结算</title>
     <url>/post/63033/</url>
-    <content><![CDATA[<h1 id="上清所发行登记业务"><a href="#上清所发行登记业务" class="headerlink" title="上清所发行登记业务"></a>上清所发行登记业务</h1><p><a href="https://www.nafmii.org.cn/hyfw/hyflmd/hyzmd/">银行间市场会员总名单</a></p>
+    <content><![CDATA[<h1 id="托管业务"><a href="#托管业务" class="headerlink" title="托管业务"></a>托管业务</h1><h2 id="1-1-托管定义-券款对付"><a href="#1-1-托管定义-券款对付" class="headerlink" title="1.1 托管定义(券款对付)"></a>1.1 托管定义(券款对付)</h2><ol>
+<li>是指金融机构作为第三方，根据法律法规和托管合同为资产所有人提供托管资产保管、资金清算、核算和估值的服务，并收取托管费的一项中间业务。托管业务是伴随着财富、投资理财等业务发展而衍生出来，属于偏后台中低风险业务的一类。</li>
+<li>即：客户委托投资管理人进行投资，并将资金委托托管人进行管理，投资管理人将每次交易(如：投资交易存单、票据、债券、基金、股票等)产生的划付指令传送给托管人进行清算划付。</li>
+</ol>
+<h2 id="1-2-产品-结算模式-现状-解决方案"><a href="#1-2-产品-结算模式-现状-解决方案" class="headerlink" title="1.2 产品|结算模式|现状|解决方案"></a>1.2 产品|结算模式|现状|解决方案</h2><ol>
+<li><p><strong>TA系统和估值系统：</strong>一般来说，管理人或者外包服务机构通过估值系统完成净值计算，在与托管机构复核后，导出相应的净值文件传送至TA系统进行份额清算确认，再由管理人或者外包服务机构于当晚10点前将净值行情进行发布，投资者便可看到公募基金产品当日的净值。从二者的职能来看，TA系统主要负责处理基金申赎端的业务，而基金估值系统则负责处理基金投资端的业务。</p>
+</li>
+<li><p><strong>产品类别：</strong>保险资管、公募基金、银行理财、信托计划、私募基金、养老金、证券期货私募资管、QDII、QFII类</p>
+</li>
+<li><strong>结算模式：</strong>托管行结算、券商结算、类QFII结算模式</li>
+<li><strong>保管对象：</strong><ol>
+<li><strong>现金类资产：</strong>包括银行存款、货币市场工具等。<br><strong>债券类资产：</strong>包括国债、企业债、公司债等。<br><strong>证券类资产：</strong>包括股票、基金等。<br><strong>直接股权类资产：</strong>包括对企业的直接股权投资。<br><strong>其他应收资产：</strong>如应收账款等。<br><strong>其他资产权利凭证：</strong>如各类金融衍生品、资产支持证券等。</li>
+</ol>
+</li>
+<li><strong>服务内容：</strong> <ol>
+<li><strong>基本服务：</strong>资产保管和账户管理；资金清算与证券交收；会计核算与资产估值；信息披露与报告；投资监督</li>
+<li><strong>增值服务（更多针对的是境外客户）：</strong>现金管理；外汇服务；税务管理</li>
+<li>招商银行</li>
+</ol>
+</li>
+<li><strong>现状：</strong><ol>
+<li>全行业规模突破200万亿元，但平均费率跌至0.25‰，行业集中度高，前10%的银行拿走90%的利润。公募基金托管费率高、稳定性强，被称为含金量最高的托管，也是各家托管行必争之地。</li>
+<li><strong>中小银行缺少财富管理渠道，</strong>难以通过”以销换托”模式扩大托管规模；人均效能不足，行业标杆人均托管规模超500亿元；<strong>合规成本增加，</strong>如若未能及时满足最新估值要求，单笔罚单金额高，相当于半年托管利润；<strong>创新类产品不足，</strong>增值服务收入占比普遍低于10%，而头部银行该比例已超30%；<strong>政策之后，</strong>对养老金第三支柱、REITs等新政策反应迟缓，如：错失首批养老FOF托管资格；地方监管要求差异导致跨区展业困难。</li>
+</ol>
+</li>
+<li><strong>解决方案：</strong><ol>
+<li>放弃传统集中式系统，采用微服务架构搭建轻量化托管平台，成本低，上线快；系统共建；跨区域承接产业基金托管；<strong>引入RPA</strong></li>
+<li>与地方政府、产投集团共建”产业托管联盟”，如：定制化托管协议-嵌入投后管理条款，通过托管账户现金流预测区域经济走势，反哺信贷政策。</li>
+<li>积极响应政策红利，个人养老金账户托管，公募REITs托管，公募REITs托管卡位战，资产现金流预测模型</li>
+</ol>
+</li>
+</ol>
+<h2 id="政策研究"><a href="#政策研究" class="headerlink" title="政策研究"></a>政策研究</h2><h3 id="1-附件"><a href="#1-附件" class="headerlink" title="1.附件"></a>1.附件</h3><ol>
+<li><a href="">中国资产托管行业发展报告（2024）</a></li>
+<li><a href="https://www.amac.org.cn/hyyj/hjtj/202405/P020240530424712416888.pdf">证券投资基金会计核算操作实务手册(2024)</a></li>
+<li><strong>《关于规范金融机构资产管理业务的指导意见》</strong><br>“<u><strong>这是由人民银行、银保监会、证监会、外汇局</strong></u>联合发布的文件，明确了金融机构发行的资产管理产品资产应当由具有托管资质的第三方机构独立托管。该文件在一定程度上规范了托管业务的基本要求，<font color=red>但并非专门针对托管业务的法律或行政法规。</font>“</li>
+<li><strong>《商业银行托管业务监督管理办法（征求意见稿）》</strong><font color=red><strong>2022年</strong></font><br>“为进一步加强商业银行托管业务监督管理，促进商业银行托管业务规范健康发展，<u><strong>银保监会</strong></u>根据《中华人民共和国银行业监督管理法》《中华人民共和国商业银行法》等法律法规以及《关于规范金融机构资产管理业务的指导意见》，制定了《商业银行托管业务监督管理办法》（以下简称《办法》），自2022年12月29日起公开征求意见。”</li>
+<li><strong>《证券投资基金托管业务管理办法》</strong><font color=red><strong>2020年发布，25年4月发修订草案征求意见稿。</strong></font><br><u><strong>由中国证监会和银保监会</strong></u>联合发布的管理办法，<u>专门针对证券投资基金托管业务</u>的<strong><font color=red>部门规章，或者叫专项法规，但这种称呼更多地反映了其内容的专门性和针对性，而不是其法律效力层级。</font></strong></li>
+<li><a href="https://www.china-cba.net/Index/show/catid/130/id/19843.html">商业银行资产托管业务指引(2019)-原文</a><font color=red><strong>2013年发布，19年修订后发布。</strong></font><br><a href="https://www.sohu.com/a/302181641_757185">商业银行资产托管业务指引(2019)-解读</a><br><u><strong>由中国银行业协会</strong></u>发布的<strong><font color=red>行业自律规范</font></strong>，明确了托管业务的定义、职责边界等内容。该指引在实际操作中为商业银行提供了具体的业务指导，但由于其法律层级较低，无法作为严格的上位法。</li>
+<li><strong>监管层级：</strong>《商业银行托管业务监督管理办法（征求意见稿）》和《证券投资基金托管业务管理办法》属于监管层面的法规，具有较高的法律效力；而《商业银行资产托管业务指引》属于行业自律规范，法律层级较低。<br><strong>适用范围：</strong>《商业银行托管业务监督管理办法（征求意见稿）》适用于商业银行的各类托管业务；《证券投资基金托管业务管理办法》专门针对证券投资基金托管业务；《商业银行资产托管业务指引》则更侧重于商业银行资产托管业务的自律管理</li>
+<li><strong>在资产托管业务中，虽然目前尚未有专门的法律（如《资产托管法》），但以下文件在实际操作中被视作具有较高法律效力的上位法：</strong><br><strong>《民法典》：</strong>作为基础法律，其关于合同、委托代理等条款在托管业务中具有适用性。<br><strong>《信托法》：</strong>在涉及信托关系的托管业务中，其原则性规定具有指导意义。<br><strong>《银行业监督管理法》：</strong>对银行业的监督管理提供法律依据，适用于商业银行托管业务。<br><strong>《证券投资基金法》：</strong>对基金托管业务提供法律依据。<br><strong>《关于规范金融机构资产管理业务的指导意见》：</strong>虽然不是法律，但作为<strong>行政法规性质</strong>的文件，对金融机构的资产管理业务（包括托管业务）提供了统一的规范。<strong><font color=red>虽然该文件对商业银行托管业务进行了全面规范，但在法律体系中，它属于下位法，其效力来源于上位法的授权</font></strong></li>
+<li><strong>上位法的定义：</strong>上位法通常指具有较高法律效力层级的法律或行政法规。例如，《民法典》《信托法》《银行业监督管理法》等法律，以及国务院制定的行政法规，都可以作为上位法</li>
+<li><font color =red>法规是指由国家机关制定的具有普遍约束力的规范性文件，通常包括行政法规和地方性法规。行政法规是由国务院制定的，其法律效力层级高于部门规章。</font>
+
+</li>
+</ol>
+<h3 id="2-规范体系"><a href="#2-规范体系" class="headerlink" title="2.规范体系"></a>2.规范体系</h3><ul>
+<li>法律-行政规定-团体规则-职业操守</li>
+<li><strong>法律（全国人大常委会）：</strong>中国人民银行法、商业银行法、公司法、信托法、证券法、证券投资基金法、与算法、民法典</li>
+<li><strong>行政法规（国务院）：</strong>企业债券管理条例、取消行政许可的国务院令</li>
+<li><strong>部门规章、规范性文件（国务院部委）：</strong>人行—市场准入、银行间市场发行、交易托管结算、信息披露、双边报价</li>
+<li><strong>自律规则、中介机构规则（中介机构及自律组织）：</strong>交易、清算、结算规则、规程、服务协议、市场交易主协议</li>
+</ul>
+<h3 id="3-市场管理框架"><a href="#3-市场管理框架" class="headerlink" title="3.市场管理框架"></a>3.市场管理框架</h3><ul>
+<li><strong>中介机构及自律组织：</strong>拆借中心、中债登、上清所、银行间交易商协会(NAFMII)</li>
+<li><strong>证监会、银保监会：</strong>监管机构、主体，即<font color="#d99694">交易主体</font></li>
+<li><strong>人行：</strong>指导中介机构及自律组织、制定管理规定、功能性监管、行政监管</li>
+<li><strong>人行、财政部、发改委、NAFMII：</strong>监督<font color="#d99694">发债主体</font></li>
+<li><font color="#d99694">拆借中心-交易规则-监测规则；上清所、中债登-结算规则-监测规则；NAFMII-自律监管</font>
+
+</li>
+</ul>
+<h1 id="汇率表达"><a href="#汇率表达" class="headerlink" title="汇率表达"></a>汇率表达</h1><ol>
+<li><strong>人民币对美元：</strong>XX单位人民币 (相)对 1单位美元 (7.1889)</li>
+<li><strong>人民币兑美元：</strong>1单位人民币 兑换 XX单位美元 (0.1373)</li>
+<li><strong>人民币贬值：</strong><ol>
+<li>人民币对美元中间价(即：美元人民币中间价USDCNYC)调贬96个基点（数值上升）</li>
+<li>人民币对美元中间价下调96个基点（数值上升）</li>
+<li>人民币对美元中间价调降96个基点（数值上升）</li>
+<li>人民币兑美元下跌96个基点/跌幅XX%（数值下降）RMB/USD</li>
+</ol>
+</li>
+</ol>
+<h1 id="上清所发行登记业务"><a href="#上清所发行登记业务" class="headerlink" title="上清所发行登记业务"></a>上清所发行登记业务</h1><p><a href="https://www.nafmii.org.cn/hyfw/hyflmd/hyzmd/">银行间市场会员总名单</a></p>
 <p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84.png" alt="债券市场基本架构" /></p>
 <h2 id="发行登记托管结算业务概览"><a href="#发行登记托管结算业务概览" class="headerlink" title="发行登记托管结算业务概览"></a>发行登记托管结算业务概览</h2><ol>
 <li>持有人服务：账户管理，托管、清算、结算及配套服务等</li>
@@ -1284,7 +1357,7 @@
     <td><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E4%BA%A4%E6%98%93%E8%A6%81%E7%B4%A0%E5%9B%BE%E7%A4%BA" style="zoom:50%;" /></td>
 </table>
 
-<h3 id="交易方式"><a href="#交易方式" class="headerlink" title="交易方式"></a>交易方式</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2bid-offer%E5%AD%97%E6%AE%B5.png" alt="image-20240406205936263" /><br><strong>offer: 报卖价，即卖swap，即对手方愿意收的固定利率；bid: 报买价，即买swap，即对手方愿意支出的固定利率</strong><br><strong>同一对手方的bid offer价格为其预期利率价格水平，特别是二者中间价</strong></p>
+<h3 id="交易方式"><a href="#交易方式" class="headerlink" title="交易方式"></a>交易方式</h3><p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2bid-offer%E5%AD%97%E6%AE%B5.png" /><br><strong>offer: 报卖价，即卖swap，即对手方愿意收的固定利率；bid: 报买价，即买swap，即对手方愿意支出的固定利率</strong><br><strong>同一对手方的bid offer价格为其预期利率价格水平，特别是二者中间价</strong></p>
 <h4 id="相关成交术语"><a href="#相关成交术语" class="headerlink" title="相关成交术语"></a>相关成交术语</h4><p>（1）TKN：“要了”，买家不还价，卖方offer直接被点击成交（一般利率下行的趋势，买盘压力大）<br>（2）GIVEN：“给了”，卖方不还价，买方Bid直接被点成交（一般利率上行的趋势，卖盘压力大）<br>（3）Trd：买卖双方协商后达成交易<br>（4）Done：直接与你的报价匹配<br>（5）Ref：报价撤销</p>
 <h4 id="利率互换的多空歧义"><a href="#利率互换的多空歧义" class="headerlink" title="利率互换的多空歧义"></a>利率互换的多空歧义</h4><p>（1）在中国大陆市场或者中资机构，利率互换的多空说法与现券相反，即看利率上行的支付固定方被称为利率互换的多头(而看利率上行是现券的空头)，看利率下行的支付浮动方则称为利率互换的空头。<strong>因为国内认为利率互换交易的是利率，所以看利率上升成为看多，而现券交易的是现券，看利率上升，即现券价格下跌，即看空。</strong><br>（2）在外国市场、中国大陆的一些外资机构，多空与现券保持一致，即看利率上行为空否则为多。<br>（3）在实务中为了防止不必要的歧义，比较少说多空，而是直接说是支固收浮或者支浮收固。一般支付固定方直接说pay fixed，并称其进入了一个payer swap。</p>
 <h4 id="对手方限额"><a href="#对手方限额" class="headerlink" title="对手方限额"></a>对手方限额</h4><p>利率互换：关系授信、额度授信<font color =red>二选一</font>，<a href="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%88%A9%E7%8E%87%E4%BA%92%E6%8D%A2%E9%99%90%E9%A2%9D%E8%AE%BE%E7%BD%AE.png">图1</a></p>
