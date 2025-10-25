@@ -65,17 +65,6 @@
 
 </li>
 </ul>
-<h1 id="汇率表达"><a href="#汇率表达" class="headerlink" title="汇率表达"></a>汇率表达</h1><ol>
-<li><strong>人民币对美元：</strong>XX单位人民币 (相)对 1单位美元 (7.1889)</li>
-<li><strong>人民币兑美元：</strong>1单位人民币 兑换 XX单位美元 (0.1373)</li>
-<li><strong>人民币贬值：</strong><ol>
-<li>人民币对美元中间价(即：美元人民币中间价USDCNYC)调贬96个基点（数值上升）</li>
-<li>人民币对美元中间价下调96个基点（数值上升）</li>
-<li>人民币对美元中间价调降96个基点（数值上升）</li>
-<li>人民币兑美元下跌96个基点/跌幅XX%（数值下降）RMB/USD</li>
-</ol>
-</li>
-</ol>
 <h1 id="上清所发行登记业务"><a href="#上清所发行登记业务" class="headerlink" title="上清所发行登记业务"></a>上清所发行登记业务</h1><p><a href="https://www.nafmii.org.cn/hyfw/hyflmd/hyzmd/">银行间市场会员总名单</a></p>
 <p><img src="https://southern-ficc-1323676960.cos.ap-guangzhou.myqcloud.com/storage/%E5%80%BA%E5%88%B8%E5%B8%82%E5%9C%BA%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84.png" alt="债券市场基本架构" /></p>
 <h2 id="发行登记托管结算业务概览"><a href="#发行登记托管结算业务概览" class="headerlink" title="发行登记托管结算业务概览"></a>发行登记托管结算业务概览</h2><ol>
@@ -2148,7 +2137,18 @@
 </ul>
 </li>
 </ol>
-<h1 id="外汇与国际收支"><a href="#外汇与国际收支" class="headerlink" title="外汇与国际收支"></a>外汇与国际收支</h1><h2 id="利率平价理论："><a href="#利率平价理论：" class="headerlink" title="利率平价理论："></a>利率平价理论：</h2><ol>
+<h1 id="外汇与国际收支"><a href="#外汇与国际收支" class="headerlink" title="外汇与国际收支"></a>外汇与国际收支</h1><h2 id="汇率表达"><a href="#汇率表达" class="headerlink" title="汇率表达"></a>汇率表达</h2><ol>
+<li><strong>人民币对美元：</strong>XX单位人民币 (相)对 1单位美元 (7.1889)</li>
+<li><strong>人民币兑美元：</strong>1单位人民币 兑换 XX单位美元 (0.1373)</li>
+<li><strong>人民币贬值：</strong><ol>
+<li>人民币对美元中间价(即：美元人民币中间价USDCNYC)调贬96个基点（数值上升）</li>
+<li>人民币对美元中间价下调96个基点（数值上升）</li>
+<li>人民币对美元中间价调降96个基点（数值上升）</li>
+<li>人民币兑美元下跌96个基点/跌幅XX%（数值下降）RMB/USD</li>
+</ol>
+</li>
+</ol>
+<h2 id="利率平价理论："><a href="#利率平价理论：" class="headerlink" title="利率平价理论："></a>利率平价理论：</h2><ol>
 <li><strong>无抛补利率平价理论（uncovered interest rate parity）：</strong>不通过远期合约锁定未来汇率，而是通过预期汇率的升贴水抵消两国利率差，适用于长期平衡。<script type="math/tex; mode=display">\begin{aligned}\frac{S_t - S_0}{S_0} &= \frac{1 + i_f}{1 + i_d} - 1= \frac{(1 + i_f) - (1 + i_d)}{1 + i_d}= \frac{i_f - i_d}{1 + i_d} \approx i_f - i_d\end{aligned}</script></li>
 <li><strong>抛补利率平价理论：</strong>通过远期合约锁定未来汇率，以帮助银行实现无套利风险<script type="math/tex; mode=display">\begin{aligned}[3pt]&X(1 + i_d) = \frac{X}{S_{f/d}} (1 + i_f) F_{f/d}\Rightarrow F_{f/d} = S_{f/d} \cdot \frac{1 + i_d}{1 + i_f}\end{aligned}</script></li>
 <li>抛：即把现在的钱抛到（存到高利率国家）；补：cover覆盖到期汇兑的汇率风险</li>
@@ -2313,7 +2313,7 @@
 </li>
 </ul>
 </div>
-<h2 id="有效久期"><a href="#有效久期" class="headerlink" title="有效久期"></a><strong>有效久期</strong></h2><p>有效久期不需要考虑各期现金流的变化情况，不包含利率变化导致现金流发生变化的具体时间，而只考虑利率一定变化下的价格总体情况。因此，有效久期能够较准确地衡量具有隐含期权性质的金融工具的利率风险。对于没有隐含期权的金融工具，有效久期与修正久期是相等的。</p>
+<h2 id="有效久期"><a href="#有效久期" class="headerlink" title="有效久期"></a>有效久期</h2><p>有效久期不需要考虑各期现金流的变化情况，不包含利率变化导致现金流发生变化的具体时间，而只考虑利率一定变化下的价格总体情况。因此，有效久期能够较准确地衡量具有隐含期权性质的金融工具的利率风险。对于没有隐含期权的金融工具，有效久期与修正久期是相等的。</p>
 <script type="math/tex; mode=display">D_{eff}=-\dfrac{\Delta{P}/P}{\Delta{y}}=\dfrac{P_--P_+}{P_0\times{2\Delta{y}}}=\dfrac{P_--P_+}{P_0\times(y_A-y_B)}</script><h2 id="有效凸性："><a href="#有效凸性：" class="headerlink" title="有效凸性："></a>有效凸性：</h2><script type="math/tex; mode=display">C_{eff}=\dfrac{D_--D_+}{\Delta{y}}=\dfrac{P_-+P_+-2P_0}{P_0\Delta{y^2}}</script><h2 id="基于有效久期和凸性的对冲："><a href="#基于有效久期和凸性的对冲：" class="headerlink" title="基于有效久期和凸性的对冲："></a>基于有效久期和凸性的对冲：</h2><script type="math/tex; mode=display">P=\dfrac{VD_v}{D_p}\rightarrow-VD_v-P_1D_1-P_2D_2=0</script><h1 id="到-即-期收益率"><a href="#到-即-期收益率" class="headerlink" title="到(即)期收益率"></a>到(即)期收益率</h1><h2 id="中债估值中心-收益率曲线"><a href="#中债估值中心-收益率曲线" class="headerlink" title="中债估值中心-收益率曲线"></a><a href="https://yield.chinabond.com.cn/cbweb-mn/yield_main?locale=zh_CN">中债估值中心-收益率曲线</a></h2><ul>
 <li><strong>即期收益率（Spot rate）：</strong>无息债到期收益率</li>
 </ul>
