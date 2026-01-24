@@ -426,12 +426,6 @@ document.addEventListener('DOMContentLoaded', function () {
     const isAnchor = GLOBAL_CONFIG.isAnchor
     const $article = document.getElementById('article-container')
 
-    //新内容
-    // prevent duplicate binding for the same page
-    const bindKey = location.pathname
-    if (window.__tocBindKey === bindKey) return
-    window.__tocBindKey = bindKey
-
     if (!($article && (isToc || isAnchor))) return
 
     let $tocLink, $cardToc, autoScrollToc, $tocPercentage, isExpand
@@ -442,11 +436,7 @@ document.addEventListener('DOMContentLoaded', function () {
       $tocLink = $cardToc.querySelectorAll('.toc-link')
       $tocPercentage = $cardTocLayout.querySelector('.toc-percentage')
       isExpand = $cardToc.classList.contains('is-expand')
-     //新内容
-    // prevent duplicate binding for the same page
-      const bindKey = location.pathname
-      if (window.__tocBindKey === bindKey) return
-      window.__tocBindKey = bindKey
+
       // toc元素點擊
       const tocItemClickFn = e => {
         const target = e.target.closest('.toc-link')
@@ -881,56 +871,29 @@ document.addEventListener('DOMContentLoaded', function () {
     tabsFn()
     switchComments()
     openMobileMenu()
-    fixTocAfterEncrypt()
   }
 
-//新内容
-  // ===== Fix TOC after hexo-blog-encrypt (cookie auto decrypt + manual decrypt) =====
-  function fixTocAfterEncrypt () {
-    const article = document.getElementById('article-container')
-    const tocContent = document.querySelector('#card-toc .toc-content')
-    if (!article || !tocContent) return
-
-    const hasHeadings = () =>
-      article.querySelectorAll('h1,h2,h3,h4,h5,h6').length > 0
-
-    const tocLinksCount = () =>
-      tocContent.querySelectorAll('.toc-link').length
-
-    let last = -1
-    const tryRebuild = () => {
-      if (!hasHeadings()) return
-      const n = tocLinksCount()
-      if (n <= 0) return
-
-      if (n !== last) {
-        last = n
-        setTimeout(tryRebuild, 80)
-        return
-      }
-
-      try {
-          if (window.__tocFixDoneKey === location.pathname) return
-          window.__tocFixDoneKey = location.pathname
-          scrollFnToDo()
-          } catch (e) {
-            console.warn('Fix TOC failed:', e)
-          }
-    }
-
-    // cookie 自动解锁
-    setTimeout(tryRebuild, 80)
-    setTimeout(tryRebuild, 300)
-    setTimeout(tryRebuild, 800)
-
-    // 手动解锁
-    const obs = new MutationObserver(tryRebuild)
-    obs.observe(article, { childList: true, subtree: true })
-    obs.observe(tocContent, { childList: true, subtree: true })
-  }
-  //新内容
-  window.fixTocAfterEncrypt = fixTocAfterEncrypt
-  //旧内容
   refreshFn()
+  // ===== Fix TOC after hexo-blog-encrypt decrypt =====
+function rebuildTocAfterDecrypt () {
+  const article = document.getElementById('article-container')
+  if (!article) return
+
+  const observer = new MutationObserver(() => {
+    // 只有当真正的标题出现后才重建
+    if (article.querySelectorAll('h1,h2,h3,h4,h5,h6').length > 0) {
+      // 重新执行 TOC / Anchor 逻辑
+      try {
+        scrollFnToDo()
+      } catch (e) {
+        console.warn('Rebuild TOC failed:', e)
+      }
+      observer.disconnect()
+    }
+  })
+
+  observer.observe(article, { childList: true, subtree: true })
+}
+  rebuildTocAfterDecrypt()
   unRefreshFn()
 })
