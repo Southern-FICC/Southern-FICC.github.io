@@ -871,6 +871,7 @@ document.addEventListener('DOMContentLoaded', function () {
     tabsFn()
     switchComments()
     openMobileMenu()
+    fixTocAfterEncrypt()
   }
 
   // ===== Fix TOC after hexo-blog-encrypt (cookie auto decrypt + manual decrypt) =====
@@ -914,8 +915,7 @@ document.addEventListener('DOMContentLoaded', function () {
     obs.observe(article, { childList: true, subtree: true })
     obs.observe(tocContent, { childList: true, subtree: true })
   }
-
+  window.fixTocAfterEncrypt = fixTocAfterEncrypt
   refreshFn()
-  fixTocAfterEncrypt()
   unRefreshFn()
 })
