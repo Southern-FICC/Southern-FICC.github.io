@@ -822,20 +822,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
-  const bindDecryptEventForToc = () => {
-    if (window.__BTF_DECRYPT_EVENT_BOUND__) return
-    window.__BTF_DECRYPT_EVENT_BOUND__ = true
-
-    // show TOC after hexo-blog-encrypt finishes decrypting
-    window.addEventListener('hexo-blog-decrypt', () => {
-      document.querySelectorAll('.toc-div-class').forEach(toc => {
-        toc.style.display = ''
-      })
-    })
-  }
-
   const unRefreshFn = function () {
-    bindDecryptEventForToc()
     window.addEventListener('resize', () => {
       adjustMenu(false)
       mobileSidebarOpen && btf.isHidden(document.getElementById('toggle-menu')) && sidebarFn.close()
