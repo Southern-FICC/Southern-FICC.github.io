@@ -874,26 +874,5 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   refreshFn()
-  // ===== Fix TOC after hexo-blog-encrypt decrypt =====
-function rebuildTocAfterDecrypt () {
-  const article = document.getElementById('article-container')
-  if (!article) return
-
-  const observer = new MutationObserver(() => {
-    // 只有当真正的标题出现后才重建
-    if (article.querySelectorAll('h1,h2,h3,h4,h5,h6').length > 0) {
-      // 重新执行 TOC / Anchor 逻辑
-      try {
-        scrollFnToDo()
-      } catch (e) {
-        console.warn('Rebuild TOC failed:', e)
-      }
-      observer.disconnect()
-    }
-  })
-
-  observer.observe(article, { childList: true, subtree: true })
-}
-  rebuildTocAfterDecrypt()
   unRefreshFn()
 })
