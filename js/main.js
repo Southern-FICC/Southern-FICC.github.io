@@ -426,6 +426,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const isAnchor = GLOBAL_CONFIG.isAnchor
     const $article = document.getElementById('article-container')
 
+    //新内容
+    // prevent duplicate binding for the same page
+    const bindKey = location.pathname
+    if (window.__tocBindKey === bindKey) return
+    window.__tocBindKey = bindKey
+
     if (!($article && (isToc || isAnchor))) return
 
     let $tocLink, $cardToc, autoScrollToc, $tocPercentage, isExpand
@@ -874,6 +880,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fixTocAfterEncrypt()
   }
 
+//新内容
   // ===== Fix TOC after hexo-blog-encrypt (cookie auto decrypt + manual decrypt) =====
   function fixTocAfterEncrypt () {
     const article = document.getElementById('article-container')
@@ -899,10 +906,12 @@ document.addEventListener('DOMContentLoaded', function () {
       }
 
       try {
-        scrollFnToDo()
-      } catch (e) {
-        console.warn('Fix TOC failed:', e)
-      }
+          if (window.__tocFixDoneKey === location.pathname) return
+          window.__tocFixDoneKey = location.pathname
+          scrollFnToDo()
+          } catch (e) {
+            console.warn('Fix TOC failed:', e)
+          }
     }
 
     // cookie 自动解锁
@@ -915,7 +924,9 @@ document.addEventListener('DOMContentLoaded', function () {
     obs.observe(article, { childList: true, subtree: true })
     obs.observe(tocContent, { childList: true, subtree: true })
   }
+  //新内容
   window.fixTocAfterEncrypt = fixTocAfterEncrypt
+  //旧内容
   refreshFn()
   unRefreshFn()
 })
