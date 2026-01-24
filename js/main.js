@@ -873,41 +873,49 @@ document.addEventListener('DOMContentLoaded', function () {
     openMobileMenu()
   }
 
-  refreshFn()
- // ===== Fix TOC after hexo-blog-encrypt decrypt =====
-function rebuildTocAfterDecrypt () {
-  const article = document.getElementById('article-container')
-  if (!article) return
+  // ===== Fix TOC after hexo-blog-encrypt (cookie auto decrypt + manual decrypt) =====
+  function fixTocAfterEncrypt () {
+    const article = document.getElementById('article-container')
+    const tocContent = document.querySelector('#card-toc .toc-content')
+    if (!article || !tocContent) return
 
-  const hasHeadings = () => article.querySelectorAll('h1,h2,h3,h4,h5,h6').length > 0
+    const hasHeadings = () =>
+      article.querySelectorAll('h1,h2,h3,h4,h5,h6').length > 0
 
-  const rebuild = () => {
-    try {
-      // 这句是关键：让主题重新跑一次 TOC/Anchor 逻辑
-      scrollFnToDo()
-      return true
-    } catch (e) {
-      console.warn('Rebuild TOC failed:', e)
-      return false
+    const tocLinksCount = () =>
+      tocContent.querySelectorAll('.toc-link').length
+
+    let last = -1
+    const tryRebuild = () => {
+      if (!hasHeadings()) return
+      const n = tocLinksCount()
+      if (n <= 0) return
+
+      if (n !== last) {
+        last = n
+        setTimeout(tryRebuild, 80)
+        return
+      }
+
+      try {
+        scrollFnToDo()
+      } catch (e) {
+        console.warn('Fix TOC failed:', e)
+      }
     }
+
+    // cookie 自动解锁
+    setTimeout(tryRebuild, 80)
+    setTimeout(tryRebuild, 300)
+    setTimeout(tryRebuild, 800)
+
+    // 手动解锁
+    const obs = new MutationObserver(tryRebuild)
+    obs.observe(article, { childList: true, subtree: true })
+    obs.observe(tocContent, { childList: true, subtree: true })
   }
 
-  // ① 先处理「cookie 自动解锁」：页面加载完后标题通常已经在了
-  // 用 setTimeout 给主题其它初始化一点时间，避免抢跑
-  setTimeout(() => {
-    if (hasHeadings()) rebuild()
-  }, 50)
-
-  // ② 再处理「手动输入密码解锁」：标题是后插入的，用 observer 兜底
-  const observer = new MutationObserver(() => {
-    if (hasHeadings()) {
-      rebuild()
-      observer.disconnect()
-    }
-  })
-
-  observer.observe(article, { childList: true, subtree: true })
-}
-  rebuildTocAfterDecrypt()
+  refreshFn()
+  fixTocAfterEncrypt()
   unRefreshFn()
 })
