@@ -442,7 +442,11 @@ document.addEventListener('DOMContentLoaded', function () {
       $tocLink = $cardToc.querySelectorAll('.toc-link')
       $tocPercentage = $cardTocLayout.querySelector('.toc-percentage')
       isExpand = $cardToc.classList.contains('is-expand')
-
+     //新内容
+    // prevent duplicate binding for the same page
+      const bindKey = location.pathname
+      if (window.__tocBindKey === bindKey) return
+      window.__tocBindKey = bindKey
       // toc元素點擊
       const tocItemClickFn = e => {
         const target = e.target.closest('.toc-link')
