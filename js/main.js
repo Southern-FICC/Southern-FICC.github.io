@@ -874,20 +874,34 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   refreshFn()
-  // ===== Fix TOC after hexo-blog-encrypt decrypt =====
+ // ===== Fix TOC after hexo-blog-encrypt decrypt =====
 function rebuildTocAfterDecrypt () {
   const article = document.getElementById('article-container')
   if (!article) return
 
+  const hasHeadings = () => article.querySelectorAll('h1,h2,h3,h4,h5,h6').length > 0
+
+  const rebuild = () => {
+    try {
+      // 这句是关键：让主题重新跑一次 TOC/Anchor 逻辑
+      scrollFnToDo()
+      return true
+    } catch (e) {
+      console.warn('Rebuild TOC failed:', e)
+      return false
+    }
+  }
+
+  // ① 先处理「cookie 自动解锁」：页面加载完后标题通常已经在了
+  // 用 setTimeout 给主题其它初始化一点时间，避免抢跑
+  setTimeout(() => {
+    if (hasHeadings()) rebuild()
+  }, 50)
+
+  // ② 再处理「手动输入密码解锁」：标题是后插入的，用 observer 兜底
   const observer = new MutationObserver(() => {
-    // 只有当真正的标题出现后才重建
-    if (article.querySelectorAll('h1,h2,h3,h4,h5,h6').length > 0) {
-      // 重新执行 TOC / Anchor 逻辑
-      try {
-        scrollFnToDo()
-      } catch (e) {
-        console.warn('Rebuild TOC failed:', e)
-      }
+    if (hasHeadings()) {
+      rebuild()
       observer.disconnect()
     }
   })
