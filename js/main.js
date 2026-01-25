@@ -822,69 +822,25 @@ document.addEventListener('DOMContentLoaded', function () {
     })
   }
 
-  // const unRefreshFn = function () {
-  //   window.addEventListener('resize', () => {
-  //     adjustMenu(false)
-  //     mobileSidebarOpen && btf.isHidden(document.getElementById('toggle-menu')) && sidebarFn.close()
-  //   })
-
-  //   document.getElementById('menu-mask').addEventListener('click', e => { sidebarFn.close() })
-
-  //   clickFnOfSubMenu()
-  //   GLOBAL_CONFIG.islazyload && lazyloadImg()
-  //   GLOBAL_CONFIG.copyright !== undefined && addCopyright()
-
-  //   if (GLOBAL_CONFIG.autoDarkmode) {
-  //     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-  //       if (saveToLocal.get('theme') !== undefined) return
-  //       e.matches ? handleThemeChange('dark') : handleThemeChange('light')
-  //     })
-  //   }
-  // }
-
-  //新内容
   const unRefreshFn = function () {
-  window.addEventListener('resize', () => {
-    adjustMenu(false)
-    mobileSidebarOpen && btf.isHidden(document.getElementById('toggle-menu')) && sidebarFn.close()
-  })
-
-  document.getElementById('menu-mask').addEventListener('click', e => { sidebarFn.close() })
-
-  clickFnOfSubMenu()
-  GLOBAL_CONFIG.islazyload && lazyloadImg()
-  GLOBAL_CONFIG.copyright !== undefined && addCopyright()
-
-  if (GLOBAL_CONFIG.autoDarkmode) {
-    window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
-      if (saveToLocal.get('theme') !== undefined) return
-      e.matches ? handleThemeChange('dark') : handleThemeChange('light')
+    window.addEventListener('resize', () => {
+      adjustMenu(false)
+      mobileSidebarOpen && btf.isHidden(document.getElementById('toggle-menu')) && sidebarFn.close()
     })
-  }
-  
-  // 添加 MutationObserver 来监听文章内容变化
-  const observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-      // 如果检测到文章容器内容变化，则重新初始化目录
-      if (mutation.type === 'childList' && mutation.target.id === 'article-container') {
-        // 延迟执行，确保DOM完全更新
-        setTimeout(() => {
-          // 重新初始化目录功能
-          scrollFnToDo();
-        }, 100);
-      }
-    });
-  });
 
-  // 开始观察文章容器的变化
-  const articleContainer = document.getElementById('article-container');
-  if (articleContainer) {
-    observer.observe(articleContainer, {
-      childList: true,
-      subtree: true
-    });
+    document.getElementById('menu-mask').addEventListener('click', e => { sidebarFn.close() })
+
+    clickFnOfSubMenu()
+    GLOBAL_CONFIG.islazyload && lazyloadImg()
+    GLOBAL_CONFIG.copyright !== undefined && addCopyright()
+
+    if (GLOBAL_CONFIG.autoDarkmode) {
+      window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => {
+        if (saveToLocal.get('theme') !== undefined) return
+        e.matches ? handleThemeChange('dark') : handleThemeChange('light')
+      })
+    }
   }
-}
 
   window.refreshFn = function () {
     initAdjust()
