@@ -161,3 +161,64 @@ cursor: url(https://cdn.jsdelivr.net/gh/constown/HexoCustomFile/public/cursors/p
 .fancybox__container {
   --fancybox-bg: #ffffff;
 }
+
+
+/* ...existing code... */
+
+/* 列表缩进与 forest 风格对齐 */
+#article-container ul,{
+  margin: 0;
+  padding-left: 4.6em;
+} 
+
+/* #article-container.post-content ul ul,
+#article-container.post-content ol ol,
+#article-container.post-content ul ol,
+#article-container.post-content ol ul {
+  margin: 0;
+  padding-left: 1.6em;
+}
+
+#article-container.post-content li {
+  margin: 0;
+  line-height: 1.6;
+} */
+
+/* ...existing code... */
+/* 无序列表：多级圆点样式，照 forest 设置 */
+#article-container.post-content ul {
+  list-style-type: circle;   /* 第一层也改成空心圆 */
+  /* padding-left: 1.6em; */
+}
+#article-container.post-content ul > li > ul > li {
+  list-style-type: circle;
+}
+#article-container.post-content ul > li > ul > li > ul > li {
+  list-style-type: disc;
+}
+#article-container.post-content ul > li > ul > li > ul > li > ul > li {
+  list-style-type: circle;
+}
+#article-container.post-content ul > li > ul > li > ul > li > ul > li > ul > li {
+  list-style-type: disc;
+}
+#article-container.post-content ul > li > ul > li > ul > li > ul > li > ul > li > ul > li {
+  list-style-type: circle;
+}
+
+/* 有序列表：1 → a → i，再往下用圆点 */
+#article-container.post-content ol > li {
+  list-style-type: decimal;
+}
+#article-container.post-content ol > li > ol > li {
+  list-style-type: lower-alpha;
+}
+#article-container.post-content ol > li > ol > li > ol > li {
+  list-style-type: lower-roman;
+}
+#article-container.post-content ol > li > ol > li > ol > li > ol > li {
+  list-style-type: disc;
+}
+#article-container.post-content ol > li > ol > li > ol > li > ol > li > ol > li {
+  list-style-type: circle;
+}
